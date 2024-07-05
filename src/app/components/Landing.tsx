@@ -1,10 +1,16 @@
+"use client"
 import { TypewriterEffectSmoothDemo } from '@/components/Blocks/Typeeffect';
 import React, { useEffect, useState } from 'react';
 import { FaGithub } from "react-icons/fa";
 import finalPng from '../../assets/Final.png'
 import laptopdemo from '../../assets/image1.png'
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 const Landing = () => {
+    const router = useRouter();
+    const handleClick = () => {
+        window.location.href = "https://github.com/s21sd/Tailfusion.io"
+    }
     return (
         <div className="container px-5 py-24 mx-auto">
             <div className='rounded-full cursor-pointer text-white border border-[#fff2c1] w-fit flex justify-center items-center mx-auto p-3'>
@@ -18,10 +24,10 @@ const Landing = () => {
                 </p>
             </div>
             <div className='grid gap-6'>
-                <div className='bg-[#fff2c1] hover:bg-gray-50 rounded-md w-[250px] cursor-pointer font-semibold text-black flex justify-center items-center mx-auto p-4'>
+                <div onClick={() => router.push('components/docs')} className='bg-[#fff2c1] hover:bg-gray-50 rounded-md w-[250px] cursor-pointer font-semibold text-black flex justify-center items-center mx-auto p-4'>
                     <h1>Browse Components</h1>
                 </div>
-                <div className='border rounded-md w-[250px] font-semibold cursor-pointer text-white border-[#fff2c1]  flex justify-center items-center mx-auto p-4 gap-4'>
+                <div onClick={handleClick} className='border rounded-md w-[250px] font-semibold cursor-pointer text-white border-[#fff2c1]  flex justify-center items-center mx-auto p-4 gap-4'>
                     <FaGithub size={30} />
                     <h1>GitHub</h1>
                 </div>

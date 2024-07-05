@@ -2,8 +2,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
-import Navbar from "@/app/Componets/Navbar";
-import Landing from "@/app/Componets/Landing";
+import Navbar from "@/app/components/Navbar";
+import Landing from "@/app/components/Landing";
 
 
 export const BackgroundBeams = React.memo(
@@ -67,7 +67,7 @@ export const BackgroundBeams = React.memo(
                     className
                 )}
             >
-               
+
                 <svg
                     className=" z-0 h-full w-full pointer-events-none absolute "
                     width="100%"

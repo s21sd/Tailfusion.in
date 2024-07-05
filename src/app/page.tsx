@@ -1,11 +1,10 @@
 import { BackgroundBeams } from "@/components/ui/background-beams";
-import Navbar from "./Componets/Navbar";
-import Landing from "./Componets/Landing";
+import Navbar from "./components/Navbar";
+import Landing from "./components/Landing";
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <Landing />
       {/* <BackgroundBeams /> */}
     </div>

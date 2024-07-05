@@ -18,7 +18,7 @@ export function TypewriterEffectSmoothDemo() {
             text: "10 X",
         },
         {
-            text: "Mordern.",
+            text: "Modern.",
             className: "text-[#fff2c1]",
         },
     ];
