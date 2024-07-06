@@ -1,6 +1,6 @@
 export const designCode = [
-    {
-        cardDesignOneCode: `<section class="text-gray-600 body-font">
+  {
+    cardDesignOneCode: `<section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap -m-4">
       <div class="p-4 lg:w-1/3">
@@ -84,5 +84,5 @@ export const designCode = [
     </div>
   </div>
 </section>`
-    }
+  }
 ]
