@@ -3,7 +3,7 @@ import Sidebar from '../Sidebar'
 const page = () => {
     return (
 
-        <div>page</div>
+        <div>Here Our Docs Page will Go</div>
     )
 }
 

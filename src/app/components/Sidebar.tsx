@@ -4,6 +4,9 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 import { useRouter } from 'next/navigation';
 const Sidebar = () => {
     const router = useRouter();
+    const handleClick = () => {
+        window.location.href = "https://github.com/s21sd/Tailfusion.io"
+    }
     return (
         <div>
             <main className="flex">
@@ -11,8 +14,8 @@ const Sidebar = () => {
                     <div className="p-6 font-bold tracking-widest">
                         <h1 className='text-[#fff2c1] text-xl'>Getting Started</h1>
                         <div className='text-sm text-gray-400 flex flex-col gap-3 mt-4 ml-4 cursor-pointer'>
-                            <h1 className='hover:text-[#fff2c1]'>Docs</h1>
-                            <h1 className='hover:text-[#fff2c1]'>GitHub</h1>
+                            <h1 onClick={() => router.push('/components/docs')} className='hover:text-[#fff2c1]'>Docs</h1>
+                            <h1 onClick={handleClick} className='hover:text-[#fff2c1]'>GitHub</h1>
                         </div>
                     </div>
                     <div className='bg-gray-200 h-[1px] ml-2 w-[80%]'></div>
@@ -23,7 +26,7 @@ const Sidebar = () => {
                                 <li onClick={() => router.push('/components/blocks/cards')} className=" rounded-lg cursor-pointer sm:justify-start flex items-center justify-center active">
                                     <span className="ml-3 hidden sm:block font-semibold tracking-wide transition-colors hover:text-[#fff2c1]">Cards</span>
                                 </li>
-                                <li className=" rounded-lg mt-2 cursor-pointer sm:justify-start flex items-center justify-center active">
+                                <li onClick={() => router.push('/components/blocks/navbars')} className=" rounded-lg mt-2 cursor-pointer sm:justify-start flex items-center justify-center active">
                                     <span className="ml-3 hidden sm:block font-semibold tracking-wide transition-colors hover:text-[#fff2c1]">Navbar</span>
                                 </li>
                                 <li className=" rounded-lg mt-2 cursor-pointer sm:justify-start flex items-center justify-center active">
