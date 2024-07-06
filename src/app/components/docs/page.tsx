@@ -2,8 +2,8 @@ import React from 'react'
 import Sidebar from '../Sidebar'
 const page = () => {
     return (
-        <Sidebar />
-        // <div>page</div>
+
+        <div>page</div>
     )
 }
 
