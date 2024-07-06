@@ -26,6 +26,7 @@ export default function RootLayout({
       <head>
         <title>TailFusion</title>
         <meta name="description" content="A Html css library to make your site 10x beautiful" />
+       <link rel="stylesheet" href="devices.min.css" type="text/css" />
       </head>
       <body
         className={cn(
