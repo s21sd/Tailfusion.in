@@ -18,46 +18,54 @@ const Codedesign = ({ value }: any) => {
     function handClick(e: any) {
         navigator.clipboard.writeText(e);
         setCopy(true);
+        setTimeout(() => setCopy(false), 2000); // Reset copy state after 2 seconds
     }
 
     return (
         <div className="relative p-4">
             <div>
-                <Tabs defaultValue="Preview" className="w-full">
+                <Tabs defaultValue="css" className="w-full">
                     <div className="flex justify-between items-center mx-auto py-4 w-[95%]">
-
-                        <div className='flex  justify-between items-center w-full'>
+                        <div className="flex justify-center items-center gap-4">
                             <TabsList className="grid w-[250px] grid-cols-2">
-                                <TabsTrigger value="Preview">Html+Css</TabsTrigger>
-                                <TabsTrigger value="Code">Jsx+Tailwind</TabsTrigger>
+                                <TabsTrigger value="css">Html+Css</TabsTrigger>
+                                <TabsTrigger value="tailwind">Jsx+Tailwind</TabsTrigger>
                             </TabsList>
-                            <button onClick={() => handClick(designCode[value].cardDesignOneCode)} className="bg-gray-700 p-2 rounded-md text-white flex items-center">
-                                {
-                                    !copy ?
-                                        <Copy size={26} color='white' /> : <TiTick size={26} color='white' />
-                                }
-                            </button>
-
                         </div>
                     </div>
-                    <TabsContent value="Preview">
-                        <div className="h-fit m-3 border-gray-600 bg-[#151518] rounded-md shadow-md p-4">
-                            <h1>Html css</h1>
-                        </div>
-                    </TabsContent>
-                    <TabsContent value="Code" className="w-full h-screen overflow-auto">
+                    <TabsContent value="css">
+                        <button onClick={() => handClick(designCode[value + 1].cardDesignOneCodeCss)} className="absolute top-4 right-4 bg-gray-700 p-2 rounded-md text-white flex items-center">
+                            {
+                                !copy ?
+                                    <Copy size={26} color='white' /> : <TiTick size={26} color='white' />
+                            }
+                        </button>
                         <div className="w-full overflow-auto">
                             <SyntaxHighlighter wrapLines={true} showLineNumbers={true} lineProps={{
                                 style: { wordBreak: 'break-all', whiteSpace: 'pre-wrap' }
                             }} language="html" style={oneDark} className="rounded-md scrollbar-thin">
-                                {designCode[value].cardDesignOneCode}
+                                {designCode[value + 1].cardDesignOneCodeCss}
+                            </SyntaxHighlighter>
+                        </div>
+                    </TabsContent>
+                    <TabsContent value="tailwind" className="w-full h-screen overflow-auto">
+                        <button onClick={() => handClick(designCode[value].cardDesignOneCodeTailwind)} className="absolute top-4 right-4 bg-gray-700 p-2 rounded-md text-white flex items-center">
+                            {
+                                !copy ?
+                                    <Copy size={26} color='white' /> : <TiTick size={26} color='white' />
+                            }
+                        </button>
+                        <div className="w-full overflow-auto">
+                            <SyntaxHighlighter wrapLines={true} showLineNumbers={true} lineProps={{
+                                style: { wordBreak: 'break-all', whiteSpace: 'pre-wrap' }
+                            }} language="html" style={oneDark} className="rounded-md scrollbar-thin">
+                                {designCode[value].cardDesignOneCodeTailwind}
                             </SyntaxHighlighter>
                         </div>
                     </TabsContent>
                 </Tabs>
 
             </div>
-
         </div>
     )
 }
