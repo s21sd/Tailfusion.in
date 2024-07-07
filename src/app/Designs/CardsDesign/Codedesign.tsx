@@ -18,7 +18,7 @@ const Codedesign = ({ value }: any) => {
     function handClick(e: any) {
         navigator.clipboard.writeText(e);
         setCopy(true);
-        setTimeout(() => setCopy(false), 2000); // Reset copy state after 2 seconds
+        setTimeout(() => setCopy(false), 2000);
     }
 
     return (

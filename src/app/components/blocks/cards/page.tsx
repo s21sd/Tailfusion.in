@@ -10,6 +10,7 @@ const page = () => {
         <ScrollArea className='text-white h-screen p-3 mt-4'>
             <Card contentVal={value} />
             <TabsDemo />
+            {/* <TabsDemo /> */}
         </ScrollArea>
     )
 }

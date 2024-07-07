@@ -1,5 +1,5 @@
-import * as React from "react"
-
+"use client"
+import * as React from "react";
 import {
     Select,
     SelectContent,
@@ -8,23 +8,24 @@ import {
     SelectLabel,
     SelectTrigger,
     SelectValue,
-} from "@/components/ui/select"
+} from "@/components/ui/select";
 
-export function SelectColor() {
+export function SelectColor({ handleSelectValueChange }: any) {
+
     return (
-        <Select>
+        <Select onValueChange={handleSelectValueChange}>
             <SelectTrigger className="w-[150px]">
                 <SelectValue placeholder="Select a theme" />
             </SelectTrigger>
             <SelectContent>
                 <SelectGroup>
-                    <SelectItem value="apple">Red</SelectItem>
-                    <SelectItem value="banana">Blue</SelectItem>
-                    <SelectItem value="blueberry">Black</SelectItem>
-                    <SelectItem value="grapes">Pink</SelectItem>
-                    <SelectItem value="pineapple">Orange</SelectItem>
+                    <SelectItem value="red">Red</SelectItem>
+                    <SelectItem value="blue">Blue</SelectItem>
+                    <SelectItem value="purple">Purple</SelectItem>
+                    <SelectItem value="pink">Pink</SelectItem>
+                    <SelectItem value="orange">Orange</SelectItem>
                 </SelectGroup>
             </SelectContent>
         </Select>
-    )
+    );
 }

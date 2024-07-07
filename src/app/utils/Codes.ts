@@ -260,5 +260,8 @@ export const designCode: any = [
 </body>
 </html>
 `
+  },
+  {
+    buttonDesignOneCodeTailwind:``
   }
 ]
