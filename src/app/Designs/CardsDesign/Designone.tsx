@@ -1,3 +1,4 @@
+// This is only for the card Now For the Navbar I will use More designs
 import React from 'react';
 
 const Designone = ({ codevalue, selectColor }: { codevalue: number, selectColor: string }) => {
