@@ -20,6 +20,8 @@ const Codedesign = ({ value }: any) => {
         setCopy(true);
         setTimeout(() => setCopy(false), 2000);
     }
+    console.log(designCode[value][0]);
+    // console.log("Hello")
 
     return (
         <div className="relative p-4">
@@ -34,7 +36,7 @@ const Codedesign = ({ value }: any) => {
                         </div>
                     </div>
                     <TabsContent value="css">
-                        <button onClick={() => handClick(designCode[value + 1].cardDesignOneCodeCss)} className="absolute top-4 right-4 bg-gray-700 p-2 rounded-md text-white flex items-center">
+                        <button onClick={() => handClick(designCode[value][1].cardDesignOneCodeCss)} className="absolute top-4 right-4 bg-gray-700 p-2 rounded-md text-white flex items-center">
                             {
                                 !copy ?
                                     <Copy size={26} color='white' /> : <TiTick size={26} color='white' />
@@ -44,12 +46,12 @@ const Codedesign = ({ value }: any) => {
                             <SyntaxHighlighter wrapLines={true} showLineNumbers={true} lineProps={{
                                 style: { wordBreak: 'break-all', whiteSpace: 'pre-wrap' }
                             }} language="html" style={oneDark} className="rounded-md scrollbar-thin">
-                                {designCode[value + 1].cardDesignOneCodeCss}
+                                {designCode[value][1].cardDesignOneCodeCss}
                             </SyntaxHighlighter>
                         </div>
                     </TabsContent>
                     <TabsContent value="tailwind" className="w-full h-screen overflow-auto">
-                        <button onClick={() => handClick(designCode[value].cardDesignOneCodeTailwind)} className="absolute top-4 right-4 bg-gray-700 p-2 rounded-md text-white flex items-center">
+                        <button onClick={() => handClick(designCode[value][0].cardDesignOneCodeTailwind)} className="absolute top-4 right-4 bg-gray-700 p-2 rounded-md text-white flex items-center">
                             {
                                 !copy ?
                                     <Copy size={26} color='white' /> : <TiTick size={26} color='white' />
@@ -59,7 +61,7 @@ const Codedesign = ({ value }: any) => {
                             <SyntaxHighlighter wrapLines={true} showLineNumbers={true} lineProps={{
                                 style: { wordBreak: 'break-all', whiteSpace: 'pre-wrap' }
                             }} language="html" style={oneDark} className="rounded-md scrollbar-thin">
-                                {designCode[value].cardDesignOneCodeTailwind}
+                                {designCode[value][0].cardDesignOneCodeTailwind}
                             </SyntaxHighlighter>
                         </div>
                     </TabsContent>
