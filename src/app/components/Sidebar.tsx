@@ -33,7 +33,7 @@ const Sidebar = () => {
                                     <span className="ml-3 hidden sm:block font-semibold tracking-wide transition-colors hover:text-[#fff2c1]">Buttons</span>
                                 </li>
                                 <li className=" rounded-lg mt-2 cursor-pointer sm:justify-start flex items-center justify-center active">
-                                    <span className="ml-3 hidden sm:block font-semibold tracking-wide transition-colors hover:text-[#fff2c1]">Cards</span>
+                                    <span className="ml-3 hidden sm:block font-semibold tracking-wide transition-colors hover:text-[#fff2c1]">Hero</span>
                                 </li>
                                 <li className=" rounded-lg mt-2 cursor-pointer sm:justify-start flex items-center justify-center active">
                                     <span className="ml-3 hidden sm:block font-semibold tracking-wide transition-colors hover:text-[#fff2c1]">Footer</span>

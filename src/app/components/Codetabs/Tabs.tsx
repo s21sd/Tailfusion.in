@@ -351,6 +351,43 @@ export function TabsDemo({ codevalue }: { codevalue: number }) {
                         </div>
                     </section>
                 );
+            case 3:
+                return (
+                    <section className="text-gray-600 body-font">
+                        <div className="container px-5 py-24 mx-auto">
+                            <div className="-mx-4 -mb-10 text-center">
+                                <div className=" mb-10 px-4">
+                                    <div className="rounded-lg h-64 overflow-hidden">
+                                        <img alt="content" className="object-cover object-center h-full w-full" src="https://dummyimage.com/1201x501" />
+                                    </div>
+                                    <h2 className={`${colorClass} title-font text-2xl font-medium mt-6 mb-3`}>Buy YouTube Videos</h2>
+                                    <p className="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+                                    <button className={`flex ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                        colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                            colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                    colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                        'bg-indigo-500 hover:bg-indigo-600'
+                                        } mx-auto mt-6 text-white border-0 py-2 px-5 focus:outline-none rounded`}>Button</button>
+                                </div>
+                                <div className=" mb-10 px-4">
+                                    <div className="rounded-lg h-64 overflow-hidden">
+                                        <img alt="content" className="object-cover object-center h-full w-full" src="https://dummyimage.com/1202x502" />
+                                    </div>
+                                    <h2 className={`${colorClass} title-font text-2xl font-medium mt-6 mb-3`}>The Catalyzer</h2>
+                                    <p className="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+                                    <button className={`flex ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                        colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                            colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                    colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                        'bg-indigo-500 hover:bg-indigo-600'
+                                        } mx-auto mt-6 text-white border-0 py-2 px-5 focus:outline-none rounded`}>Button</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                )
         }
     }
 

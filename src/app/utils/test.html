@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Section</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .text-secondary {
+            color: #718096;
+            /* text-gray-600 */
+        }
+
+        .body-section {
+            background-color: #f7fafc;
+            /* body background color if needed */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .padding-section {
+            padding: 96px 0;
+        }
+
+        .flex-container {
+            display: flex;
+            margin: -10px -20px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .half-width {
+            width: 50%;
+            padding: 0 20px;
+        }
+
+        .mb-section {
+            margin-bottom: 40px;
+        }
+
+        .padding-item {
+            padding: 0 10px;
+        }
+
+        .image-container {
+            border-radius: 10px;
+            height: 256px;
+            overflow: hidden;
+        }
+
+        .image-full {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .title {
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+
+        .text-large {
+            font-size: 24px;
+        }
+
+        .font-medium {
+            font-weight: 500;
+        }
+
+        .text-primary {
+            color: #1a202c;
+
+        }
+
+        .mt-medium {
+            margin-top: 24px;
+        }
+
+        .mb-small {
+            margin-bottom: 12px;
+        }
+
+        .description {
+            line-height: 1.5;
+        }
+
+        .text-base {
+            font-size: 16px;
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            background-color: #667eea;
+            margin: auto;
+            border: none;
+            padding: 8px 20px;
+            outline: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #5a67d8;
+
+        }
+
+        .rounded {
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="text-secondary body-section">
+        <div class="container padding-section">
+            <div class="flex-container text-center">
+                <div class="half-width mb-section padding-item">
+                    <div class="image-container overflow-hidden">
+                        <img alt="content" class="image-full" src="https://dummyimage.com/1201x501">
+                    </div>
+                    <h2 class="title text-large font-medium text-primary mt-medium mb-small">Buy YouTube Videos</h2>
+                    <p class="description text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest
+                        cornhole brunch, slow-carb neutra irony.</p>
+                    <button
+                        class="button flex-center mt-medium text-white bg-primary border-0 padding-button focus:outline-none hover:bg-primary-dark rounded">Button</button>
+                </div>
+                <div class="half-width mb-section padding-item">
+                    <div class="image-container overflow-hidden">
+                        <img alt="content" class="image-full" src="https://dummyimage.com/1202x502">
+                    </div>
+                    <h2 class="title text-large font-medium text-primary mt-medium mb-small">The Catalyzer</h2>
+                    <p class="description text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest
+                        cornhole brunch, slow-carb neutra irony.</p>
+                    <button
+                        class="button flex-center mt-medium text-white bg-primary border-0 padding-button focus:outline-none hover:bg-primary-dark rounded">Button</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
