@@ -5,16 +5,16 @@ import { TabsDemo } from '../../Codetabs/Tabs';
 import { ScrollArea } from '@/components/ui/scroll-area';
 
 const page = () => {
-    const [value, setValue] = useState<number>(0);
+    const [valueOfTheComponent, setValueOfTheComponent] = useState<number>(0);
 
     return (
         <ScrollArea className='text-white h-full max-h-screen overflow-y-auto p-3 mt-4'>
-            <Card contentVal={value} />
+            <Card contentVal={valueOfTheComponent} />
             <div className='flex flex-col gap-3'>
-                <TabsDemo codevalue={0} />
-                <TabsDemo codevalue={1} />
-                <TabsDemo codevalue={3} />
-                <TabsDemo codevalue={2} />
+                <TabsDemo valueOfTheComponent={valueOfTheComponent} codevalue={0} />
+                <TabsDemo valueOfTheComponent={valueOfTheComponent} codevalue={1} />
+                <TabsDemo valueOfTheComponent={valueOfTheComponent} codevalue={3} />
+                <TabsDemo valueOfTheComponent={valueOfTheComponent} codevalue={2} />
             </div>
         </ScrollArea>
     )
