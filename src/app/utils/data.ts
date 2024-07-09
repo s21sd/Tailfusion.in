@@ -1,4 +1,5 @@
 export const content = [
+    // This is for the Cards component code 0
     {
         title: "Cards",
         description: "Cards are versatile and responsive components designed to display content in a structured and visually appealing way. Built with both Tailwind CSS and traditional CSS, these cards are ready to use in any project, offering flexibility and convenience for different development preferences.",
@@ -25,6 +26,7 @@ export const content = [
             "Engage Your Audience: Enhance your project with visually appealing cards that make your content stand out.",
         ]
     },
+    // This is for the navbar component code 1
     {
         title: "Navbar",
         description: "The navbar is an essential navigation component that allows users to easily navigate through your website. Built with flexibility and usability in mind, our navbar provides a consistent and intuitive navigation experience.",
@@ -49,5 +51,41 @@ export const content = [
             "Customizable Styling: Easily modify colors, typography, and layout to match your project's branding and design.",
             "Accessibility: Designed with accessibility best practices to ensure all users can navigate your site effectively.",
         ]
+    },
+    // This is for the Hero Section component code 3
+    {
+        title: "Hero Section",
+        description: "The hero section is a prominent component at the top of your webpage, designed to capture the user's attention with a compelling message, image, or call to action. Our hero section is built to be visually appealing and highly functional, providing a strong introduction to your website's content.",
+        sections: [
+            {
+                "title": "Main Heading",
+                "description": "A powerful headline that conveys the main message of your page or highlights a key feature or benefit."
+            },
+            {
+                "title": "Subheading",
+                "description": "Additional text that supports the main heading by providing more context or detail."
+            },
+            {
+                "title": "Call to Action",
+                "description": "Buttons or links that prompt users to take specific actions, such as signing up, learning more, or making a purchase."
+            },
+            {
+                "title": "Supporting Image",
+                "description": "A visually engaging image that complements the text and enhances the overall appeal of the hero section."
+            }
+        ],
+        features: [
+            "Responsive Design: Ensures the hero section looks great on all devices, from desktops to mobile phones.",
+            "Customizable Layout: Easily adjust the layout, text, and images to suit your specific needs and branding.",
+            "Engaging Animations: Add animations to text and images to create a dynamic and captivating experience.",
+            "Accessibility: Designed with accessibility in mind to ensure all users can engage with the content."
+        ],
+        benefits: [
+            "Strong First Impression: Capture the user's attention immediately with a compelling and well-designed hero section.",
+            "Increased Engagement: Encourage users to interact with your site through clear and enticing calls to action.",
+            "Brand Consistency: Customize the hero section to align with your brand's colors, fonts, and overall aesthetic.",
+            "Improved User Experience: A well-designed hero section enhances navigation and guides users toward key actions or information."
+        ]
     }
+
 ];

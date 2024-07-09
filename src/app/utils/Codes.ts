@@ -2,7 +2,7 @@ export const designCode: any = [
   [
     // Card One Design For the Tailwind
     {
-      cardDesignOneCodeTailwind: `<section className="text-gray-600 body-font">
+      Tailwind: `<section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -m-4">
       <div className="p-4 lg:w-1/3">
@@ -89,7 +89,7 @@ export const designCode: any = [
     },
     // Card One Design For the Normal Css
     {
-      cardDesignOneCodeCss: `<!DOCTYPE html>
+      Css: `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -269,7 +269,7 @@ export const designCode: any = [
 
     // Card Two Design For the Tailwind
     {
-      cardDesignOneCodeTailwind: `<section className="text-gray-400 bg-gray-900 body-font">
+      Tailwind: `<section className="text-gray-400 bg-gray-900 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
@@ -365,7 +365,7 @@ export const designCode: any = [
     },
     // Card One Design For the Normal Css
     {
-      cardDesignOneCodeCss: `<!DOCTYPE html>
+      Css: `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -576,11 +576,11 @@ export const designCode: any = [
 
     // Card Three Design For the Tailwind
     {
-      cardDesignOneCodeTailwind: `<section className="text-gray-600 body-font">
+      Tailwind: `<section className="text-gray-600 body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
-        <br className="hidden lg:inline-block">readymade gluten</br>
+        
       </h1>
       <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
       <div className="flex justify-center">
@@ -596,7 +596,7 @@ export const designCode: any = [
     },
     // Card three Design For the Normal Css
     {
-      cardDesignOneCodeCss: `<!DOCTYPE html>
+      Css: `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -775,7 +775,7 @@ export const designCode: any = [
   ],
   [
     {
-      cardDesignOneCodeTailwind: `<section className="text-gray-600 body-font">
+      Tailwind: `<section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -mx-4 -mb-10 text-center">
       <div className="sm:w-1/2 mb-10 px-4">
@@ -799,7 +799,7 @@ export const designCode: any = [
 </section>`
     },
     {
-      cardDesignOneCodeCss: `<!DOCTYPE html>
+      Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -963,10 +963,11 @@ export const designCode: any = [
 
 ]
 
+// this is the design code for the navbar 
 export const designCodeForNav: any = [
   [
     {
-      navDesignOneCodeTailwind: `<header className="text-gray-600 body-font">
+      Tailwind: `<header className="text-gray-600 body-font">
   <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
@@ -989,7 +990,7 @@ export const designCodeForNav: any = [
 </header>`
     },
     {
-      navDesignOneCodeCss: `<!DOCTYPE html>
+      Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -1173,7 +1174,7 @@ export const designCodeForNav: any = [
   ],
   [
     {
-      navDesignOneCodeTailwind: `<header className="text-gray-600 body-font">
+      Tailwind: `<header className="text-gray-600 body-font">
                             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                                 <div className="flex title-font font-medium items-center gap-4 text-gray-900 mb-4 md:mb-0">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
@@ -1199,7 +1200,7 @@ export const designCodeForNav: any = [
                         </header>`
     },
     {
-      navDesignOneCodeCss: `<!DOCTYPE html>
+      Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -1379,4 +1380,1070 @@ export const designCodeForNav: any = [
 `
     }
   ],
+  [
+    {
+      Tailwind: `<header className="text-gray-600 body-font">
+  <div className="container mx-auto flex flex-wrap justify-between p-5 flex-col md:flex-row items-center">
+    <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span className="ml-3 text-xl">TailFusion</span>
+    </a>
+    <nav className=" flex flex-wrap items-center text-base justify-center">
+      <a className="mr-5 hover:text-gray-900">Home</a>
+      <a className="mr-5 hover:text-gray-900">Components</a>
+      <a className="mr-5 hover:text-gray-900">Github</a>
+    </nav>
+    <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </button>
+  </div>
+</header>`
+    },
+    {
+      Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #4a5568;
+        }
+
+        .header {
+            background-color: #f7fafc;
+            padding: 1.25rem;
+
+        }
+
+        .container {
+
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container-md {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .link_container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .title {
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            /* medium */
+            color: #1a202c;
+            margin-bottom: 1rem;
+
+        }
+
+        .title-md {
+            margin-bottom: 0;
+        }
+
+        .logo {
+            width: 2.5rem;
+
+            height: 2.5rem;
+
+            padding: 0.5rem;
+
+            background-color: #5a67d8;
+
+            border-radius: 50%;
+
+            fill: none;
+            stroke: currentColor;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 2;
+        }
+
+        .title-text {
+            margin-left: 0.75rem;
+
+            font-size: 1.25rem;
+
+        }
+
+        .nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .nav-link {
+            margin-right: 1.25rem;
+
+            color: #4a5568;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #1a202c;
+
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            background-color: #f7fafc;
+
+            border: none;
+            padding: 0.25rem 0.75rem;
+            cursor: pointer;
+            border-radius: 0.25rem;
+            font-size: 1rem;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-md {
+            margin-top: 0;
+        }
+
+        .button:hover {
+            background-color: #e2e8f0;
+
+        }
+
+        .button-icon {
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.25rem;
+            fill: none;
+            stroke: currentColor;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 2;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .title {
+                margin-bottom: 0;
+            }
+
+            .button {
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-md">
+            <a href="#" class="title title-md">
+                <svg xmlns="http://www.w3.org/2000/svg" class="logo" viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="title-text">TailFusion</span>
+            </a>
+            <nav class="nav">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Components</a>
+                <a href="#" class="nav-link">Github</a>
+            </nav>
+            <div class="link_container">
+                <button class="button button-md">Button
+                    <svg xmlns="http://www.w3.org/2000/svg" class="button-icon" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>`
+    }
+  ],
+  [
+    {
+      Tailwind: `<header className="text-white body-font">
+                                <div className="container mx-auto flex flex-wrap justify-between p-5 flex-col md:flex-row items-center">
+                                    <a className="flex title-font font-medium items-center mb-4 md:mb-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                                        </svg>
+                                        <span className="ml-3 text-xl">TailFusion</span>
+                                    </a>
+                                    <div className='flex justify-between items-center gap-4'>
+                                        <button className="inline-flex items-center py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 border border-1">Feedback
+                                        </button>
+                                        <button className="inline-flex items-center bg-blue-500 border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0">Learn
+
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </header>`
+    },
+    {
+      Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #4a5568;
+        }
+
+        .header {
+            background-color: #f7fafc;
+            padding: 1.25rem;
+
+        }
+
+        .container {
+
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container-md {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .link_container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .title {
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            /* medium */
+            color: #1a202c;
+            margin-bottom: 1rem;
+
+        }
+
+        .title-md {
+            margin-bottom: 0;
+        }
+
+        .logo {
+            width: 2.5rem;
+
+            height: 2.5rem;
+
+            padding: 0.5rem;
+
+            background-color: #5a67d8;
+
+            border-radius: 50%;
+
+            fill: none;
+            stroke: currentColor;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 2;
+        }
+
+        .title-text {
+            margin-left: 0.75rem;
+
+            font-size: 1.25rem;
+
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 8px;
+            cursor: pointer;
+            border-radius: 0.25rem;
+            font-size: 1rem;
+            margin-right: 12px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-md {
+            margin-top: 0;
+        }
+
+        .button:hover {
+            background-color: #e2e8f0;
+
+        }
+
+        .button-icon {
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.25rem;
+            fill: none;
+            stroke: currentColor;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 2;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .title {
+                margin-bottom: 0;
+            }
+
+            .button {
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-md">
+            <div class="title title-md">
+                <svg xmlns="http://www.w3.org/2000/svg" class="logo" viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="title-text">TailFusion</span>
+            </div>
+            <div class="link_container">
+                <button class="button button-md">Feedback
+                </button>
+                <button class="button button-md">Learn
+                </button>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>`
+    }
+  ],
+]
+// This is the design Code for the hero section I have component code 2 but later I will use as 3
+export const designCodeForHeroSection: any = [
+  [
+    {
+      Tailwind: `<section className="text-gray-600 body-font">
+  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
+        
+      </h1>
+      <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+      <div className="flex justify-center">
+        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+        <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+      </div>
+    </div>
+    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
+    </div>
+  </div>
+</section>`
+    },
+    {
+      Css: `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Section</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #4a5568;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    .flex {
+      display: flex;
+    }
+    .flex-col {
+      flex-direction: column;
+    }
+    .items-center {
+      align-items: center;
+    }
+    .text-center {
+      text-align: center;
+    }
+    .text-left {
+      text-align: left;
+    }
+    .justify-center {
+      justify-content: center;
+    }
+    .title-font {
+      font-size: 2.25rem; 
+      margin-bottom: 1rem; 
+      font-weight: 500; 
+      color: #1a202c;
+    }
+    .leading-relaxed {
+      line-height: 1.625; 
+    }
+    .mb-8 {
+      margin-bottom: 2rem; 
+    }
+    .mb-16 {
+      margin-bottom: 4rem; 
+    }
+    .mb-0 {
+      margin-bottom: 0; 
+    }
+    .py-24 {
+      padding: 6rem 0; 
+    }
+    .px-5 {
+      padding: 0 1.25rem;
+    }
+    .pr-16 {
+      padding-right: 4rem; 
+    }
+    .pr-24 {
+      padding-right: 6rem; 
+    }
+    .max-w-lg {
+      max-width: 32rem; 
+    }
+    .w-full {
+      width: 100%; 
+    }
+    .w-1-2 {
+      width: 50%; 
+    }
+    .w-5-6 {
+      width: 83.333333%; 
+    }
+    .object-cover {
+      object-fit: cover;
+    }
+    .object-center {
+      object-position: center;
+    }
+    .rounded {
+      border-radius: 0.5rem; 
+    }
+    .button-primary {
+      display: inline-flex;
+      color: white;
+      background-color: #5a67d8; 
+      border: none;
+      padding: 0.5rem 1.5rem;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 0.25rem;
+      font-size: 1rem; 
+      transition: background-color 0.3s ease;
+    }
+    .button-primary:hover {
+      background-color: #434190; 
+    }
+    .button-secondary {
+      display: inline-flex;
+      color: #4a5568; 
+      background-color: #f7fafc; 
+      border: none;
+      padding: 0.5rem 1.5rem; 
+      text-align: center;
+      cursor: pointer;
+      border-radius: 0.25rem; 
+      font-size: 1rem; 
+      transition: background-color 0.3s ease;
+    }
+    .button-secondary:hover {
+      background-color: #e2e8f0; 
+    }
+    @media (min-width: 768px) {
+      .md-flex-row {
+        flex-direction: row;
+      }
+      .md-items-start {
+        align-items: flex-start;
+      }
+      .md-text-left {
+        text-align: left;
+      }
+      .md-mb-0 {
+        margin-bottom: 0;
+      }
+      .md-w-1-2 {
+        width: 50%;
+      }
+      .md-pr-16 {
+        padding-right: 4rem; 
+      }
+    }
+    @media (min-width: 1024px) {
+      .lg-flex-grow {
+        flex-grow: 1;
+      }
+      .lg-pr-24 {
+        padding-right: 6rem;
+      }
+      .lg-max-w-lg {
+        max-width: 32rem;
+      }
+      .lg-w-full {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md-flex-row flex-col items-center">
+      <div class="lg-flex-grow md-w-1-2 lg-pr-24 md-pr-16 flex flex-col md-items-start md-text-left mb-16 md-mb-0 items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
+          <br class="hidden lg:inline-block">readymade gluten</br>
+        </h1>
+        <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+        <div class="flex justify-center">
+          <button class="button-primary">Button</button>
+          <button class="ml-4 button-secondary">Button</button>
+        </div>
+      </div>
+      <div class="lg-max-w-lg lg-w-full md-w-1-2 w-5-6">
+        <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+`
+    },
+  ],
+  [
+    {
+      Tailwind: `<section className="text-gray-600 body-font">
+  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+  <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
+    </div>
+    <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pr-16 flex flex-col md:item-center md:text-center mb-16 md:mb-0 items-center text-center">
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
+       
+      </h1>
+      <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+      <div className="flex justify-center">
+        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+        <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+      </div>
+    </div>
+    
+  </div>
+</section>`
+    },
+    {
+      Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #4a5568;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .flex-col {
+            flex-direction: column;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        .justify-center {
+            justify-content: center;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 2.25rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+            color: #1a202c;
+        }
+
+        .leading {
+            line-height: 1.625;
+            text-align: center;
+        }
+
+        .margin-bottom-medium {
+            margin-bottom: 2rem;
+        }
+
+        .margin-bottom-large {
+            margin-bottom: 4rem;
+        }
+
+        .padding-y-large {
+            padding: 6rem 0;
+        }
+
+        .padding-x-medium {
+            padding: 0 1.25rem;
+        }
+
+        .padding-right-medium {
+            padding-right: 4rem;
+        }
+
+        .padding-right-large {
+            padding-right: 6rem;
+        }
+
+        .max-width-large {
+            max-width: 32rem;
+        }
+
+        .width-full {
+            width: 100%;
+        }
+
+        .width-half {
+            width: 50%;
+        }
+
+        .width-five-sixths {
+            width: 83.333333%;
+        }
+
+        .image {
+            width: 600px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 0.5rem;
+        }
+
+        .button-primary {
+            display: inline-flex;
+            color: white;
+            background-color: #5a67d8;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 0.25rem;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-primary:hover {
+            background-color: #434190;
+        }
+
+        .button-secondary {
+            display: inline-flex;
+            color: #4a5568;
+            background-color: #f7fafc;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 0.25rem;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-secondary:hover {
+            background-color: #e2e8f0;
+        }
+
+        .margin-left-medium {
+            margin-left: 1rem;
+        }
+
+        @media (min-width: 768px) {
+            .flex-row-md {
+                flex-direction: row;
+            }
+
+            .items-start-md {
+                align-items: flex-start;
+            }
+
+            .text-left-md {
+                text-align: left;
+            }
+
+            .margin-bottom-none-md {
+                margin-bottom: 0;
+            }
+
+            .width-half-md {
+                width: 50%;
+            }
+
+            .padding-right-medium-md {
+                padding-right: 4rem;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .flex-grow-lg {
+                flex-grow: 1;
+            }
+
+            .padding-right-large-lg {
+                padding-right: 6rem;
+            }
+
+            .max-width-large-lg {
+                max-width: 32rem;
+            }
+
+            .width-full-lg {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="text-gray-600 body-font">
+        <div class="container flex padding-x-medium padding-y-large flex-col items-center flex-row-md">
+            <div class="container_img">
+                <img class="image" alt="hero" src="https://dummyimage.com/720x600" />
+            </div>
+            <div class="">
+                <h1 class="title">Before they sold out
+                    <br class="hidden-lg">readymade gluten</br>
+                </h1>
+                <p class="margin-bottom-medium leading">Copper mug try-hard pitchfork pour-over freegan heirloom neutra
+                    air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot
+                    chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+                <div class="flex justify-center">
+                    <button class="button-primary">Button</button>
+                    <button class="margin-left-medium button-secondary">Button</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
+    },
+  ],
+  [
+    {
+      Tailwind: `<section className="text-gray-600 body-font">
+  <div className="container mx-auto grid px-5 py-24 md:flex-row flex-col items-center">
+  <div className="m-auto lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
+    </div>
+    <div className="m-auto lg:flex-grow mt-8 md:w-1/2 flex flex-col md:item-center md:text-center mb-16 md:mb-0 items-center text-center">
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
+       
+      </h1>
+      <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+      <div className="flex justify-center">
+        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+        <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+      </div>
+    </div>
+    
+  </div>
+</section>`
+    },
+    {
+      Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #4a5568;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: grid;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .flex {
+            display: grid;
+        }
+
+        .flex-col {
+            flex-direction: column;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .justify-center {
+            justify-content: center;
+        }
+
+        .buttons {
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 2.25rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+            color: #1a202c;
+        }
+
+        .leading {
+            line-height: 1.625;
+            text-align: center;
+        }
+
+        .margin-bottom-medium {
+            margin-bottom: 2rem;
+        }
+
+        .margin-bottom-large {
+            margin-bottom: 4rem;
+        }
+
+        .padding-y-large {
+            padding: 6rem 0;
+        }
+
+        .padding-x-medium {
+            padding: 0 1.25rem;
+        }
+
+        .padding-right-medium {
+            padding-right: 4rem;
+        }
+
+        .padding-right-large {
+            padding-right: 6rem;
+        }
+
+        .max-width-large {
+            max-width: 32rem;
+        }
+
+        .width-full {
+            width: 100%;
+        }
+
+        .width-half {
+            width: 50%;
+        }
+
+        .width-five-sixths {
+            width: 83.333333%;
+        }
+
+        .image {
+            display: flex;
+            width: 400px;
+            margin: auto;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 0.5rem;
+        }
+
+        .button-primary {
+            display: inline-flex;
+            color: white;
+            background-color: #5a67d8;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 0.25rem;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-primary:hover {
+            background-color: #434190;
+        }
+
+        .button-secondary {
+            display: inline-flex;
+            color: #4a5568;
+            background-color: #f7fafc;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 0.25rem;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-secondary:hover {
+            background-color: #e2e8f0;
+        }
+
+        .margin-left-medium {
+            margin-left: 1rem;
+        }
+
+        @media (min-width: 768px) {
+            .flex-row-md {
+                flex-direction: row;
+            }
+
+            .items-start-md {
+                align-items: flex-start;
+            }
+
+            .text-left-md {
+                text-align: left;
+            }
+
+            .margin-bottom-none-md {
+                margin-bottom: 0;
+            }
+
+            .width-half-md {
+                width: 50%;
+            }
+
+            .padding-right-medium-md {
+                padding-right: 4rem;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .flex-grow-lg {
+                flex-grow: 1;
+            }
+
+            .padding-right-large-lg {
+                padding-right: 6rem;
+            }
+
+            .max-width-large-lg {
+                max-width: 32rem;
+            }
+
+            .width-full-lg {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="text-gray-600 body-font">
+        <div class="container flex padding-x-medium padding-y-large flex-col items-center flex-row-md">
+            <div class="container_img">
+                <img class="image" alt="hero" src="https://dummyimage.com/720x600" />
+            </div>
+            <div class="">
+                <h1 class="title">Before they sold out
+                    <br class="hidden-lg">readymade gluten</br>
+                </h1>
+                <p class="margin-bottom-medium leading">Copper mug try-hard pitchfork pour-over freegan heirloom neutra
+                    air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot
+                    chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+                <div class="buttons">
+                    <button class="button-primary">Button</button>
+                    <button class="margin-left-medium button-secondary">Button</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
+    },
+  ]
 ]

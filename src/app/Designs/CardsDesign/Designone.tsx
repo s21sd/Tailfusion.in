@@ -421,10 +421,177 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                 </button>
                             </div>
                         </header>
+                        case 2:
+                            return <header className="text-white body-font">
+                                <div className="container mx-auto flex flex-wrap justify-between p-5 flex-col md:flex-row items-center">
+                                    <a className={`flex title-font font-medium items-center ${colorClass} mb-4 md:mb-0`}>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                                        </svg>
+                                        <span className="ml-3 text-xl">TailFusion</span>
+                                    </a>
+                                    <nav className=" flex flex-wrap items-center text-base justify-center">
+                                        <a className={`mr-5 hover:${colorClass}`}>Home</a>
+                                        <a className={`mr-5 hover:${colorClass}`}>Component</a>
+                                        <a className={`mr-5 hover:${colorClass}`}>Github</a>
+                                    </nav>
+                                    <button className={`inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                        colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                            colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                    colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                        'bg-indigo-500 hover:bg-indigo-600'
+                                        } `}>Button
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </header>
+                        case 3:
+                            return <header className="text-white body-font">
+                                <div className="container mx-auto flex flex-wrap justify-between p-5 flex-col md:flex-row items-center">
+                                    <a className={`flex title-font font-medium items-center ${colorClass} mb-4 md:mb-0`}>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                                        </svg>
+                                        <span className="ml-3 text-xl">TailFusion</span>
+                                    </a>
+                                    <div className='flex justify-between items-center gap-4'>
+                                        <button className={`inline-flex items-center py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 border border-1`}>Feedback
+                                        </button>
+                                        <button className={`inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                            colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                    colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                        colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                            'bg-indigo-500 hover:bg-indigo-600'
+                                            } `}>Learn
+
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </header>
+
 
                     }
                 }
                 return renderComponentDesignForNavbar();
+
+            // For Hero Section
+            case 2:
+                const renderComponentDesignForHeroSection = () => {
+                    switch (codevalue) {
+                        case 0:
+                            return (
+                                <section className="text-gray-600 body-font">
+                                    <div className="container mx-auto flex px-5 py-24 md:flex-row items-center">
+                                        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                                            <h1 className={`title-font sm:text-4xl text-3xl mb-4 font-medium ${colorClass}`}>
+                                                Before they sold out
+                                                <div className="hidden lg:inline-block"> readymade gluten</div>
+                                            </h1>
+                                            <p className="mb-8 leading-relaxed">
+                                                Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.
+                                            </p>
+                                            <div className="flex justify-center">
+                                                <button
+                                                    className={`inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded text-lg ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                        colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                            colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                                colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                    colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                        'bg-indigo-500 hover:bg-indigo-600'
+                                                        }`}
+                                                >
+                                                    Button
+                                                </button>
+                                                <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+                                                    Button
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                                            <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+                                        </div>
+                                    </div>
+                                </section>
+                            );
+                        case 1: return (
+                            <section className="text-gray-600 body-font">
+                                <div className="container mx-auto flex px-5 py-24 md:flex-row items-center">
+                                    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                                        <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+                                    </div>
+                                    <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pr-16 flex flex-col md:item-center md:text-center mb-16 md:mb-0 items-center text-center">
+                                        <h1 className={`title-font sm:text-4xl text-3xl mb-4 font-medium ${colorClass}`}>
+                                            Before they sold out
+                                            <div className="hidden lg:inline-block"> readymade gluten</div>
+                                        </h1>
+                                        <p className="mb-8 leading-relaxed">
+                                            Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.
+                                        </p>
+                                        <div className="flex justify-center">
+                                            <button
+                                                className={`inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded text-lg ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                                    }`}
+                                            >
+                                                Button
+                                            </button>
+                                            <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+                                                Button
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </section>
+                        );
+                        case 2: return (
+                            <section className="text-gray-600 body-font m-auto ">
+                                <div className="container mx-auto grid justify-center px-5 py-24 md:flex-row items-center">
+                                    <div className="m-auto lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                                        <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+                                    </div>
+                                    <div className="m-auto lg:flex-grow mt-8 md:w-1/2 flex flex-col md:item-center md:text-center mb-16 md:mb-0 items-center text-center">
+                                        <h1 className={`title-font sm:text-4xl text-3xl mb-4 font-medium ${colorClass}`}>
+                                            Before they sold out
+                                            <div className="hidden lg:inline-block"> readymade gluten</div>
+                                        </h1>
+                                        <p className="mb-8 leading-relaxed">
+                                            Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.
+                                        </p>
+                                        <div className="flex justify-center">
+                                            <button
+                                                className={`inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded text-lg ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                                    }`}
+                                            >
+                                                Button
+                                            </button>
+                                            <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+                                                Button
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </section>
+                        );
+
+                    }
+                }
+                return renderComponentDesignForHeroSection();
             default:
                 return ''
 
