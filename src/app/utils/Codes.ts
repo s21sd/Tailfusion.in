@@ -989,7 +989,394 @@ export const designCodeForNav: any = [
 </header>`
     },
     {
-      navDesignOneCodeCss: ``
+      navDesignOneCodeCss: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #4a5568;
+        }
+
+        .header {
+            background-color: #f7fafc;
+            padding: 1.25rem;
+
+        }
+
+        .container {
+
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container-md {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .link_container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .title {
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            /* medium */
+            color: #1a202c;
+            margin-bottom: 1rem;
+
+        }
+
+        .title-md {
+            margin-bottom: 0;
+        }
+
+        .logo {
+            width: 2.5rem;
+
+            height: 2.5rem;
+
+            padding: 0.5rem;
+
+            background-color: #5a67d8;
+
+            border-radius: 50%;
+
+            fill: none;
+            stroke: currentColor;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 2;
+        }
+
+        .title-text {
+            margin-left: 0.75rem;
+
+            font-size: 1.25rem;
+
+        }
+
+        .nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .nav-link {
+            margin-right: 1.25rem;
+
+            color: #4a5568;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #1a202c;
+
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            background-color: #f7fafc;
+
+            border: none;
+            padding: 0.25rem 0.75rem;
+            cursor: pointer;
+            border-radius: 0.25rem;
+            font-size: 1rem;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-md {
+            margin-top: 0;
+        }
+
+        .button:hover {
+            background-color: #e2e8f0;
+
+        }
+
+        .button-icon {
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.25rem;
+            fill: none;
+            stroke: currentColor;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 2;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .title {
+                margin-bottom: 0;
+            }
+
+            .button {
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-md">
+            <a href="#" class="title title-md">
+                <svg xmlns="http://www.w3.org/2000/svg" class="logo" viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="title-text">TailFusion</span>
+            </a>
+            <div class="link_container">
+
+                <nav class="nav">
+                    <a href="#" class="nav-link">First Link</a>
+                    <a href="#" class="nav-link">Second Link</a>
+                    <a href="#" class="nav-link">Third Link</a>
+                    <a href="#" class="nav-link">Fourth Link</a>
+                </nav>
+                <button class="button button-md">Button
+                    <svg xmlns="http://www.w3.org/2000/svg" class="button-icon" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>`
     }
-  ]
+  ],
+  [
+    {
+      navDesignOneCodeTailwind: `<header className="text-gray-600 body-font">
+                            <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                                <div className="flex title-font font-medium items-center gap-4 text-gray-900 mb-4 md:mb-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                                    </svg>
+                                    <span className="ml-3 text-xl text-white">TailFusion</span>
+                                    <div className='flex justify-center items-center gap- text-gray-300'>
+                                        <h1 className="mr-5 hover:text-gray-900">Login</h1>
+                                        <h1 className="mr-5 hover:text-gray-900">Register</h1>
+                                    </div>
+                                </div>
+                                <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                                    <a className="mr-5 hover:text-gray-900">Login</a>
+                                    <a className="mr-5 hover:text-gray-900">Register</a>
+
+                                </nav>
+                                <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </header>`
+    },
+    {
+      navDesignOneCodeCss: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7fafc;
+            color: #4a5568;
+        }
+
+        .header {
+            background-color: #2d3748;
+            color: #e2e8f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.25rem;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .btn-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .container-md {
+            flex-direction: row;
+        }
+
+        .title {
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            color: #e2e8f0;
+        }
+
+        .title-md {
+            margin-bottom: 0;
+        }
+
+        .logo {
+            width: 2.5rem;
+            height: 2.5rem;
+            padding: 0.5rem;
+            background-color: #5a67d8;
+            border-radius: 50%;
+            fill: none;
+            stroke: currentColor;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 2;
+        }
+
+        .title-text {
+            margin: 0.75rem;
+            font-size: 20px;
+        }
+
+        .nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .nav-link {
+            margin-right: 1.5rem;
+            color: #e2e8f0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #a0aec0;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            border: none;
+            padding: 0.25rem 0.75rem;
+            cursor: pointer;
+            border-radius: 0.25rem;
+            font-size: 1rem;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+            color: #2d3748;
+            background-color: #e2e8f0;
+        }
+
+        .button:hover {
+            background-color: #cbd5e0;
+        }
+
+        .button-icon {
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.25rem;
+            fill: none;
+            stroke: currentColor;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 2;
+        }
+
+        .flex-gap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            color: #e2e8f0;
+        }
+
+        .flex-gap-md {
+            margin-bottom: 0;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .title {
+                margin-bottom: 0;
+            }
+
+            .button {
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-md">
+            <div class="title title-md flex-gap-md">
+                <svg xmlns="http://www.w3.org/2000/svg" class="logo" viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="title-text">TailFusion</span>
+                <div class="flex-gap text-gray-300">
+                    <p class="nav-link">Home</p>
+                    <p class="nav-link">Components</p>
+                </div>
+            </div>
+            <div class="btn-container">
+                <nav class="nav">
+                    <a href="#" class="nav-link">Login</a>
+                    <a href="#" class="nav-link">Register</a>
+                </nav>
+                <button class="button">
+                    Button
+                    <svg xmlns="http://www.w3.org/2000/svg" class="button-icon" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
+`
+    }
+  ],
 ]

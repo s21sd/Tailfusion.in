@@ -5,6 +5,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
     // Same thing I will do here will the valueOfTheComponent prop I will Add a swich case Of this
     const RenderComponentsBasedOnTheValueOfTheComponent = () => {
         switch (valueOfTheComponent) {
+            // For the Cards
             case 0:
                 const renderComponentDesignForCard = () => {
                     switch (codevalue) {
@@ -356,6 +357,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                 }
                 return renderComponentDesignForCard();
 
+            // For Navbar
             case 1:
                 const renderComponentDesignForNavbar = () => {
                     switch (codevalue) {
@@ -369,10 +371,10 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         <span className="ml-3 text-xl">TailFusion</span>
                                     </a>
                                     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                                        <a className="mr-5 hover:text-gray-900">First Link</a>
-                                        <a className="mr-5 hover:text-gray-900">Second Link</a>
-                                        <a className="mr-5 hover:text-gray-900">Third Link</a>
-                                        <a className="mr-5 hover:text-gray-900">Fourth Link</a>
+                                        <a className={`mr-5 hover:${colorClass}`}>First Link</a>
+                                        <a className={`mr-5 hover:${colorClass}`}>Second Link</a>
+                                        <a className={`mr-5 hover:${colorClass}`}>Third Link</a>
+                                        <a className={`mr-5 hover:${colorClass}`}>Fourth Link</a>
                                     </nav>
                                     <button className={`inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 ${colorClass === 'text-red-500' ? 'bg-red-500' :
                                         colorClass === 'text-purple-500' ? 'bg-purple-500' :
@@ -387,6 +389,39 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                     </button>
                                 </div>
                             </header>
+                        case 1: return <header className="text-white body-font">
+                            <div className="container mx-auto flex flex-wrap justify-between p-5 flex-col md:flex-row items-center">
+                                <div className='flex justify-center items-center gap-4'>
+                                    <div className={`flex title-font font-medium items-center ${colorClass} mb-4 md:mb-0`}>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                                        </svg>
+                                        <span className="ml-3 text-xl">TailFusion</span>
+
+                                    </div>
+                                    <div className='flex justify-center items-center gap-3 text-gray-500'>
+                                        <h1>Home</h1>
+                                        <h1>Components</h1>
+                                    </div>
+                                </div>
+                                <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                                    <a className={`mr-5 hover:${colorClass}`}>Login </a>
+                                    <a className={`mr-5 hover:${colorClass}`}>Register</a>
+                                </nav>
+                                <button className={`inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                    } `}>Button
+                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </header>
+
                     }
                 }
                 return renderComponentDesignForNavbar();

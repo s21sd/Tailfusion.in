@@ -1,11 +1,10 @@
 "use client"
 import React, { useState } from 'react'
-import { designCode } from "@/app/utils/Codes";
+import { designCode, designCodeForNav } from "@/app/utils/Codes";
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism'
 import { Copy } from "lucide-react";
 import { TiTick } from "react-icons/ti";
-import { Button } from "@/components/ui/button"
 import {
     Tabs,
     TabsContent,
@@ -73,6 +72,55 @@ const Codedesign = ({ valueOfTheComponent, value }: { valueOfTheComponent: numbe
                     </div>
                 }
                 return renderTheCodeBlock();
+            case 1:
+                const renderTheCodeBlockForNavbar = () => {
+                    return <div className="relative p-4">
+                        <div>
+                            <Tabs defaultValue="css" className="w-full">
+                                <div className="flex justify-between items-center mx-auto py-4 w-[95%]">
+                                    <div className="flex justify-center items-center gap-4">
+                                        <TabsList className="grid w-[250px] grid-cols-2">
+                                            <TabsTrigger value="css">Html+Css</TabsTrigger>
+                                            <TabsTrigger value="tailwind">Jsx+Tailwind</TabsTrigger>
+                                        </TabsList>
+                                    </div>
+                                </div>
+                                <TabsContent value="css">
+                                    <button onClick={() => handClick(designCodeForNav[value][1].navDesignOneCodeCss)} className="absolute top-4 right-4 bg-gray-700 p-2 rounded-md text-white flex items-center">
+                                        {
+                                            !copy ?
+                                                <Copy size={26} color='white' /> : <TiTick size={26} color='white' />
+                                        }
+                                    </button>
+                                    <div className="w-full overflow-auto">
+                                        <SyntaxHighlighter wrapLines={true} showLineNumbers={true} lineProps={{
+                                            style: { wordBreak: 'break-all', whiteSpace: 'pre-wrap' }
+                                        }} language="html" style={oneDark} className="rounded-md scrollbar-thin">
+                                            {designCodeForNav[value][1].navDesignOneCodeCss}
+                                        </SyntaxHighlighter>
+                                    </div>
+                                </TabsContent>
+                                <TabsContent value="tailwind" className="w-full h-screen overflow-auto">
+                                    <button onClick={() => handClick(designCodeForNav[value][0].navDesignOneCodeTailwind)} className="absolute top-4 right-4 bg-gray-700 p-2 rounded-md text-white flex items-center">
+                                        {
+                                            !copy ?
+                                                <Copy size={26} color='white' /> : <TiTick size={26} color='white' />
+                                        }
+                                    </button>
+                                    <div className="w-full overflow-auto">
+                                        <SyntaxHighlighter wrapLines={true} showLineNumbers={true} lineProps={{
+                                            style: { wordBreak: 'break-all', whiteSpace: 'pre-wrap' }
+                                        }} language="html" style={oneDark} className="rounded-md scrollbar-thin">
+                                            {designCodeForNav[value][0].navDesignOneCodeTailwind}
+                                        </SyntaxHighlighter>
+                                    </div>
+                                </TabsContent>
+                            </Tabs>
+
+                        </div>
+                    </div>
+                }
+                return renderTheCodeBlockForNavbar();
         }
     }
     return (
