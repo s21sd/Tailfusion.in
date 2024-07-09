@@ -12,6 +12,7 @@ const page = () => {
                 <TabsDemo valueOfTheComponent={valueOfTheComponent} codevalue={0} />
                 <TabsDemo valueOfTheComponent={valueOfTheComponent} codevalue={1} />
                 <TabsDemo valueOfTheComponent={valueOfTheComponent} codevalue={2} />
+                <TabsDemo valueOfTheComponent={valueOfTheComponent} codevalue={3} />
 
             </div>
         </div>
