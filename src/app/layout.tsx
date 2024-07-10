@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const fontSans = FontSans({
@@ -38,6 +39,7 @@ export default function RootLayout({
           {!isLandingPage && <Sidebar />}
           <div className="flex-1 p-4">{children}</div>
         </div>
+        <Footer />
       </body>
     </html>
   );

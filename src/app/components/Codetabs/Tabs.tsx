@@ -39,7 +39,7 @@ export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheCompone
                             <div className="speaker"></div>
                             <div className="screen">
                                 <ScrollArea className="h-full max-h-screen overflow-y-auto bg-[#151518]">
-                                    <RenderDeviceComponents valueOfTheComponent={valueOfTheComponent} colorClass={colorClass} />
+                                    <RenderDeviceComponents codevalue={codevalue} valueOfTheComponent={valueOfTheComponent} colorClass={colorClass} />
                                 </ScrollArea>
                             </div>
                             <div className="home"></div>
@@ -54,7 +54,7 @@ export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheCompone
                             <div className="camera"></div>
                             <div className="screen">
                                 <ScrollArea className="h-full max-h-screen overflow-y-auto bg-[#151518]">
-                                    <RenderDeviceComponents codevalue={codevalue} colorClass={colorClass} />
+                                    <RenderDeviceComponents codevalue={codevalue} valueOfTheComponent={valueOfTheComponent} colorClass={colorClass} />
                                 </ScrollArea>
                             </div>
                             <div className="home"></div>
