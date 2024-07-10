@@ -669,8 +669,8 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass }: 
                                 </div>
                             </section>
                         case 1:
-                            return <div className="w-80 mx-auto h-full mt-[90px] bg-black shadow-lg rounded-lg p-8">
-                                <p className={`${colorClass} text-center font-sans text-2xl font-extrabold my-2 mb-8`}>Welcome back</p>
+                            return <div className="w-80 mx-auto mt-[90px] h-128 bg-[#c0bcbc] rounded-lg p-8">
+                                <p className={`${colorClass} text-black text-center font-sans text-2xl font-extrabold my-2 mb-8`}>Welcome back</p>
                                 <form className="flex flex-col gap-4 mb-4">
                                     <input
                                         type="email"
@@ -682,7 +682,7 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass }: 
                                         className="rounded-full border border-gray-300 px-4 py-3 outline-none"
                                         placeholder="Password"
                                     />
-                                    <p className="text-right text-sm text-gray-500 underline cursor-pointer">Forgot Password?</p>
+                                    <p className="text-right text-sm text-gray-700 underline cursor-pointer">Forgot Password?</p>
                                     <button className={`rounded-full ${colorClass === 'text-red-500' ? 'bg-red-500' :
                                         colorClass === 'text-purple-500' ? 'bg-purple-500' :
                                             colorClass === 'text-blue-500' ? 'bg-blue-500' :
@@ -691,7 +691,7 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass }: 
                                                         'bg-indigo-500 hover:bg-indigo-600'
                                         } text-white py-3 shadow-md `}>Log in</button>
                                 </form>
-                                <p className="text-center text-xs text-gray-500">
+                                <p className="text-center text-xs text-gray-700">
                                     Don't have an account?
                                     <span className="text-indigo-500 underline cursor-pointer ml-1">Sign up</span>
                                 </p>

@@ -3,7 +3,6 @@ import React from 'react'
 import { BiSearch } from 'react-icons/bi';
 import { FaGithub } from "react-icons/fa";
 import moon from '../../assets/moon.png'
-import { WiMoonAltNew } from "react-icons/wi";
 import { useRouter } from 'next/navigation';
 
 const Navbar = () => {
