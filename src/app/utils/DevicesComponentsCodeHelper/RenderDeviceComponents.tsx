@@ -641,11 +641,11 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass }: 
                 const renderComponentDesignForAuth = () => {
                     switch (codevalue) {
                         case 0:
-                            return <section className="text-gray-600 flex justify-between items-center body-font">
-                                <div className="w-[50%]">
-                                    <img className="w-full rounded-md h-[470px] object-cover object-center" src="https://dummyimage.com/520x400" alt="blog" />
+                            return <section className="text-gray-600 grid justify-center items-center body-font">
+                                <div>
+                                    <img className="w-[90%] flex mt-10 mx-auto rounded-md h-[470px] object-cover object-center" src="https://dummyimage.com/400x400" alt="blog" />
                                 </div>
-                                <div className="container w-[50%] px-5 py-24 mx-auto flex">
+                                <div className="container px-5 py-24 mx-auto flex">
                                     <div className="bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 shadow-md">
                                         <h2 className={`${colorClass} text-lg mb-1 font-medium title-font`}>Feedback</h2>
                                         <p className="leading-relaxed mb-5 text-gray-600">Let us know how we can improve!</p>
@@ -669,9 +669,9 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass }: 
                                 </div>
                             </section>
                         case 1:
-                            return <div className="w-80 mx-auto mt-[90px] h-128 bg-[#c0bcbc] rounded-lg p-8">
+                            return <div className="w-80 mx-auto h-128 bg-[#c0bcbc] rounded-lg p-8">
                                 <p className={`${colorClass} text-black text-center font-sans text-2xl font-extrabold my-2 mb-8`}>Welcome back</p>
-                                <form className="flex flex-col gap-4 mb-4">
+                                <form className="flex flex-col gap-4 mb-4 text-black">
                                     <input
                                         type="email"
                                         className="rounded-full border border-gray-300 px-4 py-3 outline-none"
@@ -712,6 +712,45 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass }: 
                                         <span>Log in with Google</span>
                                     </div>
                                 </div>
+                            </div>
+                        case 2:
+                            return <div className="w-80 mt-[90px] mx-auto h-128 bg-[#c0bcbc] rounded-lg p-8">
+                                <p className={`${colorClass} text-black text-center font-sans text-2xl font-extrabold my-2 mb-8`}>Create Your Account</p>
+                                <form className="flex flex-col gap-4 mb-4 text-black">
+                                    <input
+                                        name="name"
+                                        type="text"
+                                        className="rounded-full border border-gray-300 px-4 py-3 outline-none"
+                                        placeholder="Name"
+                                    />
+                                    <input
+                                        type="email"
+                                        className="rounded-full border border-gray-300 px-4 py-3 outline-none"
+                                        placeholder="Email"
+                                    />
+                                    <input
+                                        type="password"
+                                        className="rounded-full border border-gray-300 px-4 py-3 outline-none"
+                                        placeholder="Password"
+                                    />
+                                    <input
+                                        type="password"
+                                        className="rounded-full border border-gray-300 px-4 py-3 outline-none"
+                                        placeholder="Confirm Password"
+                                    />
+                                    <button className={`rounded-full ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                        colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                            colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                    colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                        'bg-indigo-500 hover:bg-indigo-600'
+                                        } text-white py-3 shadow-md `}>Register</button>
+                                </form>
+                                <p className="text-center text-xs text-gray-700">
+                                    Don't have an account?
+                                    <span className="text-indigo-500 underline cursor-pointer ml-1">Login</span>
+                                </p>
+
                             </div>
                     }
                 }
