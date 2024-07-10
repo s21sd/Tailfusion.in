@@ -356,7 +356,6 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                     }
                 }
                 return renderComponentDesignForCard();
-
             // For Navbar
             case 1:
                 const renderComponentDesignForNavbar = () => {
@@ -478,7 +477,6 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                     }
                 }
                 return renderComponentDesignForNavbar();
-
             // For Hero Section
             case 2:
                 const renderComponentDesignForHeroSection = () => {
