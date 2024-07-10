@@ -763,8 +763,6 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                 </div>
                             </div>
                     }
-
-
                 }
                 return renderComponentDesignForAuth();
             default:
