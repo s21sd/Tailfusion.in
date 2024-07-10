@@ -29,15 +29,16 @@ const Sidebar = () => {
                                 <li onClick={() => router.push('/components/blocks/navbars')} className=" rounded-lg mt-2 cursor-pointer sm:justify-start flex items-center justify-center active">
                                     <span className="ml-3 hidden sm:block font-semibold tracking-wide transition-colors hover:text-[#fff2c1]">Navbar</span>
                                 </li>
+                                <li className=" rounded-lg mt-2 cursor-pointer sm:justify-start flex items-center justify-center active" onClick={() => router.push('/components/blocks/footers')}>
+                                    <span className="ml-3 hidden sm:block font-semibold tracking-wide transition-colors hover:text-[#fff2c1]">Footers</span>
+                                </li>
                                 <li className=" rounded-lg mt-2 cursor-pointer sm:justify-start flex items-center justify-center active">
                                     <span className="ml-3 hidden sm:block font-semibold tracking-wide transition-colors hover:text-[#fff2c1]">Buttons</span>
                                 </li>
                                 <li className=" rounded-lg mt-2 cursor-pointer sm:justify-start flex items-center justify-center active">
                                     <span className="ml-3 hidden sm:block font-semibold tracking-wide transition-colors hover:text-[#fff2c1]">Hero</span>
                                 </li>
-                                <li className=" rounded-lg mt-2 cursor-pointer sm:justify-start flex items-center justify-center active">
-                                    <span className="ml-3 hidden sm:block font-semibold tracking-wide transition-colors hover:text-[#fff2c1]">Footer</span>
-                                </li>
+                                
                                 <li className=" rounded-lg mt-2 cursor-pointer sm:justify-start flex items-center justify-center active">
                                     <span className="ml-3 hidden sm:block font-semibold tracking-wide transition-colors hover:text-[#fff2c1]">Navbar</span>
                                 </li>
