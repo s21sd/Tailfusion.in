@@ -52,7 +52,7 @@ export const content = [
             "Accessibility: Designed with accessibility best practices to ensure all users can navigate your site effectively.",
         ]
     },
-    // This is for the Hero Section component code 3
+    // This is for the Hero Section component code 2
     {
         title: "Hero Section",
         description: "The hero section is a prominent component at the top of your webpage, designed to capture the user's attention with a compelling message, image, or call to action. Our hero section is built to be visually appealing and highly functional, providing a strong introduction to your website's content.",
@@ -86,6 +86,38 @@ export const content = [
             "Brand Consistency: Customize the hero section to align with your brand's colors, fonts, and overall aesthetic.",
             "Improved User Experience: A well-designed hero section enhances navigation and guides users toward key actions or information."
         ]
+    },
+    // This is for the Auth Section component code 3
+    {
+        "title": "Auth",
+        "description": "The Auth Page is an essential component for user authentication, offering secure and user-friendly forms for login, signup, and other authentication-related interactions. Our Auth Page is designed to provide a seamless experience, ensuring users can easily access their accounts and interact with your website.",
+        "sections": [
+            {
+                "title": "Login Form",
+                "description": "A user-friendly form that allows existing users to securely log in with their credentials."
+            },
+            {
+                "title": "Signup Form",
+                "description": "A straightforward form for new users to create an account by providing their necessary details."
+            },
+            {
+                "title": "Contact Form",
+                "description": "A form that enables users to get in touch with your support team for any queries or assistance."
+            },
+        ],
+        "features": [
+            "Responsive Design: Ensures the auth page looks great and functions well on all devices, from desktops to mobile phones.",
+            "Customizable Layout: Easily adjust the layout, fields, and styles to suit your specific needs and branding.",
+            "Secure Authentication: Implements industry-standard security measures to protect user data and ensure safe authentication.",
+            "Accessibility: Designed with accessibility in mind to ensure all users can interact with the forms and authentication processes."
+        ],
+        "benefits": [
+            "Enhanced Security: Provides secure authentication mechanisms to protect user accounts and data.",
+            "Improved User Experience: A well-designed auth page offers a smooth and intuitive experience for users logging in or signing up.",
+            "Increased User Engagement: Encourages users to interact with your site by making authentication processes simple and hassle-free.",
+            "Brand Consistency: Customize the auth page to align with your brand's colors, fonts, and overall aesthetic, creating a cohesive user experience."
+        ]
     }
+
 
 ];

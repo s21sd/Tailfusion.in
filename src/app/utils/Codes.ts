@@ -2674,3 +2674,400 @@ export const designCodeForHeroSection: any = [
     },
   ]
 ]
+
+// this is the design code for the auth section I have component code 3 
+export const designCodeForAuth: any = [
+  [
+    {
+      Tailwind: `<section className="text-gray-600 flex justify-between items-center body-font">
+                                <div className="w-[50%]">
+                                    <img className="w-full h-[500px] object-cover object-center" src="https://dummyimage.com/520x400" alt="blog" />
+                                </div>
+                                <div className="container w-[50%] px-5 py-24 mx-auto flex">
+                                    <div className="bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 shadow-md">
+                                        <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+                                        <p className="leading-relaxed mb-5 text-gray-600">Let us know how we can improve!</p>
+                                        <div className=" mb-4">
+                                            <label htmlFor="email" className="leading-7 text-sm text-gray-600">Company Email</label>
+                                            <input type="email" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                        </div>
+                                        <div className="mb-4">
+                                            <label htmlFor="message" className="leading-7 text-sm text-gray-600">How Can We Help You?</label>
+                                            <textarea id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                                        </div>
+                                        <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+                                        <p className="text-xs text-end text-gray-500 mt-3">We value your feedback!</p>
+                                    </div>
+                                </div>
+                </section>`
+    },
+    {
+      Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Section</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .feedback-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 35px;
+            font-family: Arial, sans-serif;
+        }
+
+        .feedback-image {
+            width: 50%;
+        }
+
+        .feedback-image img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .feedback-form-container {
+            border: 1px solid gray;
+            border-radius: 12px;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            padding: 32px;
+        }
+
+        .feedback-form {
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        .feedback-title {
+            color: #333;
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .feedback-description {
+            color: #666;
+            font-size: 1rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .feedback-input {
+            margin-bottom: 1rem;
+        }
+
+        .feedback-label {
+            font-size: 0.875rem;
+            color: #666;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .feedback-field {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 0.625rem;
+            width: 100%;
+            outline: none;
+            transition: border-color 0.2s ease-in-out;
+            font-size: 1rem;
+            color: #333;
+            resize: none;
+        }
+
+        .feedback-field:focus {
+            border-color: #4f46e5;
+        }
+
+        .feedback-button {
+            background-color: #4f46e5;
+            color: #fff;
+            border: none;
+            padding: 0.625rem 1.25rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out;
+            font-size: 1rem;
+        }
+
+        .feedback-button:hover {
+            background-color: #3730a3;
+        }
+
+        .feedback-disclaimer {
+            text-align: right;
+            font-size: 0.75rem;
+            color: #999;
+            margin-top: 1.25rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="feedback-container">
+        <div class="feedback-image">
+            <img src="https://dummyimage.com/520x400" alt="blog" />
+        </div>
+        <div class="feedback-form-container">
+            <div class="feedback-form bg-white rounded-lg p-8 flex flex-col shadow-md">
+                <h2 class="feedback-title">Feedback</h2>
+                <p class="feedback-description">Let us know how we can improve!</p>
+                <div class="feedback-input">
+                    <label for="email" class="feedback-label">Company Email</label>
+                    <input type="email" id="email" name="email" class="feedback-field">
+                </div>
+                <div class="feedback-input">
+                    <label for="message" class="feedback-label">How Can We Help You?</label>
+                    <textarea id="message" name="message" class="feedback-field h-32"></textarea>
+                </div>
+                <button class="feedback-button">Submit</button>
+                <p class="feedback-disclaimer">We value your feedback!</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
+    },
+  ],
+  [
+    {
+      Tailwind: `<div className="w-80 mx-auto h-128 bg-black shadow-lg rounded-lg p-8">
+                                <p className="text-center font-sans text-2xl font-extrabold my-2 mb-8">Welcome back</p>
+                                <form className="flex flex-col gap-4 mb-4">
+                                    <input
+                                        type="email"
+                                        className="rounded-full border border-gray-300 px-4 py-3 outline-none"
+                                        placeholder="Email"
+                                    />
+                                    <input
+                                        type="password"
+                                        className="rounded-full border border-gray-300 px-4 py-3 outline-none"
+                                        placeholder="Password"
+                                    />
+                                    <p className="text-right text-sm text-gray-500 underline cursor-pointer">Forgot Password?</p>
+                                    <button className="rounded-full bg-indigo-500 hover:bg-indigo-600 text-white py-3 shadow-md ">Log in</button>
+                                </form>
+                                <p className="text-center text-xs text-gray-500">
+                                    Don't have an account?
+                                    <span className="text-indigo-500 underline cursor-pointer ml-1">Sign up</span>
+                                </p>
+                                <div className="flex flex-col gap-4 mt-5">
+                                    <div className="flex items-center justify-center bg-black border border-gray-500  text-white rounded-full py-3 shadow-md cursor-pointer">
+                                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" className="text-xl mr-2" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M747.4 535.7c-.4-68.2 30.5-119.6 92.9-157.5-34.9-50-87.7-77.5-157.3-82.8-65.9-5.2-138 38.4-164.4 38.4-27.9 0-91.7-36.6-141.9-36.6C273.1 298.8 163 379.8 163 544.6c0 48.7 8.9 99 26.7 150.8 23.8 68.2 109.6 235.3 199.1 232.6 46.8-1.1 79.9-33.2 140.8-33.2 59.1 0 89.7 33.2 141.9 33.2 90.3-1.3 167.9-153.2 190.5-221.6-121.1-57.1-114.6-167.2-114.6-170.7zm-105.1-305c50.7-60.2 46.1-115 44.6-134.7-44.8 2.6-96.6 30.5-126.1 64.8-32.5 36.8-51.6 82.3-47.5 133.6 48.4 3.7 92.6-21.2 129-63.7z"></path>
+                                        </svg>
+                                        <span>Log in with Apple</span>
+                                    </div>
+                                    <div className="flex items-center justify-center border border-gray-500 rounded-full py-3 shadow-md cursor-pointer">
+                                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" version="1.1" x="0px" y="0px" className="text-xl mr-2" viewBox="0 0 48 48" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="#FFC107" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"></path>
+                                            <path fill="#FF3D00" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"></path>
+                                            <path fill="#4CAF50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"></path>
+                                            <path fill="#1976D2" d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"></path>
+                                        </svg>
+                                        <span>Log in with Google</span>
+                                    </div>
+                                </div>
+                            </div>`
+    },
+    {
+      Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        .form-container {
+            width: 350px;
+            height: 500px;
+            background-color: #fff;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 10px;
+            margin: auto;
+            box-sizing: border-box;
+            padding: 20px 30px;
+        }
+
+        .title {
+            text-align: center;
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+                "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+            margin: 10px 0 30px 0;
+            font-size: 28px;
+            font-weight: 800;
+        }
+
+        .form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            margin-bottom: 15px;
+        }
+
+        .input {
+            border-radius: 20px;
+            border: 1px solid #c0c0c0;
+            outline: 0 !important;
+            box-sizing: border-box;
+            padding: 12px 15px;
+        }
+
+        .page-link {
+            text-decoration: underline;
+            margin: 0;
+            text-align: end;
+            color: #747474;
+            text-decoration-color: #747474;
+        }
+
+        .page-link-label {
+            cursor: pointer;
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+                "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+            font-size: 9px;
+            font-weight: 700;
+        }
+
+        .page-link-label:hover {
+            color: #000;
+        }
+
+        .form-btn {
+            padding: 10px 15px;
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+                "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+            border-radius: 20px;
+            border: 0 !important;
+            outline: 0 !important;
+            background: rgb(168, 93, 223);
+            color: white;
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+        .form-btn:active {
+            box-shadow: none;
+        }
+
+        .sign-up-label {
+            margin: 0;
+            font-size: 10px;
+            color: #747474;
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+                "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        }
+
+        .sign-up-link {
+            margin-left: 1px;
+            font-size: 11px;
+            text-decoration: underline;
+            text-decoration-color: teal;
+            color: rgb(160, 28, 255);
+            cursor: pointer;
+            font-weight: 800;
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+                "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        }
+
+        .buttons-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin-top: 20px;
+            gap: 15px;
+        }
+
+        .apple-login-button,
+        .google-login-button {
+            border-radius: 20px;
+            box-sizing: border-box;
+            padding: 10px 15px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+                rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+                "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+            font-size: 11px;
+            gap: 5px;
+        }
+
+        .apple-login-button {
+            background-color: #000;
+            color: #fff;
+            border: 2px solid #000;
+        }
+
+        .google-login-button {
+            border: 2px solid #747474;
+        }
+
+        .apple-icon,
+        .google-icon {
+            font-size: 18px;
+            margin-bottom: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <p class="title">Welcome back</p>
+        <form class="form">
+            <input type="email" class="input" placeholder="Email">
+            <input type="password" class="input" placeholder="Password">
+            <p class="page-link">
+                <span class="page-link-label">Forgot Password?</span>
+            </p>
+            <button class="form-btn">Log in</button>
+        </form>
+        <p class="sign-up-label">
+            Don't have an account?<span class="sign-up-link">Sign up</span>
+        </p>
+        <div class="buttons-container">
+            <div class="apple-login-button">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" class="apple-icon"
+                    viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M747.4 535.7c-.4-68.2 30.5-119.6 92.9-157.5-34.9-50-87.7-77.5-157.3-82.8-65.9-5.2-138 38.4-164.4 38.4-27.9 0-91.7-36.6-141.9-36.6C273.1 298.8 163 379.8 163 544.6c0 48.7 8.9 99 26.7 150.8 23.8 68.2 109.6 235.3 199.1 232.6 46.8-1.1 79.9-33.2 140.8-33.2 59.1 0 89.7 33.2 141.9 33.2 90.3-1.3 167.9-153.2 190.5-221.6-121.1-57.1-114.6-167.2-114.6-170.7zm-105.1-305c50.7-60.2 46.1-115 44.6-134.7-44.8 2.6-96.6 30.5-126.1 64.8-32.5 36.8-51.6 82.3-47.5 133.6 48.4 3.7 92.6-21.2 129-63.7z">
+                    </path>
+                </svg>
+                <span>Log in with Apple</span>
+            </div>
+            <div class="google-login-button">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1" x="0px" y="0px"
+                    class="google-icon" viewBox="0 0 48 48" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#FFC107" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12
+      c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24
+      c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"></path>
+                    <path fill="#FF3D00" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657
+      C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"></path>
+                    <path fill="#4CAF50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36
+      c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"></path>
+                    <path fill="#1976D2" d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571
+      c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z">
+                    </path>
+                </svg>
+                <span>Log in with Google</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>`
+    },
+  ],
+]
