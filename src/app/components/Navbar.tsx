@@ -18,6 +18,7 @@ const Navbar = () => {
           <div className="md:mr-auto md:ml-4 md:py-1 md:pl-4	flex flex-wrap items-center text-base justify-center  text-gray-400">
             <h1 onClick={() => router.push('/docs')} className="mr-5 hover:text-[#fff2c1]">Docs</h1>
             <h1 onClick={() => router.push('/components/blocks/cards')} className="mr-5 hover:text-[#fff2c1]">Components</h1>
+            <h1 className="mr-5 hover:text-[#fff2c1]">Feedback</h1>
           </div>
 
           <div className='flex justify-between items-center gap-4'>

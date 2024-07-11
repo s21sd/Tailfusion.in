@@ -117,7 +117,41 @@ export const content = [
       "Increased User Engagement: Encourages users to interact with your site by making authentication processes simple and hassle-free.",
       "Brand Consistency: Customize the auth page to align with your brand's colors, fonts, and overall aesthetic, creating a cohesive user experience."
     ]
+  },
+  // This is for the Content Section Component code 4
+  {
+    "title": "Content",
+    "description": "The content component is designed to present information in an organized and engaging manner, making it easy for users to consume and understand the information on your website. Built with flexibility and usability in mind, our content component provides a consistent and intuitive reading experience.",
+    "sections": [
+      {
+        "title": "Text Blocks",
+        "description": "Organized blocks of text to convey information clearly and effectively, including headings, paragraphs, and lists."
+      },
+      {
+        "title": "Media Integration",
+        "description": "Seamless integration of images, videos, and other media types to enhance the visual appeal and engagement of your content."
+      },
+      {
+        "title": "Interactive Elements",
+        "description": "Incorporate interactive elements such as buttons, links, and forms to make your content more engaging and actionable."
+      }
+    ],
+    "features": [
+      "Responsive Design: Ensures the content adapts seamlessly to different screen sizes for a user-friendly experience.",
+      "Customizable Styling: Easily modify colors, typography, and layout to match your project's branding and design.",
+      "Accessibility: Designed with accessibility best practices to ensure all users can consume your content effectively.",
+      "Media Integration: Support for various media types such as images, videos, and audio for richer content presentation.",
+      "Interactive Elements: Inclusion of interactive components like buttons and forms to enhance user engagement."
+    ],
+    "benefits": [
+      "Enhanced Usability: Improve user experience with clear, well-organized, and accessible content.",
+      "Responsive Design: Ensures the content adapts seamlessly to different screen sizes for a user-friendly experience.",
+      "Customizable Styling: Easily modify colors, typography, and layout to match your project's branding and design.",
+      "Accessibility: Designed with accessibility best practices to ensure all users can consume your content effectively.",
+      "Increased Engagement: Incorporate media and interactive elements to make your content more engaging and dynamic."
+    ]
   }
+
 
 
 ];

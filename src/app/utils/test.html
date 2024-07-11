@@ -4,119 +4,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
+    <title>Join the Community</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        .form-container {
-            width: 350px;
-            height: 500px;
-            background-color: #fff;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            border-radius: 10px;
-            margin: auto;
-            box-sizing: border-box;
-            padding: 20px 30px;
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #718096;
+        }
+
+        .section {
+            padding: 96px 20px;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .subtitle {
+            color: #5a67d8;
+            font-size: 0.75rem;
+            letter-spacing: 0.1em;
+            font-weight: 500;
+            margin-bottom: 4px;
         }
 
         .title {
-            text-align: center;
-            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-                "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-            margin: 10px 0 30px 0;
-            font-size: 28px;
-            font-weight: 800;
+            font-size: 1.875rem;
+            color: #1a202c;
+            margin-bottom: 16px;
         }
 
-        .form {
-            width: 100%;
+        .description {
+            width: 66.666667%;
+            margin: 0 auto;
+            line-height: 1.625;
+            font-size: 1rem;
+        }
+
+        .content {
             display: flex;
-            flex-direction: column;
-            gap: 18px;
-            margin-bottom: 15px;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
 
-        .input {
-            border-radius: 20px;
-            border: 1px solid #c0c0c0;
-            outline: 0 !important;
-            box-sizing: border-box;
-            padding: 12px 15px;
+        .card {
+            width: 22%;
+            padding: 24px 32px;
+            border-left: 2px solid rgba(237, 242, 247, 0.6);
+            margin-bottom: 20px;
         }
 
-        .page-link {
-            text-decoration: underline;
-            margin: 0;
-            text-align: end;
-            color: #747474;
-            text-decoration-color: #747474;
+        .card-title {
+            font-size: 1.125rem;
+            color: #1a202c;
+            font-weight: 500;
+            margin-bottom: 16px;
         }
 
-        .page-link-label {
+        .card-description {
+            line-height: 1.625;
+            font-size: 1rem;
+            margin-bottom: 16px;
+        }
+
+        .card-link {
+            color: #5a67d8;
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .icon {
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.5rem;
+            fill: none;
+            stroke: currentColor;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 2;
+        }
+
+        .main-button {
+            display: block;
+            margin: 64px auto 0;
+            color: #ffffff;
+            background-color: #5a67d8;
+            border: none;
+            padding: 8px 32px;
+            font-size: 1rem;
+            border-radius: 4px;
             cursor: pointer;
-            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-                "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-            font-size: 9px;
-            font-weight: 700;
+            transition: background-color 0.3s;
         }
 
-        .page-link-label:hover {
-            color: #000;
-        }
-
-        .form-btn {
-            padding: 10px 15px;
-            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-                "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-            border-radius: 20px;
-            border: 0 !important;
-            outline: 0 !important;
-            background: rgb(168, 93, 223);
-            color: white;
-            cursor: pointer;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        }
-
-        .form-btn:active {
-            box-shadow: none;
-        }
-
-        .sign-up-label {
-            margin: 10;
-            font-size: 10px;
-            text-align: end;
-            color: #747474;
-            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-                "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-        }
-
-        .sign-up-link {
-            margin-left: 5px;
-            font-size: 11px;
-            text-decoration: underline;
-            text-decoration-color: teal;
-            color: rgb(160, 28, 255);
-            cursor: pointer;
-            font-weight: 800;
-            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-                "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        .main-button:hover {
+            background-color: #4c51bf;
         }
     </style>
 </head>
 
 <body>
-    <div class="form-container">
-        <p class="title">Create Your Account</p>
-        <form class="form">
-            <input type="text" class="input" placeholder="Name">
-            <input type="email" class="input" placeholder="Email">
-            <input type="password" class="input" placeholder="Password">
-            <input type="password" class="input" placeholder="Confirm Password">
-            <button class="form-btn">Register</button>
-        </form>
-        <p class="sign-up-label">
-            Already have an account?<span class="sign-up-link">Login</span>
-        </p>
-
-    </div>
+    <section class="section">
+        <div class="container">
+            <div class="header">
+                <h2 class="subtitle">JOIN THE COMMUNITY</h2>
+                <h1 class="title">Discover New Experiences</h1>
+                <p class="description">
+                    Join us in exploring unique and exciting opportunities. From local events to global adventures, we
+                    bring you the best experiences right at your fingertips.
+                </p>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <h2 class="card-title">Shooting Stars</h2>
+                    <p class="card-description">
+                        Immerse yourself in the beauty of the night sky. Join our stargazing events and learn about the
+                        wonders of the universe.
+                    </p>
+                    <a class="card-link" href="#">
+                        Learn More
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="card">
+                    <h2 class="card-title">The Catalyzer</h2>
+                    <p class="card-description">
+                        Explore innovative ideas and join our workshops to catalyze your creativity and bring your
+                        visions to life.
+                    </p>
+                    <a class="card-link" href="#">
+                        Learn More
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="card">
+                    <h2 class="card-title">Neptune</h2>
+                    <p class="card-description">
+                        Dive into the world of marine life. Join our underwater adventures and discover the hidden
+                        treasures of the ocean.
+                    </p>
+                    <a class="card-link" href="#">
+                        Learn More
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="card">
+                    <h2 class="card-title">Melanchole</h2>
+                    <p class="card-description">
+                        Experience the calming effects of nature. Join our retreat programs and find peace in serene
+                        landscapes.
+                    </p>
+                    <a class="card-link" href="#">
+                        Learn More
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <button class="main-button">Button</button>
+        </div>
+    </section>
 </body>
 
 </html>

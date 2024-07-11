@@ -3230,3 +3230,498 @@ export const designCodeForAuth: any = [
     },
   ],
 ]
+
+
+// This is the design Code for the Content Section I have Component Code 4
+
+export const designCodeForContentSection: any = [
+  [
+    {
+      Tailwind: `<section className="text-gray-600 body-font">
+      <div className="container px-5 py-24 mx-auto">
+        <div className="flex flex-col text-center w-full mb-20">
+          <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">JOIN THE COMMUNITY</h2>
+          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Discover New Experiences</h1>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            Join us in exploring unique and exciting opportunities. From local events to global adventures, we bring you the best experiences right at your fingertips.
+          </p>
+        </div>
+        <div className="flex flex-wrap">
+          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
+            <p className="leading-relaxed text-base mb-4">
+              Immerse yourself in the beauty of the night sky. Join our stargazing events and learn about the wonders of the universe.
+            </p>
+            <a className="text-indigo-500 inline-flex items-center" href="#">
+              Learn More
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">The Catalyzer</h2>
+            <p className="leading-relaxed text-base mb-4">
+              Explore innovative ideas and join our workshops to catalyze your creativity and bring your visions to life.
+            </p>
+            <a className="text-indigo-500 inline-flex items-center" href="#">
+              Learn More
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Neptune</h2>
+            <p className="leading-relaxed text-base mb-4">
+              Dive into the world of marine life. Join our underwater adventures and discover the hidden treasures of the ocean.
+            </p>
+            <a className="text-indigo-500 inline-flex items-center" href="#">
+              Learn More
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+          <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Melanchole</h2>
+            <p className="leading-relaxed text-base mb-4">
+              Experience the calming effects of nature. Join our retreat programs and find peace in serene landscapes.
+            </p>
+            <a className="text-indigo-500 inline-flex items-center" href="#">
+              Learn More
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+          Button
+        </button>
+      </div>
+    </section>`
+    },
+    {
+      Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #718096;
+        }
+
+        .section {
+            padding: 96px 20px;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .subtitle {
+            color: #5a67d8;
+            font-size: 0.75rem;
+            letter-spacing: 0.1em;
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+
+        .title {
+            font-size: 1.875rem;
+            color: #1a202c;
+            margin-bottom: 16px;
+        }
+
+        .description {
+            width: 66.666667%;
+            margin: 0 auto;
+            line-height: 1.625;
+            font-size: 1rem;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .card {
+            width: 22%;
+            padding: 24px 32px;
+            border-left: 2px solid rgba(237, 242, 247, 0.6);
+            margin-bottom: 20px;
+        }
+
+        .card-title {
+            font-size: 1.125rem;
+            color: #1a202c;
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+
+        .card-description {
+            line-height: 1.625;
+            font-size: 1rem;
+            margin-bottom: 16px;
+        }
+
+        .card-link {
+            color: #5a67d8;
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .icon {
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.5rem;
+            fill: none;
+            stroke: currentColor;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 2;
+        }
+
+        .main-button {
+            display: block;
+            margin: 64px auto 0;
+            color: #ffffff;
+            background-color: #5a67d8;
+            border: none;
+            padding: 8px 32px;
+            font-size: 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .main-button:hover {
+            background-color: #4c51bf;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="header">
+                <h2 class="subtitle">JOIN THE COMMUNITY</h2>
+                <h1 class="title">Discover New Experiences</h1>
+                <p class="description">
+                    Join us in exploring unique and exciting opportunities. From local events to global adventures, we
+                    bring you the best experiences right at your fingertips.
+                </p>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <h2 class="card-title">Shooting Stars</h2>
+                    <p class="card-description">
+                        Immerse yourself in the beauty of the night sky. Join our stargazing events and learn about the
+                        wonders of the universe.
+                    </p>
+                    <a class="card-link" href="#">
+                        Learn More
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="card">
+                    <h2 class="card-title">The Catalyzer</h2>
+                    <p class="card-description">
+                        Explore innovative ideas and join our workshops to catalyze your creativity and bring your
+                        visions to life.
+                    </p>
+                    <a class="card-link" href="#">
+                        Learn More
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="card">
+                    <h2 class="card-title">Neptune</h2>
+                    <p class="card-description">
+                        Dive into the world of marine life. Join our underwater adventures and discover the hidden
+                        treasures of the ocean.
+                    </p>
+                    <a class="card-link" href="#">
+                        Learn More
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="card">
+                    <h2 class="card-title">Melanchole</h2>
+                    <p class="card-description">
+                        Experience the calming effects of nature. Join our retreat programs and find peace in serene
+                        landscapes.
+                    </p>
+                    <a class="card-link" href="#">
+                        Learn More
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <button class="main-button">Button</button>
+        </div>
+    </section>
+</body>
+
+</html>`
+    }
+  ],
+  [
+    {
+      Tailwind: `<section className="text-gray-600 body-font">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <div className="flex flex-wrap w-full mb-20">
+                                        <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+                                            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Innovative Solutions for Modern Challenges</h1>
+                                            <div className="h-1 w-20 bg-indigo-500 rounded"></div>
+                                        </div>
+                                        <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">We offer a variety of cutting-edge solutions designed to meet the unique needs of today's fast-paced world. From advanced technology to sustainable practices, our services are tailored to help you succeed.</p>
+                                    </div>
+                                    <div className="flex flex-wrap -m-4">
+                                        <div className="xl:w-1/4 md:w-1/2 p-4">
+                                            <div className="bg-gray-100 p-6 rounded-lg">
+                                                <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="Innovative Technology"/>
+                                                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">TECHNOLOGY</h3>
+                                                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Innovative Technology</h2>
+                                                    <p className="leading-relaxed text-base">Discover the latest advancements in technology designed to improve efficiency and drive success in your business.</p>
+                                            </div>
+                                        </div>
+                                        <div className="xl:w-1/4 md:w-1/2 p-4">
+                                            <div className="bg-gray-100 p-6 rounded-lg">
+                                                <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="Sustainable Solutions"/>
+                                                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUSTAINABILITY</h3>
+                                                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Sustainable Solutions</h2>
+                                                    <p className="leading-relaxed text-base">Implement eco-friendly practices that reduce your environmental impact and promote long-term sustainability.</p>
+                                            </div>
+                                        </div>
+                                        <div className="xl:w-1/4 md:w-1/2 p-4">
+                                            <div className="bg-gray-100 p-6 rounded-lg">
+                                                <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/722x402" alt="Expert Consulting"/>
+                                                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">CONSULTING</h3>
+                                                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Expert Consulting</h2>
+                                                    <p className="leading-relaxed text-base">Benefit from our expertise with personalized consulting services that address your specific challenges and opportunities.</p>
+                                            </div>
+                                        </div>
+                                        <div className="xl:w-1/4 md:w-1/2 p-4">
+                                            <div className="bg-gray-100 p-6 rounded-lg">
+                                                <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="Customized Solutions"/>
+                                                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">CUSTOMIZATION</h3>
+                                                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Customized Solutions</h2>
+                                                    <p className="leading-relaxed text-base">Receive tailored solutions that meet your unique needs and help you achieve your business objectives.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>`
+    },
+    {
+      Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #718096;
+        }
+
+        .section {
+            padding: 96px 20px;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .subtitle {
+            color: #5a67d8;
+            font-size: 0.75rem;
+            letter-spacing: 0.1em;
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+
+        .title {
+            font-size: 1.875rem;
+            color: #1a202c;
+            margin-bottom: 16px;
+        }
+
+        .description {
+            width: 66.666667%;
+            margin: 0 auto;
+            line-height: 1.625;
+            font-size: 1rem;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .card {
+            width: 22%;
+            padding: 24px 32px;
+            border-left: 2px solid rgba(237, 242, 247, 0.6);
+            margin-bottom: 20px;
+        }
+
+        .card-title {
+            font-size: 1.125rem;
+            color: #1a202c;
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+
+        .card-description {
+            line-height: 1.625;
+            font-size: 1rem;
+            margin-bottom: 16px;
+        }
+
+        .card-link {
+            color: #5a67d8;
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .icon {
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.5rem;
+            fill: none;
+            stroke: currentColor;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 2;
+        }
+
+        .main-button {
+            display: block;
+            margin: 64px auto 0;
+            color: #ffffff;
+            background-color: #5a67d8;
+            border: none;
+            padding: 8px 32px;
+            font-size: 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .main-button:hover {
+            background-color: #4c51bf;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="header">
+                <h2 class="subtitle">JOIN THE COMMUNITY</h2>
+                <h1 class="title">Discover New Experiences</h1>
+                <p class="description">
+                    Join us in exploring unique and exciting opportunities. From local events to global adventures, we
+                    bring you the best experiences right at your fingertips.
+                </p>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <h2 class="card-title">Shooting Stars</h2>
+                    <p class="card-description">
+                        Immerse yourself in the beauty of the night sky. Join our stargazing events and learn about the
+                        wonders of the universe.
+                    </p>
+                    <a class="card-link" href="#">
+                        Learn More
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="card">
+                    <h2 class="card-title">The Catalyzer</h2>
+                    <p class="card-description">
+                        Explore innovative ideas and join our workshops to catalyze your creativity and bring your
+                        visions to life.
+                    </p>
+                    <a class="card-link" href="#">
+                        Learn More
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="card">
+                    <h2 class="card-title">Neptune</h2>
+                    <p class="card-description">
+                        Dive into the world of marine life. Join our underwater adventures and discover the hidden
+                        treasures of the ocean.
+                    </p>
+                    <a class="card-link" href="#">
+                        Learn More
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="card">
+                    <h2 class="card-title">Melanchole</h2>
+                    <p class="card-description">
+                        Experience the calming effects of nature. Join our retreat programs and find peace in serene
+                        landscapes.
+                    </p>
+                    <a class="card-link" href="#">
+                        Learn More
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <button class="main-button">Button</button>
+        </div>
+    </section>
+</body>
+
+</html>`
+    }
+  ]
+]
