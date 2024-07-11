@@ -51,7 +51,7 @@ export default function RootLayout({
           {!isLandingPage && (
             !isOpen ? <GiHamburgerMenu
               onClick={toggleSidebar}
-              className="cursor-pointer mt-4"
+              className="cursor-pointer mt-4 ml-2"
               size={40}
               color="#fff2c1"
             />

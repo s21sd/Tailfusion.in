@@ -4,151 +4,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Content</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Profile Section</title>
     <style>
+        /* Global styles */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #F7FAFC;
+            background-color: #F3F4F6;
         }
+
         .section-body {
-            color: #2D3748;
-            padding: 40px 0;
+            padding: 60px 0;
         }
 
         .container {
-            width: 90%;
             max-width: 1200px;
             margin: auto;
+            padding: 0 20px;
         }
 
-        .section-divider {
-            border-bottom: 2px solid #CBD5E0;
-            padding-bottom: 20px;
-            margin-bottom: 20px;
+        .rounded-lg {
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .second_container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 40px;
         }
 
         .content-block {
-            display: flex;
-            flex-wrap: wrap;
-            margin-bottom: 30px;
-            padding: 20px;
-            background-color: #FFFFFF;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 0 12px;
+            text-align: center;
         }
 
-        .info-column {
-            width: 100%;
-            max-width: 80px;
-            margin-bottom: 10px;
+        .user_img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
             display: flex;
-            flex-direction: column;
-            align-items: flex-start;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            background-color: #667EEA;
+            color: #ffffff;
         }
 
-        .category {
+        .user_img svg {
+            width: 30px;
+            height: 30px;
+        }
+
+        .title-font {
             font-weight: 600;
-            color: #667EEA;
-            text-transform: uppercase;
-        }
-
-        .date {
-            font-size: 12px;
-            color: #718096;
-        }
-
-        .text-column {
-            flex-grow: 1;
-            margin-left: 20px;
-        }
-
-        .section-title {
-            font-size: 28px;
-            font-weight: bold;
             color: #2D3748;
-            margin-bottom: 10px;
         }
 
         .section-description {
             line-height: 1.6;
             color: #4A5568;
+            margin-top: 12px;
         }
 
-        .learn-more-link {
+        .arrow_img {
             color: #667EEA;
             display: inline-flex;
             align-items: center;
-            margin-top: 12px;
             text-decoration: none;
+            margin-top: 20px;
         }
 
-        .learn-more-link svg {
-            width: 16px;
-            height: 16px;
-            margin-left: 5px;
-            stroke: currentColor;
+        .arrow_img svg {
+            width: 20px;
+            height: 20px;
+            margin-left: 8px;
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+            .content-block {
+                width: 100%;
+                margin-bottom: 20px;
+            }
         }
     </style>
 </head>
 
 <body>
-    <section class="section-body">
-        <div class="container">
-            <div class="section-divider">
-                <div class="content-block">
-                    <div class="info-column">
-                        <span class="category">BUSINESS</span>
-                        <span class="date">12 Jun 2023</span>
-                    </div>
-                    <div class="text-column">
-                        <h2 class="section-title">Strategic Planning for Business Growth</h2>
-                        <p class="section-description">Explore the key strategies and planning techniques essential for
-                            driving business growth and achieving long-term success in today's competitive market.</p>
-                        <a class="learn-more-link">Learn More
-                            <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none"
-                                strokeLinecap="round" strokeLinejoin="round">
-                                <path d="M5 12h14"></path>
-                                <path d="M12 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
+    <section class="section-body overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="lg:w-4/6 mx-auto">
+                <div class="rounded-lg h-64 overflow-hidden">
+                    <img alt="content" class="object-cover object-center h-full w-full"
+                        src="https://dummyimage.com/1200x500" />
                 </div>
-                <div class="content-block">
-                    <div class="info-column">
-                        <span class="category">TECHNOLOGY</span>
-                        <span class="date">18 Jul 2023</span>
-                    </div>
-                    <div class="text-column">
-                        <h2 class="section-title">Innovations in Artificial Intelligence</h2>
-                        <p class="section-description">Delve into the latest advancements in artificial intelligence and
-                            machine learning, and discover how these technologies are revolutionizing various
-                            industries.</p>
-                        <a class="learn-more-link">Learn More
-                            <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none"
-                                strokeLinecap="round" strokeLinejoin="round">
-                                <path d="M5 12h14"></path>
-                                <path d="M12 5l7 7-7 7"></path>
+                <div class="second_container">
+                    <div class="content-block">
+                        <div class="user_img">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
                             </svg>
-                        </a>
+                        </div>
+                        <div class="flex flex-col items-center text-center justify-center mt-4">
+                            <h2 class="title-font text-lg">John Doe</h2>
+                            <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                            <p class="text-base text-gray-700">Experienced Business Analyst | Strategic Planner</p>
+                        </div>
                     </div>
-                </div>
-                <div class="content-block">
-                    <div class="info-column">
-                        <span class="category">DESIGN</span>
-                        <span class="date">25 Aug 2023</span>
-                    </div>
-                    <div class="text-column">
-                        <h2 class="section-title">Trends in Modern UI/UX Design</h2>
-                        <p class="section-description">Stay updated on the latest trends and best practices in UI/UX
-                            design to create user-centric and visually appealing digital experiences.</p>
-                        <a class="learn-more-link">Learn More
-                            <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none"
-                                strokeLinecap="round" strokeLinejoin="round">
-                                <path d="M5 12h14"></path>
-                                <path d="M12 5l7 7-7 7"></path>
+                    <div class="content-block text-center">
+                        <p class="section-description">Seasoned business analyst with a track record of delivering
+                            strategic insights and solutions that drive business growth. Proven expertise in market
+                            analysis, competitive benchmarking, and strategic planning. Strong analytical skills
+                            combined
+                            with a deep understanding of industry trends and customer behavior.</p>
+                        <a href="#" class="arrow_img">Read More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
                             </svg>
                         </a>
                     </div>

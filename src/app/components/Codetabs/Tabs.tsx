@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Designone from "@/app/Designs/CardsDesign/Designone";
+import Designone from "@/app/Designs/Designone";
 import {
     Tabs,
     TabsContent,
@@ -10,7 +10,7 @@ import { IoPhonePortraitOutline } from "react-icons/io5";
 import { FaLaptopCode } from "react-icons/fa";
 import { MdOutlineTabletMac } from "react-icons/md";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import Codedesign from "@/app/Designs/CardsDesign/Codedesign";
+import Codedesign from "@/app/Designs/Codedesign";
 import { SelectColor } from "./SelectColor";
 import '../../utils/Devices.css';
 import RenderDeviceComponents from '@/app/utils/DevicesComponentsCodeHelper/RenderDeviceComponents';

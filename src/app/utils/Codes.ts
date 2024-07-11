@@ -4781,5 +4781,180 @@ export const designCodeForContentSection: any = [
 
 </html>`
     }
+  ],
+  [
+    {
+      Tailwind: `<section className="text-gray-900 body-font bg-gray-100">
+                                <div className="container px-5 py-24 mx-auto flex flex-col">
+                                    <div className="lg:w-4/6 mx-auto">
+                                        <div className="rounded-lg h-64 overflow-hidden">
+                                            <img alt="content" className="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500"/>
+                                        </div>
+                                        <div className="flex flex-col sm:flex-row mt-10">
+                                            <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+                                                <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-indigo-500 text-gray-900">
+                                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10" viewBox="0 0 24 24">
+                                                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                                        <circle cx="12" cy="7" r="4"></circle>
+                                                    </svg>
+                                                </div>
+                                                <div className="flex flex-col items-center text-center justify-center mt-4">
+                                                    <h2 className="font-medium title-font text-gray-900 text-lg">John Doe</h2>
+                                                    <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                                                    <p className="text-base text-gray-700">Experienced Business Analyst | Strategic Planner</p>
+                                                </div>
+                                            </div>
+                                            <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                                                <p className="leading-relaxed text-lg mb-4">Seasoned business analyst with a track record of delivering strategic insights and solutions that drive business growth. Proven expertise in market analysis, competitive benchmarking, and strategic planning. Strong analytical skills combined with a deep understanding of industry trends and customer behavior.</p>
+                                                <a href="#" className="text-indigo-500 inline-flex items-center">Read More
+                                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>`
+    },
+    {
+      Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Section</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F3F4F6;
+        }
+
+        .section-body {
+            padding: 60px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        .rounded-lg {
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .second_container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .content-block {
+            margin: 0 12px;
+            text-align: center;
+        }
+
+        .user_img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            background-color: #667EEA;
+            color: #ffffff;
+        }
+
+        .user_img svg {
+            width: 30px;
+            height: 30px;
+        }
+
+        .title-font {
+            font-weight: 600;
+            color: #2D3748;
+        }
+
+        .section-description {
+            line-height: 1.6;
+            color: #4A5568;
+            margin-top: 12px;
+        }
+
+        .arrow_img {
+            color: #667EEA;
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+
+        .arrow_img svg {
+            width: 20px;
+            height: 20px;
+            margin-left: 8px;
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+            .content-block {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section-body overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="lg:w-4/6 mx-auto">
+                <div class="rounded-lg h-64 overflow-hidden">
+                    <img alt="content" class="object-cover object-center h-full w-full"
+                        src="https://dummyimage.com/1200x500" />
+                </div>
+                <div class="second_container">
+                    <div class="content-block">
+                        <div class="user_img">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
+                        <div class="flex flex-col items-center text-center justify-center mt-4">
+                            <h2 class="title-font text-lg">John Doe</h2>
+                            <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                            <p class="text-base text-gray-700">Experienced Business Analyst | Strategic Planner</p>
+                        </div>
+                    </div>
+                    <div class="content-block text-center">
+                        <p class="section-description">Seasoned business analyst with a track record of delivering
+                            strategic insights and solutions that drive business growth. Proven expertise in market
+                            analysis, competitive benchmarking, and strategic planning. Strong analytical skills
+                            combined
+                            with a deep understanding of industry trends and customer behavior.</p>
+                        <a href="#" class="arrow_img">Read More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
+    }
   ]
 ]
