@@ -4052,7 +4052,734 @@ export const designCodeForContentSection: any = [
 `
     },
     {
-      Css: ``
+      Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .section-body {
+            color: #4A5568;
+            font-family: 'Arial, sans-serif';
+        }
+
+        .container {
+            padding: 30px 20px;
+            margin: auto;
+        }
+
+        .flex-wrap {
+            display: flex;
+            margin: -10px;
+        }
+
+        .card-wrapper {
+            padding: 10px;
+            width: 100%;
+            max-width: 33.333%;
+        }
+
+        .card {
+            height: 100%;
+            background-color: #F7FAFC;
+            opacity: 0.75;
+            padding: 32px 32px 96px;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            position: relative;
+        }
+
+        .subtitle {
+            letter-spacing: 1.2px;
+            font-size: 12px;
+            font-weight: 500;
+            color: #A0AEC0;
+            margin-bottom: 8px;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: 500;
+            color: #2D3748;
+            margin-bottom: 12px;
+        }
+
+        .description {
+            line-height: 1.5;
+            margin-bottom: 12px;
+        }
+
+        .link {
+            color: #5A67D8;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .icon {
+            width: 16px;
+            height: 16px;
+            margin-left: 8px;
+        }
+
+        .card-footer {
+            text-align: center;
+            margin-top: 16px;
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 16px 0;
+        }
+
+        .footer-item {
+            color: #A0AEC0;
+            margin-right: 12px;
+            display: inline-flex;
+            align-items: center;
+            font-size: 14px;
+            padding-right: 12px;
+            border-right: 2px solid #E2E8F0;
+        }
+
+        .footer-icon {
+            width: 16px;
+            height: 16px;
+            margin-right: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section-body">
+        <div class="container">
+            <div class="flex-wrap">
+                <div class="card-wrapper">
+                    <div class="card">
+                        <h2 class="subtitle">TECHNOLOGY</h2>
+                        <h1 class="title">Cutting-Edge Innovations</h1>
+                        <p class="description">Explore the latest advancements in technology that are shaping the future
+                            of industries worldwide.</p>
+                        <a class="link">Learn More
+                            <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none"
+                                strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <div class="card-footer">
+                            <span class="footer-item">
+                                <svg class="footer-icon" stroke="currentColor" strokeWidth="2" fill="none"
+                                    strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>1.2K
+                            </span>
+                            <span class="footer-item">
+                                <svg class="footer-icon" stroke="currentColor" strokeWidth="2" fill="none"
+                                    strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>6
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <h2 class="subtitle">SUSTAINABILITY</h2>
+                        <h1 class="title">Eco-Friendly Practices</h1>
+                        <p class="description">Discover sustainable solutions that help protect our planet while driving
+                            business success.</p>
+                        <a class="link">Learn More
+                            <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none"
+                                strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <div class="card-footer">
+                            <span class="footer-item">
+                                <svg class="footer-icon" stroke="currentColor" strokeWidth="2" fill="none"
+                                    strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>900
+                            </span>
+                            <span class="footer-item">
+                                <svg class="footer-icon" stroke="currentColor" strokeWidth="2" fill="none"
+                                    strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>4
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <h2 class="subtitle">CONSULTING</h2>
+                        <h1 class="title">Expert Guidance</h1>
+                        <p class="description">Leverage our expertise to navigate complex challenges and seize
+                            opportunities with confidence.</p>
+                        <a class="link">Learn More
+                            <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none"
+                                strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <div class="card-footer">
+                            <span class="footer-item">
+                                <svg class="footer-icon" stroke="currentColor" strokeWidth="2" fill="none"
+                                    strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>750
+                            </span>
+                            <span class="footer-item">
+                                <svg class="footer-icon" stroke="currentColor" strokeWidth="2" fill="none"
+                                    strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>5
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>`
+    }
+  ],
+  [
+    {
+      Tailwind: `<section className="text-gray-600 body-font overflow-hidden">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-wrap -m-12">
+      <div className="p-12 md:w-1/2 flex flex-col items-start">
+        <span className="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">TECHNOLOGY</span>
+        <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Cutting-Edge Innovations in Tech</h2>
+        <p className="leading-relaxed mb-8">Explore the latest advancements in technology that are shaping the future of industries worldwide.</p>
+        <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
+          <a className="text-indigo-500 inline-flex items-center">Learn More
+            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+          <span className="text-gray-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+            <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+              <circle cx="12" cy="12" r="3"></circle>
+            </svg>1.2K
+          </span>
+          <span className="text-gray-400 inline-flex items-center leading-none text-sm">
+            <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+              <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+            </svg>6
+          </span>
+        </div>
+        <a className="inline-flex items-center">
+          <img alt="blog" src="https://dummyimage.com/104x104" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
+          <span className="flex-grow flex flex-col pl-4">
+            <span className="title-font font-medium text-gray-900">Holden Caulfield</span>
+            <span className="text-gray-400 text-xs tracking-widest mt-0.5">UI DEVELOPER</span>
+          </span>
+        </a>
+      </div>
+      <div className="p-12 md:w-1/2 flex flex-col items-start">
+        <span className="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">DESIGN</span>
+        <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Innovative Design Trends</h2>
+        <p className="leading-relaxed mb-8">Discover the cutting-edge design trends that are redefining aesthetics and functionality across various domains.</p>
+        <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
+          <a className="text-indigo-500 inline-flex items-center">Learn More
+            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+          <span className="text-gray-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+            <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+              <circle cx="12" cy="12" r="3"></circle>
+            </svg>1.2K
+          </span>
+          <span className="text-gray-400 inline-flex items-center leading-none text-sm">
+            <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+              <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+            </svg>6
+          </span>
+        </div>
+        <a className="inline-flex items-center">
+          <img alt="blog" src="https://dummyimage.com/103x103" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
+          <span className="flex-grow flex flex-col pl-4">
+            <span className="title-font font-medium text-gray-900">Alper Kamu</span>
+            <span className="text-gray-400 text-xs tracking-widest mt-0.5">DESIGNER</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+`
+    },
+    {
+      Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .section-body {
+            color: #4A5568;
+            font-family: 'Arial, sans-serif';
+        }
+
+        .container {
+            padding: 24px 5px;
+            margin: auto;
+        }
+
+        .flex-wrap {
+            display: flex;
+
+            margin: -12px;
+        }
+
+        .card-wrapper {
+            padding: 12px;
+            width: 100%;
+            max-width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 1px 2px;
+            border-radius: 4px;
+            background-color: #EBF4FF;
+            color: #667EEA;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 1.2px;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: 500;
+            color: blue;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+
+        .description {
+            line-height: 1.5;
+            margin-bottom: 32px;
+        }
+
+        .card-footer {
+            padding-bottom: 16px;
+            margin-bottom: 16px;
+            border-bottom: 2px solid #E2E8F0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .link {
+            color: #667EEA;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .icon {
+            width: 16px;
+            height: 16px;
+            margin-left: 8px;
+        }
+
+        .footer-item {
+            color: #A0AEC0;
+            margin-right: 12px;
+            display: inline-flex;
+            align-items: center;
+            font-size: 14px;
+            padding-right: 12px;
+            border-right: 2px solid #E2E8F0;
+        }
+
+        .footer-icon {
+            width: 16px;
+            height: 16px;
+            margin-right: 4px;
+        }
+
+        .author-link {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .author-img {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .author-details {
+            display: flex;
+            flex-grow: 1;
+            flex-direction: column;
+            padding-left: 16px;
+        }
+
+        .author-name {
+            font-size: 16px;
+            font-weight: 500;
+            color: #2D3748;
+        }
+
+        .author-role {
+            color: #A0AEC0;
+            font-size: 12px;
+            letter-spacing: 1.2px;
+            margin-top: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section-body overflow-hidden">
+        <div class="container">
+            <div class="flex-wrap">
+                <div class="card-wrapper">
+                    <span class="badge">TECHNOLOGY</span>
+                    <h2 class="title">Cutting-Edge Innovations in Tech</h2>
+                    <p class="description">Explore the latest advancements in technology that are shaping the future of
+                        industries worldwide.</p>
+                    <div class="card-footer mt-auto">
+                        <a class="link">Learn More
+                            <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none"
+                                strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <div>
+
+                            <span class="footer-item">
+                                <svg class="footer-icon" stroke="currentColor" strokeWidth="2" fill="none"
+                                    strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>1.2K
+                            </span>
+                            <span class="footer-item">
+                                <svg class="footer-icon" stroke="currentColor" strokeWidth="2" fill="none"
+                                    strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>6
+                            </span>
+                        </div>
+                    </div>
+                    <a class="author-link">
+                        <img alt="blog" src="https://dummyimage.com/104x104" class="author-img" />
+                        <span class="author-details">
+                            <span class="author-name">Holden Caulfield</span>
+                            <span class="author-role">UI DEVELOPER</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="card-wrapper">
+                    <span class="badge">DESIGN</span>
+                    <h2 class="title">Innovative Design Trends</h2>
+                    <p class="description">Discover the cutting-edge design trends that are redefining aesthetics and
+                        functionality across various domains.</p>
+                    <div class="card-footer mt-auto">
+                        <a class="link">Learn More
+                            <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none"
+                                strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <div>
+                            <span class="footer-item">
+                                <svg class="footer-icon" stroke="currentColor" strokeWidth="2" fill="none"
+                                    strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>1.2K
+                            </span>
+                            <span class="footer-item">
+                                <svg class="footer-icon" stroke="currentColor" strokeWidth="2" fill="none"
+                                    strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>6
+                            </span>
+                        </div>
+                    </div>
+                    <a class="author-link">
+                        <img alt="blog" src="https://dummyimage.com/103x103" class="author-img" />
+                        <span class="author-details">
+                            <span class="author-name">Alper Kamu</span>
+                            <span class="author-role">DESIGNER</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>`
+    }
+  ],
+  [
+    {
+      Tailwind: `<section className="text-gray-600 body-font overflow-hidden">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="-my-8 divide-y-2 divide-gray-100">
+      <div className="py-8 flex flex-wrap md:flex-nowrap">
+        <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+          <span className="font-semibold title-font text-gray-700">BUSINESS</span>
+          <span className="mt-1 text-gray-500 text-sm">12 Jun 2023</span>
+        </div>
+        <div className="md:flex-grow">
+          <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Strategic Planning for Business Growth</h2>
+          <p className="leading-relaxed">Explore the key strategies and planning techniques essential for driving business growth and achieving long-term success in today's competitive market.</p>
+          <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
+            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div className="py-8 flex flex-wrap md:flex-nowrap">
+        <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+          <span className="font-semibold title-font text-gray-700">TECHNOLOGY</span>
+          <span className="mt-1 text-gray-500 text-sm">18 Jul 2023</span>
+        </div>
+        <div className="md:flex-grow">
+          <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Innovations in Artificial Intelligence</h2>
+          <p className="leading-relaxed">Delve into the latest advancements in artificial intelligence and machine learning, and discover how these technologies are revolutionizing various industries.</p>
+          <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
+            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div className="py-8 flex flex-wrap md:flex-nowrap">
+        <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+          <span className="font-semibold title-font text-gray-700">DESIGN</span>
+          <span className="text-sm text-gray-500">25 Aug 2023</span>
+        </div>
+        <div className="md:flex-grow">
+          <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Trends in Modern UI/UX Design</h2>
+          <p className="leading-relaxed">Stay updated on the latest trends and best practices in UI/UX design to create user-centric and visually appealing digital experiences.</p>
+          <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
+            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`
+    },
+    {
+      Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F7FAFC;
+        }
+        .section-body {
+            color: #2D3748;
+            padding: 40px 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .section-divider {
+            border-bottom: 2px solid #CBD5E0;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .content-block {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-column {
+            width: 100%;
+            max-width: 80px;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .category {
+            font-weight: 600;
+            color: #667EEA;
+            text-transform: uppercase;
+        }
+
+        .date {
+            font-size: 12px;
+            color: #718096;
+        }
+
+        .text-column {
+            flex-grow: 1;
+            margin-left: 20px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2D3748;
+            margin-bottom: 10px;
+        }
+
+        .section-description {
+            line-height: 1.6;
+            color: #4A5568;
+        }
+
+        .learn-more-link {
+            color: #667EEA;
+            display: inline-flex;
+            align-items: center;
+            margin-top: 12px;
+            text-decoration: none;
+        }
+
+        .learn-more-link svg {
+            width: 16px;
+            height: 16px;
+            margin-left: 5px;
+            stroke: currentColor;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section-body">
+        <div class="container">
+            <div class="section-divider">
+                <div class="content-block">
+                    <div class="info-column">
+                        <span class="category">BUSINESS</span>
+                        <span class="date">12 Jun 2023</span>
+                    </div>
+                    <div class="text-column">
+                        <h2 class="section-title">Strategic Planning for Business Growth</h2>
+                        <p class="section-description">Explore the key strategies and planning techniques essential for
+                            driving business growth and achieving long-term success in today's competitive market.</p>
+                        <a class="learn-more-link">Learn More
+                            <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none"
+                                strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="content-block">
+                    <div class="info-column">
+                        <span class="category">TECHNOLOGY</span>
+                        <span class="date">18 Jul 2023</span>
+                    </div>
+                    <div class="text-column">
+                        <h2 class="section-title">Innovations in Artificial Intelligence</h2>
+                        <p class="section-description">Delve into the latest advancements in artificial intelligence and
+                            machine learning, and discover how these technologies are revolutionizing various
+                            industries.</p>
+                        <a class="learn-more-link">Learn More
+                            <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none"
+                                strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="content-block">
+                    <div class="info-column">
+                        <span class="category">DESIGN</span>
+                        <span class="date">25 Aug 2023</span>
+                    </div>
+                    <div class="text-column">
+                        <h2 class="section-title">Trends in Modern UI/UX Design</h2>
+                        <p class="section-description">Stay updated on the latest trends and best practices in UI/UX
+                            design to create user-centric and visually appealing digital experiences.</p>
+                        <a class="learn-more-link">Learn More
+                            <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none"
+                                strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
     }
   ]
 ]

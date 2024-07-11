@@ -121,6 +121,7 @@ const Codedesign = ({ valueOfTheComponent, value }: { valueOfTheComponent: numbe
                     </div>
                 }
                 return renderTheCodeBlockForNavbar();
+            // This is for the Hero Section
             case 2:
                 const renderComponentDesignForHeroSection = () => {
                     return <div className="relative p-4">
@@ -170,6 +171,7 @@ const Codedesign = ({ valueOfTheComponent, value }: { valueOfTheComponent: numbe
                     </div>
                 }
                 return renderComponentDesignForHeroSection();
+            // This is for the auth Cards
             case 3:
                 const renderComponentDesignForAuth = () => {
                     return <div className="relative p-4">

@@ -4,184 +4,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Solutions for Modern Challenges</title>
+    <title>Content</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            color: #4a5568;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #F7FAFC;
+        }
+        .section-body {
+            color: #2D3748;
+            padding: 40px 0;
         }
 
         .container {
+            width: 90%;
             max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
+            margin: auto;
         }
 
-        .section-heading {
-            font-size: 2rem;
+        .section-divider {
+            border-bottom: 2px solid #CBD5E0;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .content-block {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-column {
+            width: 100%;
+            max-width: 80px;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .category {
             font-weight: 600;
-            color: #1a202c;
-            margin-bottom: 1rem;
-            text-align: center;
+            color: #667EEA;
+            text-transform: uppercase;
+        }
+
+        .date {
+            font-size: 12px;
+            color: #718096;
+        }
+
+        .text-column {
+            flex-grow: 1;
+            margin-left: 20px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2D3748;
+            margin-bottom: 10px;
         }
 
         .section-description {
-            line-height: 1.75;
-            color: #6b7280;
-            text-align: center;
-            margin-bottom: 2rem;
+            line-height: 1.6;
+            color: #4A5568;
         }
 
-        .cards-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
-
-        .card {
-            border: 1px solid #e2e8f0;
-            padding: 1.5rem;
-            border-radius: 0.5rem;
-            width: calc(33.33% - 20px);
-            text-align: center;
-            transition: transform 0.3s ease;
-            background-color: #ffffff;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        }
-
-        .icon {
-            width: 40px;
-            height: 40px;
+        .learn-more-link {
+            color: #667EEA;
             display: inline-flex;
             align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            background-color: #edf2f7;
-            margin-bottom: 1rem;
+            margin-top: 12px;
+            text-decoration: none;
         }
 
-        .icon svg {
-            width: 24px;
-            height: 24px;
+        .learn-more-link svg {
+            width: 16px;
+            height: 16px;
+            margin-left: 5px;
             stroke: currentColor;
-            stroke-width: 2;
-            fill: none;
-        }
-
-        .card-title {
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: #2d3748;
-            margin-bottom: 0.5rem;
-        }
-
-        .card-description {
-            font-size: 1rem;
-            line-height: 1.5;
-            color: #4a5568;
-        }
-
-        .cta-button {
-            display: inline-block;
-            justify-content: center;
-            align-items: center;
-            background-color: #4c51bf;
-            color: #ffffff;
-            border: none;
-            padding: 12px 24px;
-            font-size: 1rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-
-        }
-
-        .cta-button:hover {
-            background-color: #667eea;
         }
     </style>
 </head>
 
 <body>
-    <section class="text-gray-600 body-font">
+    <section class="section-body">
         <div class="container">
-            <div class="flex flex-wrap w-full mb-20 flex-col items-center">
-                <h1 class="section-heading sm:text-3xl text-2xl font-medium mb-2">Dynamic Solutions for Modern
-                    Challenges</h1>
-                <p class="section-description lg:w-1/2 w-full leading-relaxed">Explore our range of innovative solutions
-                    designed to tackle contemporary challenges with creativity and efficiency.</p>
-            </div>
-            <div class="flex cards-container">
-                <div class="card xl:w-1/3 md:w-1/2 p-4">
-                    <div class="icon">
-                        <svg viewBox="0 0 24 24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
-                            strokeWidth="2" class="w-6 h-6">
-                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                        </svg>
+            <div class="section-divider">
+                <div class="content-block">
+                    <div class="info-column">
+                        <span class="category">BUSINESS</span>
+                        <span class="date">12 Jun 2023</span>
                     </div>
-                    <h2 class="card-title text-lg font-medium mb-2">Innovative Ideas</h2>
-                    <p class="card-description leading-relaxed">Explore new ideas and concepts to stay ahead in a
-                        rapidly evolving market.</p>
+                    <div class="text-column">
+                        <h2 class="section-title">Strategic Planning for Business Growth</h2>
+                        <p class="section-description">Explore the key strategies and planning techniques essential for
+                            driving business growth and achieving long-term success in today's competitive market.</p>
+                        <a class="learn-more-link">Learn More
+                            <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none"
+                                strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
-                <div class="card xl:w-1/3 md:w-1/2 p-4">
-                    <div class="icon">
-                        <svg viewBox="0 0 24 24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
-                            strokeWidth="2" class="w-6 h-6">
-                            <circle cx="6" cy="6" r="3"></circle>
-                            <circle cx="6" cy="18" r="3"></circle>
-                            <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-                        </svg>
+                <div class="content-block">
+                    <div class="info-column">
+                        <span class="category">TECHNOLOGY</span>
+                        <span class="date">18 Jul 2023</span>
                     </div>
-                    <h2 class="card-title text-lg font-medium mb-2">Strategic Planning</h2>
-                    <p class="card-description leading-relaxed">Effective planning strategies to achieve sustainable
-                        growth and success.</p>
+                    <div class="text-column">
+                        <h2 class="section-title">Innovations in Artificial Intelligence</h2>
+                        <p class="section-description">Delve into the latest advancements in artificial intelligence and
+                            machine learning, and discover how these technologies are revolutionizing various
+                            industries.</p>
+                        <a class="learn-more-link">Learn More
+                            <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none"
+                                strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
-                <div class="card xl:w-1/3 md:w-1/2 p-4">
-                    <div class="icon">
-                        <svg viewBox="0 0 24 24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
-                            strokeWidth="2" class="w-6 h-6">
-                            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                            <circle cx="12" cy="7" r="4"></circle>
-                        </svg>
+                <div class="content-block">
+                    <div class="info-column">
+                        <span class="category">DESIGN</span>
+                        <span class="date">25 Aug 2023</span>
                     </div>
-                    <h2 class="card-title text-lg font-medium mb-2">Consulting Services</h2>
-                    <p class="card-description leading-relaxed">Expert consulting services tailored to address specific
-                        business challenges and opportunities.</p>
-                </div>
-                <div class="card xl:w-1/3 md:w-1/2 p-4">
-                    <div class="icon">
-                        <svg viewBox="0 0 24 24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
-                            strokeWidth="2" class="w-6 h-6">
-                            <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
-                        </svg>
+                    <div class="text-column">
+                        <h2 class="section-title">Trends in Modern UI/UX Design</h2>
+                        <p class="section-description">Stay updated on the latest trends and best practices in UI/UX
+                            design to create user-centric and visually appealing digital experiences.</p>
+                        <a class="learn-more-link">Learn More
+                            <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none"
+                                strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
                     </div>
-                    <h2 class="card-title text-lg font-medium mb-2">Creative Solutions</h2>
-                    <p class="card-description leading-relaxed">Innovative and creative solutions tailored to meet your
-                        business challenges.</p>
-                </div>
-                <div class="card xl:w-1/3 md:w-1/2 p-4">
-                    <div class="icon">
-                        <svg viewBox="0 0 24 24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
-                            strokeWidth="2" class="w-6 h-6">
-                            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
-                        </svg>
-                    </div>
-                    <h2 class="card-title text-lg font-medium mb-2">Customer Satisfaction</h2>
-                    <p class="card-description leading-relaxed">Dedicated to delivering solutions that exceed customer
-                        expectations.</p>
                 </div>
             </div>
-            <button class="cta-button mx-auto mt-16">Learn More</button>
         </div>
     </section>
 </body>
