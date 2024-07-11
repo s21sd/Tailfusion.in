@@ -3544,184 +3544,515 @@ export const designCodeForContentSection: any = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Community</title>
+    <title>Join the Community</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
-            color: #718096;
-        }
-
-        .section {
-            padding: 96px 20px;
-            background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+            color: #4a5568;
+            margin: 0;
+            padding: 0;
         }
 
         .container {
-            max-width: 1140px;
+            max-width: 1200px;
             margin: 0 auto;
+            padding: 20px;
         }
 
-        .header {
-            text-align: center;
-            margin-bottom: 80px;
-        }
-
-        .subtitle {
-            color: #5a67d8;
-            font-size: 0.75rem;
-            letter-spacing: 0.1em;
-            font-weight: 500;
-            margin-bottom: 4px;
-        }
-
-        .title {
-            font-size: 1.875rem;
+        .section-title {
+            font-size: 2rem;
+            font-weight: 600;
             color: #1a202c;
-            margin-bottom: 16px;
+            margin-bottom: 1rem;
+        }
+
+        .divider {
+            width: 20px;
+            height: 2px;
+            background-color: #4c51bf;
+            border-radius: 4px;
+            margin-bottom: 1rem;
         }
 
         .description {
-            width: 66.666667%;
-            margin: 0 auto;
-            line-height: 1.625;
-            font-size: 1rem;
+            line-height: 1.75;
+            color: #6b7280;
         }
 
-        .content {
+        .cards-container {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
+            gap: 20px;
+            margin-top: 20px;
         }
 
-        .card {
-            width: 22%;
-            padding: 24px 32px;
-            border-left: 2px solid rgba(237, 242, 247, 0.6);
+        .custom-card {
+            background-color: #f7fafc;
+            padding: 1.5rem;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+            width: calc(50% - 10px);
             margin-bottom: 20px;
         }
 
-        .card-title {
-            font-size: 1.125rem;
-            color: #1a202c;
-            font-weight: 500;
-            margin-bottom: 16px;
+        .custom-card:hover {
+            transform: translateY(-5px);
         }
 
-        .card-description {
-            line-height: 1.625;
+        .custom-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .custom-subtitle {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #667eea;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+
+        .custom-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+        }
+
+        .custom-description {
             font-size: 1rem;
-            margin-bottom: 16px;
-        }
-
-        .card-link {
-            color: #5a67d8;
-            display: inline-flex;
-            align-items: center;
-            text-decoration: none;
-        }
-
-        .icon {
-            width: 1rem;
-            height: 1rem;
-            margin-left: 0.5rem;
-            fill: none;
-            stroke: currentColor;
-            stroke-linecap: round;
-            stroke-linejoin: round;
-            stroke-width: 2;
-        }
-
-        .main-button {
-            display: block;
-            margin: 64px auto 0;
-            color: #ffffff;
-            background-color: #5a67d8;
-            border: none;
-            padding: 8px 32px;
-            font-size: 1rem;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        .main-button:hover {
-            background-color: #4c51bf;
+            color: #4a5568;
+            line-height: 1.5;
         }
     </style>
 </head>
 
 <body>
-    <section class="section">
+    <section class="text-gray-600 body-font">
         <div class="container">
-            <div class="header">
-                <h2 class="subtitle">JOIN THE COMMUNITY</h2>
-                <h1 class="title">Discover New Experiences</h1>
-                <p class="description">
-                    Join us in exploring unique and exciting opportunities. From local events to global adventures, we
-                    bring you the best experiences right at your fingertips.
-                </p>
+            <div class="flex w-full mb-6">
+                <div class="lg:w-1/2 w-full">
+                    <h1 class="section-title">Innovative Solutions for Modern Challenges</h1>
+                    <div class="divider bg-indigo-500"></div>
+                </div>
+                <p class="lg:w-1/2 w-full description">We offer a variety of cutting-edge solutions designed to meet the
+                    unique needs of today's fast-paced world. From advanced technology to sustainable practices, our
+                    services are tailored to help you succeed.</p>
             </div>
-            <div class="content">
-                <div class="card">
-                    <h2 class="card-title">Shooting Stars</h2>
-                    <p class="card-description">
-                        Immerse yourself in the beauty of the night sky. Join our stargazing events and learn about the
-                        wonders of the universe.
-                    </p>
-                    <a class="card-link" href="#">
-                        Learn More
-                        <svg class="icon" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
+            <div class="flex cards-container">
+                <div class="custom-card">
+                    <img class="custom-img" src="https://dummyimage.com/720x400" alt="Innovative Technology" />
+                    <div class="custom-text">
+                        <h3 class="custom-subtitle">TECHNOLOGY</h3>
+                        <h2 class="custom-title">Innovative Technology</h2>
+                        <p class="custom-description">Discover the latest advancements in technology designed to improve
+                            efficiency and drive success in your business.</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <h2 class="card-title">The Catalyzer</h2>
-                    <p class="card-description">
-                        Explore innovative ideas and join our workshops to catalyze your creativity and bring your
-                        visions to life.
-                    </p>
-                    <a class="card-link" href="#">
-                        Learn More
-                        <svg class="icon" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
+                <div class="custom-card">
+                    <img class="custom-img" src="https://dummyimage.com/721x401" alt="Sustainable Solutions" />
+                    <div class="custom-text">
+                        <h3 class="custom-subtitle">SUSTAINABILITY</h3>
+                        <h2 class="custom-title">Sustainable Solutions</h2>
+                        <p class="custom-description">Implement eco-friendly practices that reduce your environmental
+                            impact and promote long-term sustainability.</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <h2 class="card-title">Neptune</h2>
-                    <p class="card-description">
-                        Dive into the world of marine life. Join our underwater adventures and discover the hidden
-                        treasures of the ocean.
-                    </p>
-                    <a class="card-link" href="#">
-                        Learn More
-                        <svg class="icon" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
+                <div class="custom-card">
+                    <img class="custom-img" src="https://dummyimage.com/722x402" alt="Expert Consulting" />
+                    <div class="custom-text">
+                        <h3 class="custom-subtitle">CONSULTING</h3>
+                        <h2 class="custom-title">Expert Consulting</h2>
+                        <p class="custom-description">Benefit from our expertise with personalized consulting services
+                            that address your specific challenges and opportunities.</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <h2 class="card-title">Melanchole</h2>
-                    <p class="card-description">
-                        Experience the calming effects of nature. Join our retreat programs and find peace in serene
-                        landscapes.
-                    </p>
-                    <a class="card-link" href="#">
-                        Learn More
-                        <svg class="icon" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
+                <div class="custom-card">
+                    <img class="custom-img" src="https://dummyimage.com/723x403" alt="Customized Solutions" />
+                    <div class="custom-text">
+                        <h3 class="custom-subtitle">CUSTOMIZATION</h3>
+                        <h2 class="custom-title">Customized Solutions</h2>
+                        <p class="custom-description">Receive tailored solutions that meet your unique needs and help
+                            you achieve your business objectives.</p>
+                    </div>
                 </div>
             </div>
-            <button class="main-button">Button</button>
         </div>
     </section>
 </body>
 
 </html>`
+    }
+  ],
+  [
+    {
+      Tailwind: `<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Dynamic Solutions for Modern Challenges</h1>
+      <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Explore our range of innovative solutions designed to tackle contemporary challenges with creativity and efficiency.</p>
+    </div>
+    <div className="flex flex-wrap -m-4">
+      <div className="xl:w-1/3 md:w-1/2 p-4">
+        <div className="border border-gray-200 p-6 rounded-lg">
+          <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Innovative Ideas</h2>
+          <p className="leading-relaxed text-base">Explore new ideas and concepts to stay ahead in a rapidly evolving market.</p>
+        </div>
+      </div>
+      <div className="xl:w-1/3 md:w-1/2 p-4">
+        <div className="border border-gray-200 p-6 rounded-lg">
+          <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
+              <circle cx="6" cy="6" r="3"></circle>
+              <circle cx="6" cy="18" r="3"></circle>
+              <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+            </svg>
+          </div>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Strategic Planning</h2>
+          <p className="leading-relaxed text-base">Effective planning strategies to achieve sustainable growth and success.</p>
+        </div>
+      </div>
+      <div className="xl:w-1/3 md:w-1/2 p-4">
+        <div className="border border-gray-200 p-6 rounded-lg">
+          <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Consulting Services</h2>
+          <p className="leading-relaxed text-base">Expert consulting services tailored to address specific business challenges and opportunities.</p>
+        </div>
+      </div>
+      <div className="xl:w-1/3 md:w-1/2 p-4">
+        <div className="border border-gray-200 p-6 rounded-lg">
+          <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
+            </svg>
+          </div>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Creative Solutions</h2>
+          <p className="leading-relaxed text-base">Innovative and creative solutions tailored to meet your business challenges.</p>
+        </div>
+      </div>
+      <div className="xl:w-1/3 md:w-1/2 p-4">
+        <div className="border border-gray-200 p-6 rounded-lg">
+          <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Quality Assurance</h2>
+          <p className="leading-relaxed text-base">Ensuring quality and reliability through comprehensive assurance practices.</p>
+        </div>
+      </div>
+      <div className="xl:w-1/3 md:w-1/2 p-4">
+        <div className="border border-gray-200 p-6 rounded-lg">
+          <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+            </svg>
+          </div>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Customer Satisfaction</h2>
+          <p className="leading-relaxed text-base">Dedicated to delivering solutions that exceed customer expectations.</p>
+        </div>
+      </div>
+    </div>
+    <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn More</button>
+  </div>
+</section>
+`
+    },
+    {
+      Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Solutions for Modern Challenges</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #4a5568;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section-heading {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .section-description {
+            line-height: 1.75;
+            color: #6b7280;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            border: 1px solid #e2e8f0;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            width: calc(33.33% - 20px);
+            text-align: center;
+            transition: transform 0.3s ease;
+            background-color: #ffffff;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .icon {
+            width: 40px;
+            height: 40px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: #edf2f7;
+            margin-bottom: 1rem;
+        }
+
+        .icon svg {
+            width: 24px;
+            height: 24px;
+            stroke: currentColor;
+            stroke-width: 2;
+            fill: none;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-description {
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #4a5568;
+        }
+
+        .cta-button {
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            background-color: #4c51bf;
+            color: #ffffff;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+        }
+
+        .cta-button:hover {
+            background-color: #667eea;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="text-gray-600 body-font">
+        <div class="container">
+            <div class="flex flex-wrap w-full mb-20 flex-col items-center">
+                <h1 class="section-heading sm:text-3xl text-2xl font-medium mb-2">Dynamic Solutions for Modern
+                    Challenges</h1>
+                <p class="section-description lg:w-1/2 w-full leading-relaxed">Explore our range of innovative solutions
+                    designed to tackle contemporary challenges with creativity and efficiency.</p>
+            </div>
+            <div class="flex cards-container">
+                <div class="card xl:w-1/3 md:w-1/2 p-4">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                            strokeWidth="2" class="w-6 h-6">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                        </svg>
+                    </div>
+                    <h2 class="card-title text-lg font-medium mb-2">Innovative Ideas</h2>
+                    <p class="card-description leading-relaxed">Explore new ideas and concepts to stay ahead in a
+                        rapidly evolving market.</p>
+                </div>
+                <div class="card xl:w-1/3 md:w-1/2 p-4">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                            strokeWidth="2" class="w-6 h-6">
+                            <circle cx="6" cy="6" r="3"></circle>
+                            <circle cx="6" cy="18" r="3"></circle>
+                            <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                        </svg>
+                    </div>
+                    <h2 class="card-title text-lg font-medium mb-2">Strategic Planning</h2>
+                    <p class="card-description leading-relaxed">Effective planning strategies to achieve sustainable
+                        growth and success.</p>
+                </div>
+                <div class="card xl:w-1/3 md:w-1/2 p-4">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                            strokeWidth="2" class="w-6 h-6">
+                            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h2 class="card-title text-lg font-medium mb-2">Consulting Services</h2>
+                    <p class="card-description leading-relaxed">Expert consulting services tailored to address specific
+                        business challenges and opportunities.</p>
+                </div>
+                <div class="card xl:w-1/3 md:w-1/2 p-4">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                            strokeWidth="2" class="w-6 h-6">
+                            <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
+                        </svg>
+                    </div>
+                    <h2 class="card-title text-lg font-medium mb-2">Creative Solutions</h2>
+                    <p class="card-description leading-relaxed">Innovative and creative solutions tailored to meet your
+                        business challenges.</p>
+                </div>
+                <div class="card xl:w-1/3 md:w-1/2 p-4">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                            strokeWidth="2" class="w-6 h-6">
+                            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                        </svg>
+                    </div>
+                    <h2 class="card-title text-lg font-medium mb-2">Customer Satisfaction</h2>
+                    <p class="card-description leading-relaxed">Dedicated to delivering solutions that exceed customer
+                        expectations.</p>
+                </div>
+            </div>
+            <button class="cta-button mx-auto mt-16">Learn More</button>
+        </div>
+    </section>
+</body>
+
+</html>`
+    }
+  ],
+  [
+    {
+      Tailwind: `<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-wrap -m-4">
+      <div className="p-4 lg:w-1/3">
+        <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+          <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">TECHNOLOGY</h2>
+          <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Cutting-Edge Innovations</h1>
+          <p className="leading-relaxed mb-3">Explore the latest advancements in technology that are shaping the future of industries worldwide.</p>
+          <a className="text-indigo-500 inline-flex items-center">Learn More
+            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+          <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+            <span className="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+              <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>1.2K
+            </span>
+            <span className="text-gray-400 inline-flex items-center leading-none text-sm">
+              <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+              </svg>6
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className="p-4 lg:w-1/3">
+        <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+          <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">SUSTAINABILITY</h2>
+          <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Eco-Friendly Practices</h1>
+          <p className="leading-relaxed mb-3">Discover sustainable solutions that help protect our planet while driving business success.</p>
+          <a className="text-indigo-500 inline-flex items-center">Learn More
+            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+          <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+            <span className="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+              <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>900
+            </span>
+            <span className="text-gray-400 inline-flex items-center leading-none text-sm">
+              <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+              </svg>4
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className="p-4 lg:w-1/3">
+        <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+          <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CONSULTING</h2>
+          <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Expert Guidance</h1>
+          <p className="leading-relaxed mb-3">Leverage our expertise to navigate complex challenges and seize opportunities with confidence.</p>
+          <a className="text-indigo-500 inline-flex items-center">Learn More
+            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+          <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+            <span className="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+              <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>750
+            </span>
+            <span className="text-gray-400 inline-flex items-center leading-none text-sm">
+              <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+              </svg>5
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`
+    },
+    {
+      Css: ``
     }
   ]
 ]

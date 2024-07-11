@@ -885,6 +885,180 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                     </div>
                                 </div>
                             </section>
+                        case 2:
+                            return <section className="text-gray-600 body-font">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+                                        <h1 className={`sm:text-3xl text-2xl font-medium title-font mb-2 ${colorClass} `}>Dynamic Solutions for Modern Challenges</h1>
+                                        <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Explore our range of innovative solutions designed to tackle contemporary challenges with creativity and efficiency.</p>
+                                    </div>
+                                    <div className="flex flex-wrap -m-4">
+                                        <div className="xl:w-1/3 md:w-1/2 p-4">
+                                            <div className="border border-gray-200 p-6 rounded-lg">
+                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-500 ${colorClass} mb-4`}>
+                                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
+                                                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                                                    </svg>
+                                                </div>
+                                                <h2 className={`text-lg font-medium ${colorClass} title-font mb-2`}>Innovative Ideas</h2>
+                                                <p className="leading-relaxed text-base">Explore new ideas and concepts to stay ahead in a rapidly evolving market.</p>
+                                            </div>
+                                        </div>
+                                        <div className="xl:w-1/3 md:w-1/2 p-4">
+                                            <div className="border border-gray-200 p-6 rounded-lg">
+                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-500 ${colorClass} mb-4`}>
+                                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
+                                                        <circle cx="6" cy="6" r="3"></circle>
+                                                        <circle cx="6" cy="18" r="3"></circle>
+                                                        <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                                                    </svg>
+                                                </div>
+                                                <h2 className={`text-lg font-medium ${colorClass} title-font mb-2`}>Strategic Planning</h2>
+                                                <p className="leading-relaxed text-base">Effective planning strategies to achieve sustainable growth and success.</p>
+                                            </div>
+                                        </div>
+                                        <div className="xl:w-1/3 md:w-1/2 p-4">
+                                            <div className="border border-gray-200 p-6 rounded-lg">
+                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-500 ${colorClass} mb-4`}>
+                                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
+                                                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                                        <circle cx="12" cy="7" r="4"></circle>
+                                                    </svg>
+                                                </div>
+                                                <h2 className={`text-lg font-medium ${colorClass} title-font mb-2`}>Consulting Services</h2>
+                                                <p className="leading-relaxed text-base">Expert consulting services tailored to address specific business challenges and opportunities.</p>
+                                            </div>
+                                        </div>
+                                        <div className="xl:w-1/3 md:w-1/2 p-4">
+                                            <div className="border border-gray-200 p-6 rounded-lg">
+                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-500 ${colorClass} mb-4`}>
+                                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
+                                                        <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
+                                                    </svg>
+                                                </div>
+                                                <h2 className={`text-lg font-medium ${colorClass} title-font mb-2`}>Creative Solutions</h2>
+                                                <p className="leading-relaxed text-base">Innovative and creative solutions tailored to meet your business challenges.</p>
+                                            </div>
+                                        </div>
+                                        <div className="xl:w-1/3 md:w-1/2 p-4">
+                                            <div className="border border-gray-200 p-6 rounded-lg">
+                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-500 ${colorClass} mb-4`}>
+                                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
+                                                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                                    </svg>
+                                                </div>
+                                                <h2 className={`text-lg font-medium ${colorClass} title-font mb-2`}>Quality Assurance</h2>
+                                                <p className="leading-relaxed text-base">Ensuring quality and reliability through comprehensive assurance practices.</p>
+                                            </div>
+                                        </div>
+                                        <div className="xl:w-1/3 md:w-1/2 p-4">
+                                            <div className="border border-gray-200 p-6 rounded-lg">
+                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-500 ${colorClass} mb-4`}>
+                                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
+                                                        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                                                    </svg>
+                                                </div>
+                                                <h2 className={`text-lg font-medium ${colorClass} title-font mb-2`}>Customer Satisfaction</h2>
+                                                <p className="leading-relaxed text-base">Dedicated to delivering solutions that exceed customer expectations.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button className={`flex mx-auto mt-16 text-white ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                        colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                            colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                    colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                        'bg-indigo-500 hover:bg-indigo-600'
+                                        } border-0 py-2 px-8 focus:outline-none rounded text-lg`}>Learn More</button>
+                                </div>
+                            </section>
+                        case 3:
+                            return <section className="text-gray-900 body-font">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <div className="flex flex-wrap -m-4">
+                                        <div className="p-4 lg:w-1/3">
+                                            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                                                <h2 className="tracking-widest text-xs title-font font-medium mb-1">TECHNOLOGY</h2>
+                                                <h1 className={`title-font sm:text-2xl text-xl font-medium ${colorClass}  mb-3`}>Cutting-Edge Innovations</h1>
+                                                <p className="leading-relaxed mb-3">Explore the latest advancements in technology that are shaping the future of industries worldwide.</p>
+                                                <a className={`${colorClass} inline-flex items-center`}>Learn More
+                                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                        <path d="M5 12h14"></path>
+                                                        <path d="M12 5l7 7-7 7"></path>
+                                                    </svg>
+                                                </a>
+                                                <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                                                    <span className=" mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-500">
+                                                        <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                                            <circle cx="12" cy="12" r="3"></circle>
+                                                        </svg>1.2K
+                                                    </span>
+                                                    <span className=" inline-flex items-center leading-none text-sm">
+                                                        <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                                                        </svg>6
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 lg:w-1/3">
+                                            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                                                <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">SUSTAINABILITY</h2>
+                                                <h1 className={`title-font sm:text-2xl text-xl font-medium ${colorClass}  mb-3`}>Eco-Friendly Practices</h1>
+                                                <p className="leading-relaxed mb-3">Discover sustainable solutions that help protect our planet while driving business success.</p>
+                                                <a className={`${colorClass} inline-flex items-center`}>Learn More
+                                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                        <path d="M5 12h14"></path>
+                                                        <path d="M12 5l7 7-7 7"></path>
+                                                    </svg>
+                                                </a>
+                                                <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                                                    <span className=" mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-500">
+                                                        <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                                            <circle cx="12" cy="12" r="3"></circle>
+                                                        </svg>900
+                                                    </span>
+                                                    <span className=" inline-flex items-center leading-none text-sm">
+                                                        <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                                                        </svg>4
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 lg:w-1/3">
+                                            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                                                <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CONSULTING</h2>
+                                                <h1 className={`title-font sm:text-2xl text-xl font-medium ${colorClass} mb-3`}>Expert Guidance</h1>
+                                                <p className="leading-relaxed mb-3">Leverage our expertise to navigate complex challenges and seize opportunities with confidence.</p>
+                                                <a className={`${colorClass} inline-flex items-center`}>Learn More
+                                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                        <path d="M5 12h14"></path>
+                                                        <path d="M12 5l7 7-7 7"></path>
+                                                    </svg>
+                                                </a>
+                                                <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                                                    <span className=" mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-500">
+                                                        <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                                            <circle cx="12" cy="12" r="3"></circle>
+                                                        </svg>750
+                                                    </span>
+                                                    <span className=" inline-flex items-center leading-none text-sm">
+                                                        <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                                                        </svg>5
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+
                         default:
                             break;
                     }
