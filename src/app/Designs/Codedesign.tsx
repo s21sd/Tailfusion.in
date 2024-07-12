@@ -23,6 +23,7 @@ const Codedesign = ({ valueOfTheComponent, value }: { valueOfTheComponent: numbe
     // Same Thing I will do here With the value of the props I will do it here switch case
     const RenderComponentsBasedOnTheValueOfTheComponent = () => {
         switch (valueOfTheComponent) {
+            // This is for the Card Section
             case 0:
                 const renderTheCodeBlock = () => {
                     return <div className="relative p-4">
@@ -72,6 +73,7 @@ const Codedesign = ({ valueOfTheComponent, value }: { valueOfTheComponent: numbe
                     </div>
                 }
                 return renderTheCodeBlock();
+            // This is for the Navbar Section
             case 1:
                 const renderTheCodeBlockForNavbar = () => {
                     return <div className="relative p-4">
