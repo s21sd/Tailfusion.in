@@ -150,8 +150,41 @@ export const content = [
       "Accessibility: Designed with accessibility best practices to ensure all users can consume your content effectively.",
       "Increased Engagement: Incorporate media and interactive elements to make your content more engaging and dynamic."
     ]
-  }
+  },
 
+  // This is for the Gallery Section Component code 5
+  {
+    "title": "Gallery",
+    "description": "The gallery component is designed to showcase a collection of images, videos, or other media in an organized and visually appealing manner. Built with flexibility and usability in mind, our gallery component provides a consistent and intuitive viewing experience.",
+    "sections": [
+      {
+        "title": "Grid Layouts",
+        "description": "Organized grid layouts to display media in a structured manner, making it easy for users to browse through the content."
+      },
+      {
+        "title": "Carousel Sliders",
+        "description": "Seamless integration of carousel sliders to provide a dynamic and interactive way to view media collections."
+      },
+      {
+        "title": "Lightbox Features",
+        "description": "Incorporate lightbox features to allow users to view media in an enlarged, focused view without leaving the current page."
+      }
+    ],
+    "features": [
+      "Responsive Design: Ensures the gallery adapts seamlessly to different screen sizes for a user-friendly experience.",
+      "Customizable Layouts: Easily modify grid and carousel settings to match your project's branding and design.",
+      "Accessibility: Designed with accessibility best practices to ensure all users can navigate and view the gallery effectively.",
+      "Media Integration: Support for various media types such as images, videos, and audio for richer gallery presentations.",
+      "Interactive Elements: Inclusion of interactive components like sliders and lightbox to enhance user engagement."
+    ],
+    "benefits": [
+      "Enhanced Visual Appeal: Showcase media collections in an organized and visually appealing way to attract and retain user attention.",
+      "Responsive Design: Ensures the gallery adapts seamlessly to different screen sizes for a user-friendly experience.",
+      "Customizable Layouts: Easily modify grid and carousel settings to match your project's branding and design.",
+      "Accessibility: Designed with accessibility best practices to ensure all users can navigate and view the gallery effectively.",
+      "Increased Engagement: Incorporate interactive elements like sliders and lightbox to make the gallery more engaging and dynamic."
+    ]
+  }
 
 
 ];

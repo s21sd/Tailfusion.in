@@ -5228,3 +5228,15 @@ export const designCodeForContentSection: any = [
     }
   ]
 ]
+
+// This is the design code for the Gallery Section I have Component Code 5
+export const designCodeForGallerySection: any = [
+  [
+    {
+      Tailwind: ``
+    },
+    {
+      Css: ``
+    }
+  ]
+]

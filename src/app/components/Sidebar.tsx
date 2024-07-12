@@ -45,8 +45,8 @@ const Sidebar = () => {
                                 <button onClick={() => router.push('/components/blocks/auths')} className=" rounded-lg mt-2 cursor-pointer sm:justify-start flex items-center justify-center active">
                                     <span className="ml-3   font-semibold tracking-wide transition-colors hover:text-[#fff2c1]">Auth</span>
                                 </button>
-                                <button className=" rounded-lg mt-2 cursor-pointer sm:justify-start flex items-center justify-center active">
-                                    <span className="ml-3   font-semibold tracking-wide transition-colors hover:text-[#fff2c1]">Navbar</span>
+                                <button onClick={() => router.push('/components/blocks/gallery')} className=" rounded-lg mt-2 cursor-pointer sm:justify-start flex items-center justify-center active">
+                                    <span className="ml-3   font-semibold tracking-wide transition-colors hover:text-[#fff2c1]">Gallery</span>
                                 </button>
                                 <button className=" rounded-lg mt-2 cursor-pointer sm:justify-start flex items-center justify-center active">
                                     <span className="ml-3   font-semibold tracking-wide transition-colors hover:text-[#fff2c1]">Navbar</span>
