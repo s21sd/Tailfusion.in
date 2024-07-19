@@ -19,7 +19,7 @@ export function TypewriterEffectSmoothDemo() {
         },
         {
             text: "Modern.",
-            className: "text-[#fff2c1]",
+            className: "text-[#fff2c1] dark:text-[#9e4ceb]",
         },
     ];
     return (

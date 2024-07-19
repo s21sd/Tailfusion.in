@@ -1,11 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
+.custom-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 @layer base {
   :root {
+    body {
+      background-color: black;
+    }
+
+    .git_icon_color {
+      color: white;
+    }
+
+    .main_heading {
+      color: #fff2c1;
+    }
+
+
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
@@ -38,6 +60,28 @@
   }
 
   .dark {
+    body {
+      background-color: #ffffff;
+    }
+
+    .git_icon_color {
+      color: black;
+    }
+
+    .main_heading {
+      color: #9e4ceb;
+      border-color: #9e4ceb;
+    }
+
+    .sec_heading {
+      font-weight: 400;
+      color: black;
+    }
+
+    .mycolor2 {
+      color: black;
+    }
+
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
 

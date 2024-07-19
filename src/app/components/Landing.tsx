@@ -13,13 +13,13 @@ const Landing = () => {
     }
     return (
         <div className="container px-5 py-24 mx-auto">
-            <div className='rounded-full cursor-pointer text-white border border-[#fff2c1] w-fit flex justify-center items-center mx-auto p-3'>
-                <h1>Introducing productive templates</h1>
+            <div className='rounded-full cursor-pointer text-white  border border-[#fff2c1] main_heading w-fit flex justify-center items-center mx-auto p-3'>
+                <h1 className='sec_heading'>Introducing productive templates</h1>
             </div>
 
             <div className="flex flex-col text-center w-full mb-10 mt-5">
                 <TypewriterEffectSmoothDemo />
-                <p className="lg:w-[90%] text-xl sm:text-xm mx-auto leading-relaxed mb-1 mycolor text-[#fff2c1]">
+                <p className="lg:w-[90%] text-xl sm:text-xm mx-auto leading-relaxed mb-1 main_heading text-[#fff2c1]">
                     Copy paste the most trending components and use them in your websites without having to worry about styling.
                 </p>
             </div>

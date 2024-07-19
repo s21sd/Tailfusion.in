@@ -9,8 +9,7 @@ import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
-import { RxCross2 } from "react-icons/rx";
-
+import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] });
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -44,21 +43,27 @@ export default function RootLayout({
           "min-h-screen bg-background font-sans antialiased",
           fontSans.variable
         )}
+      ><ThemeProvider
+        attribute="class"
+        defaultTheme="system"
+        enableSystem
+        disableTransitionOnChange
       >
-        <Navbar />
-        <div className="flex">
-          {isOpen && !isLandingPage && <Sidebar toggleSidebar={toggleSidebar} />}
-          {!isLandingPage && (
-            !isOpen && <GiHamburgerMenu
-              onClick={toggleSidebar}
-              className="cursor-pointer fixed ml-2"
-              size={40}
-              color="#fff2c1"
-            />
-          )}
-          <div className="flex-1 p-4">{children}</div>
-        </div>
-        <Footer />
+          <Navbar />
+          <div className="flex">
+            {isOpen && !isLandingPage && <Sidebar toggleSidebar={toggleSidebar} />}
+            {!isLandingPage && (
+              !isOpen && <GiHamburgerMenu
+                onClick={toggleSidebar}
+                className="cursor-pointer fixed ml-2"
+                size={40}
+                color="#fff2c1"
+              />
+            )}
+            <div className="flex-1 p-4">{children}</div>
+          </div>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );
