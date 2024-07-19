@@ -47,21 +47,14 @@ export default function RootLayout({
       >
         <Navbar />
         <div className="flex">
-          {isOpen && !isLandingPage && <Sidebar />}
+          {isOpen && !isLandingPage && <Sidebar toggleSidebar={toggleSidebar} />}
           {!isLandingPage && (
-            !isOpen ? <GiHamburgerMenu
+            !isOpen && <GiHamburgerMenu
               onClick={toggleSidebar}
-              className="cursor-pointer mt-4 ml-2"
+              className="cursor-pointer fixed ml-2"
               size={40}
               color="#fff2c1"
             />
-              : <RxCross2
-                onClick={toggleSidebar}
-                className="cursor-pointer mt-4"
-                size={40}
-                color="#fff2c1"
-              />
-
           )}
           <div className="flex-1 p-4">{children}</div>
         </div>

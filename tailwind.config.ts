@@ -75,7 +75,6 @@ const config = {
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
-
     },
   },
   plugins: [require("tailwindcss-animate")],
