@@ -12,6 +12,6 @@ export const renderColor = (selectColor: string) => {
         case 'orange':
             return 'text-orange-500';
         default:
-            return 'text-[#fff2c1]';
+            return 'text-[#fff2c1] dark:text-[#9e4ceb]';
     }
 };

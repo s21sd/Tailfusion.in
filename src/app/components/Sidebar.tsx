@@ -10,29 +10,29 @@ const Sidebar = ({ toggleSidebar }: any) => {
         window.location.href = "https://github.com/s21sd/Tailfusion.io";
     };
     return (
-        <div className='fixed top-0 shadow-2xl rounded-sm left-0 h-full bg-black z-50 min-h-screen w-80 pt-4'>
+        <div className='fixed top-0 shadow-2xl rounded-sm left-0 h-full bg-black dark:bg-white z-50 min-h-screen w-80 pt-4'>
             <main className="flex flex-col p-4">
                 <div className="">
                     <div className="p-6 font-bold tracking-widest">
                         <div className='flex justify-between items-center'>
-                            <h1 className='text-[#fff2c1] text-xl'>Getting Started</h1>
+                            <h1 className='text-[#fff2c1] text-xl dark:text-[#9e4ceb] '>Getting Started</h1>
                             <RxCross2
-                                className="cursor-pointer "
+                                className="cursor-pointer dark:text-[#9e4ceb] text-[#fff2c1]"
                                 onClick={toggleSidebar}
                                 size={40}
-                                color="#fff2c1"
+                                
                             />
                         </div>
-                        <div className='text-sm text-gray-400 flex flex-col gap-3 mt-4 ml-4 cursor-pointer'>
-                            <div onClick={() => router.push('/components/docs')} className='hover:text-[#fff2c1] hover:ml-2 transition-transform duration-300 ease-out'>Docs</div>
-                            <div onClick={handleClick} className='hover:text-[#fff2c1] hover:ml-2 transition-transform duration-300 ease-out'>GitHub</div>
+                        <div className='text-sm text-gray-400 flex flex-col gap-3 mt-4 ml-4 cursor-pointer dark:text-gray-500'>
+                            <div onClick={() => router.push('/components/docs')} className='hover:text-[#fff2c1] dark:hover:text-[#9e4ceb]   hover:ml-2 transition-transform duration-300 ease-out'>Docs</div>
+                            <div onClick={handleClick} className='hover:text-[#fff2c1] dark:hover:text-[#9e4ceb] hover:ml-2 transition-transform duration-300 ease-out'>GitHub</div>
                         </div>
                     </div>
                     <div className='bg-gray-200 h-[1px] ml-2 '></div>
-                    <h1 className='text-[#fff2c1] text-xl mt-10 pl-6 font-bold tracking-widest'>Build Your Application</h1>
+                    <h1 className='text-[#fff2c1] text-xl mt-10 pl-6 font-bold tracking-widest dark:text-[#9e4ceb]'>Build Your Application</h1>
                     <ScrollArea className="h-screen mt-2 ">
                         <div className="p-6 pt-4">
-                            <div className="mb-5 text-gray-400">
+                            <div className="mb-5 text-gray-400 dark:text-gray-500 ">
                                 {[
                                     { label: 'Cards', route: '/components/blocks/cards' },
                                     { label: 'Navbar', route: '/components/blocks/navbars' },
@@ -62,7 +62,7 @@ const Sidebar = ({ toggleSidebar }: any) => {
                                         onClick={() => router.push(item.route)}
                                         className="rounded-lg mt-2 cursor-pointer sm:justify-start flex items-center justify-center active"
                                     >
-                                        <span className="ml-3 font-semibold tracking-wide hover:text-[#fff2c1] hover:ml-4 transition-transform duration-300 ease-out">
+                                        <span className="ml-3 font-semibold tracking-wide hover:text-[#fff2c1] dark:hover:text-[#9e4ceb]  hover:ml-4 transition-transform duration-300 ease-out">
                                             {item.label}
                                         </span>
                                     </button>

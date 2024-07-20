@@ -55,9 +55,8 @@ export default function RootLayout({
             {!isLandingPage && (
               !isOpen && <GiHamburgerMenu
                 onClick={toggleSidebar}
-                className="cursor-pointer fixed ml-2"
+                className="cursor-pointer fixed ml-2 dark:text-[#9e4ceb] text-[#fff2c1]"
                 size={40}
-                color="#fff2c1"
               />
             )}
             <div className="flex-1 p-4">{children}</div>

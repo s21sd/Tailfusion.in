@@ -14,7 +14,7 @@ export function SelectColor({ handleSelectValueChange }: any) {
 
     return (
         <Select onValueChange={handleSelectValueChange}>
-            <SelectTrigger className="w-[150px]">
+            <SelectTrigger className="w-[150px] text-black dark:text-white">
                 <SelectValue placeholder="Select a theme" />
             </SelectTrigger>
             <SelectContent>
