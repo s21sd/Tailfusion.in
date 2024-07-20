@@ -15,9 +15,9 @@ const Navbar = () => {
         <div className=" mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center cursor-pointer">
           <h1 onClick={() => router.push('/')} className="ml-3 text-2xl font-bold tracking-wide text-[#fff2c1] main_heading">TailFusion</h1>
           <div className="md:mr-auto md:ml-4 md:py-1 md:pl-4	flex flex-wrap items-center text-base justify-center sec_heading text-gray-400">
-            <h1 onClick={() => router.push('/docs')} className="mr-5 hover:text-[#fff2c1]">Docs</h1>
-            <h1 onClick={() => router.push('/components/blocks/cards')} className="mr-5 hover:text-[#fff2c1]">Components</h1>
-            <h1 className="mr-5 hover:text-[#fff2c1]">Feedback</h1>
+            <h1 onClick={() => router.push('/docs')} className="mr-5 hover:text-[#fff2c1] dark:hover:text-[#9e4ceb]">Docs</h1>
+            <h1 onClick={() => router.push('/components/blocks/cards')} className="mr-5 hover:text-[#fff2c1] dark:hover:text-[#9e4ceb]">Components</h1>
+            <h1 className="mr-5 hover:text-[#fff2c1] dark:hover:text-[#9e4ceb]">Feedback</h1>
           </div>
 
           <div className='flex justify-between items-center gap-4'>

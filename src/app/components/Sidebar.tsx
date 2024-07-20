@@ -24,8 +24,8 @@ const Sidebar = ({ toggleSidebar }: any) => {
                             />
                         </div>
                         <div className='text-sm text-gray-400 flex flex-col gap-3 mt-4 ml-4 cursor-pointer'>
-                            <div onClick={() => router.push('/components/docs')} className='hover:text-[#fff2c1]'>Docs</div>
-                            <div onClick={handleClick} className='hover:text-[#fff2c1]'>GitHub</div>
+                            <div onClick={() => router.push('/components/docs')} className='hover:text-[#fff2c1] hover:ml-2 transition-transform duration-300 ease-out'>Docs</div>
+                            <div onClick={handleClick} className='hover:text-[#fff2c1] hover:ml-2 transition-transform duration-300 ease-out'>GitHub</div>
                         </div>
                     </div>
                     <div className='bg-gray-200 h-[1px] ml-2 '></div>
@@ -62,7 +62,7 @@ const Sidebar = ({ toggleSidebar }: any) => {
                                         onClick={() => router.push(item.route)}
                                         className="rounded-lg mt-2 cursor-pointer sm:justify-start flex items-center justify-center active"
                                     >
-                                        <span className="ml-3 font-semibold tracking-wide transition-colors hover:text-[#fff2c1]">
+                                        <span className="ml-3 font-semibold tracking-wide hover:text-[#fff2c1] hover:ml-4 transition-transform duration-300 ease-out">
                                             {item.label}
                                         </span>
                                     </button>

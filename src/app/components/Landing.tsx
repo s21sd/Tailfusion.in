@@ -24,10 +24,10 @@ const Landing = () => {
                 </p>
             </div>
             <div className='grid gap-6'>
-                <div onClick={() => router.push('components/docs')} className='bg-[#fff2c1] hover:bg-gray-50 rounded-md w-[250px] cursor-pointer font-semibold text-black flex justify-center items-center mx-auto p-4'>
+                <div onClick={() => router.push('components/docs')} className='bg-[#fff2c1] hover:bg-gray-50 rounded-md w-[250px] cursor-pointer font-semibold text-black flex justify-center items-center mx-auto p-4 dark:hover:bg-[#c98fff] dark:bg-[#9e4ceb] dark:text-white'>
                     <h1>Browse Components</h1>
                 </div>
-                <div onClick={handleClick} className='border rounded-md w-[250px] font-semibold cursor-pointer text-white border-[#fff2c1]  flex justify-center items-center mx-auto p-4 gap-4'>
+                <div onClick={handleClick} className='border rounded-md w-[250px] font-semibold cursor-pointer text-white border-[#fff2c1] dark:border-[#9e4ceb] dark:text-black flex justify-center items-center mx-auto p-4 gap-4'>
                     <FaGithub size={30} />
                     <h1>GitHub</h1>
                 </div>
@@ -38,7 +38,7 @@ const Landing = () => {
                     alt='phoneImg' src={finalPng} />
             </div>
             <div className='mt-20 flex justify-center items-center '>
-                <h1>Build by <span className='text-[#fff2c1] tracking-wide font-bold'>TailFusion</span>. The Source code is available on<span className='text-[#fff2c1] tracking-wide font-bold'> GitHub</span> </h1>
+                <h1 className='mycolor1'>Build by <span className='text-[#fff2c1] tracking-wide font-bold main_heading'>TailFusion</span>. The Source code is available on<span className='text-[#fff2c1] tracking-wide font-bold main_heading'> GitHub</span> </h1>
             </div>
         </div>
     );
