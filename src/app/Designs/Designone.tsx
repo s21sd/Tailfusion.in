@@ -1314,8 +1314,8 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                             return <section className="text-gray-600 body-font">
                                 <div className="container px-5 py-24 mx-auto flex flex-wrap">
                                     <div className="flex w-full mb-20 flex-wrap">
-                                        <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Master Cleanse Reliac Heirloom</h1>
-                                        <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+                                        <h1 className={`sm:text-3xl text-2xl font-medium title-font ${colorClass} lg:w-1/3 lg:mb-0 mb-4`}>Master Cleanse Reliac Heirloom</h1>
+                                        <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-gray-200">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
                                     </div>
                                     <div className="flex flex-wrap md:-m-2 -m-1">
                                         <div className="flex flex-wrap w-1/2">
@@ -1338,6 +1338,106 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                             </div>
                                             <div className="md:p-2 p-1 w-1/2">
                                                 <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://dummyimage.com/503x303" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        case 1:
+                            return <section className="text-gray-600 body-font">
+                                <div className="container px-5 py-24 mx-auto flex flex-wrap">
+                                    <div className="lg:w-2/3 mx-auto">
+                                        <div className="flex flex-wrap w-full bg-gray-100 py-32 px-10 relative mb-4">
+                                            <img
+                                                alt="gallery"
+                                                className="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
+                                                src="https://dummyimage.com/820x340"
+                                            />
+                                            <div className="text-center relative z-10 w-full">
+                                                <h2 className={`text-2xl ${colorClass} font-medium title-font mb-2`}>
+                                                    Starry Night
+                                                </h2>
+                                                <p className="leading-relaxed">
+                                                    Enjoy a serene night under the stars with our exclusive collection.
+                                                </p>
+                                                <a className={`mt-3 ${colorClass} inline-flex items-center`} href="#more">
+                                                    Discover More
+                                                    <svg
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        strokeLinecap="round"
+                                                        strokeLinejoin="round"
+                                                        strokeWidth="2"
+                                                        className="w-4 h-4 ml-2"
+                                                        viewBox="0 0 24 24"
+                                                    >
+                                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div className="flex flex-wrap -mx-2">
+                                            <div className="px-2 w-1/2">
+                                                <div className="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
+                                                    <img
+                                                        alt="gallery"
+                                                        className="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
+                                                        src="https://dummyimage.com/542x460"
+                                                    />
+                                                    <div className="text-center relative z-10 w-full">
+                                                        <h2 className={`text-xl ${colorClass} font-medium title-font mb-2`}>
+                                                            Celestial Views
+                                                        </h2>
+                                                        <p className="leading-relaxed">
+                                                            Experience the beauty of the cosmos from the comfort of your home.
+                                                        </p>
+                                                        <a className={`mt-3 ${colorClass} inline-flex items-center`} href="#learn-more">
+                                                            Learn More
+                                                            <svg
+                                                                fill="none"
+                                                                stroke="currentColor"
+                                                                strokeLinecap="round"
+                                                                strokeLinejoin="round"
+                                                                strokeWidth="2"
+                                                                className="w-4 h-4 ml-2"
+                                                                viewBox="0 0 24 24"
+                                                            >
+                                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="px-2 w-1/2">
+                                                <div className="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
+                                                    <img
+                                                        alt="gallery"
+                                                        className="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
+                                                        src="https://dummyimage.com/542x420"
+                                                    />
+                                                    <div className="text-center relative z-10 w-full">
+                                                        <h2 className={`text-xl ${colorClass} font-medium title-font mb-2`}>
+                                                            Lunar Landscapes
+                                                        </h2>
+                                                        <p className="leading-relaxed">
+                                                            Discover the mysteries of the moon with our detailed guides.
+                                                        </p>
+                                                        <a className={`mt-3 ${colorClass} inline-flex items-center`} href="#explore-more">
+                                                            Explore More
+                                                            <svg
+                                                                fill="none"
+                                                                stroke="currentColor"
+                                                                strokeLinecap="round"
+                                                                strokeLinejoin="round"
+                                                                strokeWidth="2"
+                                                                className="w-4 h-4 ml-2"
+                                                                viewBox="0 0 24 24"
+                                                            >
+                                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

@@ -5233,10 +5233,492 @@ export const designCodeForContentSection: any = [
 export const designCodeForGallerySection: any = [
   [
     {
-      Tailwind: ``
+      Tailwind: `<section className="text-gray-600 body-font">
+                                <div className="container px-5 py-24 mx-auto flex flex-wrap">
+                                    <div className="flex w-full mb-20 flex-wrap">
+                                        <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-200 lg:w-1/3 lg:mb-0 mb-4">Master Cleanse Reliac Heirloom</h1>
+                                        <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+                                    </div>
+                                    <div className="flex flex-wrap md:-m-2 -m-1">
+                                        <div className="flex flex-wrap w-1/2">
+                                            <div className="md:p-2 p-1 w-1/2">
+                                                <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://dummyimage.com/500x300" />
+                                            </div>
+                                            <div className="md:p-2 p-1 w-1/2">
+                                                <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://dummyimage.com/501x301" />
+                                            </div>
+                                            <div className="md:p-2 p-1 w-full">
+                                                <img alt="gallery" className="w-full h-full object-cover object-center block" src="https://dummyimage.com/600x360" />
+                                            </div>
+                                        </div>
+                                        <div className="flex flex-wrap w-1/2">
+                                            <div className="md:p-2 p-1 w-full">
+                                                <img alt="gallery" className="w-full h-full object-cover object-center block" src="https://dummyimage.com/601x361" />
+                                            </div>
+                                            <div className="md:p-2 p-1 w-1/2">
+                                                <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://dummyimage.com/502x302" />
+                                            </div>
+                                            <div className="md:p-2 p-1 w-1/2">
+                                                <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://dummyimage.com/503x303" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>`
     },
     {
-      Css: ``
+      Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        .gallery-section {
+            color: #4A5568;
+            background-color: #1A202C;
+        }
+
+        .container {
+            padding: 6rem 1.25rem;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1200px;
+        }
+
+        .header {
+            width: 100%;
+            margin-bottom: 5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .title {
+            font-size: 1.5rem;
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: #EDF2F7;
+            width: 33.3333%;
+            margin-bottom: 0;
+        }
+
+        .description {
+            padding-left: 1.5rem;
+            width: 66.6667%;
+            margin: 0 auto;
+            line-height: 1.75;
+            color: #A0AEC0;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -0.25rem;
+        }
+
+        .column {
+            display: flex;
+            flex-wrap: wrap;
+            width: 50%;
+        }
+
+        .column_container_one {
+            display: flex;
+
+        }
+
+        .image-container {
+            padding: 0.16rem;
+            width: 50%;
+        }
+
+        .image-container.full-width {
+            width: 100%;
+        }
+
+        .image-container img {
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="gallery-section">
+        <div class="container">
+            <div class="header">
+                <h1 class="title">Master Cleanse Reliac Heirloom</h1>
+                <p class="description">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway
+                    tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies
+                    heirloom.</p>
+            </div>
+            <div class="gallery">
+                <div class="column">
+                    <div class="column_container_one">
+
+                        <div class=" image-container">
+                            <img alt="gallery" src="https://dummyimage.com/500x300" />
+                        </div>
+                        <div class="image-container">
+                            <img alt="gallery" src="https://dummyimage.com/501x301" />
+                        </div>
+                    </div>
+                    <div class="image-container full-width">
+                        <img alt="gallery" src="https://dummyimage.com/600x360" />
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="image-container full-width">
+                        <img alt="gallery" src="https://dummyimage.com/601x361" />
+                    </div>
+                    <div class="column_container_one">
+                        <div class="image-container">
+                            <img alt="gallery" src="https://dummyimage.com/502x302" />
+                        </div>
+                        <div class="image-container">
+                            <img alt="gallery" src="https://dummyimage.com/503x303" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>`
+    }
+  ],
+  [
+    {
+      Tailwind: `<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto flex flex-wrap">
+    <div className="lg:w-2/3 mx-auto">
+      <div className="flex flex-wrap w-full bg-gray-100 py-32 px-10 relative mb-4">
+        <img
+          alt="gallery"
+          className="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
+          src="https://dummyimage.com/820x340"
+        />
+        <div className="text-center relative z-10 w-full">
+          <h2 className="text-2xl text-gray-900 font-medium title-font mb-2">
+            Starry Night
+          </h2>
+          <p className="leading-relaxed">
+            Enjoy a serene night under the stars with our exclusive collection.
+          </p>
+          <a className="mt-3 text-indigo-500 inline-flex items-center" href="#more">
+            Discover More
+            <svg
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              className="w-4 h-4 ml-2"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div className="flex flex-wrap -mx-2">
+        <div className="px-2 w-1/2">
+          <div className="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
+            <img
+              alt="gallery"
+              className="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
+              src="https://dummyimage.com/542x460"
+            />
+            <div className="text-center relative z-10 w-full">
+              <h2 className="text-xl text-gray-900 font-medium title-font mb-2">
+                Celestial Views
+              </h2>
+              <p className="leading-relaxed">
+                Experience the beauty of the cosmos from the comfort of your home.
+              </p>
+              <a className="mt-3 text-indigo-500 inline-flex items-center" href="#learn-more">
+                Learn More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  className="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="px-2 w-1/2">
+          <div className="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
+            <img
+              alt="gallery"
+              className="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
+              src="https://dummyimage.com/542x420"
+            />
+            <div className="text-center relative z-10 w-full">
+              <h2 className="text-xl text-gray-900 font-medium title-font mb-2">
+                Lunar Landscapes
+              </h2>
+              <p className="leading-relaxed">
+                Discover the mysteries of the moon with our detailed guides.
+              </p>
+              <a className="mt-3 text-indigo-500 inline-flex items-center" href="#explore-more">
+                Explore More
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  className="w-4 h-4 ml-2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`
+    },
+    {
+      Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        .text-gray-600 {
+            color: #4A5568;
+        }
+
+        .body-font {
+            font-family: 'body-font', sans-serif;
+        }
+
+        .container {
+            padding: 6rem 1.25rem;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1200px;
+        }
+
+        .content {
+            width: 66.6667%;
+            margin: 0 auto;
+        }
+
+        .highlight {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            background-color: #F7FAFC;
+            padding: 8rem 2.5rem;
+            position: relative;
+            margin-bottom: 1rem;
+        }
+
+        .highlight-img {
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+            object-position: center;
+            display: block;
+            opacity: 0.25;
+            position: absolute;
+            inset: 0;
+        }
+
+        .highlight-text {
+            text-align: center;
+            position: relative;
+            z-index: 10;
+            width: 100%;
+        }
+
+        .highlight-title {
+            font-size: 1.25rem;
+            color: #1A202C;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight-description {
+            line-height: 1.75;
+        }
+
+        .highlight-link {
+            margin-top: 0.75rem;
+            color: #5A67D8;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .highlight-icon {
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.5rem;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            
+        }
+
+        .gallery-item {
+            display: flex;
+            gap: 20px;
+            padding: 0.5rem;
+            width: 50%;
+        }
+
+        .gallery-content {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            background-color: #F7FAFC;
+            padding: 6rem 2.5rem;
+            position: relative;
+        }
+
+        .gallery-img {
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+            object-position: center;
+            display: block;
+            opacity: 0.25;
+            position: absolute;
+            inset: 0;
+        }
+
+        .gallery-text {
+            text-align: center;
+            position: relative;
+            z-index: 10;
+            width: 100%;
+        }
+
+        .gallery-title {
+            font-size: 1.125rem;
+            color: #1A202C;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        .gallery-description {
+            line-height: 1.75;
+        }
+
+        .gallery-link {
+            margin-top: 0.75rem;
+            color: #5A67D8;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .gallery-icon {
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="text-gray-600 body-font">
+        <div class="container">
+            <div class="content">
+                <div class="highlight">
+                    <img alt="gallery" class="highlight-img" src="https://dummyimage.com/820x340" />
+                    <div class="highlight-text">
+                        <h2 class="highlight-title">
+                            Starry Night
+                        </h2>
+                        <p class="highlight-description">
+                            Enjoy a serene night under the stars with our exclusive collection.
+                        </p>
+                        <a class="highlight-link" href="#more">
+                            Discover More
+                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                                strokeWidth="2" class="highlight-icon" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <div class="gallery-content">
+                            <img alt="gallery" class="gallery-img" src="https://dummyimage.com/542x460" />
+                            <div class="gallery-text">
+                                <h2 class="gallery-title">
+                                    Celestial Views
+                                </h2>
+                                <p class="gallery-description">
+                                    Experience the beauty of the cosmos from the comfort of your home.
+                                </p>
+                                <a class="gallery-link" href="#learn-more">
+                                    Learn More
+                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                                        strokeWidth="2" class="gallery-icon" viewBox="0 0 24 24">
+                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-content">
+                            <img alt="gallery" class="gallery-img" src="https://dummyimage.com/542x420" />
+                            <div class="gallery-text">
+                                <h2 class="gallery-title">
+                                    Lunar Landscapes
+                                </h2>
+                                <p class="gallery-description">
+                                    Discover the mysteries of the moon with our detailed guides.
+                                </p>
+                                <a class="gallery-link" href="#explore-more">
+                                    Explore More
+                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                                        strokeWidth="2" class="gallery-icon" viewBox="0 0 24 24">
+                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>`
     }
   ]
 ]
