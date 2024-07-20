@@ -5720,5 +5720,826 @@ export const designCodeForGallerySection: any = [
 
 </html>`
     }
+  ],
+  [
+    {
+      Tailwind: `<section className="text-gray-600 body-font">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <div className="flex flex-col text-center w-full mb-20">
+                                        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Inspirational Quotes Collection</h1>
+                                        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Discover a collection of inspiring quotes that can uplift your spirit and motivate you throughout the day.</p>
+                                    </div>
+                                    <div className="flex flex-wrap -m-4">
+                                        <div className="lg:w-1/3 sm:w-1/2 p-4">
+                                            <div className="flex relative">
+                                                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360" />
+                                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                                                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">INSPIRATION</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Believe in Yourself</h1>
+                                                    <p className="leading-relaxed">"The only limit to our realization of tomorrow is our doubts of today." - Franklin D. Roosevelt</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="lg:w-1/3 sm:w-1/2 p-4">
+                                            <div className="flex relative">
+                                                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/601x361" />
+                                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                                                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">MOTIVATION</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Stay Positive</h1>
+                                                    <p className="leading-relaxed">"Keep your face always toward the sunshine—and shadows will fall behind you." - Walt Whitman</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="lg:w-1/3 sm:w-1/2 p-4">
+                                            <div className="flex relative">
+                                                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" />
+                                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                                                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">PERSEVERANCE</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Never Give Up</h1>
+                                                    <p className="leading-relaxed">"The best way to predict the future is to create it." - Peter Drucker</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="lg:w-1/3 sm:w-1/2 p-4">
+                                            <div className="flex relative">
+                                                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/602x362" />
+                                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                                                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">GROWTH</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Embrace Challenges</h1>
+                                                    <p className="leading-relaxed">"What lies behind us and what lies before us are tiny matters compared to what lies within us." - Ralph Waldo Emerson</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="lg:w-1/3 sm:w-1/2 p-4">
+                                            <div className="flex relative">
+                                                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/605x365" />
+                                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                                                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">RESILIENCE</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Bounce Back</h1>
+                                                    <p className="leading-relaxed">"Life is 10% what happens to us and 90% how we react to it." - Charles R. Swindoll</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="lg:w-1/3 sm:w-1/2 p-4">
+                                            <div className="flex relative">
+                                                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/606x366" />
+                                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                                                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">COURAGE</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Face Your Fears</h1>
+                                                    <p className="leading-relaxed">"Courage is not the absence of fear, but rather the judgment that something else is more important than fear." - Ambrose Redmoon</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>`
+    },
+    {
+      Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        .quotes-collection {
+            color: #4A5568;
+            font-family: 'body-font', sans-serif;
+        }
+
+        .container {
+            padding: 6rem 1.25rem;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            width: 100%;
+            margin-bottom: 5rem;
+        }
+
+        .title {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            color: #1A202C;
+        }
+
+        .description {
+            max-width: 66.6667%;
+            margin: 0 auto;
+            line-height: 1.75;
+            font-size: 1rem;
+        }
+
+        .quotes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            margin: -1rem;
+        }
+
+        .quote-item {
+            padding: 1rem;
+            width: 33.3333%;
+        }
+
+        .quote-content {
+            position: relative;
+        }
+
+        .quote-img {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .quote-text {
+            padding: 2rem;
+            position: relative;
+            z-index: 10;
+            border: 4px solid #E2E8F0;
+            background-color: #FFFFFF;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .quote-content:hover .quote-text {
+            opacity: 1;
+        }
+
+        .quote-category {
+            letter-spacing: 0.05em;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: #5A67D8;
+            margin-bottom: 0.25rem;
+        }
+
+        .quote-title {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: #1A202C;
+            margin-bottom: 0.75rem;
+        }
+
+        .quote-description {
+            line-height: 1.75;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="quotes-collection">
+        <div class="container">
+            <div class="header">
+                <h1 class="title">Inspirational Quotes Collection</h1>
+                <p class="description">Discover a collection of inspiring quotes that can uplift your spirit and
+                    motivate you throughout the day.</p>
+            </div>
+            <div class="quotes">
+                <div class="quote-item">
+                    <div class="quote-content">
+                        <img alt="gallery" class="quote-img" src="https://dummyimage.com/600x360" />
+                        <div class="quote-text">
+                            <h2 class="quote-category">INSPIRATION</h2>
+                            <h1 class="quote-title">Believe in Yourself</h1>
+                            <p class="quote-description">"The only limit to our realization of tomorrow is our doubts of
+                                today." - Franklin D. Roosevelt</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="quote-item">
+                    <div class="quote-content">
+                        <img alt="gallery" class="quote-img" src="https://dummyimage.com/601x361" />
+                        <div class="quote-text">
+                            <h2 class="quote-category">MOTIVATION</h2>
+                            <h1 class="quote-title">Stay Positive</h1>
+                            <p class="quote-description">"Keep your face always toward the sunshine—and shadows will
+                                fall behind you." - Walt Whitman</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="quote-item">
+                    <div class="quote-content">
+                        <img alt="gallery" class="quote-img" src="https://dummyimage.com/603x363" />
+                        <div class="quote-text">
+                            <h2 class="quote-category">PERSEVERANCE</h2>
+                            <h1 class="quote-title">Never Give Up</h1>
+                            <p class="quote-description">"The best way to predict the future is to create it." - Peter
+                                Drucker</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="quote-item">
+                    <div class="quote-content">
+                        <img alt="gallery" class="quote-img" src="https://dummyimage.com/602x362" />
+                        <div class="quote-text">
+                            <h2 class="quote-category">GROWTH</h2>
+                            <h1 class="quote-title">Embrace Challenges</h1>
+                            <p class="quote-description">"What lies behind us and what lies before us are tiny matters
+                                compared to what lies within us." - Ralph Waldo Emerson</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="quote-item">
+                    <div class="quote-content">
+                        <img alt="gallery" class="quote-img" src="https://dummyimage.com/605x365" />
+                        <div class="quote-text">
+                            <h2 class="quote-category">RESILIENCE</h2>
+                            <h1 class="quote-title">Bounce Back</h1>
+                            <p class="quote-description">"Life is 10% what happens to us and 90% how we react to it." -
+                                Charles R. Swindoll</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="quote-item">
+                    <div class="quote-content">
+                        <img alt="gallery" class="quote-img" src="https://dummyimage.com/606x366" />
+                        <div class="quote-text">
+                            <h2 class="quote-category">COURAGE</h2>
+                            <h1 class="quote-title">Face Your Fears</h1>
+                            <p class="quote-description">"Courage is not the absence of fear, but rather the judgment
+                                that something else is more important than fear." - Ambrose Redmoon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>`
+    }
+  ],
+  [
+    {
+      Tailwind: `<section className=" body-font">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <div className="flex flex-col text-center w-full mb-12">
+                                        <h1 className="sm:text-4xl text-3xl font-semibold title-font mb-4 text-gray-900">Explore Our Unique Collection</h1>
+                                        <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-700">Discover our exclusive range of items with a blend of contemporary and classNameic designs to suit all your needs.</p>
+                                    </div>
+                                    <div className="flex flex-wrap -m-4">
+                                        <div className="p-4 md:w-1/2 lg:w-1/3">
+                                            <div className="h-full bg-white border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="item"/>
+                                                    <div className="p-6">
+                                                        <h2 className="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">CATEGORY</h2>
+                                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
+                                                        <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                                        <div className="flex items-center flex-wrap ">
+                                                            <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                                                <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/2 lg:w-1/3">
+                                            <div className="h-full bg-white border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401" alt="item"/>
+                                                    <div className="p-6">
+                                                        <h2 className="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">CATEGORY</h2>
+                                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
+                                                        <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                                        <div className="flex items-center flex-wrap ">
+                                                            <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                                                <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/2 lg:w-1/3">
+                                            <div className="h-full bg-white border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="item"/>
+                                                    <div className="p-6">
+                                                        <h2 className="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">CATEGORY</h2>
+                                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Neptune</h1>
+                                                        <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                                        <div className="flex items-center flex-wrap ">
+                                                            <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                                                <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/2 lg:w-1/3">
+                                            <div className="h-full bg-white border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/723x403" alt="item"/>
+                                                    <div className="p-6">
+                                                        <h2 className="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">CATEGORY</h2>
+                                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Holden Caulfield</h1>
+                                                        <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                                        <div className="flex items-center flex-wrap ">
+                                                            <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                                                <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/2 lg:w-1/3">
+                                            <div className="h-full bg-white border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/724x404" alt="item"/>
+                                                    <div className="p-6">
+                                                        <h2 className="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">CATEGORY</h2>
+                                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Alper Kamu</h1>
+                                                        <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                                        <div className="flex items-center flex-wrap ">
+                                                            <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                                                <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/2 lg:w-1/3">
+                                            <div className="h-full bg-white border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/725x405" alt="item"/>
+                                                    <div className="p-6">
+                                                        <h2 className="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">CATEGORY</h2>
+                                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
+                                                        <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                                        <div className="flex items-center flex-wrap ">
+                                                            <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                                                <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+`
+    },
+    {
+      Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        .collection {
+            font-family: 'body-font', sans-serif;
+        }
+
+        .container {
+            padding: 6rem 1.25rem;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        .header {
+            text-align: center;
+            width: 100%;
+            margin-bottom: 3rem;
+        }
+
+        .title {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #1A202C;
+        }
+
+        .description {
+            max-width: 66.6667%;
+            margin: 0 auto;
+            line-height: 1.75;
+            font-size: 1rem;
+            color: #4A5568;
+        }
+
+        .items {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -1rem;
+        }
+
+        .item {
+            padding: 1rem;
+            width: 100%;
+            max-width: 33.3333%;
+            box-sizing: border-box;
+        }
+
+        .item-content {
+            height: 100%;
+            background-color: #FFFFFF;
+            border: 2px solid #E2E8F0;
+            border-opacity: 0.6;
+            border-radius: 0.5rem;
+            overflow: hidden;
+        }
+
+        .item-image {
+            height: auto;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .item-details {
+            padding: 1.5rem;
+        }
+
+        .category {
+            letter-spacing: 0.05em;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: #5A67D8;
+            margin-bottom: 0.25rem;
+        }
+
+        .item-title {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: #1A202C;
+            margin-bottom: 0.75rem;
+        }
+
+        .item-description {
+            line-height: 1.75;
+            margin-bottom: 0.75rem;
+        }
+
+        .learn-more {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .learn-more-link {
+            color: #5A67D8;
+            display: inline-flex;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .arrow-icon {
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="collection">
+        <div class="container">
+            <div class="header">
+                <h1 class="title">Explore Our Unique Collection</h1>
+                <p class="description">Discover our exclusive range of items with a blend of contemporary and classic
+                    designs to suit all your needs.</p>
+            </div>
+            <div class="items">
+                <div class="item">
+                    <div class="item-content">
+                        <img class="item-image" src="https://dummyimage.com/720x400" alt="item" />
+                        <div class="item-details">
+                            <h2 class="category">CATEGORY</h2>
+                            <h1 class="item-title">The Catalyzer</h1>
+                            <p class="item-description">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                            <div class="learn-more">
+                                <a class="learn-more-link">Learn More
+                                    <svg class="arrow-icon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-content">
+                        <img class="item-image" src="https://dummyimage.com/721x401" alt="item" />
+                        <div class="item-details">
+                            <h2 class="category">CATEGORY</h2>
+                            <h1 class="item-title">Shooting Stars</h1>
+                            <p class="item-description">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                            <div class="learn-more">
+                                <a class="learn-more-link">Learn More
+                                    <svg class="arrow-icon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-content">
+                        <img class="item-image" src="https://dummyimage.com/722x402" alt="item" />
+                        <div class="item-details">
+                            <h2 class="category">CATEGORY</h2>
+                            <h1 class="item-title">Neptune</h1>
+                            <p class="item-description">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                            <div class="learn-more">
+                                <a class="learn-more-link">Learn More
+                                    <svg class="arrow-icon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-content">
+                        <img class="item-image" src="https://dummyimage.com/723x403" alt="item" />
+                        <div class="item-details">
+                            <h2 class="category">CATEGORY</h2>
+                            <h1 class="item-title">Holden Caulfield</h1>
+                            <p class="item-description">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                            <div class="learn-more">
+                                <a class="learn-more-link">Learn More
+                                    <svg class="arrow-icon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-content">
+                        <img class="item-image" src="https://dummyimage.com/724x404" alt="item" />
+                        <div class="item-details">
+                            <h2 class="category">CATEGORY</h2>
+                            <h1 class="item-title">Alper Kamu</h1>
+                            <p class="item-description">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                            <div class="learn-more">
+                                <a class="learn-more-link">Learn More
+                                    <svg class="arrow-icon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-content">
+                        <img class="item-image" src="https://dummyimage.com/725x405" alt="item" />
+                        <div class="item-details">
+                            <h2 class="category">CATEGORY</h2>
+                            <h1 class="item-title">The 400 Blows</h1>
+                            <p class="item-description">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                            <div class="learn-more">
+                                <a class="learn-more-link">Learn More
+                                    <svg class="arrow-icon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>`
+    }
+  ],
+  [
+    {
+      Tailwind: `<section className=" body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-col text-center w-full mb-12">
+      <h1 className="sm:text-4xl text-3xl font-semibold title-font mb-4 text-gray-900">Featured Items</h1>
+      <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-700">Discover our exclusive selection of items designed to elevate your lifestyle. Explore and enjoy the unique blend of style and functionality.</p>
+    </div>
+    <div className="flex flex-wrap -m-4">
+      <div className="p-4 md:w-1/2">
+        <div className="h-full bg-white border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/600x360" alt="item" />
+          <div className="p-6">
+            <h2 className="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">CATEGORY</h2>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Item One</h1>
+            <p className="leading-relaxed mb-3">Elegant and modern design, perfect for adding a touch of sophistication to any space.</p>
+            <a className="text-indigo-500 inline-flex items-center" href="#">Learn More
+              <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="p-4 md:w-1/2">
+        <div className="h-full bg-white border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/601x361" alt="item" />
+          <div className="p-6">
+            <h2 className="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">CATEGORY</h2>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Item Two</h1>
+            <p className="leading-relaxed mb-3">Stylish and functional, this piece is designed to enhance your everyday experience.</p>
+            <a className="text-indigo-500 inline-flex items-center" href="#">Learn More
+              <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`
+    },
+    {
+      Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        .featured-items {
+            font-family: 'body-font', sans-serif;
+        }
+
+        .container {
+            padding: 6rem 1.25rem;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        .header {
+            text-align: center;
+            width: 100%;
+            margin-bottom: 3rem;
+        }
+
+        .title {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #1A202C;
+        }
+
+        .description {
+            max-width: 66.6667%;
+            margin: 0 auto;
+            line-height: 1.75;
+            font-size: 1rem;
+            color: #4A5568;
+        }
+
+        .items {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -1rem;
+        }
+
+        .item {
+            padding: 1rem;
+            width: 100%;
+            max-width: 50%;
+            box-sizing: border-box;
+        }
+
+        .item-content {
+            height: 100%;
+            background-color: #FFFFFF;
+            border: 2px solid #E2E8F0;
+            border-opacity: 0.6;
+            border-radius: 0.5rem;
+            overflow: hidden;
+        }
+
+        .item-image {
+            height: auto;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .item-details {
+            padding: 1.5rem;
+        }
+
+        .category {
+            letter-spacing: 0.05em;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: #5A67D8;
+            margin-bottom: 0.25rem;
+        }
+
+        .item-title {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: #1A202C;
+            margin-bottom: 0.75rem;
+        }
+
+        .item-description {
+            line-height: 1.75;
+            margin-bottom: 0.75rem;
+        }
+
+        .learn-more {
+            color: #5A67D8;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .arrow-icon {
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="featured-items">
+        <div class="container">
+            <div class="header">
+                <h1 class="title">Featured Items</h1>
+                <p class="description">Discover our exclusive selection of items designed to elevate your lifestyle.
+                    Explore and enjoy the unique blend of style and functionality.</p>
+            </div>
+            <div class="items">
+                <div class="item">
+                    <div class="item-content">
+                        <img class="item-image" src="https://dummyimage.com/600x360" alt="item" />
+                        <div class="item-details">
+                            <h2 class="category">CATEGORY</h2>
+                            <h1 class="item-title">Item One</h1>
+                            <p class="item-description">Elegant and modern design, perfect for adding a touch of
+                                sophistication to any space.</p>
+                            <a class="learn-more" href="#">Learn More
+                                <svg class="arrow-icon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-content">
+                        <img class="item-image" src="https://dummyimage.com/601x361" alt="item" />
+                        <div class="item-details">
+                            <h2 class="category">CATEGORY</h2>
+                            <h1 class="item-title">Item Two</h1>
+                            <p class="item-description">Stylish and functional, this piece is designed to enhance your
+                                everyday experience.</p>
+                            <a class="learn-more" href="#">Learn More
+                                <svg class="arrow-icon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>`
+    }
   ]
 ]

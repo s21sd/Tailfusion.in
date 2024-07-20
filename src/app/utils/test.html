@@ -6,140 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
     <style>
-        .text-gray-600 {
-            color: #4A5568;
-        }
-
-        .body-font {
+        .featured-items {
             font-family: 'body-font', sans-serif;
         }
 
         .container {
             padding: 6rem 1.25rem;
             margin: 0 auto;
-            display: flex;
-            flex-wrap: wrap;
             max-width: 1200px;
         }
 
-        .content {
-            width: 66.6667%;
-            margin: 0 auto;
+        .header {
+            text-align: center;
+            width: 100%;
+            margin-bottom: 3rem;
         }
 
-        .highlight {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-            background-color: #F7FAFC;
-            padding: 8rem 2.5rem;
-            position: relative;
+        .title {
+            font-size: 2rem;
+            font-weight: 600;
             margin-bottom: 1rem;
-        }
-
-        .highlight-img {
-            width: 100%;
-            object-fit: cover;
-            height: 100%;
-            object-position: center;
-            display: block;
-            opacity: 0.25;
-            position: absolute;
-            inset: 0;
-        }
-
-        .highlight-text {
-            text-align: center;
-            position: relative;
-            z-index: 10;
-            width: 100%;
-        }
-
-        .highlight-title {
-            font-size: 1.25rem;
             color: #1A202C;
-            font-weight: 500;
-            margin-bottom: 0.5rem;
         }
 
-        .highlight-description {
+        .description {
+            max-width: 66.6667%;
+            margin: 0 auto;
             line-height: 1.75;
+            font-size: 1rem;
+            color: #4A5568;
         }
 
-        .highlight-link {
-            margin-top: 0.75rem;
-            color: #5A67D8;
-            display: inline-flex;
-            align-items: center;
-        }
-
-        .highlight-icon {
-            width: 1rem;
-            height: 1rem;
-            margin-left: 0.5rem;
-        }
-
-        .gallery {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: auto;
-            
-        }
-
-        .gallery-item {
-            display: flex;
-            gap: 20px;
-            padding: 0.5rem;
-            width: 50%;
-        }
-
-        .gallery-content {
+        .items {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
-            background-color: #F7FAFC;
-            padding: 6rem 2.5rem;
-            position: relative;
+            margin: -1rem;
         }
 
-        .gallery-img {
+        .item {
+            padding: 1rem;
+            width: 100%;
+            max-width: 50%;
+            box-sizing: border-box;
+        }
+
+        .item-content {
+            height: 100%;
+            background-color: #FFFFFF;
+            border: 2px solid #E2E8F0;
+            border-opacity: 0.6;
+            border-radius: 0.5rem;
+            overflow: hidden;
+        }
+
+        .item-image {
+            height: auto;
             width: 100%;
             object-fit: cover;
-            height: 100%;
             object-position: center;
-            display: block;
-            opacity: 0.25;
-            position: absolute;
-            inset: 0;
         }
 
-        .gallery-text {
-            text-align: center;
-            position: relative;
-            z-index: 10;
-            width: 100%;
+        .item-details {
+            padding: 1.5rem;
         }
 
-        .gallery-title {
-            font-size: 1.125rem;
-            color: #1A202C;
+        .category {
+            letter-spacing: 0.05em;
+            font-size: 0.75rem;
             font-weight: 500;
-            margin-bottom: 0.5rem;
+            color: #5A67D8;
+            margin-bottom: 0.25rem;
         }
 
-        .gallery-description {
+        .item-title {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: #1A202C;
+            margin-bottom: 0.75rem;
+        }
+
+        .item-description {
             line-height: 1.75;
+            margin-bottom: 0.75rem;
         }
 
-        .gallery-link {
-            margin-top: 0.75rem;
+        .learn-more {
             color: #5A67D8;
             display: inline-flex;
             align-items: center;
         }
 
-        .gallery-icon {
+        .arrow-icon {
             width: 1rem;
             height: 1rem;
             margin-left: 0.5rem;
@@ -148,73 +105,52 @@
 </head>
 
 <body>
-
-    <section class="text-gray-600 body-font">
+    <section class="featured-items">
         <div class="container">
-            <div class="content">
-                <div class="highlight">
-                    <img alt="gallery" class="highlight-img" src="https://dummyimage.com/820x340" />
-                    <div class="highlight-text">
-                        <h2 class="highlight-title">
-                            Starry Night
-                        </h2>
-                        <p class="highlight-description">
-                            Enjoy a serene night under the stars with our exclusive collection.
-                        </p>
-                        <a class="highlight-link" href="#more">
-                            Discover More
-                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
-                                strokeWidth="2" class="highlight-icon" viewBox="0 0 24 24">
-                                <path d="M5 12h14M12 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="gallery">
-                    <div class="gallery-item">
-                        <div class="gallery-content">
-                            <img alt="gallery" class="gallery-img" src="https://dummyimage.com/542x460" />
-                            <div class="gallery-text">
-                                <h2 class="gallery-title">
-                                    Celestial Views
-                                </h2>
-                                <p class="gallery-description">
-                                    Experience the beauty of the cosmos from the comfort of your home.
-                                </p>
-                                <a class="gallery-link" href="#learn-more">
-                                    Learn More
-                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
-                                        strokeWidth="2" class="gallery-icon" viewBox="0 0 24 24">
-                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                    </svg>
-                                </a>
-                            </div>
+            <div class="header">
+                <h1 class="title">Featured Items</h1>
+                <p class="description">Discover our exclusive selection of items designed to elevate your lifestyle.
+                    Explore and enjoy the unique blend of style and functionality.</p>
+            </div>
+            <div class="items">
+                <div class="item">
+                    <div class="item-content">
+                        <img class="item-image" src="https://dummyimage.com/600x360" alt="item" />
+                        <div class="item-details">
+                            <h2 class="category">CATEGORY</h2>
+                            <h1 class="item-title">Item One</h1>
+                            <p class="item-description">Elegant and modern design, perfect for adding a touch of
+                                sophistication to any space.</p>
+                            <a class="learn-more" href="#">Learn More
+                                <svg class="arrow-icon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
                         </div>
                     </div>
-                    <div class="gallery-item">
-                        <div class="gallery-content">
-                            <img alt="gallery" class="gallery-img" src="https://dummyimage.com/542x420" />
-                            <div class="gallery-text">
-                                <h2 class="gallery-title">
-                                    Lunar Landscapes
-                                </h2>
-                                <p class="gallery-description">
-                                    Discover the mysteries of the moon with our detailed guides.
-                                </p>
-                                <a class="gallery-link" href="#explore-more">
-                                    Explore More
-                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
-                                        strokeWidth="2" class="gallery-icon" viewBox="0 0 24 24">
-                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                    </svg>
-                                </a>
-                            </div>
+                </div>
+                <div class="item">
+                    <div class="item-content">
+                        <img class="item-image" src="https://dummyimage.com/601x361" alt="item" />
+                        <div class="item-details">
+                            <h2 class="category">CATEGORY</h2>
+                            <h1 class="item-title">Item Two</h1>
+                            <p class="item-description">Stylish and functional, this piece is designed to enhance your
+                                everyday experience.</p>
+                            <a class="learn-more" href="#">Learn More
+                                <svg class="arrow-icon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 
 
 </body>

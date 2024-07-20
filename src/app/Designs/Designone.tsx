@@ -1315,7 +1315,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                 <div className="container px-5 py-24 mx-auto flex flex-wrap">
                                     <div className="flex w-full mb-20 flex-wrap">
                                         <h1 className={`sm:text-3xl text-2xl font-medium title-font ${colorClass} lg:w-1/3 lg:mb-0 mb-4`}>Master Cleanse Reliac Heirloom</h1>
-                                        <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-gray-200">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+                                        <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-gray-600">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
                                     </div>
                                     <div className="flex flex-wrap md:-m-2 -m-1">
                                         <div className="flex flex-wrap w-1/2">
@@ -1437,6 +1437,231 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                                             </svg>
                                                         </a>
                                                     </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        case 2:
+                            return <section className="text-gray-600 body-font">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <div className="flex flex-col text-center w-full mb-20">
+                                        <h1 className={`sm:text-3xl text-2xl font-medium title-font mb-4 ${colorClass}`}>Inspirational Quotes Collection</h1>
+                                        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Discover a collection of inspiring quotes that can uplift your spirit and motivate you throughout the day.</p>
+                                    </div>
+                                    <div className="flex flex-wrap -m-4">
+                                        <div className="lg:w-1/3 sm:w-1/2 p-4">
+                                            <div className="flex relative">
+                                                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360" />
+                                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                                                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">INSPIRATION</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Believe in Yourself</h1>
+                                                    <p className="leading-relaxed">"The only limit to our realization of tomorrow is our doubts of today." - Franklin D. Roosevelt</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="lg:w-1/3 sm:w-1/2 p-4">
+                                            <div className="flex relative">
+                                                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/601x361" />
+                                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                                                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">MOTIVATION</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Stay Positive</h1>
+                                                    <p className="leading-relaxed">"Keep your face always toward the sunshine—and shadows will fall behind you." - Walt Whitman</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="lg:w-1/3 sm:w-1/2 p-4">
+                                            <div className="flex relative">
+                                                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" />
+                                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                                                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">PERSEVERANCE</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Never Give Up</h1>
+                                                    <p className="leading-relaxed">"The best way to predict the future is to create it." - Peter Drucker</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="lg:w-1/3 sm:w-1/2 p-4">
+                                            <div className="flex relative">
+                                                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/602x362" />
+                                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                                                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">GROWTH</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Embrace Challenges</h1>
+                                                    <p className="leading-relaxed">"What lies behind us and what lies before us are tiny matters compared to what lies within us." - Ralph Waldo Emerson</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="lg:w-1/3 sm:w-1/2 p-4">
+                                            <div className="flex relative">
+                                                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/605x365" />
+                                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                                                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">RESILIENCE</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Bounce Back</h1>
+                                                    <p className="leading-relaxed">"Life is 10% what happens to us and 90% how we react to it." - Charles R. Swindoll</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="lg:w-1/3 sm:w-1/2 p-4">
+                                            <div className="flex relative">
+                                                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/606x366" />
+                                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                                                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">COURAGE</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Face Your Fears</h1>
+                                                    <p className="leading-relaxed">"Courage is not the absence of fear, but rather the judgment that something else is more important than fear." - Ambrose Redmoon</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        case 3:
+                            return <section className=" body-font">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <div className="flex flex-col text-center w-full mb-12">
+                                        <h1 className={`sm:text-4xl text-3xl font-semibold title-font mb-4 ${colorClass}`}>Explore Our Unique Collection</h1>
+                                        <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-700">Discover our exclusive range of items with a blend of contemporary and classNameic designs to suit all your needs.</p>
+                                    </div>
+                                    <div className="flex flex-wrap -m-4">
+                                        <div className="p-4 md:w-1/2 lg:w-1/3">
+                                            <div className="h-full  border-2 border-gray-600  border-opacity-60 rounded-lg overflow-hidden">
+                                                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="item" />
+                                                <div className="p-6">
+                                                    <h2 className={`tracking-widest text-xs title-font font-medium  ${colorClass} mb-1`}>CATEGORY</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-400 mb-3">The Catalyzer</h1>
+                                                    <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                                    <div className="flex items-center flex-wrap ">
+                                                        <a className={`${colorClass} inline-flex items-center md:mb-2 lg:mb-0`}>Learn More
+                                                            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/2 lg:w-1/3">
+                                            <div className="h-full border-2 border-gray-600 border-opacity-60 rounded-lg overflow-hidden">
+                                                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401" alt="item" />
+                                                <div className="p-6">
+                                                    <h2 className={`tracking-widest text-xs title-font font-medium  ${colorClass} mb-1`}>CATEGORY</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-400 mb-3">Shooting Stars</h1>
+                                                    <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                                    <div className="flex items-center flex-wrap ">
+                                                        <a className={`${colorClass} inline-flex items-center md:mb-2 lg:mb-0`}>Learn More
+                                                            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/2 lg:w-1/3">
+                                            <div className="h-full  border-2 border-gray-600 border-opacity-60 rounded-lg overflow-hidden">
+                                                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="item" />
+                                                <div className="p-6">
+                                                    <h2 className={`tracking-widest text-xs title-font font-medium  ${colorClass} mb-1`}>CATEGORY</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-400 mb-3">Neptune</h1>
+                                                    <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                                    <div className="flex items-center flex-wrap ">
+                                                        <a className={`${colorClass} inline-flex items-center md:mb-2 lg:mb-0`}>Learn More
+                                                            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/2 lg:w-1/3">
+                                            <div className="h-full  border-2 border-gray-600 border-opacity-60 rounded-lg overflow-hidden">
+                                                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/723x403" alt="item" />
+                                                <div className="p-6">
+                                                    <h2 className={`tracking-widest text-xs title-font font-medium  ${colorClass} mb-1`}>CATEGORY</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-400 mb-3">Holden Caulfield</h1>
+                                                    <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                                    <div className="flex items-center flex-wrap ">
+                                                        <a className={`${colorClass} inline-flex items-center md:mb-2 lg:mb-0`}>Learn More
+                                                            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/2 lg:w-1/3">
+                                            <div className="h-full  border-2 border-gray-600 border-opacity-60 rounded-lg overflow-hidden">
+                                                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/724x404" alt="item" />
+                                                <div className="p-6">
+                                                    <h2 className={`tracking-widest text-xs title-font font-medium  ${colorClass} mb-1`}>CATEGORY</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-400 mb-3">Alper Kamu</h1>
+                                                    <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                                    <div className="flex items-center flex-wrap ">
+                                                        <a className={`${colorClass} inline-flex items-center md:mb-2 lg:mb-0`}>Learn More
+                                                            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/2 lg:w-1/3">
+                                            <div className="h-full  border-2 border-gray-600 border-opacity-60 rounded-lg overflow-hidden">
+                                                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/725x405" alt="item" />
+                                                <div className="p-6">
+                                                    <h2 className={`tracking-widest text-xs title-font font-medium  ${colorClass} mb-1`}>CATEGORY</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-400 mb-3">The 400 Blows</h1>
+                                                    <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                                    <div className="flex items-center flex-wrap ">
+                                                        <a className={`${colorClass} inline-flex items-center md:mb-2 lg:mb-0`}>Learn More
+                                                            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        case 4:
+                            return <section className=" body-font">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <div className="flex flex-col text-center w-full mb-12">
+                                        <h1 className={`sm:text-4xl text-3xl font-semibold title-font mb-4 ${colorClass}`}>Featured Items</h1>
+                                        <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-700">Discover our exclusive selection of items designed to elevate your lifestyle. Explore and enjoy the unique blend of style and functionality.</p>
+                                    </div>
+                                    <div className="flex flex-wrap -m-4">
+                                        <div className="p-4 md:w-1/2">
+                                            <div className="h-full border-2 border-gray-600 border-opacity-60 rounded-lg overflow-hidden">
+                                                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/600x360" alt="item" />
+                                                <div className="p-6">
+                                                    <h2 className={`tracking-widest text-xs title-font font-medium ${colorClass} mb-1`}>CATEGORY</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-400 mb-3">Alper Kamu</h1>
+                                                    <p className="leading-relaxed mb-3">Elegant and modern design, perfect for adding a touch of sophistication to any space.</p>
+                                                    <a className={`${colorClass} inline-flex items-center`} href="#">Learn More
+                                                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/2">
+                                            <div className="h-full border-2 border-gray-600 border-opacity-60 rounded-lg overflow-hidden">
+                                                <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/601x361" alt="item" />
+                                                <div className="p-6">
+                                                    <h2 className={`tracking-widest text-xs title-font font-medium ${colorClass} mb-1`}>CATEGORY</h2>
+                                                    <h1 className="title-font text-lg font-medium text-gray-400 mb-3">Neptune</h1>
+                                                    <p className="leading-relaxed mb-3">Stylish and functional, this piece is designed to enhance your everyday experience.</p>
+                                                    <a className={`${colorClass} inline-flex items-center`} href="#">Learn More
+                                                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                        </svg>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
