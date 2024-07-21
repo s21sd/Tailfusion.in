@@ -7221,5 +7221,408 @@ export const designCodeForPricingSection: any = [
 
 </html>`
         }
+    ],
+    [
+        {
+            Tailwind: `<section className="bg-gray-100 py-12">
+  <div className="container mx-auto px-6 text-gray-600">
+    <div className="text-center mb-16">
+      <h1 className="text-4xl font-semibold text-gray-800">Our Pricing Plans</h1>
+      <p className="mt-4 text-gray-600">Choose the plan that suits your needs best. All plans come with a 14-day free trial.</p>
+      <div className="inline-flex border rounded-lg mt-6">
+        <button className="py-2 px-6 bg-indigo-500 text-white rounded-l-lg focus:outline-none">Monthly</button>
+        <button className="py-2 px-6 text-gray-600 bg-white rounded-r-lg focus:outline-none">Yearly</button>
+      </div>
+    </div>
+    <div className="flex flex-wrap -mx-4">
+      <div className="w-full md:w-1/3 px-4 mb-8">
+        <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <h2 className="text-lg font-semibold text-gray-800">Basic</h2>
+          <div className="flex items-center mt-6">
+            <h1 className="text-5xl font-bold text-gray-800">$0</h1>
+            <span className="ml-1 text-xl text-gray-600">/mo</span>
+          </div>
+          <p className="mt-4 text-gray-600">Perfect for getting started with basic features.</p>
+          <ul className="mt-6 space-y-4">
+            <li className="flex items-center">
+              <svg className="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+              Access to basic features
+            </li>
+            <li className="flex items-center">
+              <svg className="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+              5 Projects
+            </li>
+            <li className="flex items-center">
+              <svg className="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+              Email support
+            </li>
+          </ul>
+          <button className="mt-8 w-full py-3 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition-colors duration-300">Sign Up</button>
+        </div>
+      </div>
+      <div className="w-full md:w-1/3 px-4 mb-8">
+        <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 relative">
+          <span className="absolute top-0 right-0 px-3 py-1 bg-indigo-500 text-white text-xs font-bold rounded-bl-lg">POPULAR</span>
+          <h2 className="text-lg font-semibold text-gray-800">Standard</h2>
+          <div className="flex items-center mt-6">
+            <h1 className="text-5xl font-bold text-gray-800">$29</h1>
+            <span className="ml-1 text-xl text-gray-600">/mo</span>
+          </div>
+          <p className="mt-4 text-gray-600">Ideal for growing your business with advanced features.</p>
+          <ul className="mt-6 space-y-4">
+            <li className="flex items-center">
+              <svg className="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+              Access to all features
+            </li>
+            <li className="flex items-center">
+              <svg className="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+              Unlimited Projects
+            </li>
+            <li className="flex items-center">
+              <svg className="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+              Priority support
+            </li>
+          </ul>
+          <button className="mt-8 w-full py-3 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition-colors duration-300">Sign Up</button>
+        </div>
+      </div>
+      <div className="w-full md:w-1/3 px-4 mb-8">
+        <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <h2 className="text-lg font-semibold text-gray-800">Premium</h2>
+          <div className="flex items-center mt-6">
+            <h1 className="text-5xl font-bold text-gray-800">$49</h1>
+            <span className="ml-1 text-xl text-gray-600">/mo</span>
+          </div>
+          <p className="mt-4 text-gray-600">Best for businesses requiring advanced features and high-level support.</p>
+          <ul className="mt-6 space-y-4">
+            <li className="flex items-center">
+              <svg className="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+              Advanced analytics
+            </li>
+            <li className="flex items-center">
+              <svg className="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+              Dedicated account manager
+            </li>
+            <li className="flex items-center">
+              <svg className="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+              24/7 support
+            </li>
+          </ul>
+          <button className="mt-8 w-full py-3 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition-colors duration-300">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7fafc;
+            color: #4a5568;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .section {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            background-color: #f7fafc;
+        }
+
+        .title {
+            font-size: 2.25rem;
+            font-weight: 600;
+            color: #2d3748;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .subtitle {
+            margin-top: 1rem;
+            color: #718096;
+            text-align: center;
+        }
+
+        .toggle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-width: 1px;
+            border-color: #e2e8f0;
+            border-radius: 0.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .toggle button {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            color: #ffffff;
+            background-color: #667eea;
+            border-top-left-radius: 0.5rem;
+            border-bottom-left-radius: 0.5rem;
+            cursor: pointer;
+            border: none;
+        }
+
+        .toggle button.inactive {
+            color: #718096;
+            background-color: #ffffff;
+            border-top-right-radius: 0.5rem;
+            border-bottom-right-radius: 0.5rem;
+        }
+
+        .pricing-plans {
+            display: flex;
+
+            margin-top: 2rem;
+            margin-left: -1rem;
+            margin-right: -1rem;
+        }
+
+        .pricing-plan {
+            width: 100%;
+            max-width: 33.3333%;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .plan {
+            padding: 1.5rem;
+            background-color: #ffffff;
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .plan:hover {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .plan-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #2d3748;
+        }
+
+        .plan-price {
+            display: flex;
+            align-items: center;
+            margin-top: 1.5rem;
+        }
+
+        .plan-price h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #2d3748;
+        }
+
+        .plan-price span {
+            margin-left: 0.25rem;
+            font-size: 1.25rem;
+            color: #718096;
+        }
+
+        .plan-description {
+            margin-top: 1rem;
+            color: #718096;
+        }
+
+        .plan-features {
+            margin-top: 1.5rem;
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .plan-features li {
+            display: flex;
+            align-items: center;
+            margin-top: 1rem;
+        }
+
+        .plan-features svg {
+            width: 1.5rem;
+            height: 1.5rem;
+            color: #48bb78;
+            margin-right: 0.5rem;
+        }
+
+        .plan-button {
+            width: 100%;
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+            background-color: #667eea;
+            color: #ffffff;
+            border-radius: 0.5rem;
+            text-align: center;
+            cursor: pointer;
+            border: none;
+            margin-top: 2rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .plan-button:hover {
+            background-color: #5a67d8;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-16">
+                <h1 class="title">Our Pricing Plans</h1>
+                <p class="subtitle">Choose the plan that suits your needs best. All plans come with a 14-day free trial.
+                </p>
+                <div class="toggle">
+                    <button>Monthly</button>
+                    <button class="inactive">Yearly</button>
+                </div>
+            </div>
+            <div class="pricing-plans">
+                <div class="pricing-plan">
+                    <div class="plan">
+                        <h2 class="plan-title">Basic</h2>
+                        <div class="plan-price">
+                            <h1>$0</h1>
+                            <span>/mo</span>
+                        </div>
+                        <p class="plan-description">Perfect for getting started with basic features.</p>
+                        <ul class="plan-features">
+                            <li>
+                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                                    strokeWidth="2" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                                Access to basic features
+                            </li>
+                            <li>
+                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                                    strokeWidth="2" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                                5 Projects
+                            </li>
+                            <li>
+                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                                    strokeWidth="2" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                                Email support
+                            </li>
+                        </ul>
+                        <button class="plan-button">Sign Up</button>
+                    </div>
+                </div>
+                <div class="pricing-plan">
+                    <div class="plan plan-popular">
+                        <h2 class="plan-title">Standard</h2>
+                        <div class="plan-price">
+                            <h1>$29</h1>
+                            <span>/mo</span>
+                        </div>
+                        <p class="plan-description">Ideal for growing your business with advanced features.</p>
+                        <ul class="plan-features">
+                            <li>
+                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                                    strokeWidth="2" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                                Access to all features
+                            </li>
+                            <li>
+                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                                    strokeWidth="2" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                                Unlimited Projects
+                            </li>
+                            <li>
+                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                                    strokeWidth="2" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                                Priority support
+                            </li>
+                        </ul>
+                        <button class="plan-button">Sign Up</button>
+                    </div>
+                </div>
+                <div class="pricing-plan">
+                    <div class="plan">
+                        <h2 class="plan-title">Premium</h2>
+                        <div class="plan-price">
+                            <h1>$49</h1>
+                            <span>/mo</span>
+                        </div>
+                        <p class="plan-description">Best for businesses requiring advanced features and high-level
+                            support.</p>
+                        <ul class="plan-features">
+                            <li>
+                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                                    strokeWidth="2" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                                Advanced analytics
+                            </li>
+                            <li>
+                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                                    strokeWidth="2" viewBox="0 0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                                Dedicated account manager
+                            </li>
+                            <li>
+                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
+                                    strokeWidth="2" viewBox="0 24 24">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                                24/7 support
+                            </li>
+                        </ul>
+                        <button class="plan-button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
+        }
     ]
 ]

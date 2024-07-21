@@ -1970,7 +1970,145 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                 </div>
                             </section>
                         case 2:
-                            return
+                            return <section className=" py-12">
+                                <div className="container mx-auto px-6 text-gray-600">
+                                    <div className="text-center mb-16">
+                                        <h1 className={`text-4xl font-semibold ${colorClass}`}>Our Pricing Plans</h1>
+                                        <p className="mt-4 text-gray-600">Choose the plan that suits your needs best. All plans come with a 14-day free trial.</p>
+                                        <div className="inline-flex border rounded-lg mt-6">
+                                            <button className={`py-2 px-6 ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                    colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                        colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                            colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                'bg-indigo-500 hover:bg-indigo-600'
+                                                } text-white rounded-l-lg focus:outline-none`}>Monthly</button>
+                                            <button className="py-2 px-6 text-gray-600 bg-white rounded-r-lg focus:outline-none">Yearly</button>
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-wrap -mx-4">
+                                        <div className="w-full md:w-1/3 px-4 mb-8">
+                                            <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                                <h2 className="text-lg font-semibold text-gray-800">Basic</h2>
+                                                <div className="flex items-center mt-6">
+                                                    <h1 className="text-5xl font-bold text-gray-800">$0</h1>
+                                                    <span className="ml-1 text-xl text-gray-600">/mo</span>
+                                                </div>
+                                                <p className="mt-4 text-gray-600">Perfect for getting started with basic features.</p>
+                                                <ul className="mt-6 space-y-4">
+                                                    <li className="flex items-center">
+                                                        <svg className="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                                                            <path d="M20 6L9 17l-5-5"></path>
+                                                        </svg>
+                                                        Access to basic features
+                                                    </li>
+                                                    <li className="flex items-center">
+                                                        <svg className="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                                                            <path d="M20 6L9 17l-5-5"></path>
+                                                        </svg>
+                                                        5 Projects
+                                                    </li>
+                                                    <li className="flex items-center">
+                                                        <svg className="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                                                            <path d="M20 6L9 17l-5-5"></path>
+                                                        </svg>
+                                                        Email support
+                                                    </li>
+                                                </ul>
+                                                <button className={`mt-8 w-full py-3 ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                                    } text-white rounded-lg transition-colors duration-300`}>Sign Up</button>
+                                            </div>
+                                        </div>
+                                        <div className="w-full md:w-1/3 px-4 mb-8">
+                                            <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 relative">
+                                                <span className={`absolute top-0 right-0 px-3 py-1 ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                                    } text-white text-xs font-bold rounded-bl-lg`}>POPULAR</span>
+                                                <h2 className="text-lg font-semibold text-gray-800">Standard</h2>
+                                                <div className="flex items-center mt-6">
+                                                    <h1 className="text-5xl font-bold text-gray-800">$29</h1>
+                                                    <span className="ml-1 text-xl text-gray-600">/mo</span>
+                                                </div>
+                                                <p className="mt-4 text-gray-600">Ideal for growing your business with advanced features.</p>
+                                                <ul className="mt-6 space-y-4">
+                                                    <li className="flex items-center">
+                                                        <svg className="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                                                            <path d="M20 6L9 17l-5-5"></path>
+                                                        </svg>
+                                                        Access to all features
+                                                    </li>
+                                                    <li className="flex items-center">
+                                                        <svg className="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                                                            <path d="M20 6L9 17l-5-5"></path>
+                                                        </svg>
+                                                        Unlimited Projects
+                                                    </li>
+                                                    <li className="flex items-center">
+                                                        <svg className="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                                                            <path d="M20 6L9 17l-5-5"></path>
+                                                        </svg>
+                                                        Priority support
+                                                    </li>
+                                                </ul>
+                                                <button className={`mt-8 w-full py-3 ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                                    } text-white rounded-lg transition-colors duration-300`}>Sign Up</button>
+                                            </div>
+                                        </div>
+                                        <div className="w-full md:w-1/3 px-4 mb-8">
+                                            <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                                <h2 className="text-lg font-semibold text-gray-800">Premium</h2>
+                                                <div className="flex items-center mt-6">
+                                                    <h1 className="text-5xl font-bold text-gray-800">$49</h1>
+                                                    <span className="ml-1 text-xl text-gray-600">/mo</span>
+                                                </div>
+                                                <p className="mt-4 text-gray-600">Best for businesses advanced features and high support.</p>
+                                                <ul className="mt-6 space-y-4">
+                                                    <li className="flex items-center">
+                                                        <svg className="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                                                            <path d="M20 6L9 17l-5-5"></path>
+                                                        </svg>
+                                                        Advanced analytics
+                                                    </li>
+                                                    <li className="flex items-center">
+                                                        <svg className="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                                                            <path d="M20 6L9 17l-5-5"></path>
+                                                        </svg>
+                                                        Dedicated account manager
+                                                    </li>
+                                                    <li className="flex items-center">
+                                                        <svg className="w-6 h-6 text-green-500 mr-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                                                            <path d="M20 6L9 17l-5-5"></path>
+                                                        </svg>
+                                                        24/7 support
+                                                    </li>
+                                                </ul>
+                                                <button className={`mt-8 w-full py-3 ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                                    } text-white rounded-lg transition-colors duration-300`}>Sign Up</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
                         default:
                             break;
                     }

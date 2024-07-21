@@ -10,7 +10,7 @@ const Sidebar = ({ toggleSidebar }: any) => {
         window.location.href = "https://github.com/s21sd/Tailfusion.io";
     };
     return (
-        <div className='fixed top-0 shadow-2xl shadow-[#4b4739] dark:shadow-gray-400 rounded-md left-0 h-full bg-black dark:bg-white  z-50 min-h-screen w-80 pt-4'>
+        <div className='fixed top-0 shadow-2xl shadow-[#4b4739] dark:shadow-gray-400 rounded-md left-0 h-full bg-black dark:bg-white  z-50 m-h-screen w-80 pt-4'>
             <main className="flex flex-col p-4">
                 <div className="">
                     <div className="p-6 font-bold tracking-widest">
@@ -30,27 +30,27 @@ const Sidebar = ({ toggleSidebar }: any) => {
                     </div>
                     <div className='bg-gray-200 h-[1px] ml-2 '></div>
                     <h1 className='text-[#fff2c1] text-xl mt-10 pl-6 font-bold tracking-widest dark:text-[#9e4ceb]'>Build Your Application</h1>
-                    <ScrollArea className="h-screen mt-2 ">
+                    <ScrollArea className="h-screen mt-2 mb-6">
                         <div className="p-6 pt-4">
                             <div className="mb-5 text-gray-400 dark:text-gray-500 ">
                                 {[
-                                    { label: 'Cards', route: '/components/blocks/cards' },
+                                    { label: 'Card', route: '/components/blocks/cards' },
                                     { label: 'Hero', route: '/components/blocks/hero' },
                                     { label: 'Navbar', route: '/components/blocks/navbars' },
-                                    { label: 'Contents', route: '/components/blocks/contents' },
+                                    { label: 'Content', route: '/components/blocks/contents' },
                                     { label: 'Gallery', route: '/components/blocks/gallery' },
                                     { label: 'Auth', route: '/components/blocks/auths' },
                                     { label: 'Pricing', route: '/components/blocks/pricing' },
-                                    { label: 'Footers', route: '/components/blocks/footers' },
-                                    { label: 'Buttons', route: '/components/blocks/buttons' },
-                                    { label: 'LastComp', route: '/components/blocks/lastcomp' },
-                                    { label: 'LastComp', route: '/components/blocks/lastcomp' },
-                                    { label: 'LastComp', route: '/components/blocks/lastcomp' },
-                                    { label: 'LastComp', route: '/components/blocks/lastcomp' },
-                                    { label: 'LastComp', route: '/components/blocks/lastcomp' },
-                                    { label: 'LastComp', route: '/components/blocks/lastcomp' },
-                                    { label: 'LastComp', route: '/components/blocks/lastcomp' },
-                                    { label: 'LastComp', route: '/components/blocks/lastcomp' },
+                                    { label: 'Footer', route: '/components/blocks/footers' },
+                                    { label: 'Step', route: '/components/blocks/steps' },
+                                    { label: 'Button', route: '/components/blocks/buttons' },
+                                    { label: 'Team', route: '/components/blocks/teams' },
+                                    { label: 'Testimonial', route: '/components/blocks/testimonials' },
+                                    { label: 'Statistic', route: '/components/blocks/statistics' },
+                                    { label: 'Feature', route: '/components/blocks/features' },
+                                    { label: 'Ecommerce', route: '/components/blocks/ecommerces' },
+                                    { label: 'Cta', route: '/components/blocks/cta' },
+                                    { label: 'Blog', route: '/components/blocks/blogs' },
                                     { label: 'LastComp', route: '/components/blocks/lastcomp' },
                                     { label: 'LastComp', route: '/components/blocks/lastcomp' },
                                     { label: 'LastComp', route: '/components/blocks/lastcomp' },
