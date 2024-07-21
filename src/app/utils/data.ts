@@ -184,7 +184,41 @@ export const content = [
       "Accessibility: Designed with accessibility best practices to ensure all users can navigate and view the gallery effectively.",
       "Increased Engagement: Incorporate interactive elements like sliders and lightbox to make the gallery more engaging and dynamic."
     ]
+  },
+  // This is for the Pricing Section Component Code 6
+  {
+    "title": "Pricing",
+    "description": "The pricing component is designed to display pricing plans and options in a clear and compelling way, making it easy for users to understand and choose the plan that best suits their needs. Built with flexibility and usability in mind, our pricing component ensures a consistent and intuitive user experience.",
+    "sections": [
+      {
+        "title": "Plan Comparison",
+        "description": "Easily compare different pricing plans side-by-side to help users make informed decisions."
+      },
+      {
+        "title": "Feature Highlights",
+        "description": "Highlight key features and benefits of each pricing plan to attract users to the most suitable option."
+      },
+      {
+        "title": "Customizable Pricing Cards",
+        "description": "Fully customizable pricing cards to match your brand's design and layout preferences."
+      }
+    ],
+    "features": [
+      "Responsive Design: Ensures the pricing component adapts seamlessly to different screen sizes for a user-friendly experience.",
+      "Customizable Layouts: Easily modify the layout and design of pricing cards to match your project's branding.",
+      "Accessibility: Designed with accessibility best practices to ensure all users can navigate and understand pricing options effectively.",
+      "Dynamic Pricing Options: Support for various pricing models such as monthly, yearly, or custom intervals.",
+      "Interactive Elements: Inclusion of interactive components like toggles and dropdowns to enhance user engagement."
+    ],
+    "benefits": [
+      "Clear Presentation: Display pricing plans in a clear and organized way to help users make informed decisions.",
+      "Responsive Design: Ensures the pricing component adapts seamlessly to different screen sizes for a user-friendly experience.",
+      "Customizable Layouts: Easily modify the layout and design of pricing cards to match your project's branding.",
+      "Accessibility: Designed with accessibility best practices to ensure all users can navigate and understand pricing options effectively.",
+      "Increased Conversions: Well-structured and engaging pricing information can help increase conversions by guiding users to the best plan for their needs."
+    ]
   }
+
 
 
 ];

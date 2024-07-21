@@ -1,8 +1,8 @@
 export const designCode: any = [
-  [
-    // Card One Design For the Tailwind
-    {
-      Tailwind: `<section className="text-gray-600 body-font">
+    [
+        // Card One Design For the Tailwind
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -m-4">
       <div className="p-4 lg:w-1/3">
@@ -86,10 +86,10 @@ export const designCode: any = [
     </div>
   </div>
 </section>`
-    },
-    // Card One Design For the Normal Css
-    {
-      Css: `<!DOCTYPE html>
+        },
+        // Card One Design For the Normal Css
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -262,14 +262,14 @@ export const designCode: any = [
   </section>
 </body>
 </html>`
-    },
-  ],
-  [
+        },
+    ],
+    [
 
 
-    // Card Two Design For the Tailwind
-    {
-      Tailwind: `<section className="text-gray-400 bg-gray-900 body-font">
+        // Card Two Design For the Tailwind
+        {
+            Tailwind: `<section className="text-gray-400 bg-gray-900 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
@@ -362,10 +362,10 @@ export const designCode: any = [
     </div>
   </div>
 </section>`
-    },
-    // Card One Design For the Normal Css
-    {
-      Css: `<!DOCTYPE html>
+        },
+        // Card One Design For the Normal Css
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -569,14 +569,14 @@ export const designCode: any = [
 </body>
 </html>
 `
-    },
-  ],
-  [
+        },
+    ],
+    [
 
 
-    // Card Three Design For the Tailwind
-    {
-      Tailwind: `<section className="text-gray-600 body-font">
+        // Card Three Design For the Tailwind
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
@@ -593,10 +593,10 @@ export const designCode: any = [
     </div>
   </div>
 </section>`
-    },
-    // Card three Design For the Normal Css
-    {
-      Css: `<!DOCTYPE html>
+        },
+        // Card three Design For the Normal Css
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -771,11 +771,11 @@ export const designCode: any = [
 </body>
 </html>
 `
-    },
-  ],
-  [
-    {
-      Tailwind: `<section className="text-gray-600 body-font">
+        },
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -mx-4 -mb-10 text-center">
       <div className="sm:w-1/2 mb-10 px-4">
@@ -797,9 +797,9 @@ export const designCode: any = [
     </div>
   </div>
 </section>`
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -958,16 +958,16 @@ export const designCode: any = [
 </body>
 
 </html>`
-    }
-  ]
+        }
+    ]
 
 ]
 
 // this is the design code for the navbar 
 export const designCodeForNav: any = [
-  [
-    {
-      Tailwind: `<header className="text-gray-600 body-font">
+    [
+        {
+            Tailwind: `<header className="text-gray-600 body-font">
   <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
@@ -988,9 +988,9 @@ export const designCodeForNav: any = [
     </button>
   </div>
 </header>`
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -1170,11 +1170,11 @@ export const designCodeForNav: any = [
 </body>
 
 </html>`
-    }
-  ],
-  [
-    {
-      Tailwind: `<header className="text-gray-600 body-font">
+        }
+    ],
+    [
+        {
+            Tailwind: `<header className="text-gray-600 body-font">
                             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                                 <div className="flex title-font font-medium items-center gap-4 text-gray-900 mb-4 md:mb-0">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
@@ -1198,9 +1198,9 @@ export const designCodeForNav: any = [
                                 </button>
                             </div>
                         </header>`
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -1378,11 +1378,11 @@ export const designCodeForNav: any = [
 
 </html>
 `
-    }
-  ],
-  [
-    {
-      Tailwind: `<header className="text-gray-600 body-font">
+        }
+    ],
+    [
+        {
+            Tailwind: `<header className="text-gray-600 body-font">
   <div className="container mx-auto flex flex-wrap justify-between p-5 flex-col md:flex-row items-center">
     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
@@ -1402,9 +1402,9 @@ export const designCodeForNav: any = [
     </button>
   </div>
 </header>`
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -1582,11 +1582,11 @@ export const designCodeForNav: any = [
 </body>
 
 </html>`
-    }
-  ],
-  [
-    {
-      Tailwind: `<header className="text-white body-font">
+        }
+    ],
+    [
+        {
+            Tailwind: `<header className="text-white body-font">
                                 <div className="container mx-auto flex flex-wrap justify-between p-5 flex-col md:flex-row items-center">
                                     <a className="flex title-font font-medium items-center mb-4 md:mb-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
@@ -1604,9 +1604,9 @@ export const designCodeForNav: any = [
 
                                 </div>
                             </header>`
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -1758,14 +1758,14 @@ export const designCodeForNav: any = [
 </body>
 
 </html>`
-    }
-  ],
+        }
+    ],
 ]
 // This is the design Code for the hero section I have component code 2 but later I will use as 3
 export const designCodeForHeroSection: any = [
-  [
-    {
-      Tailwind: `<section className="text-gray-600 body-font">
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
@@ -1782,9 +1782,9 @@ export const designCodeForHeroSection: any = [
     </div>
   </div>
 </section>`
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -1959,11 +1959,11 @@ export const designCodeForHeroSection: any = [
 </body>
 </html>
 `
-    },
-  ],
-  [
-    {
-      Tailwind: `<section className="text-gray-600 body-font">
+        },
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
   <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
       <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
@@ -1981,9 +1981,9 @@ export const designCodeForHeroSection: any = [
     
   </div>
 </section>`
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -2199,11 +2199,11 @@ export const designCodeForHeroSection: any = [
 </body>
 
 </html>`
-    },
-  ],
-  [
-    {
-      Tailwind: `<section className="text-gray-600 body-font">
+        },
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
   <div className="container mx-auto grid px-5 py-24 md:flex-row flex-col items-center">
   <div className="m-auto lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
       <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
@@ -2221,9 +2221,9 @@ export const designCodeForHeroSection: any = [
     
   </div>
 </section>`
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -2444,11 +2444,11 @@ export const designCodeForHeroSection: any = [
 </body>
 
 </html>`
-    },
-  ],
-  [
-    {
-      Tailwind: `<section className="text-gray-600 body-font">
+        },
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
       <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
@@ -2488,9 +2488,9 @@ export const designCodeForHeroSection: any = [
     </div>
   </div>
 </section>`
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -2671,15 +2671,15 @@ export const designCodeForHeroSection: any = [
 </body>
 
 </html>`
-    },
-  ]
+        },
+    ]
 ]
 
 // this is the design code for the auth section I have component code 3 
 export const designCodeForAuth: any = [
-  [
-    {
-      Tailwind: `<section className="text-gray-600 flex justify-between items-center body-font">
+    [
+        {
+            Tailwind: `<section className="text-gray-600 flex justify-between items-center body-font">
                                 <div className="w-[50%]">
                                     <img className="w-full h-[500px] object-cover object-center" src="https://dummyimage.com/520x400" alt="blog" />
                                 </div>
@@ -2700,9 +2700,9 @@ export const designCodeForAuth: any = [
                                     </div>
                                 </div>
                 </section>`
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -2834,11 +2834,11 @@ export const designCodeForAuth: any = [
 </body>
 
 </html>`
-    },
-  ],
-  [
-    {
-      Tailwind: `<div className="w-80 mx-auto h-128 bg-black shadow-lg rounded-lg p-8">
+        },
+    ],
+    [
+        {
+            Tailwind: `<div className="w-80 mx-auto h-128 bg-black shadow-lg rounded-lg p-8">
                                 <p className="text-center font-sans text-2xl font-extrabold my-2 mb-8">Welcome back</p>
                                 <form className="flex flex-col gap-4 mb-4 text-black">
                                     <input
@@ -2876,9 +2876,9 @@ export const designCodeForAuth: any = [
                                     </div>
                                 </div>
                             </div>`
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -3068,11 +3068,11 @@ export const designCodeForAuth: any = [
 </body>
 
 </html>`
-    },
-  ],
-  [
-    {
-      Tailwind: `<div className="w-80 mx-auto h-128 bg-black shadow-lg rounded-lg p-8">
+        },
+    ],
+    [
+        {
+            Tailwind: `<div className="w-80 mx-auto h-128 bg-black shadow-lg rounded-lg p-8">
                                 <p className="text-center font-sans text-2xl font-extrabold my-2 mb-8">Create Your Account</p>
                                 <form className="flex flex-col gap-4 mb-4 text-black">
                                     <input
@@ -3103,9 +3103,9 @@ export const designCodeForAuth: any = [
                                 </p>
                                 
                             </div>`
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -3227,11 +3227,11 @@ export const designCodeForAuth: any = [
 </body>
 
 </html>`
-    },
-  ],
-  [
-    {
-      Tailwind: `<section className="text-gray-400 bg-gray-900 body-font relative">
+        },
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-400 bg-gray-900 body-font relative">
                                 <div className="container px-5 py-24 mx-auto">
                                     <div className="flex flex-col text-center w-full mb-12">
                                         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact Us</h1>
@@ -3293,9 +3293,9 @@ export const designCodeForAuth: any = [
                                     </div>
                                 </div>
                             </section>`
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -3497,17 +3497,17 @@ export const designCodeForAuth: any = [
 </body>
 
 </html>`
-    }
-  ]
+        }
+    ]
 ]
 
 
 // This is the design Code for the Content Section I have Component Code 4
 
 export const designCodeForContentSection: any = [
-  [
-    {
-      Tailwind: `<section className="text-gray-600 body-font">
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">JOIN THE COMMUNITY</h2>
@@ -3571,9 +3571,9 @@ export const designCodeForContentSection: any = [
         </button>
       </div>
     </section>`
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -3757,11 +3757,11 @@ export const designCodeForContentSection: any = [
 </body>
 
 </html>`
-    }
-  ],
-  [
-    {
-      Tailwind: `<section className="text-gray-600 body-font">
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
                                 <div className="container px-5 py-24 mx-auto">
                                     <div className="flex flex-wrap w-full mb-20">
                                         <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
@@ -3806,9 +3806,9 @@ export const designCodeForContentSection: any = [
                                     </div>
                                 </div>
                             </section>`
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -3955,11 +3955,11 @@ export const designCodeForContentSection: any = [
 </body>
 
 </html>`
-    }
-  ],
-  [
-    {
-      Tailwind: `<section className="text-gray-600 body-font">
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Dynamic Solutions for Modern Challenges</h1>
@@ -4040,9 +4040,9 @@ export const designCodeForContentSection: any = [
   </div>
 </section>
 `
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -4231,11 +4231,11 @@ export const designCodeForContentSection: any = [
 </body>
 
 </html>`
-    }
-  ],
-  [
-    {
-      Tailwind: `<section className="text-gray-600 body-font">
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -m-4">
       <div className="p-4 lg:w-1/3">
@@ -4320,9 +4320,9 @@ export const designCodeForContentSection: any = [
   </div>
 </section>
 `
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -4532,11 +4532,11 @@ export const designCodeForContentSection: any = [
 </body>
 
 </html>`
-    }
-  ],
-  [
-    {
-      Tailwind: `<section className="text-gray-600 body-font overflow-hidden">
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font overflow-hidden">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -m-12">
       <div className="p-12 md:w-1/2 flex flex-col items-start">
@@ -4605,9 +4605,9 @@ export const designCodeForContentSection: any = [
   </div>
 </section>
 `
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -4828,11 +4828,11 @@ export const designCodeForContentSection: any = [
 </body>
 
 </html>`
-    }
-  ],
-  [
-    {
-      Tailwind: `<section className="text-gray-600 body-font overflow-hidden">
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font overflow-hidden">
   <div className="container px-5 py-24 mx-auto">
     <div className="-my-8 divide-y-2 divide-gray-100">
       <div className="py-8 flex flex-wrap md:flex-nowrap">
@@ -4887,9 +4887,9 @@ export const designCodeForContentSection: any = [
   </div>
 </section>
 `
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -5050,11 +5050,11 @@ export const designCodeForContentSection: any = [
 </body>
 
 </html>`
-    }
-  ],
-  [
-    {
-      Tailwind: `<section className="text-gray-900 body-font bg-gray-100">
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-900 body-font bg-gray-100">
                                 <div className="container px-5 py-24 mx-auto flex flex-col">
                                     <div className="lg:w-4/6 mx-auto">
                                         <div className="rounded-lg h-64 overflow-hidden">
@@ -5086,9 +5086,9 @@ export const designCodeForContentSection: any = [
                                     </div>
                                 </div>
                             </section>`
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -5225,15 +5225,15 @@ export const designCodeForContentSection: any = [
 </body>
 
 </html>`
-    }
-  ]
+        }
+    ]
 ]
 
 // This is the design code for the Gallery Section I have Component Code 5
 export const designCodeForGallerySection: any = [
-  [
-    {
-      Tailwind: `<section className="text-gray-600 body-font">
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
                                 <div className="container px-5 py-24 mx-auto flex flex-wrap">
                                     <div className="flex w-full mb-20 flex-wrap">
                                         <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-200 lg:w-1/3 lg:mb-0 mb-4">Master Cleanse Reliac Heirloom</h1>
@@ -5265,9 +5265,9 @@ export const designCodeForGallerySection: any = [
                                     </div>
                                 </div>
                             </section>`
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -5391,11 +5391,11 @@ export const designCodeForGallerySection: any = [
     </section>
 </body>
 </html>`
-    }
-  ],
-  [
-    {
-      Tailwind: `<section className="text-gray-600 body-font">
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto flex flex-wrap">
     <div className="lg:w-2/3 mx-auto">
       <div className="flex flex-wrap w-full bg-gray-100 py-32 px-10 relative mb-4">
@@ -5495,9 +5495,9 @@ export const designCodeForGallerySection: any = [
   </div>
 </section>
 `
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -5719,11 +5719,11 @@ export const designCodeForGallerySection: any = [
 </body>
 
 </html>`
-    }
-  ],
-  [
-    {
-      Tailwind: `<section className="text-gray-600 body-font">
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
                                 <div className="container px-5 py-24 mx-auto">
                                     <div className="flex flex-col text-center w-full mb-20">
                                         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Inspirational Quotes Collection</h1>
@@ -5793,9 +5793,9 @@ export const designCodeForGallerySection: any = [
                                     </div>
                                 </div>
                             </section>`
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -5979,11 +5979,11 @@ export const designCodeForGallerySection: any = [
 </body>
 
 </html>`
-    }
-  ],
-  [
-    {
-      Tailwind: `<section className=" body-font">
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className=" body-font">
                                 <div className="container px-5 py-24 mx-auto">
                                     <div className="flex flex-col text-center w-full mb-12">
                                         <h1 className="sm:text-4xl text-3xl font-semibold title-font mb-4 text-gray-900">Explore Our Unique Collection</h1>
@@ -6096,9 +6096,9 @@ export const designCodeForGallerySection: any = [
                                 </div>
                             </section>
 `
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6339,11 +6339,11 @@ export const designCodeForGallerySection: any = [
     </section>
 </body>
 </html>`
-    }
-  ],
-  [
-    {
-      Tailwind: `<section className=" body-font">
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className=" body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-12">
       <h1 className="sm:text-4xl text-3xl font-semibold title-font mb-4 text-gray-900">Featured Items</h1>
@@ -6384,9 +6384,9 @@ export const designCodeForGallerySection: any = [
   </div>
 </section>
 `
-    },
-    {
-      Css: `<!DOCTYPE html>
+        },
+        {
+            Css: `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6540,6 +6540,686 @@ export const designCodeForGallerySection: any = [
     </section>
 </body>
 </html>`
-    }
-  ]
+        }
+    ]
+]
+// This is the design code for the Pricing Section I have Component Code 6
+export const designCodeForPricingSection: any = [
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font overflow-hidden">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-col text-center w-full mb-20">
+      <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Pricing</h1>
+      <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.</p>
+      <div className="flex mx-auto border-2 border-indigo-500 rounded overflow-hidden mt-6">
+        <button className="py-1 px-4 bg-indigo-500 text-white focus:outline-none">Monthly</button>
+        <button className="py-1 px-4 focus:outline-none">Annually</button>
+      </div>
+    </div>
+    <div className="flex flex-wrap -m-4">
+      <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+          <h2 className="text-sm tracking-widest title-font mb-1 font-medium">START</h2>
+          <h1 className="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Free</h1>
+          <p className="flex items-center text-gray-600 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Vexillologist pitchfork
+          </p>
+          <p className="flex items-center text-gray-600 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Tumeric plaid portland
+          </p>
+          <p className="flex items-center text-gray-600 mb-6">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Mixtape chillwave tumeric
+          </p>
+          <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+          <p className="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+        </div>
+      </div>
+      <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div className="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
+          <span className="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
+          <h2 className="text-sm tracking-widest title-font mb-1 font-medium">PRO</h2>
+          <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+            <span>$38</span>
+            <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
+          </h1>
+          <p className="flex items-center text-gray-600 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Vexillologist pitchfork
+          </p>
+          <p className="flex items-center text-gray-600 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Tumeric plaid portland
+          </p>
+          <p className="flex items-center text-gray-600 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Hexagon neutra unicorn
+          </p>
+          <p className="flex items-center text-gray-600 mb-6">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Mixtape chillwave tumeric
+          </p>
+          <button className="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Button
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+          <p className="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+        </div>
+      </div>
+      <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+          <h2 className="text-sm tracking-widest title-font mb-1 font-medium">BUSINESS</h2>
+          <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+            <span>$56</span>
+            <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
+          </h1>
+          <p className="flex items-center text-gray-600 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Vexillologist pitchfork
+          </p>
+          <p className="flex items-center text-gray-600 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Tumeric plaid portland
+          </p>
+          <p className="flex items-center text-gray-600 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Hexagon neutra unicorn
+          </p>
+          <p className="flex items-center text-gray-600 mb-6">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Mixtape chillwave tumeric
+          </p>
+          <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+          <p className="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+        </div>
+      </div>
+      <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+          <h2 className="text-sm tracking-widest title-font mb-1 font-medium">SPECIAL</h2>
+          <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+            <span>$72</span>
+            <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
+          </h1>
+          <p className="flex items-center text-gray-600 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Vexillologist pitchfork
+          </p>
+          <p className="flex items-center text-gray-600 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Tumeric plaid portland
+          </p>
+          <p className="flex items-center text-gray-600 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Hexagon neutra unicorn
+          </p>
+          <p className="flex items-center text-gray-600 mb-6">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Mixtape chillwave tumeric
+          </p>
+          <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+          <p className="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Section</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .pricing-section {
+            padding: 3rem 0;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: #1f2937;
+        }
+
+        .header p {
+            margin: 1rem 0;
+            color: #6b7280;
+        }
+
+        .button-group {
+            display: flex;
+            justify-content: center;
+            width: fit-content;
+            margin: auto;
+            border: 2px solid #6366f1;
+            border-radius: 0.5rem;
+            overflow: hidden;
+        }
+
+        .button-group button {
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border: none;
+            outline: none;
+        }
+
+        .monthly {
+            background-color: #6366f1;
+            color: #fff;
+        }
+
+        .annually {
+            background-color: transparent;
+            color: #6366f1;
+        }
+
+        .pricing-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: #fff;
+            border: 2px solid #d1d5db;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            text-align: center;
+            flex: 1;
+            max-width: 300px;
+            position: relative;
+        }
+
+        .card.popular {
+            border-color: #6366f1;
+        }
+
+        .badge {
+            background-color: #6366f1;
+            color: #fff;
+            padding: 0.2rem 0.5rem;
+            font-size: 0.75rem;
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-bottom-left-radius: 0.5rem;
+        }
+
+        .card h2 {
+            font-size: 0.875rem;
+            color: #6b7280;
+            margin-bottom: 1rem;
+        }
+
+        .card h1 {
+            font-size: 2.5rem;
+            color: #1f2937;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 1rem;
+        }
+
+        .card h1 span {
+            font-size: 1rem;
+            color: #6b7280;
+            margin-left: 0.5rem;
+        }
+
+        .feature {
+            display: flex;
+            align-items: center;
+            color: #6b7280;
+            margin-bottom: 1rem;
+        }
+
+        .icon {
+            width: 1rem;
+            height: 1rem;
+            background-color: #9ca3af;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            margin-right: 0.5rem;
+        }
+
+        .cta-button {
+            background-color: #9ca3af;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: auto;
+        }
+
+        .cta-button:hover {
+            background-color: #6b7280;
+        }
+
+        .note {
+            font-size: 0.75rem;
+            color: #6b7280;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="pricing-section">
+        <div class="container">
+            <div class="header">
+                <h1>Pricing</h1>
+                <p>Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.</p>
+                <div class="button-group">
+                    <button class="monthly">Monthly</button>
+                    <button class="annually">Annually</button>
+                </div>
+            </div>
+            <div class="pricing-cards">
+                <div class="card">
+                    <h2>START</h2>
+                    <h1>Free</h1>
+                    <p class="feature"><span class="icon"></span>Vexillologist pitchfork</p>
+                    <p class="feature"><span class="icon"></span>Tumeric plaid portland</p>
+                    <p class="feature"><span class="icon"></span>Mixtape chillwave tumeric</p>
+                    <button class="cta-button">Button</button>
+                    <p class="note">Literally you probably haven't heard of them jean shorts.</p>
+                </div>
+                <div class="card popular">
+                    <span class="badge">POPULAR</span>
+                    <h2>PRO</h2>
+                    <h1>$38 <span>/mo</span></h1>
+                    <p class="feature"><span class="icon"></span>Vexillologist pitchfork</p>
+                    <p class="feature"><span class="icon"></span>Tumeric plaid portland</p>
+                    <p class="feature"><span class="icon"></span>Hexagon neutra unicorn</p>
+                    <p class="feature"><span class="icon"></span>Mixtape chillwave tumeric</p>
+                    <button class="cta-button">Button</button>
+                    <p class="note">Literally you probably haven't heard of them jean shorts.</p>
+                </div>
+                <div class="card">
+                    <h2>BUSINESS</h2>
+                    <h1>$56 <span>/mo</span></h1>
+                    <p class="feature"><span class="icon"></span>Vexillologist pitchfork</p>
+                    <p class="feature"><span class="icon"></span>Tumeric plaid portland</p>
+                    <p class="feature"><span class="icon"></span>Hexagon neutra unicorn</p>
+                    <p class="feature"><span class="icon"></span>Mixtape chillwave tumeric</p>
+                    <button class="cta-button">Button</button>
+                    <p class="note">Literally you probably haven't heard of them jean shorts.</p>
+                </div>
+                <div class="card">
+                    <h2>SPECIAL</h2>
+                    <h1>$72 <span>/mo</span></h1>
+                    <p class="feature"><span class="icon"></span>Vexillologist pitchfork</p>
+                    <p class="feature"><span class="icon"></span>Tumeric plaid portland</p>
+                    <p class="feature"><span class="icon"></span>Hexagon neutra unicorn</p>
+                    <p class="feature"><span class="icon"></span>Mixtape chillwave tumeric</p>
+                    <button class="cta-button">Button</button>
+                    <p class="note">Literally you probably haven't heard of them jean shorts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <div className="flex flex-col text-center w-full mb-20">
+                                        <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Pricing</h1>
+                                        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+                                            Discover the perfect plan for your needs. Choose the best speed, storage, and price that suits you.
+                                        </p>
+                                    </div>
+                                    <div className="lg:w-2/3 w-full mx-auto overflow-auto">
+                                        <table className="table-auto w-full text-left whitespace-no-wrap">
+                                            <thead>
+                                                <tr>
+                                                    <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">Plan</th>
+                                                    <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Speed</th>
+                                                    <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Storage</th>
+                                                    <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Price</th>
+                                                    <th className="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br"></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td className="px-4 py-3">Basic</td>
+                                                    <td className="px-4 py-3">5 Mb/s</td>
+                                                    <td className="px-4 py-3">15 GB</td>
+                                                    <td className="px-4 py-3 text-lg text-gray-900">Free</td>
+                                                    <td className="w-10 text-center">
+                                                        <input name="plan" type="radio" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td className="border-t-2 border-gray-200 px-4 py-3">Standard</td>
+                                                    <td className="border-t-2 border-gray-200 px-4 py-3">25 Mb/s</td>
+                                                    <td className="border-t-2 border-gray-200 px-4 py-3">25 GB</td>
+                                                    <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$20</td>
+                                                    <td className="border-t-2 border-gray-200 w-10 text-center">
+                                                        <input name="plan" type="radio" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td className="border-t-2 border-gray-200 px-4 py-3">Premium</td>
+                                                    <td className="border-t-2 border-gray-200 px-4 py-3">50 Mb/s</td>
+                                                    <td className="border-t-2 border-gray-200 px-4 py-3">50 GB</td>
+                                                    <td className="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$40</td>
+                                                    <td className="border-t-2 border-gray-200 w-10 text-center">
+                                                        <input name="plan" type="radio" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">Ultimate</td>
+                                                    <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">100 Mb/s</td>
+                                                    <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3">200 GB</td>
+                                                    <td className="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$60</td>
+                                                    <td className="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                                                        <input name="plan" type="radio" />
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div className="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto">
+                                        <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                                            Learn More
+                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a>
+                                        <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
+                                            Get Started
+                                        </button>
+                                    </div>
+                                </div>
+        </section>`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Section</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        .pricing-section {
+            padding: 3rem 0;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: #1f2937;
+        }
+
+        .header p {
+            margin: 1rem 0;
+            color: #6b7280;
+        }
+
+        .table-container {
+            margin: 0 auto;
+            overflow: auto;
+        }
+
+        .pricing-table {
+            width: 100%;
+            text-align: left;
+            border-collapse: collapse;
+        }
+
+        .pricing-table th,
+        .pricing-table td {
+            padding: 1rem;
+            text-align: left;
+        }
+
+        .pricing-table thead th {
+            background-color: #e5e7eb;
+            color: #1f2937;
+            font-weight: 600;
+        }
+
+        .pricing-table tbody tr {
+            border-top: 2px solid #e5e7eb;
+        }
+
+        .pricing-table tbody tr:first-child {
+            border-top: none;
+        }
+
+        .pricing-table tbody tr:last-child {
+            border-bottom: 2px solid #e5e7eb;
+        }
+
+        .pricing-table tbody td {
+            color: #6b7280;
+        }
+
+        .pricing-table tbody td.text-lg {
+            font-size: 1.125rem;
+            color: #1f2937;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .actions {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2rem;
+        }
+
+        .learn-more {
+            color: #6366f1;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .learn-more .icon {
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.5rem;
+        }
+
+        .get-started {
+            background-color: #6366f1;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+        }
+
+        .get-started:hover {
+            background-color: #4f46e5;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="pricing-section">
+        <div class="container">
+            <div class="header">
+                <h1>Pricing</h1>
+                <p>Discover the perfect plan for your needs. Choose the best speed, storage, and price that suits you.
+                </p>
+            </div>
+            <div class="table-container">
+                <table class="pricing-table">
+                    <thead>
+                        <tr>
+                            <th>Plan</th>
+                            <th>Speed</th>
+                            <th>Storage</th>
+                            <th>Price</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Basic</td>
+                            <td>5 Mb/s</td>
+                            <td>15 GB</td>
+                            <td>Free</td>
+                            <td class="text-center">
+                                <input name="plan" type="radio">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Standard</td>
+                            <td>25 Mb/s</td>
+                            <td>25 GB</td>
+                            <td>$20</td>
+                            <td class="text-center">
+                                <input name="plan" type="radio">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Premium</td>
+                            <td>50 Mb/s</td>
+                            <td>50 GB</td>
+                            <td>$40</td>
+                            <td class="text-center">
+                                <input name="plan" type="radio">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Ultimate</td>
+                            <td>100 Mb/s</td>
+                            <td>200 GB</td>
+                            <td>$60</td>
+                            <td class="text-center">
+                                <input name="plan" type="radio">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="actions">
+                <a class="learn-more" href="#">Learn More
+                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                        class="icon" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </a>
+                <button class="get-started">Get Started</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
+        }
+    ]
 ]
