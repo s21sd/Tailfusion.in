@@ -77,10 +77,23 @@ export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheCompone
                     <SelectColor handleSelectValueChange={handleSelectValueChange} />
                 </div>
                 <div className="border border-gray-300 dark:border-gray-700 p-2 rounded-md flex gap-4 dark:text-[#9e4ceb] text-white">
-                    <IoPhonePortraitOutline className="cursor-pointer" size={20} onClick={() => setDeviceView('phone')} />
-                    <MdOutlineTabletMac className="cursor-pointer" size={20} onClick={() => setDeviceView('tablet')} />
-                    <FaLaptopCode className="cursor-pointer" size={20} onClick={() => setDeviceView(null)} />
+                    <IoPhonePortraitOutline
+                        className={`cursor-pointer ${deviceView === 'phone' ? 'text-white dark:text-[#9e4ceb]' : 'text-gray-600 dark:text-gray-400'}`}
+                        size={25}
+                        onClick={() => setDeviceView('phone')}
+                    />
+                    <MdOutlineTabletMac
+                        className={`cursor-pointer ${deviceView === 'tablet' ? 'text-white dark:text-[#9e4ceb]' : 'text-gray-600 dark:text-gray-400'}`}
+                        size={25}
+                        onClick={() => setDeviceView('tablet')}
+                    />
+                    <FaLaptopCode
+                        className={`cursor-pointer ${deviceView === null ? 'text-white dark:text-[#9e4ceb]' : 'text-gray-600 dark:text-gray-400'}`}
+                        size={25}
+                        onClick={() => setDeviceView(null)}
+                    />
                 </div>
+
             </div>
             <TabsContent value="Preview">
                 <div className="h-fit m-3 border-gray-600 bg-[#151518] rounded-md shadow-md p-4 mx-auto">

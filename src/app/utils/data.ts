@@ -251,8 +251,41 @@ export const content = [
       "SEO-Friendly: Improve the visibility of blog posts in search engine results to attract more readers.",
       "Enhanced Engagement: Well-structured and interactive blog posts can help increase user engagement and retention."
     ]
-  }
+  },
 
+  // This is for the Steps Section Component Code 8
+  {
+    "title": "Steps ",
+    "description": "The steps sections component is designed to display a series of steps or stages in a process, providing a clear and concise way to guide users through various workflows. Built for clarity and efficiency, our steps sections component ensures users can easily follow and understand each step in the process.",
+    "sections": [
+      {
+        "title": "Step-by-Step Guide",
+        "description": "Provide a detailed breakdown of each step in a process to help users understand and follow along easily."
+      },
+      {
+        "title": "Progress Indicators",
+        "description": "Visually represent the user's progress through a series of steps to keep them informed of their current position."
+      },
+      {
+        "title": "Interactive Steps",
+        "description": "Include interactive elements such as checkboxes, forms, and buttons to make the steps more engaging and user-friendly."
+      }
+    ],
+    "features": [
+      "Responsive Design: Ensures the steps sections component adapts seamlessly to different screen sizes for a user-friendly experience.",
+      "Customizable Layouts: Easily modify the layout and design of steps to match your project's branding.",
+      "Visual Indicators: Clear and intuitive visual cues to show the progress and completion status of each step.",
+      "Dynamic Content: Support for various content types such as text, images, videos, and interactive elements.",
+      "Sequential Navigation: Users can easily move through the steps in a logical and intuitive order."
+    ],
+    "benefits": [
+      "Clear Guidance: Display steps in a structured and visually appealing way to provide clear guidance to users.",
+      "Responsive Design: Ensures the steps sections component adapts seamlessly to different screen sizes for a user-friendly experience.",
+      "Customizable Layouts: Easily modify the layout and design of steps to match your project's branding.",
+      "Enhanced User Experience: Well-structured and interactive steps can help increase user understanding and engagement.",
+      "Improved Process Clarity: Clear and concise steps help users understand the process, reducing confusion and improving overall user satisfaction."
+    ]
+  }
 
 
 ];

@@ -8419,3 +8419,654 @@ export const designCodeForBlogsSection: any = [
         }
     ]
 ]
+
+// This is the design code for the Steps Section I have Component Code 8
+export const designCodeForStepsSection: any = [
+    [
+        {
+            Tailwind: `<section className="text-gray-400body-font">
+                                <div className="container px-5 py-24 mx-auto flex flex-wrap">
+                                    <div className="flex flex-wrap w-full">
+                                        <div className="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
+                                            <div className="flex relative pb-12">
+                                                <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
+                                                    <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                                                </div>
+                                                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                                                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                                    </svg>
+                                                </div>
+                                                <div className="flex-grow pl-4">
+                                                    <h2 className="font-medium title-font text-sm text-white mb-1 tracking-wider">STEP 1</h2>
+                                                    <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex relative pb-12">
+                                                <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
+                                                    <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                                                </div>
+                                                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                                                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                                                    </svg>
+                                                </div>
+                                                <div className="flex-grow pl-4">
+                                                    <h2 className="font-medium title-font text-sm text-white mb-1 tracking-wider">STEP 2</h2>
+                                                    <p className="leading-relaxed">Vice migas literally kitsch +1 pok pok. Truffaut hot chicken slow-carb health goth, vape typewriter.</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex relative pb-12">
+                                                <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
+                                                    <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                                                </div>
+                                                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                                                        <circle cx="12" cy="5" r="3"></circle>
+                                                        <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                                                    </svg>
+                                                </div>
+                                                <div className="flex-grow pl-4">
+                                                    <h2 className="font-medium title-font text-sm text-white mb-1 tracking-wider">STEP 3</h2>
+                                                    <p className="leading-relaxed">Coloring book nar whal glossier master cleanse umami. Salvia +1 master cleanse blog taiyaki.</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex relative pb-12">
+                                                <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
+                                                    <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
+                                                </div>
+                                                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                                                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                                        <circle cx="12" cy="7" r="4"></circle>
+                                                    </svg>
+                                                </div>
+                                                <div className="flex-grow pl-4">
+                                                    <h2 className="font-medium title-font text-sm text-white mb-1 tracking-wider">STEP 4</h2>
+                                                    <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex relative">
+                                                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                                                        <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                                                        <path d="M22 4L12 14.01l-3-3"></path>
+                                                    </svg>
+                                                </div>
+                                                <div className="flex-grow pl-4">
+                                                    <h2 className="font-medium title-font text-sm text-white mb-1 tracking-wider">FINISH</h2>
+                                                    <p className="leading-relaxed">Pitchfork ugh tattooed scenester echo park gastropub whatever cold-pressed retro.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <img className="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12" src="https://dummyimage.com/1200x500" alt="step" />
+                                    </div>
+                                </div>
+                            </section>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steps Section</title>
+    <style>
+        body {
+            color: #9ca3af;
+            background-color: #1f2937;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.25rem;
+        }
+
+        .content-wrapper {
+            padding: 6rem 0;
+        }
+
+        .flex-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -1rem;
+        }
+
+        .text-gray-400body-font {
+            color: #9ca3af;
+        }
+
+        .step-section {
+            display: flex;
+            width: 100%;
+        }
+
+        .steps-wrapper {
+            width: 100%;
+        }
+
+        @media (min-width: 768px) {
+            .steps-wrapper {
+                width: 50%;
+                padding-right: 2.5rem;
+                padding-bottom: 1.5rem;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .steps-wrapper {
+                width: 40%;
+            }
+        }
+
+        .step-item {
+            display: flex;
+            position: relative;
+            padding-bottom: 3rem;
+        }
+
+        .step-line {
+            height: 100%;
+            width: 2.5rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .step-line-inner {
+            height: 100%;
+            width: 0.25rem;
+            background-color: #374151;
+            pointer-events: none;
+        }
+
+        .step-icon {
+            flex-shrink: 0;
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 9999px;
+            background-color: #6366f1;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            position: relative;
+            z-index: 10;
+        }
+
+        .step-content {
+            flex-grow: 1;
+            padding-left: 1rem;
+        }
+
+        .step-title {
+            font-weight: 500;
+            font-size: 0.875rem;
+            color: #ffffff;
+            margin-bottom: 0.25rem;
+            letter-spacing: 0.1em;
+        }
+
+        .step-description {
+            line-height: 1.75;
+        }
+
+        .step-finish {
+            display: flex;
+            position: relative;
+        }
+
+        .image-wrapper {
+            width: 100%;
+            height: 900px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 0.5rem;
+            margin-top: 3rem;
+        }
+
+        @media (min-width: 768px) {
+            .image-wrapper {
+                width: 50%;
+                margin-top: 0;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .image-wrapper {
+                width: 60%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="text-gray-400body-font content-wrapper">
+        <div class="container">
+            <div class="step-section">
+                <div class="steps-wrapper">
+                    <div class="step-item">
+                        <div class="step-line">
+                            <div class="step-line-inner"></div>
+                        </div>
+                        <div class="step-icon">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="icon" viewBox="0 0 24 24">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <div class="step-content">
+                            <h2 class="step-title">STEP 1</h2>
+                            <p class="step-description">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
+                                bespoke try-hard cliche palo santo offal.</p>
+                        </div>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-line">
+                            <div class="step-line-inner"></div>
+                        </div>
+                        <div class="step-icon">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="icon" viewBox="0 0 24 24">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                            </svg>
+                        </div>
+                        <div class="step-content">
+                            <h2 class="step-title">STEP 2</h2>
+                            <p class="step-description">Vice migas literally kitsch +1 pok pok. Truffaut hot chicken
+                                slow-carb health goth, vape typewriter.</p>
+                        </div>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-line">
+                            <div class="step-line-inner"></div>
+                        </div>
+                        <div class="step-icon">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="icon" viewBox="0 0 24 24">
+                                <circle cx="12" cy="5" r="3"></circle>
+                                <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                            </svg>
+                        </div>
+                        <div class="step-content">
+                            <h2 class="step-title">STEP 3</h2>
+                            <p class="step-description">Coloring book nar whal glossier master cleanse umami. Salvia +1
+                                master cleanse blog taiyaki.</p>
+                        </div>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-line">
+                            <div class="step-line-inner"></div>
+                        </div>
+                        <div class="step-icon">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="icon" viewBox="0 0 24 24">
+                                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
+                        <div class="step-content">
+                            <h2 class="step-title">STEP 4</h2>
+                            <p class="step-description">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
+                                bespoke try-hard cliche palo santo offal.</p>
+                        </div>
+                    </div>
+                    <div class="step-finish">
+                        <div class="step-icon">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="icon" viewBox="0 0 24 24">
+                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                                <path d="M22 4L12 14.01l-3-3"></path>
+                            </svg>
+                        </div>
+                        <div class="step-content">
+                            <h2 class="step-title">FINISH</h2>
+                            <p class="step-description">Pitchfork ugh tattooed scenester echo park gastropub whatever
+                                cold-pressed retro.</p>
+                        </div>
+                    </div>
+                </div>
+                <img class="image-wrapper" src="https://dummyimage.com/700x500" alt="step">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto flex flex-wrap flex-col">
+    <div className="flex mx-auto flex-wrap mb-20">
+      <a className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-indigo-500 text-indigo-500 tracking-wider rounded-t">
+        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5 mr-3" viewBox="0 0 24 24">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+        </svg>
+        STEP 1
+      </a>
+      <a className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider">
+        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5 mr-3" viewBox="0 0 24 24">
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+        </svg>
+        STEP 2
+      </a>
+      <a className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider">
+        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5 mr-3" viewBox="0 0 24 24">
+          <circle cx="12" cy="5" r="3"></circle>
+          <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+        </svg>
+        STEP 3
+      </a>
+      <a className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider">
+        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5 mr-3" viewBox="0 0 24 24">
+          <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+          <circle cx="12" cy="7" r="4"></circle>
+        </svg>
+        STEP 4
+      </a>
+    </div>
+    <img className="xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+    <div className="flex flex-col text-center w-full">
+      <h1 className="text-xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1>
+      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+    </div>
+  </div>
+</section>
+<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto flex flex-wrap flex-col">
+    <div className="flex mx-auto flex-wrap mb-20">
+      <a className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-indigo-500 text-indigo-500 tracking-wider rounded-t">
+        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5 mr-3" viewBox="0 0 24 24">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+        </svg>
+        STEP 1
+      </a>
+      <a className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider">
+        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5 mr-3" viewBox="0 0 24 24">
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+        </svg>
+        STEP 2
+      </a>
+      <a className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider">
+        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5 mr-3" viewBox="0 0 24 24">
+          <circle cx="12" cy="5" r="3"></circle>
+          <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+        </svg>
+        STEP 3
+      </a>
+      <a className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider">
+        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5 mr-3" viewBox="0 0 24 24">
+          <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+          <circle cx="12" cy="7" r="4"></circle>
+        </svg>
+        STEP 4
+      </a>
+    </div>
+    <img className="xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+    <div className="flex flex-col text-center w-full">
+      <h1 className="text-xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1>
+      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+    </div>
+  </div>
+</section>
+<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto flex flex-wrap flex-col">
+    <div className="flex mx-auto flex-wrap mb-20">
+      <a className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-indigo-500 text-indigo-500 tracking-wider rounded-t">
+        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5 mr-3" viewBox="0 0 24 24">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+        </svg>
+        STEP 1
+      </a>
+      <a className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider">
+        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5 mr-3" viewBox="0 0 24 24">
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+        </svg>
+        STEP 2
+      </a>
+      <a className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider">
+        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5 mr-3" viewBox="0 0 24 24">
+          <circle cx="12" cy="5" r="3"></circle>
+          <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+        </svg>
+        STEP 3
+      </a>
+      <a className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider">
+        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5 mr-3" viewBox="0 0 24 24">
+          <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+          <circle cx="12" cy="7" r="4"></circle>
+        </svg>
+        STEP 4
+      </a>
+    </div>
+    <img className="xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+    <div className="flex flex-col text-center w-full">
+      <h1 className="text-xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1>
+      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+    </div>
+  </div>
+</section>
+<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto flex flex-wrap flex-col">
+    <div className="flex mx-auto flex-wrap mb-20">
+      <a className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-indigo-500 text-indigo-500 tracking-wider rounded-t">
+        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5 mr-3" viewBox="0 0 24 24">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+        </svg>
+        STEP 1
+      </a>
+      <a className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider">
+        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5 mr-3" viewBox="0 0 24 24">
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+        </svg>
+        STEP 2
+      </a>
+      <a className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider">
+        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5 mr-3" viewBox="0 0 24 24">
+          <circle cx="12" cy="5" r="3"></circle>
+          <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+        </svg>
+        STEP 3
+      </a>
+      <a className="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider">
+        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5 mr-3" viewBox="0 0 24 24">
+          <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+          <circle cx="12" cy="7" r="4"></circle>
+        </svg>
+        STEP 4
+      </a>
+    </div>
+    <img className="xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+    <div className="flex flex-col text-center w-full">
+      <h1 className="text-xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1>
+      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steps Section</title>
+    <style>
+        .body-font {
+            font-family: 'Inter', sans-serif;
+            color: #4b5563;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.25rem;
+        }
+
+        .content-wrapper {
+            padding: 6rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        .steps-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 5rem;
+            justify-content: center;
+        }
+
+        .step {
+            padding: 0.75rem 1.5rem;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 2px solid #cbd5e1;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            border-radius: 0.5rem 0.5rem 0 0;
+
+        }
+
+        .step.active {
+            border-color: #6366f1;
+            color: #6366f1;
+            background-color: #f3f4f6;
+        }
+
+        .step svg {
+            width: 1.25rem;
+            height: 1.25rem;
+            margin-right: 0.75rem;
+        }
+
+        .image-wrapper {
+            max-width: 33.3333%;
+            width: 100%;
+            margin: 0 auto 2.5rem;
+            border-radius: 0.5rem;
+            display: block;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        @media (min-width: 768px) {
+            .step {
+                width: auto;
+                justify-content: flex-start;
+            }
+
+            .image-wrapper {
+                max-width: 50%;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .image-wrapper {
+                max-width: 25%;
+            }
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-xl {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            color: #111827;
+        }
+
+        .text-base {
+            font-size: 1rem;
+            line-height: 1.75;
+            color: #4b5563;
+        }
+
+        .leading-relaxed {
+            line-height: 1.75;
+        }
+
+        .title-font {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .font-medium {
+            font-weight: 500;
+        }
+
+        .mb-4 {
+            margin-bottom: 1rem;
+        }
+
+        .lg-w-2-3 {
+            max-width: 66.6667%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="body-font content-wrapper">
+        <div class="container">
+            <div class="steps-wrapper">
+                <a class="step active">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    STEP 1
+                </a>
+                <a class="step">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                    </svg>
+                    STEP 2
+                </a>
+                <a class="step">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" viewBox="0 0 24 24">
+                        <circle cx="12" cy="5" r="3"></circle>
+                        <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                    </svg>
+                    STEP 3
+                </a>
+                <a class="step">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    STEP 4
+                </a>
+            </div>
+            <img class="image-wrapper" src="https://dummyimage.com/720x600" alt="hero">
+            <div class="text-center">
+                <h1 class="text-xl font-medium title-font mb-4">Master Cleanse Reliac Heirloom</h1>
+                <p class="lg-w-2-3 leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn
+                    asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them
+                    man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
+        }
+    ]
+]

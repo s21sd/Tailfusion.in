@@ -4,13 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Section</title>
+    <title>Steps Section</title>
     <style>
         .body-font {
-            color: #9ca3af;
-            background-color: #1f2937;
             font-family: 'Inter', sans-serif;
-            height: 100vh;
+            color: #4b5563;
         }
 
         .container {
@@ -21,100 +19,106 @@
 
         .content-wrapper {
             padding: 6rem 0;
-        }
-
-        .flex-wrapper {
             display: flex;
-            margin: -1rem;
+            flex-wrap: wrap;
+            flex-direction: column;
         }
 
-        .blog-item {
-            padding: 2rem 1rem;
+        .steps-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 5rem;
+            justify-content: center;
+        }
+
+        .step {
+            padding: 0.75rem 1.5rem;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 2px solid #cbd5e1;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            border-radius: 0.5rem 0.5rem 0 0;
+
+        }
+
+        .step.active {
+            border-color: #6366f1;
+            color: #6366f1;
+            background-color: #f3f4f6;
+        }
+
+        .step svg {
+            width: 1.25rem;
+            height: 1.25rem;
+            margin-right: 0.75rem;
+        }
+
+        .image-wrapper {
+            max-width: 33.3333%;
             width: 100%;
+            margin: 0 auto 2.5rem;
+            border-radius: 0.5rem;
+            display: block;
+            object-fit: cover;
+            object-position: center;
         }
 
-        @media (min-width: 1024px) {
-            .blog-item {
-                width: 33.3333%;
+        @media (min-width: 768px) {
+            .step {
+                width: auto;
+                justify-content: flex-start;
+            }
+
+            .image-wrapper {
+                max-width: 50%;
             }
         }
 
-        .blog-card {
-            height: 100%;
-            display: flex;
-            align-items: start;
+        @media (min-width: 1024px) {
+            .image-wrapper {
+                max-width: 25%;
+            }
         }
 
-        .date-wrapper {
-            width: 3rem;
-            display: flex;
-            flex-direction: column;
+        .text-center {
             text-align: center;
-            line-height: 1;
         }
 
-        .date-month {
-            color: #9ca3af;
-            padding-bottom: 0.5rem;
-            margin-bottom: 0.5rem;
-            border-bottom: 2px solid #374151;
-        }
-
-        .date-day {
-            font-weight: 500;
-            font-size: 1.125rem;
-            color: #d1d5db;
-        }
-
-        .content {
-            flex-grow: 1;
-            padding-left: 1.5rem;
-        }
-
-        .category {
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            font-weight: 500;
-            color: #6366f1;
-            margin-bottom: 0.25rem;
-        }
-
-        .title {
+        .text-xl {
             font-size: 1.25rem;
-            font-weight: 500;
-            color: #ffffff;
-            margin-bottom: 0.75rem;
+            margin-bottom: 1rem;
+            color: #111827;
         }
 
-        .description {
+        .text-base {
+            font-size: 1rem;
             line-height: 1.75;
-            margin-bottom: 1.25rem;
+            color: #4b5563;
         }
 
-        .author-link {
-            display: inline-flex;
-            align-items: center;
-            text-decoration: none;
+        .leading-relaxed {
+            line-height: 1.75;
         }
 
-        .author-image {
-            width: 2rem;
-            height: 2rem;
-            border-radius: 9999px;
-            object-fit: cover;
-            object-position: center;
-            flex-shrink: 0;
+        .title-font {
+            font-family: 'Inter', sans-serif;
         }
 
-        .author-info {
-            display: flex;
-            flex-direction: column;
-            padding-left: 0.75rem;
-        }
-
-        .author-name {
+        .font-medium {
             font-weight: 500;
-            color: #ffffff;
+        }
+
+        .mb-4 {
+            margin-bottom: 1rem;
+        }
+
+        .lg-w-2-3 {
+            max-width: 66.6667%;
+            margin: 0 auto;
         }
     </style>
 </head>
@@ -122,67 +126,44 @@
 <body>
     <section class="body-font content-wrapper">
         <div class="container">
-            <div class="flex-wrapper">
-                <div class="blog-item">
-                    <div class="blog-card">
-                        <div class="date-wrapper">
-                            <span class="date-month">Jul</span>
-                            <span class="date-day">18</span>
-                        </div>
-                        <div class="content">
-                            <h2 class="category">CATEGORY</h2>
-                            <h1 class="title">The 400 Blows</h1>
-                            <p class="description">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
-                                microdosing tousled waistcoat.</p>
-                            <a class="author-link">
-                                <img alt="blog" src="https://dummyimage.com/103x103" class="author-image" />
-                                <span class="author-info">
-                                    <span class="author-name">Alper Kamu</span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <div class="blog-card">
-                        <div class="date-wrapper">
-                            <span class="date-month">Jul</span>
-                            <span class="date-day">18</span>
-                        </div>
-                        <div class="content">
-                            <h2 class="category">CATEGORY</h2>
-                            <h1 class="title">Shooting Stars</h1>
-                            <p class="description">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
-                                microdosing tousled waistcoat.</p>
-                            <a class="author-link">
-                                <img alt="blog" src="https://dummyimage.com/102x102" class="author-image" />
-                                <span class="author-info">
-                                    <span class="author-name">Holden Caulfield</span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <div class="blog-card">
-                        <div class="date-wrapper">
-                            <span class="date-month">Jul</span>
-                            <span class="date-day">18</span>
-                        </div>
-                        <div class="content">
-                            <h2 class="category">CATEGORY</h1>
-                                <h1 class="title">Neptune</h1>
-                                <p class="description">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
-                                    microdosing tousled waistcoat.</p>
-                                <a class="author-link">
-                                    <img alt="blog" src="https://dummyimage.com/101x101" class="author-image" />
-                                    <span class="author-info">
-                                        <span class="author-name">Henry Letham</span>
-                                    </span>
-                                </a>
-                        </div>
-                    </div>
-                </div>
+            <div class="steps-wrapper">
+                <a class="step active">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    STEP 1
+                </a>
+                <a class="step">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                    </svg>
+                    STEP 2
+                </a>
+                <a class="step">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" viewBox="0 0 24 24">
+                        <circle cx="12" cy="5" r="3"></circle>
+                        <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                    </svg>
+                    STEP 3
+                </a>
+                <a class="step">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    STEP 4
+                </a>
+            </div>
+            <img class="image-wrapper" src="https://dummyimage.com/720x600" alt="hero">
+            <div class="text-center">
+                <h1 class="text-xl font-medium title-font mb-4">Master Cleanse Reliac Heirloom</h1>
+                <p class="lg-w-2-3 leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn
+                    asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them
+                    man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
             </div>
         </div>
     </section>
