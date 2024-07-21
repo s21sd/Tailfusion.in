@@ -273,6 +273,7 @@ const Codedesign = ({ valueOfTheComponent, value }: { valueOfTheComponent: numbe
                     </div>
                 }
                 return renderComponentDesignForContent();
+            // This is for the Gallery Section
             case 5:
                 const renderComponentDesignForGallery = () => {
                     return <div className="relative p-4">
@@ -325,9 +326,11 @@ const Codedesign = ({ valueOfTheComponent, value }: { valueOfTheComponent: numbe
         }
     }
     return (
-        <>
+        <div style={{
+            userSelect: 'text'
+        }}>
             {RenderComponentsBasedOnTheValueOfTheComponent()}
-        </>
+        </div>
     )
 }
 

@@ -10,7 +10,7 @@ const Sidebar = ({ toggleSidebar }: any) => {
         window.location.href = "https://github.com/s21sd/Tailfusion.io";
     };
     return (
-        <div className='fixed top-0 shadow-2xl rounded-sm left-0 h-full bg-black dark:bg-white z-50 min-h-screen w-80 pt-4'>
+        <div className='fixed top-0 shadow-2xl shadow-[#4b4739] dark:shadow-gray-400 rounded-md left-0 h-full bg-black dark:bg-white  z-50 min-h-screen w-80 pt-4'>
             <main className="flex flex-col p-4">
                 <div className="">
                     <div className="p-6 font-bold tracking-widest">
@@ -20,7 +20,7 @@ const Sidebar = ({ toggleSidebar }: any) => {
                                 className="cursor-pointer dark:text-[#9e4ceb] text-[#fff2c1]"
                                 onClick={toggleSidebar}
                                 size={40}
-                                
+
                             />
                         </div>
                         <div className='text-sm text-gray-400 flex flex-col gap-3 mt-4 ml-4 cursor-pointer dark:text-gray-500'>
