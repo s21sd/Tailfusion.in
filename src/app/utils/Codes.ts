@@ -7626,3 +7626,796 @@ export const designCodeForPricingSection: any = [
         }
     ]
 ]
+
+// This is the design code for the Blogs Section I have Component Code 7
+export const designCodeForBlogsSection: any = [
+    [
+        {
+            Tailwind: `<section className="text-gray-400 bg-gray-900 body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-wrap -m-4">
+      <div className="p-4 lg:w-1/3">
+        <div className="h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+          <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">BASIC</h2>
+          <h1 className="title-font sm:text-2xl text-xl font-medium text-white mb-3">Essential Features</h1>
+          <p className="leading-relaxed mb-3">Get started with the basics. Perfect for individuals or small teams.</p>
+          <a className="text-indigo-400 inline-flex items-center" href="#">Learn More
+            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+          <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+            <span className="text-gray-500 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-700 border-opacity-50">
+              <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>500 Users
+            </span>
+            <span className="text-gray-500 inline-flex items-center leading-none text-sm">
+              <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+              </svg>15 Features
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className="p-4 lg:w-1/3">
+        <div className="h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+          <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">STANDARD</h2>
+          <h1 className="title-font sm:text-2xl text-xl font-medium text-white mb-3">Professional Package</h1>
+          <p className="leading-relaxed mb-3">Advanced features for growing teams. Enhance your productivity and collaboration.</p>
+          <a className="text-indigo-400 inline-flex items-center" href="#">Learn More
+            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+          <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+            <span className="text-gray-500 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-700 border-opacity-50">
+              <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>1K Users
+            </span>
+            <span className="text-gray-500 inline-flex items-center leading-none text-sm">
+              <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+              </svg>30 Features
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className="p-4 lg:w-1/3">
+        <div className="h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+          <h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">PREMIUM</h2>
+          <h1 className="title-font sm:text-2xl text-xl font-medium text-white mb-3">Enterprise Solutions</h1>
+          <p className="leading-relaxed mb-3">Complete package with all features and premium support for large organizations.</p>
+          <a className="text-indigo-400 inline-flex items-center" href="#">Learn More
+            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+          <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+            <span className="text-gray-500 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-700 border-opacity-50">
+              <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>5K Users
+            </span>
+            <span className="text-gray-500 inline-flex items-center leading-none text-sm">
+              <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+              </svg>All Features
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <style>
+        .pricing-section {
+            color: #9ca3af;
+            background-color: #1f2937;
+            font-family: 'Inter', sans-serif;
+            height: 100vh;
+            padding: 6rem 1.25rem;
+        }
+
+        .pricing-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .pricing-list {
+            display: flex;
+            margin: -1rem;
+        }
+
+        .pricing-item {
+            padding: 1rem;
+            width: 100%;
+        }
+
+        @media (min-width: 1024px) {
+            .pricing-item {
+                width: 33.3333%;
+            }
+        }
+
+        .pricing-card {
+            height: 100%;
+            background-color: rgba(55, 65, 81, 0.4);
+            padding: 4rem 2rem;
+            border-radius: 0.5rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .pricing-plan {
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-weight: 500;
+            color: #6b7280;
+            margin-bottom: 0.25rem;
+        }
+
+        .pricing-title {
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: #ffffff;
+            margin-bottom: 0.75rem;
+        }
+
+        @media (min-width: 640px) {
+            .pricing-title {
+                font-size: 1.5rem;
+            }
+        }
+
+        .pricing-description {
+            line-height: 1.75;
+            margin-bottom: 0.75rem;
+        }
+
+        .pricing-link {
+            color: #6366f1;
+            display: inline-flex;
+            align-items: center;
+            margin-top: 0.75rem;
+            text-decoration: none;
+        }
+
+        .pricing-icon {
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.5rem;
+        }
+
+        .pricing-footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 1rem 0;
+        }
+
+        .pricing-users,
+        .pricing-features {
+            color: #6b7280;
+            display: inline-flex;
+            align-items: center;
+            font-size: 0.875rem;
+            padding-right: 0.75rem;
+            padding-left: 0.75rem;
+            border-right: 2px solid #374151;
+        }
+
+        .pricing-features {
+            border-right: none;
+        }
+
+        .footer-icon {
+            width: 1rem;
+            height: 1rem;
+            margin-right: 0.25rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="pricing-section">
+        <div class="pricing-container">
+            <div class="pricing-list">
+                <div class="pricing-item">
+                    <div class="pricing-card">
+                        <h2 class="pricing-plan">BASIC</h2>
+                        <h1 class="pricing-title">Essential Features</h1>
+                        <p class="pricing-description">Get started with the basics. Perfect for individuals or small
+                            teams.</p>
+                        <a class="pricing-link" href="#">Learn More
+                            <svg class="pricing-icon" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"
+                                fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <div class="pricing-footer">
+                            <span class="pricing-users">
+                                <svg class="footer-icon" stroke="currentColor" strokeWidth="2" fill="none"
+                                    strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>500 Users
+                            </span>
+                            <span class="pricing-features">
+                                <svg class="footer-icon" stroke="currentColor" strokeWidth="2" fill="none"
+                                    strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>15 Features
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pricing-item">
+                    <div class="pricing-card">
+                        <h2 class="pricing-plan">STANDARD</h2>
+                        <h1 class="pricing-title">Professional Package</h1>
+                        <p class="pricing-description">Advanced features for growing teams. Enhance your productivity
+                            and collaboration.</p>
+                        <a class="pricing-link" href="#">Learn More
+                            <svg class="pricing-icon" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"
+                                fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <div class="pricing-footer">
+                            <span class="pricing-users">
+                                <svg class="footer-icon" stroke="currentColor" strokeWidth="2" fill="none"
+                                    strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>1K Users
+                            </span>
+                            <span class="pricing-features">
+                                <svg class="footer-icon" stroke="currentColor" strokeWidth="2" fill="none"
+                                    strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>30 Features
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pricing-item">
+                    <div class="pricing-card">
+                        <h2 class="pricing-plan">PREMIUM</h2>
+                        <h1 class="pricing-title">Enterprise Solutions</h1>
+                        <p class="pricing-description">Complete package with all features and premium support for large
+                            organizations.</p>
+                        <a class="pricing-link" href="#">Learn More
+                            <svg class="pricing-icon" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"
+                                fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <div class="pricing-footer">
+                            <span class="pricing-users">
+                                <svg class="footer-icon" stroke="currentColor" strokeWidth="2" fill="none"
+                                    strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>5K Users
+                            </span>
+                            <span class="pricing-features">
+                                <svg class="footer-icon" stroke="currentColor" strokeWidth="2" fill="none"
+                                    strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>All Features
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-400 bg-gray-900 body-font overflow-hidden">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="-my-8 divide-y-2 divide-gray-800">
+      <div className="py-8 flex flex-wrap md:flex-nowrap">
+        <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+          <span className="font-semibold title-font text-white">NEWS</span>
+          <span className="mt-1 text-gray-500 text-sm">22 Jul 2024</span>
+        </div>
+        <div className="md:flex-grow">
+          <h2 className="text-2xl font-medium text-white title-font mb-2">New Innovations in Tech Industry</h2>
+          <p className="leading-relaxed">Explore the latest trends and breakthroughs in technology that are shaping the future. From AI advancements to green tech, stay updated with what’s new and exciting.</p>
+          <a className="text-indigo-400 inline-flex items-center mt-4" href="#">Read More
+            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div className="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
+        <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+          <span className="font-semibold title-font text-white">NEWS</span>
+          <span className="mt-1 text-gray-500 text-sm">21 Jul 2024</span>
+        </div>
+        <div className="md:flex-grow">
+          <h2 className="text-2xl font-medium text-white title-font mb-2">Advancements in Renewable Energy</h2>
+          <p className="leading-relaxed">Discover the latest developments in renewable energy sources and technologies. Learn how these innovations are impacting global sustainability efforts.</p>
+          <a className="text-indigo-400 inline-flex items-center mt-4" href="#">Read More
+            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div className="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
+        <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+          <span className="font-semibold title-font text-white">NEWS</span>
+          <span className="mt-1 text-gray-500 text-sm">20 Jul 2024</span>
+        </div>
+        <div className="md:flex-grow">
+          <h2 className="text-2xl font-medium text-white title-font mb-2">The Future of Space Exploration</h2>
+          <p className="leading-relaxed">Get insights into upcoming space missions and projects aimed at exploring beyond our planet. Understand the goals and challenges of future space exploration.</p>
+          <a className="text-indigo-400 inline-flex items-center mt-4" href="#">Read More
+            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <style>
+        .blog-section {
+            color: #9ca3af;
+            background-color: #383a3d;
+            font-family: 'Inter', sans-serif;
+            padding: 6rem 1.25rem;
+        }
+
+        .blog-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .blog-list {
+            border-top: 2px solid #374151;
+        }
+
+        .blog-item {
+            padding: 2rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            border-bottom: 2px solid #374151;
+        }
+
+        .blog-item:last-child {
+            border-bottom: none;
+        }
+
+        .blog-item-header {
+            flex: 0 0 16rem;
+            display: grid;
+            margin-bottom: 5.5rem;
+        }
+
+        .blog-category {
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .blog-date {
+            margin-top: 0.25rem;
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+
+        .blog-content {
+            flex: 1;
+        }
+
+        .blog-title {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #ffffff;
+            margin-bottom: 0.75rem;
+        }
+
+        .blog-description {
+            line-height: 1.75;
+        }
+
+        .blog-link {
+            color: #6366f1;
+            display: inline-flex;
+            align-items: center;
+            margin-top: 1rem;
+            text-decoration: none;
+        }
+
+        .blog-icon {
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="blog-section">
+        <div class="blog-container">
+            <div class="blog-list">
+                <div class="blog-item">
+                    <div class="blog-item-header">
+                        <span class="blog-category">CATEGORY</span>
+                        <span class="blog-date">12 Jun 2019</span>
+                    </div>
+                    <div class="blog-content">
+                        <h2 class="blog-title">Bitters hashtag waistcoat fashion axe chia unicorn</h2>
+                        <p class="blog-description">Glossier echo park pug, church-key sartorial biodiesel vexillologist
+                            pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke
+                            vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
+                        <a class="blog-link" href="#">Learn More
+                            <svg class="blog-icon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-item-header">
+                        <span class="blog-category">CATEGORY</span>
+                        <span class="blog-date">12 Jun 2019</span>
+                    </div>
+                    <div class="blog-content">
+                        <h2 class="blog-title">Meditation bushwick direct trade taxidermy shaman</h2>
+                        <p class="blog-description">Glossier echo park pug, church-key sartorial biodiesel vexillologist
+                            pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke
+                            vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
+                        <a class="blog-link" href="#">Learn More
+                            <svg class="blog-icon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-item-header">
+                        <span class="blog-category">CATEGORY</span>
+                        <span class="blog-date">12 Jun 2019</span>
+                    </div>
+                    <div class="blog-content">
+                        <h2 class="blog-title">Woke master cleanse drinking vinegar salvia</h2>
+                        <p class="blog-description">Glossier echo park pug, church-key sartorial biodiesel vexillologist
+                            pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke
+                            vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
+                        <a class="blog-link" href="#">Learn More
+                            <svg class="blog-icon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-400 bg-gray-900 body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-wrap -mx-4 -my-8">
+      <div className="py-8 px-4 lg:w-1/3">
+        <div className="h-full flex items-start">
+          <div className="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+            <span className="text-gray-400 pb-2 mb-2 border-b-2 border-gray-700">Jul</span>
+            <span className="font-medium text-lg leading-none text-gray-300 title-font">18</span>
+          </div>
+          <div className="flex-grow pl-6">
+            <h2 className="tracking-widest text-xs title-font font-medium text-indigo-400 mb-1">CATEGORY</h2>
+            <h1 className="title-font text-xl font-medium text-white mb-3">The 400 Blows</h1>
+            <p className="leading-relaxed mb-5">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            <a className="inline-flex items-center">
+              <img alt="blog" src="https://dummyimage.com/103x103" className="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center" />
+              <span className="flex-grow flex flex-col pl-3">
+                <span className="title-font font-medium text-white">Alper Kamu</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="py-8 px-4 lg:w-1/3">
+        <div className="h-full flex items-start">
+          <div className="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+            <span className="text-gray-400 pb-2 mb-2 border-b-2 border-gray-700">Jul</span>
+            <span className="font-medium text-lg leading-none text-gray-300 title-font">18</span>
+          </div>
+          <div className="flex-grow pl-6">
+            <h2 className="tracking-widest text-xs title-font font-medium text-indigo-400 mb-1">CATEGORY</h2>
+            <h1 className="title-font text-xl font-medium text-white mb-3">Shooting Stars</h1>
+            <p className="leading-relaxed mb-5">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            <a className="inline-flex items-center">
+              <img alt="blog" src="https://dummyimage.com/102x102" className="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center" />
+              <span className="flex-grow flex flex-col pl-3">
+                <span className="title-font font-medium text-white">Holden Caulfield</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="py-8 px-4 lg:w-1/3">
+        <div className="h-full flex items-start">
+          <div className="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+            <span className="text-gray-400 pb-2 mb-2 border-b-2 border-gray-700">Jul</span>
+            <span className="font-medium text-lg leading-none text-gray-300 title-font">18</span>
+          </div>
+          <div className="flex-grow pl-6">
+            <h2 className="tracking-widest text-xs title-font font-medium text-indigo-400 mb-1">CATEGORY</h2>
+            <h1 className="title-font text-xl font-medium text-white mb-3">Neptune</h1>
+            <p className="leading-relaxed mb-5">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            <a className="inline-flex items-center">
+              <img alt="blog" src="https://dummyimage.com/101x101" className="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center" />
+              <span className="flex-grow flex flex-col pl-3">
+                <span className="title-font font-medium text-white">Henry Letham</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Section</title>
+    <style>
+        .body-font {
+            color: #9ca3af;
+            background-color: #1f2937;
+            font-family: 'Inter', sans-serif;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.25rem;
+        }
+
+        .content-wrapper {
+            padding: 6rem 0;
+        }
+
+        .flex-wrapper {
+            display: flex;
+            margin: -1rem;
+        }
+
+        .blog-item {
+            padding: 2rem 1rem;
+            width: 100%;
+        }
+
+        @media (min-width: 1024px) {
+            .blog-item {
+                width: 33.3333%;
+            }
+        }
+
+        .blog-card {
+            height: 100%;
+            display: flex;
+            align-items: start;
+        }
+
+        .date-wrapper {
+            width: 3rem;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            line-height: 1;
+        }
+
+        .date-month {
+            color: #9ca3af;
+            padding-bottom: 0.5rem;
+            margin-bottom: 0.5rem;
+            border-bottom: 2px solid #374151;
+        }
+
+        .date-day {
+            font-weight: 500;
+            font-size: 1.125rem;
+            color: #d1d5db;
+        }
+
+        .content {
+            flex-grow: 1;
+            padding-left: 1.5rem;
+        }
+
+        .category {
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-weight: 500;
+            color: #6366f1;
+            margin-bottom: 0.25rem;
+        }
+
+        .title {
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: #ffffff;
+            margin-bottom: 0.75rem;
+        }
+
+        .description {
+            line-height: 1.75;
+            margin-bottom: 1.25rem;
+        }
+
+        .author-link {
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .author-image {
+            width: 2rem;
+            height: 2rem;
+            border-radius: 9999px;
+            object-fit: cover;
+            object-position: center;
+            flex-shrink: 0;
+        }
+
+        .author-info {
+            display: flex;
+            flex-direction: column;
+            padding-left: 0.75rem;
+        }
+
+        .author-name {
+            font-weight: 500;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="body-font content-wrapper">
+        <div class="container">
+            <div class="flex-wrapper">
+                <div class="blog-item">
+                    <div class="blog-card">
+                        <div class="date-wrapper">
+                            <span class="date-month">Jul</span>
+                            <span class="date-day">18</span>
+                        </div>
+                        <div class="content">
+                            <h2 class="category">CATEGORY</h2>
+                            <h1 class="title">The 400 Blows</h1>
+                            <p class="description">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                            <a class="author-link">
+                                <img alt="blog" src="https://dummyimage.com/103x103" class="author-image" />
+                                <span class="author-info">
+                                    <span class="author-name">Alper Kamu</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-card">
+                        <div class="date-wrapper">
+                            <span class="date-month">Jul</span>
+                            <span class="date-day">18</span>
+                        </div>
+                        <div class="content">
+                            <h2 class="category">CATEGORY</h2>
+                            <h1 class="title">Shooting Stars</h1>
+                            <p class="description">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                            <a class="author-link">
+                                <img alt="blog" src="https://dummyimage.com/102x102" class="author-image" />
+                                <span class="author-info">
+                                    <span class="author-name">Holden Caulfield</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-card">
+                        <div class="date-wrapper">
+                            <span class="date-month">Jul</span>
+                            <span class="date-day">18</span>
+                        </div>
+                        <div class="content">
+                            <h2 class="category">CATEGORY</h1>
+                                <h1 class="title">Neptune</h1>
+                                <p class="description">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                    microdosing tousled waistcoat.</p>
+                                <a class="author-link">
+                                    <img alt="blog" src="https://dummyimage.com/101x101" class="author-image" />
+                                    <span class="author-info">
+                                        <span class="author-name">Henry Letham</span>
+                                    </span>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
+        }
+    ]
+]

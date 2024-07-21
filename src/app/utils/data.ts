@@ -217,6 +217,40 @@ export const content = [
       "Accessibility: Designed with accessibility best practices to ensure all users can navigate and understand pricing options effectively.",
       "Increased Conversions: Well-structured and engaging pricing information can help increase conversions by guiding users to the best plan for their needs."
     ]
+  },
+  // This is for the Blogs Section Component Code 7
+
+  {
+    "title": "Blogs",
+    "description": "The blogs component is designed to display blog posts and articles in an organized and appealing way, making it easy for users to discover and engage with content. Built with flexibility and usability in mind, our blogs component ensures a consistent and intuitive user experience.",
+    "sections": [
+      {
+        "title": "Latest Posts",
+        "description": "Showcase the most recent blog posts to keep users updated with fresh content."
+      },
+      {
+        "title": "Categories and Tags",
+        "description": "Organize blog posts by categories and tags to help users find relevant content easily."
+      },
+      {
+        "title": "Featured Articles",
+        "description": "Highlight key articles to attract users' attention and promote important content."
+      }
+    ],
+    "features": [
+      "Responsive Design: Ensures the blogs component adapts seamlessly to different screen sizes for a user-friendly experience.",
+      "Customizable Layouts: Easily modify the layout and design of blog posts to match your project's branding.",
+      "SEO-Friendly: Designed with SEO best practices to improve the visibility of blog posts in search engine results.",
+      "Dynamic Content: Support for various content types such as text, images, videos, and embeds.",
+      "Interactive Elements: Inclusion of interactive components like comments, likes, and sharing options to enhance user engagement."
+    ],
+    "benefits": [
+      "Engaging Presentation: Display blog posts in a visually appealing and organized way to encourage user engagement.",
+      "Responsive Design: Ensures the blogs component adapts seamlessly to different screen sizes for a user-friendly experience.",
+      "Customizable Layouts: Easily modify the layout and design of blog posts to match your project's branding.",
+      "SEO-Friendly: Improve the visibility of blog posts in search engine results to attract more readers.",
+      "Enhanced Engagement: Well-structured and interactive blog posts can help increase user engagement and retention."
+    ]
   }
 
 

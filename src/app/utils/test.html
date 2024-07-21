@@ -4,280 +4,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing Plans</title>
+    <title>Blog Section</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f7fafc;
-            color: #4a5568;
+        .body-font {
+            color: #9ca3af;
+            background-color: #1f2937;
+            font-family: 'Inter', sans-serif;
+            height: 100vh;
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 1.5rem;
+            padding: 0 1.25rem;
         }
 
-        .section {
-            padding-top: 3rem;
-            padding-bottom: 3rem;
-            background-color: #f7fafc;
+        .content-wrapper {
+            padding: 6rem 0;
+        }
+
+        .flex-wrapper {
+            display: flex;
+            margin: -1rem;
+        }
+
+        .blog-item {
+            padding: 2rem 1rem;
+            width: 100%;
+        }
+
+        @media (min-width: 1024px) {
+            .blog-item {
+                width: 33.3333%;
+            }
+        }
+
+        .blog-card {
+            height: 100%;
+            display: flex;
+            align-items: start;
+        }
+
+        .date-wrapper {
+            width: 3rem;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            line-height: 1;
+        }
+
+        .date-month {
+            color: #9ca3af;
+            padding-bottom: 0.5rem;
+            margin-bottom: 0.5rem;
+            border-bottom: 2px solid #374151;
+        }
+
+        .date-day {
+            font-weight: 500;
+            font-size: 1.125rem;
+            color: #d1d5db;
+        }
+
+        .content {
+            flex-grow: 1;
+            padding-left: 1.5rem;
+        }
+
+        .category {
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-weight: 500;
+            color: #6366f1;
+            margin-bottom: 0.25rem;
         }
 
         .title {
-            font-size: 2.25rem;
-            font-weight: 600;
-            color: #2d3748;
-            text-align: center;
-            margin-bottom: 1rem;
-        }
-
-        .subtitle {
-            margin-top: 1rem;
-            color: #718096;
-            text-align: center;
-        }
-
-        .toggle {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-width: 1px;
-            border-color: #e2e8f0;
-            border-radius: 0.5rem;
-            margin-top: 1.5rem;
-        }
-
-        .toggle button {
-            padding-top: 0.5rem;
-            padding-bottom: 0.5rem;
-            padding-left: 1.5rem;
-            padding-right: 1.5rem;
-            color: #ffffff;
-            background-color: #667eea;
-            border-top-left-radius: 0.5rem;
-            border-bottom-left-radius: 0.5rem;
-            cursor: pointer;
-            border: none;
-        }
-
-        .toggle button.inactive {
-            color: #718096;
-            background-color: #ffffff;
-            border-top-right-radius: 0.5rem;
-            border-bottom-right-radius: 0.5rem;
-        }
-
-        .pricing-plans {
-            display: flex;
-
-            margin-top: 2rem;
-            margin-left: -1rem;
-            margin-right: -1rem;
-        }
-
-        .pricing-plan {
-            width: 100%;
-            max-width: 33.3333%;
-            padding-left: 1rem;
-            padding-right: 1rem;
-            margin-bottom: 2rem;
-        }
-
-        .plan {
-            padding: 1.5rem;
-            background-color: #ffffff;
-            border-radius: 0.5rem;
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-            transition: box-shadow 0.3s ease;
-        }
-
-        .plan:hover {
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-        }
-
-        .plan-title {
-            font-size: 1.125rem;
-            font-weight: 600;
-            color: #2d3748;
-        }
-
-        .plan-price {
-            display: flex;
-            align-items: center;
-            margin-top: 1.5rem;
-        }
-
-        .plan-price h1 {
-            font-size: 3rem;
-            font-weight: 700;
-            color: #2d3748;
-        }
-
-        .plan-price span {
-            margin-left: 0.25rem;
             font-size: 1.25rem;
-            color: #718096;
-        }
-
-        .plan-description {
-            margin-top: 1rem;
-            color: #718096;
-        }
-
-        .plan-features {
-            margin-top: 1.5rem;
-            list-style-type: none;
-            padding-left: 0;
-        }
-
-        .plan-features li {
-            display: flex;
-            align-items: center;
-            margin-top: 1rem;
-        }
-
-        .plan-features svg {
-            width: 1.5rem;
-            height: 1.5rem;
-            color: #48bb78;
-            margin-right: 0.5rem;
-        }
-
-        .plan-button {
-            width: 100%;
-            padding-top: 0.75rem;
-            padding-bottom: 0.75rem;
-            background-color: #667eea;
+            font-weight: 500;
             color: #ffffff;
-            border-radius: 0.5rem;
-            text-align: center;
-            cursor: pointer;
-            border: none;
-            margin-top: 2rem;
-            transition: background-color 0.3s ease;
+            margin-bottom: 0.75rem;
         }
 
-        .plan-button:hover {
-            background-color: #5a67d8;
+        .description {
+            line-height: 1.75;
+            margin-bottom: 1.25rem;
+        }
+
+        .author-link {
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .author-image {
+            width: 2rem;
+            height: 2rem;
+            border-radius: 9999px;
+            object-fit: cover;
+            object-position: center;
+            flex-shrink: 0;
+        }
+
+        .author-info {
+            display: flex;
+            flex-direction: column;
+            padding-left: 0.75rem;
+        }
+
+        .author-name {
+            font-weight: 500;
+            color: #ffffff;
         }
     </style>
 </head>
 
 <body>
-    <section class="section">
+    <section class="body-font content-wrapper">
         <div class="container">
-            <div class="text-center mb-16">
-                <h1 class="title">Our Pricing Plans</h1>
-                <p class="subtitle">Choose the plan that suits your needs best. All plans come with a 14-day free trial.
-                </p>
-                <div class="toggle">
-                    <button>Monthly</button>
-                    <button class="inactive">Yearly</button>
-                </div>
-            </div>
-            <div class="pricing-plans">
-                <div class="pricing-plan">
-                    <div class="plan">
-                        <h2 class="plan-title">Basic</h2>
-                        <div class="plan-price">
-                            <h1>$0</h1>
-                            <span>/mo</span>
+            <div class="flex-wrapper">
+                <div class="blog-item">
+                    <div class="blog-card">
+                        <div class="date-wrapper">
+                            <span class="date-month">Jul</span>
+                            <span class="date-day">18</span>
                         </div>
-                        <p class="plan-description">Perfect for getting started with basic features.</p>
-                        <ul class="plan-features">
-                            <li>
-                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
-                                    strokeWidth="2" viewBox="0 0 24 24">
-                                    <path d="M20 6L9 17l-5-5"></path>
-                                </svg>
-                                Access to basic features
-                            </li>
-                            <li>
-                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
-                                    strokeWidth="2" viewBox="0 0 24 24">
-                                    <path d="M20 6L9 17l-5-5"></path>
-                                </svg>
-                                5 Projects
-                            </li>
-                            <li>
-                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
-                                    strokeWidth="2" viewBox="0 0 24 24">
-                                    <path d="M20 6L9 17l-5-5"></path>
-                                </svg>
-                                Email support
-                            </li>
-                        </ul>
-                        <button class="plan-button">Sign Up</button>
+                        <div class="content">
+                            <h2 class="category">CATEGORY</h2>
+                            <h1 class="title">The 400 Blows</h1>
+                            <p class="description">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                            <a class="author-link">
+                                <img alt="blog" src="https://dummyimage.com/103x103" class="author-image" />
+                                <span class="author-info">
+                                    <span class="author-name">Alper Kamu</span>
+                                </span>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="pricing-plan">
-                    <div class="plan plan-popular">
-                        <h2 class="plan-title">Standard</h2>
-                        <div class="plan-price">
-                            <h1>$29</h1>
-                            <span>/mo</span>
+                <div class="blog-item">
+                    <div class="blog-card">
+                        <div class="date-wrapper">
+                            <span class="date-month">Jul</span>
+                            <span class="date-day">18</span>
                         </div>
-                        <p class="plan-description">Ideal for growing your business with advanced features.</p>
-                        <ul class="plan-features">
-                            <li>
-                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
-                                    strokeWidth="2" viewBox="0 0 24 24">
-                                    <path d="M20 6L9 17l-5-5"></path>
-                                </svg>
-                                Access to all features
-                            </li>
-                            <li>
-                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
-                                    strokeWidth="2" viewBox="0 0 24 24">
-                                    <path d="M20 6L9 17l-5-5"></path>
-                                </svg>
-                                Unlimited Projects
-                            </li>
-                            <li>
-                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
-                                    strokeWidth="2" viewBox="0 0 24 24">
-                                    <path d="M20 6L9 17l-5-5"></path>
-                                </svg>
-                                Priority support
-                            </li>
-                        </ul>
-                        <button class="plan-button">Sign Up</button>
+                        <div class="content">
+                            <h2 class="category">CATEGORY</h2>
+                            <h1 class="title">Shooting Stars</h1>
+                            <p class="description">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                            <a class="author-link">
+                                <img alt="blog" src="https://dummyimage.com/102x102" class="author-image" />
+                                <span class="author-info">
+                                    <span class="author-name">Holden Caulfield</span>
+                                </span>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="pricing-plan">
-                    <div class="plan">
-                        <h2 class="plan-title">Premium</h2>
-                        <div class="plan-price">
-                            <h1>$49</h1>
-                            <span>/mo</span>
+                <div class="blog-item">
+                    <div class="blog-card">
+                        <div class="date-wrapper">
+                            <span class="date-month">Jul</span>
+                            <span class="date-day">18</span>
                         </div>
-                        <p class="plan-description">Best for businesses requiring advanced features and high-level
-                            support.</p>
-                        <ul class="plan-features">
-                            <li>
-                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
-                                    strokeWidth="2" viewBox="0 0 24 24">
-                                    <path d="M20 6L9 17l-5-5"></path>
-                                </svg>
-                                Advanced analytics
-                            </li>
-                            <li>
-                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
-                                    strokeWidth="2" viewBox="0 0 24 24">
-                                    <path d="M20 6L9 17l-5-5"></path>
-                                </svg>
-                                Dedicated account manager
-                            </li>
-                            <li>
-                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"
-                                    strokeWidth="2" viewBox="0 24 24">
-                                    <path d="M20 6L9 17l-5-5"></path>
-                                </svg>
-                                24/7 support
-                            </li>
-                        </ul>
-                        <button class="plan-button">Sign Up</button>
+                        <div class="content">
+                            <h2 class="category">CATEGORY</h1>
+                                <h1 class="title">Neptune</h1>
+                                <p class="description">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                    microdosing tousled waistcoat.</p>
+                                <a class="author-link">
+                                    <img alt="blog" src="https://dummyimage.com/101x101" class="author-image" />
+                                    <span class="author-info">
+                                        <span class="author-name">Henry Letham</span>
+                                    </span>
+                                </a>
+                        </div>
                     </div>
                 </div>
             </div>
