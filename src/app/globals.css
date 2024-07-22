@@ -15,6 +15,7 @@
 
 @layer base {
   :root {
+
     body {
       background-color: black;
       -webkit-user-select: none;

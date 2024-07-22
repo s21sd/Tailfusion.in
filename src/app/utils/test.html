@@ -6,193 +6,170 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce Section</title>
     <style>
-        .product-details-section {
-            color: #4A5568;
-            font-family: 'Helvetica', 'Arial', sans-serif;
-            overflow: hidden;
-        }
-
         .container {
-            max-width: 1200px;
+            max-width: 1280px;
             margin: 0 auto;
-            padding: 1.25rem 1.25rem 6rem;
+            padding: 2rem 1rem;
         }
 
-        .product-details-wrapper {
-            display: flex;
-            flex-wrap: wrap;
-            margin-left: auto;
-            max-width: 80%;
+        .viewer-box {
+            padding: 2rem;
         }
 
-        .product-info {
-            width: 100%;
-            max-width: 40%;
-            padding-right: 2.5rem;
-            padding-top: 1.5rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .brand-name {
-            color: #718096;
-            font-size: 0.875rem;
-            text-transform: uppercase;
-        }
-
-        .product-title {
-            color: #1A202C;
-            font-size: 1.875rem;
-            font-weight: 500;
-            margin-bottom: 1rem;
-        }
-
-        .tabs {
-            display: flex;
-            margin-bottom: 1rem;
-        }
-
-        .tab {
-            flex-grow: 1;
-            padding: 0.5rem 0.25rem;
-            font-size: 1.125rem;
-            border-bottom: 2px solid #E2E8F0;
-            text-align: center;
-        }
-
-        .tab.active {
-            color: #5A67D8;
-            border-color: #5A67D8;
-        }
-
-        .product-description {
-            line-height: 1.5;
-            margin-bottom: 1rem;
-        }
-
-        .product-attribute {
+        .content-wrapper {
             display: flex;
             justify-content: space-between;
-            padding: 0.5rem 0;
-            border-top: 1px solid #E2E8F0;
+            gap: 2rem;
         }
 
-        .product-attribute.last {
-            border-bottom: 1px solid #E2E8F0;
+        .image-slider-wrapper {
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
         }
 
-        .attribute-name {
-            color: #718096;
-        }
-
-        .attribute-value {
-            color: #1A202C;
-            margin-left: auto;
-        }
-
-        .product-actions {
+        .button-container {
             display: flex;
             align-items: center;
-            margin-top: 1.5rem;
         }
 
-        .product-price {
-            color: #1A202C;
-            font-size: 1.5rem;
+        .slide-button {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .slide-icon {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+
+        .slider {
+            display: flex;
+            align-items: center;
+        }
+
+        .slide-container {
+            position: relative;
+        }
+
+        .image-container {
+            display: flex;
+        }
+
+        .image {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 0.5rem;
+        }
+
+        .text-content-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .title {
+            font-size: 2rem;
+            width: fit-content;
+            font-weight: 600;
+        }
+
+        .description {
+            font-size: 1rem;
+            color: #4a5568;
+        }
+
+        .price {
+            font-size: 2rem;
             font-weight: 500;
+            color: #4a5568;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 1rem;
         }
 
         .add-to-cart-button {
-            margin-left: auto;
-            color: #FFFFFF;
-            background-color: #5A67D8;
+            width: 200px;
+            font-size: 1rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            padding: 1rem;
+            color: white;
+            background-color: #4a5568;
             border: none;
-            padding: 0.5rem 1.5rem;
             cursor: pointer;
-            border-radius: 0.375rem;
-            transition: background-color 0.3s;
         }
 
-        .add-to-cart-button:hover {
-            background-color: #434190;
-        }
-
-        .wishlist-button {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 2.5rem;
-            height: 2.5rem;
-            background-color: #EDF2F7;
-            border: none;
-            border-radius: 50%;
-            padding: 0;
-            margin-left: 1rem;
+        .view-details-button {
+            width: 200px;
+            font-size: 1rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            padding: 1rem;
+            color: #4a5568;
+            background-color: transparent;
+            border: 1px solid #cbd5e0;
             cursor: pointer;
-            color: #718096;
+            transition: background-color 0.3s, color 0.3s;
         }
 
-        .wishlist-icon {
-            width: 1.25rem;
-            height: 1.25rem;
+        .view-details-button:hover {
+            background-color: #4a5568;
+            color: white;
         }
 
-        .product-image {
-            width: 100%;
-            max-width: 50%;
-            height: auto;
-            object-fit: cover;
-            object-position: center;
-            border-radius: 0.375rem;
+        .wishlist-button-container {
+            margin-top: 1.5rem;
+        }
+
+        .add-to-wishlist-button {
+            font-size: 1.25rem;
+            text-decoration: underline;
+            color: #4a5568;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .add-to-wishlist-button:hover {
+            color: #2d3748;
         }
     </style>
 </head>
 
 <body>
-
-    <section class="product-details-section">
-        <div class="container">
-            <div class="product-details-wrapper">
-                <div class="product-info">
-                    <h2 class="brand-name">BRAND NAME</h2>
-                    <h1 class="product-title">Eco-Friendly Reusable Bottle</h1>
-                    <div class="tabs">
-                        <a class="tab active">Description</a>
-                        <a class="tab">Reviews</a>
-                        <a class="tab">Details</a>
-                    </div>
-                    <p class="product-description">This eco-friendly reusable bottle is perfect for those who care about
-                        the environment. Made from sustainable materials, it helps reduce plastic waste and keeps your
-                        beverages at the right temperature for hours.</p>
-                    <div class="product-attribute">
-                        <span class="attribute-name">Color</span>
-                        <span class="attribute-value">Green</span>
-                    </div>
-                    <div class="product-attribute">
-                        <span class="attribute-name">Size</span>
-                        <span class="attribute-value">750ml</span>
-                    </div>
-                    <div class="product-attribute last">
-                        <span class="attribute-name">Quantity</span>
-                        <span class="attribute-value">1</span>
-                    </div>
-                    <div class="product-actions">
-                        <span class="product-price">$25.00</span>
-                        <button class="add-to-cart-button">Add to Cart</button>
-                        <button class="wishlist-button">
-                            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                class="wishlist-icon" viewBox="0 0 24 24">
-                                <path
-                                    d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z">
-                                </path>
-                            </svg>
-                        </button>
+    <section class="container">
+        <div id="viewerBox" class="viewer-box">
+            <div class="content-wrapper">
+                <div class="image-slider-wrapper">
+                    <div class="slider">
+                        <div class="slide-container">
+                            <div class="image-container">
+                                <img alt="ecommerce" class="image" src="https://dummyimage.com/400x400" />
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <img alt="ecommerce" class="product-image" src="https://dummyimage.com/400x400" />
+                <div class="text-content-wrapper">
+                    <h1 class="title">Bar Stool</h1>
+                    <p class="description">You don't just want to be comfortable sitting in a bar stool—you want to be
+                        comfortable shimmying it up to the bar, closer to your lover, or back slightly to include a
+                        third person in the conversation.</p>
+                    <p class="price"></p>
+                    <div class="button-group">
+                        <button class="add-to-cart-button">Add to Cart</button>
+                        <button class="view-details-button">View Details</button>
+                    </div>
+                    <div class="wishlist-button-container">
+                        <button class="add-to-wishlist-button">Add to wishlist</button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-
 
 
 </body>

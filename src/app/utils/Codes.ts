@@ -10297,5 +10297,1226 @@ export const designCodeForEcommerceSection: any = [
 </html>`
 
         }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font overflow-hidden">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="lg:w-4/5 mx-auto flex flex-wrap">
+      <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400" />
+      <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+        <h2 className="text-sm title-font text-gray-500 tracking-widest">LIFESTYLE BRAND</h2>
+        <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">Eco-Friendly Bamboo Toothbrush</h1>
+        <div className="flex mb-4">
+          <span className="flex items-center">
+            <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+            <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+            <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+            <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+            <span className="text-gray-600 ml-3">4 Reviews</span>
+          </span>
+          <span className="flex ml-3 pl-3 py-2 border-l-2 border-gray-200 space-x-2">
+            <a className="text-gray-500">
+              <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a className="text-gray-500">
+              <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a className="text-gray-500">
+              <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+              </svg>
+            </a>
+          </span>
+        </div>
+        <p className="leading-relaxed">This eco-friendly bamboo toothbrush is a perfect choice for those who want to reduce their plastic footprint. Made from sustainable bamboo, it offers a natural and comfortable brushing experience.</p>
+        <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
+          <div className="flex">
+            <span className="mr-3">Color</span>
+            <button className="border-2 border-gray-300 rounded-full w-6 h-6 focus:outline-none"></button>
+            <button className="border-2 border-gray-300 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none"></button>
+            <button className="border-2 border-gray-300 ml-1 bg-indigo-500 rounded-full w-6 h-6 focus:outline-none"></button>
+          </div>
+          <div className="flex ml-6 items-center">
+            <span className="mr-3">Size</span>
+            <div className="relative">
+              <select className="rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base pl-3 pr-10">
+                <option>Standard</option>
+                <option>Medium</option>
+                <option>Large</option>
+                <option>Extra Large</option>
+              </select>
+              <span className="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4" viewBox="0 0 24 24">
+                  <path d="M6 9l6 6 6-6"></path>
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="flex">
+          <span className="title-font font-medium text-2xl text-gray-900">$12.00</span>
+          <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Add to Cart</button>
+          <button className="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
+            <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .section {
+            color: #4A5568;
+            overflow: hidden;
+        }
+
+        .container {
+            padding: 2rem;
+            margin: 0 auto;
+            max-width: 64rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 0.5rem;
+            background-color: #fff;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .image {
+            flex: 1 1 40%;
+            max-width: 400px;
+            border-radius: 0.5rem;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .details {
+            flex: 1 1 50%;
+            padding: 1rem;
+        }
+
+        .brand {
+            font-size: 0.875rem;
+            letter-spacing: 0.1em;
+            color: #A0AEC0;
+        }
+
+        .title {
+            font-size: 1.875rem;
+            color: #1A202C;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .ratings {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .stars {
+            display: flex;
+            align-items: center;
+        }
+
+        .star {
+            width: 1rem;
+            height: 1rem;
+            color: #4C51BF;
+            margin-right: 0.25rem;
+        }
+
+        .reviews {
+            color: #718096;
+            margin-left: 0.75rem;
+        }
+
+        .socials {
+            display: flex;
+            margin-left: 0.75rem;
+            padding-left: 0.75rem;
+            padding-top: 0.5rem;
+            border-left: 0.125rem solid #E2E8F0;
+        }
+
+        .social {
+            color: #A0AEC0;
+            margin-left: 0.5rem;
+            cursor: pointer;
+        }
+
+        .social svg {
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+
+        .description {
+            margin-bottom: 1.5rem;
+            line-height: 1.75;
+        }
+
+        .options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.25rem;
+            border-bottom: 0.125rem solid #F7FAFC;
+        }
+
+        .colors {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .color {
+            border: 0.125rem solid #E2E8F0;
+            border-radius: 9999px;
+            width: 1.5rem;
+            height: 1.5rem;
+            cursor: pointer;
+        }
+
+        .color-gray {
+            background-color: #4A5568;
+        }
+
+        .color-indigo {
+            background-color: #4C51BF;
+        }
+
+        .sizes {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .size-select {
+            border: 0.125rem solid #E2E8F0;
+            border-radius: 0.25rem;
+            padding: 0.5rem 0.75rem;
+            appearance: none;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .size-select:focus {
+            border-color: #4C51BF;
+            box-shadow: 0 0 0 0.125rem rgba(99, 102, 241, 0.2);
+        }
+
+        .arrow {
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 100%;
+            width: 2.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #718096;
+            pointer-events: none;
+        }
+
+        .actions {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .price {
+            font-size: 1.5rem;
+            color: #1A202C;
+            font-weight: 500;
+            margin-right: auto;
+        }
+
+        .action-btn {
+            background-color: #4C51BF;
+            color: #FFFFFF;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            border-radius: 0.375rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .action-btn:hover {
+            background-color: #434190;
+        }
+
+        .favorite-btn {
+            background-color: #EDF2F7;
+            border: none;
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 9999px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #A0AEC0;
+            cursor: pointer;
+        }
+
+        .favorite-btn svg {
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="content">
+                <img alt="ecommerce" class="image" src="https://dummyimage.com/400x400">
+                <div class="details">
+                    <h2 class="brand">BRAND NAME</h2>
+                    <h1 class="title">The Catcher in the Rye</h1>
+                    <div class="ratings">
+                        <span class="stars">
+                            <svg class="star" fill="currentColor" stroke="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                                </path>
+                            </svg>
+                            <svg class="star" fill="currentColor" stroke="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                                </path>
+                            </svg>
+                            <svg class="star" fill="currentColor" stroke="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                                </path>
+                            </svg>
+                            <svg class="star" fill="currentColor" stroke="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                                </path>
+                            </svg>
+                            <svg class="star" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                                </path>
+                            </svg>
+                            <span class="reviews">4 Reviews</span>
+                        </span>
+                        <span class="socials">
+                            <a class="social">
+                                <svg fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a class="social">
+                                <svg fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a class="social">
+                                <svg fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </span>
+                    </div>
+                    <p class="description">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha
+                        taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage
+                        brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle
+                        pour-over, neutra jean shorts keytar banjo tattooed umami cardigan.</p>
+                    <div class="options">
+                        <div class="colors">
+                            <span>Color</span>
+                            <button class="color"></button>
+                            <button class="color color-gray"></button>
+                            <button class="color color-indigo"></button>
+                        </div>
+                        <div class="sizes">
+                            <span>Size</span>
+                            <div class="select-container" style="position: relative;">
+                                <select class="size-select">
+                                    <option>SM</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                    <option>XL</option>
+                                </select>
+                                <span class="arrow">
+                                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path d="M6 9l6 6 6-6"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="actions">
+                        <span class="price">$58.00</span>
+                        <button class="action-btn">Add to Cart</button>
+                        <button class="favorite-btn">
+                            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="flex flex-col p-10 bg-gray-100 text-gray-800">
+    <h1 className="text-3xl">Product Category Page Title</h1>
+    <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between mt-6">
+        <span className="text-sm font-semibold">1-8 of 148 Products</span>
+        <button className="relative text-sm focus:outline-none group mt-4 sm:mt-0">
+            <div
+                className="flex items-center justify-between w-40 h-10 px-3 border-2 border-gray-300 rounded hover:bg-gray-300">
+                <span className="font-medium">
+                    Popular
+                </span>
+                <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clip-rule="evenodd" />
+                </svg>
+            </div>
+            <div
+                className="absolute z-10 flex-col items-start hidden w-full pb-1 bg-white shadow-lg rounded group-focus:flex">
+                <a className="w-full px-4 py-2 text-left hover:bg-gray-200" href="#">Popular</a>
+                <a className="w-full px-4 py-2 text-left hover:bg-gray-200" href="#">Featured</a>
+                <a className="w-full px-4 py-2 text-left hover:bg-gray-200" href="#">Newest</a>
+                <a className="w-full px-4 py-2 text-left hover:bg-gray-200" href="#">Lowest Price</a>
+                <a className="w-full px-4 py-2 text-left hover:bg-gray-200" href="#">Highest Price</a>
+            </div>
+        </button>
+    </div>
+    <div
+        className="grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-x-6 gap-y-12 w-full mt-6">
+        <div>
+            <a href="#" className="block h-64 rounded-lg shadow-lg bg-white"></a>
+            <div className="flex items-center justify-between mt-3">
+                <div>
+                    <a href="#" className="font-medium">Product Name</a>
+                    <a className="flex items-center" href="#">
+                        <span className="text-xs font-medium text-gray-600">by</span>
+                        <span className="text-xs font-medium ml-1 text-indigo-500">Store Name</span>
+                    </a>
+                </div>
+                <span className="flex items-center h-8 bg-indigo-200 text-indigo-600 text-sm px-2 rounded">$34</span>
+            </div>
+        </div>
+        <div>
+            <a href="#" className="block h-64 rounded-lg shadow-lg bg-white"></a>
+            <div className="flex items-center justify-between mt-3">
+                <div>
+                    <a href="#" className="font-medium">Product Name</a>
+                    <a className="flex items-center" href="#">
+                        <span className="text-xs font-medium text-gray-600">by</span>
+                        <span className="text-xs font-medium ml-1 text-indigo-500">Store Name</span>
+                    </a>
+                </div>
+                <span className="flex items-center h-8 bg-indigo-200 text-indigo-600 text-sm px-2 rounded">$34</span>
+            </div>
+        </div>
+        <div>
+            <a href="#" className="block h-64 rounded-lg shadow-lg bg-white"></a>
+            <div className="flex items-center justify-between mt-3">
+                <div>
+                    <a href="#" className="font-medium">Product Name</a>
+                    <a className="flex items-center" href="#">
+                        <span className="text-xs font-medium text-gray-600">by</span>
+                        <span className="text-xs font-medium ml-1 text-indigo-500">Store Name</span>
+                    </a>
+                </div>
+                <span className="flex items-center h-8 bg-indigo-200 text-indigo-600 text-sm px-2 rounded">$34</span>
+            </div>
+        </div>
+
+        <div>
+            <a href="#" className="block h-64 rounded-lg shadow-lg bg-white"></a>
+            <div className="flex items-center justify-between mt-3">
+                <div>
+                    <a href="#" className="font-medium">Product Name</a>
+                    <a className="flex items-center" href="#">
+                        <span className="text-xs font-medium text-gray-600">by</span>
+                        <span className="text-xs font-medium ml-1 text-indigo-500">Store Name</span>
+                    </a>
+                </div>
+                <span className="flex items-center h-8 bg-indigo-200 text-indigo-600 text-sm px-2 rounded">$34</span>
+            </div>
+        </div>
+
+        <div>
+            <a href="#" className="block h-64 rounded-lg shadow-lg bg-white"></a>
+            <div className="flex items-center justify-between mt-3">
+                <div>
+                    <a href="#" className="font-medium">Product Name</a>
+                    <a className="flex items-center" href="#">
+                        <span className="text-xs font-medium text-gray-600">by</span>
+                        <span className="text-xs font-medium ml-1 text-indigo-500">Store Name</span>
+                    </a>
+                </div>
+                <span className="flex items-center h-8 bg-indigo-200 text-indigo-600 text-sm px-2 rounded">$34</span>
+            </div>
+        </div>
+
+        <div>
+            <a href="#" className="block h-64 rounded-lg shadow-lg bg-white"></a>
+            <div className="flex items-center justify-between mt-3">
+                <div>
+                    <a href="#" className="font-medium">Product Name</a>
+                    <a className="flex items-center" href="#">
+                        <span className="text-xs font-medium text-gray-600">by</span>
+                        <span className="text-xs font-medium ml-1 text-indigo-500">Store Name</span>
+                    </a>
+                </div>
+                <span className="flex items-center h-8 bg-indigo-200 text-indigo-600 text-sm px-2 rounded">$34</span>
+            </div>
+        </div>
+
+        <div>
+            <a href="#" className="block h-64 rounded-lg shadow-lg bg-white"></a>
+            <div className="flex items-center justify-between mt-3">
+                <div>
+                    <a href="#" className="font-medium">Product Name</a>
+                    <a className="flex items-center" href="#">
+                        <span className="text-xs font-medium text-gray-600">by</span>
+                        <span className="text-xs font-medium ml-1 text-indigo-500">Store Name</span>
+                    </a>
+                </div>
+                <span className="flex items-center h-8 bg-indigo-200 text-indigo-600 text-sm px-2 rounded">$34</span>
+            </div>
+        </div>
+
+        <div>
+            <a href="#" className="block h-64 rounded-lg shadow-lg bg-white"></a>
+            <div className="flex items-center justify-between mt-3">
+                <div>
+                    <a href="#" className="font-medium">Product Name</a>
+                    <a className="flex items-center" href="#">
+                        <span className="text-xs font-medium text-gray-600">by</span>
+                        <span className="text-xs font-medium ml-1 text-indigo-500">Store Name</span>
+                    </a>
+                </div>
+                <span className="flex items-center h-8 bg-indigo-200 text-indigo-600 text-sm px-2 rounded">$34</span>
+            </div>
+        </div>
+
+    </div>
+    <div className="flex justify-center mt-10 space-x-1">
+        <button className="flex items-center justify-center h-8 w-8 rounded text-gray-400">
+            <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                    d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                    clip-rule="evenodd" />
+            </svg>
+        </button>
+        <button className="flex items-center justify-center h-8 px-2 rounded text-sm font-medium text-gray-400"
+            disabled>
+            Prev
+        </button>
+        <button
+            className="flex items-center justify-center h-8 w-8 rounded bg-indigo-200 text-sm font-medium text-indigo-600"
+            disabled>
+            1
+        </button>
+        <button
+            className="flex items-center justify-center h-8 w-8 rounded hover:bg-indigo-200 text-sm font-medium text-gray-600 hover:text-indigo-600">
+            2
+        </button>
+        <button
+            className="flex items-center justify-center h-8 w-8 rounded hover:bg-indigo-200 text-sm font-medium text-gray-600 hover:text-indigo-600">
+            3
+        </button>
+        <button
+            className="flex items-center justify-center h-8 px-2 rounded hover:bg-indigo-200 text-sm font-medium text-gray-600 hover:text-indigo-600">
+            Next
+        </button>
+        <button
+            className="flex items-center justify-center h-8 w-8 rounded hover:bg-indigo-200 text-gray-600 hover:text-indigo-600">
+            <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                    clip-rule="evenodd" />
+            </svg>
+        </button>
+    </div>
+
+
+</section>`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Section</title>
+    <style>
+        .product-category {
+            display: flex;
+            flex-direction: column;
+            padding: 2.5rem;
+            background-color: #f7fafc;
+            color: #2d3748;
+        }
+
+        .page-title {
+            font-size: 1.875rem;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            margin-top: 1.5rem;
+        }
+
+        @media (min-width: 640px) {
+            .header {
+                flex-direction: row;
+                align-items: flex-end;
+                justify-content: space-between;
+            }
+        }
+
+        .product-count {
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+
+        .sort-button {
+            position: relative;
+            font-size: 0.875rem;
+            margin-top: 1rem;
+            outline: none;
+        }
+
+        @media (min-width: 640px) {
+            .sort-button {
+                margin-top: 0;
+            }
+        }
+
+        .sort-button-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 10rem;
+            height: 2.5rem;
+            padding: 0 0.75rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 0.375rem;
+            transition: background-color 0.2s;
+        }
+
+        .sort-button:hover .sort-button-inner {
+            background-color: #e2e8f0;
+        }
+
+        .sort-button-text {
+            font-weight: 500;
+        }
+
+        .sort-icon {
+            width: 1rem;
+            height: 1rem;
+        }
+
+        .sort-options {
+            position: absolute;
+            z-index: 10;
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            padding-bottom: 0.25rem;
+            background-color: #fff;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+            border-radius: 0.375rem;
+        }
+
+        .sort-button:focus .sort-options {
+            display: flex;
+        }
+
+        .sort-option {
+            width: 100%;
+            padding: 0.5rem 1rem;
+            text-align: left;
+            transition: background-color 0.2s;
+        }
+
+        .sort-option:hover {
+            background-color: #edf2f7;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        @media (min-width: 640px) {
+            .product-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .product-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (min-width: 1280px) {
+            .product-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        @media (min-width: 1536px) {
+            .product-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        .product-item {
+            background-color: #fff;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .product-image {
+            display: block;
+            height: 16rem;
+        }
+
+        .product-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 0.75rem;
+            padding: 0 0.75rem;
+        }
+
+        .product-name {
+            font-weight: 500;
+        }
+
+        .store-name {
+            display: flex;
+            align-items: center;
+        }
+
+        .by {
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: #718096;
+        }
+
+        .store {
+            font-size: 0.75rem;
+            font-weight: 500;
+            margin-left: 0.25rem;
+            color: #5a67d8;
+        }
+
+        .product-price {
+            display: flex;
+            align-items: center;
+            height: 2rem;
+            background-color: #c3dafe;
+            color: #5a67d8;
+            font-size: 0.875rem;
+            padding: 0 0.5rem;
+            border-radius: 0.375rem;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 2.5rem;
+            gap: 0.25rem;
+        }
+
+        .pagination-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 2rem;
+            width: 2rem;
+            border-radius: 0.375rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+
+        .pagination-button:disabled {
+            color: #cbd5e0;
+        }
+
+        .pagination-button.active {
+            background-color: #c3dafe;
+            color: #5a67d8;
+        }
+
+        .pagination-button:hover {
+            background-color: #c3dafe;
+            color: #5a67d8;
+        }
+
+        .pagination-icon {
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="product-category">
+        <h1 class="page-title">Product Category Page Title</h1>
+        <div class="header">
+            <span class="product-count">1-8 of 148 Products</span>
+            <button class="sort-button">
+                <div class="sort-button-inner">
+                    <span class="sort-button-text">Popular</span>
+                    <svg class="sort-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <div class="sort-options">
+                    <p class="sort-option">Popular</p>
+                    <p class="sort-option">Featured</p>
+                    <p class="sort-option">Newest</p>
+                    <p class="sort-option">Lowest Price</p>
+                    <p class="sort-option">Highest Price</p>
+                </div>
+            </button>
+        </div>
+        <div class="product-grid">
+            <div class="product-item">
+                <p href="#" class="product-image"></p>
+                <div class="product-info">
+                    <div>
+                        <p href="#" class="product-name">Product Name</p>
+                        <p class="store-name" href="#">
+                            <span class="by">by</span>
+                            <span class="store">Store Name</span>
+                        </p>
+                    </div>
+                    <span class="product-price">$34</span>
+                </div>
+            </div>
+            <div class="product-item">
+                <p href="#" class="product-image"></p>
+                <div class="product-info">
+                    <div>
+                        <p href="#" class="product-name">Product Name</p>
+                        <p class="store-name" href="#">
+                            <span class="by">by</span>
+                            <span class="store">Store Name</span>
+                        </p>
+                    </div>
+                    <span class="product-price">$34</span>
+                </div>
+            </div>
+            <div class="product-item">
+                <p href="#" class="product-image"></p>
+                <div class="product-info">
+                    <div>
+                        <p href="#" class="product-name">Product Name</p>
+                        <p class="store-name" href="#">
+                            <span class="by">by</span>
+                            <span class="store">Store Name</span>
+                        </p>
+                    </div>
+                    <span class="product-price">$34</span>
+                </div>
+            </div>
+            <div class="product-item">
+                <p href="#" class="product-image"></p>
+                <div class="product-info">
+                    <div>
+                        <p href="#" class="product-name">Product Name</p>
+                        <p class="store-name" href="#">
+                            <span class="by">by</span>
+                            <span class="store">Store Name</span>
+                        </p>
+                    </div>
+                    <span class="product-price">$34</span>
+                </div>
+            </div>
+            <div class="product-item">
+                <p href="#" class="product-image"></p>
+                <div class="product-info">
+                    <div>
+                        <p href="#" class="product-name">Product Name</p>
+                        <p class="store-name" href="#">
+                            <span class="by">by</span>
+                            <span class="store">Store Name</span>
+                        </p>
+                    </div>
+                    <span class="product-price">$34</span>
+                </div>
+            </div>
+            <div class="product-item">
+                <p href="#" class="product-image"></p>
+                <div class="product-info">
+                    <div>
+                        <p href="#" class="product-name">Product Name</p>
+                        <p class="store-name" href="#">
+                            <span class="by">by</span>
+                            <span class="store">Store Name</span>
+                        </p>
+                    </div>
+                    <span class="product-price">$34</span>
+                </div>
+            </div>
+            <div class="product-item">
+                <p href="#" class="product-image"></p>
+                <div class="product-info">
+                    <div>
+                        <p href="#" class="product-name">Product Name</p>
+                        <p class="store-name" href="#">
+                            <span class="by">by</span>
+                            <span class="store">Store Name</span>
+                        </p>
+                    </div>
+                    <span class="product-price">$34</span>
+                </div>
+            </div>
+            <div class="product-item">
+                <p href="#" class="product-image"></p>
+                <div class="product-info">
+                    <div>
+                        <p href="#" class="product-name">Product Name</p>
+                        <p class="store-name" href="#">
+                            <span class="by">by</span>
+                            <span class="store">Store Name</span>
+                        </p>
+                    </div>
+                    <span class="product-price">$34</span>
+                </div>
+            </div>
+        </div>
+        <div class="pagination">
+            <button class="pagination-button" disabled>
+                <svg class="pagination-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                        clip-rule="evenodd" />
+                </svg>
+            </button>
+            <button class="pagination-button active" disabled>1</button>
+            <button class="pagination-button">2</button>
+            <button class="pagination-button">3</button>
+            <button class="pagination-button">
+                <svg class="pagination-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                        clip-rule="evenodd" />
+                </svg>
+            </button>
+        </div>
+    </section>
+
+</body>
+
+</html>`
+        }
+
+    ],
+    [
+        {
+            Tailwind: `<section className="2xl:container 2xl:mx-auto md:py-12 lg:px-20 md:px-6 py-9 px-4">
+                                <div id="viewerBox" className="lg:p-10 md:p-6 p-4 ">
+                                    <div className="mt-3 md:mt-4 lg:mt-0 flex flex-col lg:flex-row items-strech justify-center lg:space-x-8">
+                                        <div className="lg:w-1/2 flex justify-between items-strech px-2 py-20 md:py-6 md:px-6 lg:py-24">
+                                            <div className="flex items-center">
+                                                <button aria-label="slide back"
+                                                    className="focus:outline-none focus:ring-2 focus:ring-gray-800 hover:bg-gray-100">
+                                                    <svg className="w-10 h-10 lg:w-16 lg:h-16" viewBox="0 0 64 64" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M40 16L24 32L40 48" stroke="#1F2937" stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <div className="slider">
+                                                <div className="slide-ana lg:relative">
+                                                    <div className="flex">
+                                                        <img alt="ecommerce" className="w-full h-full object-cover object-center rounded" src="https://dummyimage.com/400x400" />
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="flex items-center">
+                                                <button aria-label="slide forward"
+                                                    className="focus:outline-none focus:ring-2 focus:ring-gray-800 hover:bg-gray-100">
+                                                    <svg className="w-10 h-10 lg:w-16 lg:h-16" viewBox="0 0 64 64" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M24 16L40 32L24 48" stroke="#1F2937" stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div className="lg:w-1/2 flex flex-col justify-center mt-7 md:mt-8 lg:mt-0 pb-8 lg:pb-0">
+                                            <h1 className="text-3xl lg:text-4xl font-semibold text-white">Bar Stool</h1>
+                                            <p className="text-base leading-normal text-gray-600  mt-2">You don't just want to be
+                                                comfortable sitting in a bar stool—you want to be comfortable shimmying it up to the bar, closer to
+                                                your lover, or back slightly to include a third person in the conversation.</p>
+                                            <p className="text-3xl font-medium text-gray-600 mt-8 md:mt-10"></p>
+                                            <div
+                                                className="flex items-center flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 lg:space-x-8 mt-8 md:mt-16">
+                                                <button
+                                                    className="w-full md:w-3/5 border border-gray-800 text-base font-medium leading-none text-white uppercase py-6 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 bg-gray-800  ">Add
+                                                    to Cart</button>
+                                                <button
+                                                    className="w-full md:w-2/5 border border-gray-800 text-base font-medium leading-none text-gray-800  uppercase py-6 bg-transparent focus:outline-none focus:ring-2 focus:ring-offset-2  focus:ring-gray-800 hover:bg-gray-800 hover:text-white  ">View
+                                                    Details</button>
+                                            </div>
+                                            <div className="mt-6">
+                                                <button
+                                                    className="text-xl underline text-gray-800 capitalize hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800">add
+                                                    to wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Section</title>
+    <style>
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        .viewer-box {
+            padding: 2rem;
+        }
+
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            gap: 2rem;
+        }
+
+        .image-slider-wrapper {
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+        }
+
+        .button-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .slide-button {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .slide-icon {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+
+        .slider {
+            display: flex;
+            align-items: center;
+        }
+
+        .slide-container {
+            position: relative;
+        }
+
+        .image-container {
+            display: flex;
+        }
+
+        .image {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 0.5rem;
+        }
+
+        .text-content-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .title {
+            font-size: 2rem;
+            width: fit-content;
+            font-weight: 600;
+        }
+
+        .description {
+            font-size: 1rem;
+            color: #4a5568;
+        }
+
+        .price {
+            font-size: 2rem;
+            font-weight: 500;
+            color: #4a5568;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .add-to-cart-button {
+            width: 200px;
+            font-size: 1rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            padding: 1rem;
+            color: white;
+            background-color: #4a5568;
+            border: none;
+            cursor: pointer;
+        }
+
+        .view-details-button {
+            width: 200px;
+            font-size: 1rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            padding: 1rem;
+            color: #4a5568;
+            background-color: transparent;
+            border: 1px solid #cbd5e0;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .view-details-button:hover {
+            background-color: #4a5568;
+            color: white;
+        }
+
+        .wishlist-button-container {
+            margin-top: 1.5rem;
+        }
+
+        .add-to-wishlist-button {
+            font-size: 1.25rem;
+            text-decoration: underline;
+            color: #4a5568;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .add-to-wishlist-button:hover {
+            color: #2d3748;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <div id="viewerBox" class="viewer-box">
+            <div class="content-wrapper">
+                <div class="image-slider-wrapper">
+                    <div class="slider">
+                        <div class="slide-container">
+                            <div class="image-container">
+                                <img alt="ecommerce" class="image" src="https://dummyimage.com/400x400" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-content-wrapper">
+                    <h1 class="title">Bar Stool</h1>
+                    <p class="description">You don't just want to be comfortable sitting in a bar stool—you want to be
+                        comfortable shimmying it up to the bar, closer to your lover, or back slightly to include a
+                        third person in the conversation.</p>
+                    <p class="price"></p>
+                    <div class="button-group">
+                        <button class="add-to-cart-button">Add to Cart</button>
+                        <button class="view-details-button">View Details</button>
+                    </div>
+                    <div class="wishlist-button-container">
+                        <button class="add-to-wishlist-button">Add to wishlist</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>`
+        }
     ]
 ]
