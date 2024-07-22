@@ -2534,7 +2534,7 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass }: 
                             return <section className="text-gray-600 body-font">
                                 <div className="container px-5 py-24 mx-auto">
                                     <div className="flex flex-wrap -m-4">
-                                        <div className="p-4 md:w-1/2 w-full">
+                                        <div className="p-4 w-full">
                                             <div className="h-full bg-gray-400 p-8 rounded">
                                                 <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${colorClass === 'text-red-500' ? 'bg-red-500' :
                                                     colorClass === 'text-purple-500' ? 'bg-purple-500' :
@@ -2549,7 +2549,7 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass }: 
                                                 <p className="leading-relaxed text-base">Start by outlining the main objectives and scope of the project. Ensure all stakeholders are aligned and understand their roles.</p>
                                             </div>
                                         </div>
-                                        <div className="p-4 md:w-1/2 w-full">
+                                        <div className="p-4 w-full">
                                             <div className="h-full bg-gray-400 p-8 rounded">
                                                 <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${colorClass === 'text-red-500' ? 'bg-red-500' :
                                                     colorClass === 'text-purple-500' ? 'bg-purple-500' :
@@ -2564,7 +2564,7 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass }: 
                                                 <p className="leading-relaxed text-base">Conduct thorough research on the market, competitors, and user needs to gather essential information for the project.</p>
                                             </div>
                                         </div>
-                                        <div className="p-4 md:w-1/2 w-full">
+                                        <div className="p-4 w-full">
                                             <div className="h-full bg-gray-400 p-8 rounded">
                                                 <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${colorClass === 'text-red-500' ? 'bg-red-500' :
                                                     colorClass === 'text-purple-500' ? 'bg-purple-500' :
@@ -2579,7 +2579,7 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass }: 
                                                 <p className="leading-relaxed text-base">Create initial designs and prototypes. Gather feedback from stakeholders and iterate to refine the designs.</p>
                                             </div>
                                         </div>
-                                        <div className="p-4 md:w-1/2 w-full">
+                                        <div className="p-4 w-full">
                                             <div className="h-full bg-gray-400 p-8 rounded">
                                                 <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${colorClass === 'text-red-500' ? 'bg-red-500' :
                                                     colorClass === 'text-purple-500' ? 'bg-purple-500' :
@@ -2594,7 +2594,7 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass }: 
                                                 <p className="leading-relaxed text-base">Begin the development process. Follow best practices and ensure code quality through regular reviews and testing.</p>
                                             </div>
                                         </div>
-                                        <div className="p-4 md:w-1/2 w-full">
+                                        <div className="p-4 w-full">
                                             <div className="h-full bg-gray-400 p-8 rounded">
                                                 <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${colorClass === 'text-red-500' ? 'bg-red-500' :
                                                     colorClass === 'text-purple-500' ? 'bg-purple-500' :
@@ -2609,7 +2609,7 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass }: 
                                                 <p className="leading-relaxed text-base">Perform extensive testing to identify and fix bugs. Ensure the application meets all functional and non-functional requirements.</p>
                                             </div>
                                         </div>
-                                        <div className="p-4 md:w-1/2 w-full">
+                                        <div className="p-4 w-full">
                                             <div className="h-full bg-gray-400 p-8 rounded">
                                                 <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${colorClass === 'text-red-500' ? 'bg-red-500' :
                                                     colorClass === 'text-purple-500' ? 'bg-purple-500' :
