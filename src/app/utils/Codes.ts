@@ -9792,3 +9792,510 @@ export const designCodeForStepsSection: any = [
         }
     ]
 ]
+
+// This is the desing code for the Ecommerces I have Component Code 9
+
+export const designCodeForEcommerceSection: any = [
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-wrap -m-4">
+      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a className="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260" />
+        </a>
+        <div className="mt-4">
+          <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">ELECTRONICS</h3>
+          <h2 className="text-gray-900 title-font text-lg font-medium">Smartphone</h2>
+          <p className="mt-1">$299.99</p>
+        </div>
+      </div>
+      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a className="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/421x261" />
+        </a>
+        <div className="mt-4">
+          <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">FASHION</h3>
+          <h2 className="text-gray-900 title-font text-lg font-medium">Designer Dress</h2>
+          <p className="mt-1">$149.99</p>
+        </div>
+      </div>
+      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a className="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/422x262" />
+        </a>
+        <div className="mt-4">
+          <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">HOME</h3>
+          <h2 className="text-gray-900 title-font text-lg font-medium">Modern Lamp</h2>
+          <p className="mt-1">$39.99</p>
+        </div>
+      </div>
+      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a className="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/423x263" />
+        </a>
+        <div className="mt-4">
+          <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">GADGETS</h3>
+          <h2 className="text-gray-900 title-font text-lg font-medium">Wireless Headphones</h2>
+          <p className="mt-1">$89.99</p>
+        </div>
+      </div>
+      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a className="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264" />
+        </a>
+        <div className="mt-4">
+          <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">BOOKS</h3>
+          <h2 className="text-gray-900 title-font text-lg font-medium">Best Seller</h2>
+          <p className="mt-1">$24.99</p>
+        </div>
+      </div>
+      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a className="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/425x265" />
+        </a>
+        <div className="mt-4">
+          <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">FASHION</h3>
+          <h2 className="text-gray-900 title-font text-lg font-medium">Luxury Watch</h2>
+          <p className="mt-1">$199.99</p>
+        </div>
+      </div>
+      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a className="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/427x267" />
+        </a>
+        <div className="mt-4">
+          <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">HOME</h3>
+          <h2 className="text-gray-900 title-font text-lg font-medium">Cozy Sofa</h2>
+          <p className="mt-1">$499.99</p>
+        </div>
+      </div>
+      <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a className="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/428x268" />
+        </a>
+        <div className="mt-4">
+          <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">GADGETS</h3>
+          <h2 className="text-gray-900 title-font text-lg font-medium">Smart Watch</h2>
+          <p className="mt-1">$129.99</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Section</title>
+    <style>
+        .product-section {
+            color: #4A5568;
+            font-family: 'Helvetica', 'Arial', sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.25rem 1.25rem 6rem;
+        }
+
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -1rem;
+        }
+
+        .product-card {
+            width: 100%;
+            max-width: 25%;
+            flex: 0 0 50%;
+            padding: 1rem;
+            box-sizing: border-box;
+        }
+
+        .product-image-link {
+            display: block;
+            position: relative;
+            height: 12rem;
+            border-radius: 0.375rem;
+            overflow: hidden;
+        }
+
+        .product-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .product-info {
+            margin-top: 1rem;
+        }
+
+        .product-category {
+            color: #718096;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.25rem;
+        }
+
+        .product-name {
+            color: #1A202C;
+            font-size: 1.125rem;
+            font-weight: 500;
+        }
+
+        .product-price {
+            margin-top: 0.25rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="product-section">
+        <div class="container">
+            <div class="product-grid">
+                <div class="product-card">
+                    <a class="product-image-link">
+                        <img alt="ecommerce" class="product-image" src="https://dummyimage.com/420x260" />
+                    </a>
+                    <div class="product-info">
+                        <h3 class="product-category">ELECTRONICS</h3>
+                        <h2 class="product-name">Smartphone</h2>
+                        <p class="product-price">$299.99</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <a class="product-image-link">
+                        <img alt="ecommerce" class="product-image" src="https://dummyimage.com/421x261" />
+                    </a>
+                    <div class="product-info">
+                        <h3 class="product-category">FASHION</h3>
+                        <h2 class="product-name">Designer Dress</h2>
+                        <p class="product-price">$149.99</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <a class="product-image-link">
+                        <img alt="ecommerce" class="product-image" src="https://dummyimage.com/422x262" />
+                    </a>
+                    <div class="product-info">
+                        <h3 class="product-category">HOME</h3>
+                        <h2 class="product-name">Modern Lamp</h2>
+                        <p class="product-price">$39.99</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <a class="product-image-link">
+                        <img alt="ecommerce" class="product-image" src="https://dummyimage.com/423x263" />
+                    </a>
+                    <div class="product-info">
+                        <h3 class="product-category">GADGETS</h3>
+                        <h2 class="product-name">Wireless Headphones</h2>
+                        <p class="product-price">$89.99</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <a class="product-image-link">
+                        <img alt="ecommerce" class="product-image" src="https://dummyimage.com/424x264" />
+                    </a>
+                    <div class="product-info">
+                        <h3 class="product-category">BOOKS</h3>
+                        <h2 class="product-name">Best Seller</h2>
+                        <p class="product-price">$24.99</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <a class="product-image-link">
+                        <img alt="ecommerce" class="product-image" src="https://dummyimage.com/425x265" />
+                    </a>
+                    <div class="product-info">
+                        <h3 class="product-category">FASHION</h3>
+                        <h2 class="product-name">Luxury Watch</h2>
+                        <p class="product-price">$199.99</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <a class="product-image-link">
+                        <img alt="ecommerce" class="product-image" src="https://dummyimage.com/427x267" />
+                    </a>
+                    <div class="product-info">
+                        <h3 class="product-category">HOME</h3>
+                        <h2 class="product-name">Cozy Sofa</h2>
+                        <p class="product-price">$499.99</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <a class="product-image-link">
+                        <img alt="ecommerce" class="product-image" src="https://dummyimage.com/428x268" />
+                    </a>
+                    <div class="product-info">
+                        <h3 class="product-category">GADGETS</h3>
+                        <h2 class="product-name">Smart Watch</h2>
+                        <p class="product-price">$129.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>`
+        }
+
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font overflow-hidden">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="lg:w-4/5 mx-auto flex flex-wrap">
+      <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+        <h2 className="text-sm title-font text-gray-500 tracking-widest">BRAND NAME</h2>
+        <h1 className="text-gray-900 text-3xl title-font font-medium mb-4">Eco-Friendly Reusable Bottle</h1>
+        <div className="flex mb-4">
+          <a className="flex-grow text-indigo-500 border-b-2 border-indigo-500 py-2 text-lg px-1">Description</a>
+          <a className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Reviews</a>
+          <a className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Details</a>
+        </div>
+        <p className="leading-relaxed mb-4">This eco-friendly reusable bottle is perfect for those who care about the environment. Made from sustainable materials, it helps reduce plastic waste and keeps your beverages at the right temperature for hours.</p>
+        <div className="flex border-t border-gray-200 py-2">
+          <span className="text-gray-500">Color</span>
+          <span className="ml-auto text-gray-900">Green</span>
+        </div>
+        <div className="flex border-t border-gray-200 py-2">
+          <span className="text-gray-500">Size</span>
+          <span className="ml-auto text-gray-900">750ml</span>
+        </div>
+        <div className="flex border-t border-b mb-6 border-gray-200 py-2">
+          <span className="text-gray-500">Quantity</span>
+          <span className="ml-auto text-gray-900">1</span>
+        </div>
+        <div className="flex">
+          <span className="title-font font-medium text-2xl text-gray-900">$25.00</span>
+          <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Add to Cart</button>
+          <button className="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
+            <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400" />
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Section</title>
+    <style>
+        .product-details-section {
+            color: #4A5568;
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            overflow: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.25rem 1.25rem 6rem;
+        }
+
+        .product-details-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: auto;
+            max-width: 80%;
+        }
+
+        .product-info {
+            width: 100%;
+            max-width: 40%;
+            padding-right: 2.5rem;
+            padding-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .brand-name {
+            color: #718096;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+        }
+
+        .product-title {
+            color: #1A202C;
+            font-size: 1.875rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        .tabs {
+            display: flex;
+            margin-bottom: 1rem;
+        }
+
+        .tab {
+            flex-grow: 1;
+            padding: 0.5rem 0.25rem;
+            font-size: 1.125rem;
+            border-bottom: 2px solid #E2E8F0;
+            text-align: center;
+        }
+
+        .tab.active {
+            color: #5A67D8;
+            border-color: #5A67D8;
+        }
+
+        .product-description {
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+
+        .product-attribute {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            border-top: 1px solid #E2E8F0;
+        }
+
+        .product-attribute.last {
+            border-bottom: 1px solid #E2E8F0;
+        }
+
+        .attribute-name {
+            color: #718096;
+        }
+
+        .attribute-value {
+            color: #1A202C;
+            margin-left: auto;
+        }
+
+        .product-actions {
+            display: flex;
+            align-items: center;
+            margin-top: 1.5rem;
+        }
+
+        .product-price {
+            color: #1A202C;
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+
+        .add-to-cart-button {
+            margin-left: auto;
+            color: #FFFFFF;
+            background-color: #5A67D8;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            cursor: pointer;
+            border-radius: 0.375rem;
+            transition: background-color 0.3s;
+        }
+
+        .add-to-cart-button:hover {
+            background-color: #434190;
+        }
+
+        .wishlist-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 2.5rem;
+            height: 2.5rem;
+            background-color: #EDF2F7;
+            border: none;
+            border-radius: 50%;
+            padding: 0;
+            margin-left: 1rem;
+            cursor: pointer;
+            color: #718096;
+        }
+
+        .wishlist-icon {
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+
+        .product-image {
+            width: 100%;
+            max-width: 50%;
+            height: auto;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 0.375rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="product-details-section">
+        <div class="container">
+            <div class="product-details-wrapper">
+                <div class="product-info">
+                    <h2 class="brand-name">BRAND NAME</h2>
+                    <h1 class="product-title">Eco-Friendly Reusable Bottle</h1>
+                    <div class="tabs">
+                        <a class="tab active">Description</a>
+                        <a class="tab">Reviews</a>
+                        <a class="tab">Details</a>
+                    </div>
+                    <p class="product-description">This eco-friendly reusable bottle is perfect for those who care about
+                        the environment. Made from sustainable materials, it helps reduce plastic waste and keeps your
+                        beverages at the right temperature for hours.</p>
+                    <div class="product-attribute">
+                        <span class="attribute-name">Color</span>
+                        <span class="attribute-value">Green</span>
+                    </div>
+                    <div class="product-attribute">
+                        <span class="attribute-name">Size</span>
+                        <span class="attribute-value">750ml</span>
+                    </div>
+                    <div class="product-attribute last">
+                        <span class="attribute-name">Quantity</span>
+                        <span class="attribute-value">1</span>
+                    </div>
+                    <div class="product-actions">
+                        <span class="product-price">$25.00</span>
+                        <button class="add-to-cart-button">Add to Cart</button>
+                        <button class="wishlist-button">
+                            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                class="wishlist-icon" viewBox="0 0 24 24">
+                                <path
+                                    d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <img alt="ecommerce" class="product-image" src="https://dummyimage.com/400x400" />
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
+
+        }
+    ]
+]

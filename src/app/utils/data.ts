@@ -285,7 +285,45 @@ export const content = [
       "Enhanced User Experience: Well-structured and interactive steps can help increase user understanding and engagement.",
       "Improved Process Clarity: Clear and concise steps help users understand the process, reducing confusion and improving overall user satisfaction."
     ]
+  },
+  // This is for the Ecommerce Component Code 9
+  {
+    "title": "eCommerce",
+    "description": "The eCommerce sections component is designed to enhance online shopping experiences by providing clear, engaging, and efficient layouts for showcasing products and guiding users through the purchasing process. Built for versatility and performance, our eCommerce sections component ensures a seamless and enjoyable shopping experience.",
+    "sections": [
+      {
+        "title": "Product Display",
+        "description": "Showcase products in an appealing and organized manner to attract and inform potential customers."
+      },
+      {
+        "title": "Shopping Cart",
+        "description": "Provide a user-friendly shopping cart interface that allows users to easily review and manage their selected items."
+      },
+      {
+        "title": "Checkout Process",
+        "description": "Streamline the checkout process with clear steps and options to facilitate a smooth and quick transaction."
+      },
+      {
+        "title": "Product Filters",
+        "description": "Enable users to filter and sort products based on various criteria to quickly find what they are looking for."
+      }
+    ],
+    "features": [
+      "Responsive Design: Ensures the eCommerce sections component adapts seamlessly to different screen sizes for a user-friendly shopping experience.",
+      "Customizable Layouts: Easily modify the layout and design of sections to match your project's branding and style.",
+      "Visual Appeal: High-quality images, engaging content, and intuitive design elements to enhance the visual appeal of the eCommerce site.",
+      "Interactive Elements: Support for interactive elements such as product zoom, quick view, and customer reviews.",
+      "Secure Transactions: Incorporate secure payment gateways and encryption methods to ensure safe and reliable transactions."
+    ],
+    "benefits": [
+      "Enhanced Shopping Experience: Provide a seamless and enjoyable shopping experience with well-designed and interactive eCommerce sections.",
+      "Responsive Design: Ensures the eCommerce sections component adapts seamlessly to different screen sizes for a user-friendly shopping experience.",
+      "Customizable Layouts: Easily modify the layout and design of sections to match your project's branding and style.",
+      "Increased Engagement: Engaging and intuitive sections can help increase user interaction and conversion rates.",
+      "Improved Sales: Clear and visually appealing product displays, along with a smooth checkout process, can help boost sales and customer satisfaction."
+    ]
   }
+
 
 
 ];

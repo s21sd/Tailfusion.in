@@ -14,7 +14,7 @@ import Codedesign from "@/app/Designs/Codedesign";
 import { SelectColor } from "./SelectColor";
 import '../../utils/Devices.css';
 import RenderDeviceComponents from '@/app/utils/DevicesComponentsCodeHelper/RenderDeviceComponents';
-import { renderColor } from '@/app/utils/RenderColor/RenderColor';
+import { renderBtnColors, renderColor, renderColorsBorder } from '@/app/utils/RenderColor/RenderColor';
 import { CiHeart } from 'react-icons/ci';
 
 export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheComponent: number, codevalue: number }) {
@@ -25,7 +25,8 @@ export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheCompone
     };
 
     const colorClass = renderColor(selectColor);
-
+    const selectBtnColorClass = renderBtnColors(colorClass);
+    const selectColorBorder = renderColorsBorder(colorClass);
     const renderDeviceView = () => {
         switch (deviceView) {
             case 'phone':
@@ -40,7 +41,7 @@ export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheCompone
                             <div className="speaker"></div>
                             <div className="screen">
                                 <ScrollArea className="h-full max-h-screen overflow-y-auto bg-[#151518]">
-                                    <RenderDeviceComponents codevalue={codevalue} valueOfTheComponent={valueOfTheComponent} colorClass={colorClass} />
+                                    <RenderDeviceComponents codevalue={codevalue} valueOfTheComponent={valueOfTheComponent} selectBtnColorClass={selectBtnColorClass} selectColorBorder={selectColorBorder} colorClass={colorClass} />
                                 </ScrollArea>
                             </div>
                             <div className="home"></div>
@@ -55,7 +56,7 @@ export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheCompone
                             <div className="camera"></div>
                             <div className="screen">
                                 <ScrollArea className="h-full max-h-screen overflow-y-auto bg-[#151518]">
-                                    <RenderDeviceComponents codevalue={codevalue} valueOfTheComponent={valueOfTheComponent} colorClass={colorClass} />
+                                    <RenderDeviceComponents codevalue={codevalue} valueOfTheComponent={valueOfTheComponent} selectBtnColorClass={selectBtnColorClass} selectColorBorder={selectColorBorder} colorClass={colorClass} />
                                 </ScrollArea>
                             </div>
                             <div className="home"></div>

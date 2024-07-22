@@ -1,7 +1,9 @@
-import { renderColor } from '@/app/utils/RenderColor/RenderColor';
+import { renderColor, renderBtnColors, renderColorsBorder } from '@/app/utils/RenderColor/RenderColor';
 import React from 'react';
 const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfTheComponent: number, codevalue: number, selectColor: string }) => {
     const colorClass = renderColor(selectColor);
+    const selectBtnColorClass = renderBtnColors(colorClass);
+    const selectColorBorder = renderColorsBorder(colorClass);
     // Same thing I will do here will the valueOfTheComponent prop I will Add a swich case Of this
     const RenderComponentsBasedOnTheValueOfTheComponent = () => {
         switch (valueOfTheComponent) {
@@ -295,13 +297,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                             </p>
                                             <div className="flex justify-center">
                                                 <button
-                                                    className={`inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded text-lg ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                        colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                            colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                                colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                    colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                        'bg-indigo-500 hover:bg-indigo-600'
-                                                        }`}
+                                                    className={`inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded text-lg ${selectBtnColorClass}`}
                                                 >
                                                     Button
                                                 </button>
@@ -327,13 +323,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                                 </div>
                                                 <h2 className={`${colorClass} title-font text-2xl font-medium mt-6 mb-3`}>Buy YouTube Videos</h2>
                                                 <p className="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
-                                                <button className={`flex ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } mx-auto mt-6 text-white border-0 py-2 px-5 focus:outline-none rounded`}>Button</button>
+                                                <button className={`flex ${selectBtnColorClass} mx-auto mt-6 text-white border-0 py-2 px-5 focus:outline-none rounded`}>Button</button>
                                             </div>
                                             <div className="sm:w-1/2 mb-10 px-4">
                                                 <div className="rounded-lg h-64 overflow-hidden">
@@ -341,13 +331,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                                 </div>
                                                 <h2 className={`${colorClass} title-font text-2xl font-medium mt-6 mb-3`}>The Catalyzer</h2>
                                                 <p className="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
-                                                <button className={`flex ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } mx-auto mt-6 text-white border-0 py-2 px-5 focus:outline-none rounded`}>Button</button>
+                                                <button className={`flex ${selectBtnColorClass} mx-auto mt-6 text-white border-0 py-2 px-5 focus:outline-none rounded`}>Button</button>
                                             </div>
                                         </div>
                                     </div>
@@ -375,13 +359,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         <a className={`mr-5 hover:${colorClass}`}>Third Link</a>
                                         <a className={`mr-5 hover:${colorClass}`}>Fourth Link</a>
                                     </nav>
-                                    <button className={`inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                        colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                            colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                    colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                        'bg-indigo-500 hover:bg-indigo-600'
-                                        } `}>Button
+                                    <button className={`inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 ${selectBtnColorClass} `}>Button
                                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
                                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                                         </svg>
@@ -407,13 +385,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                     <a className={`mr-5 hover:${colorClass}`}>Login </a>
                                     <a className={`mr-5 hover:${colorClass}`}>Register</a>
                                 </nav>
-                                <button className={`inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                    } `}>Button
+                                <button className={`inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 ${selectBtnColorClass} `}>Button
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
                                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                                     </svg>
@@ -434,13 +406,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         <a className={`mr-5 hover:${colorClass}`}>Component</a>
                                         <a className={`mr-5 hover:${colorClass}`}>Github</a>
                                     </nav>
-                                    <button className={`inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                        colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                            colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                    colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                        'bg-indigo-500 hover:bg-indigo-600'
-                                        } `}>Button
+                                    <button className={`inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 ${selectBtnColorClass} `}>Button
                                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
                                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                                         </svg>
@@ -459,13 +425,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                     <div className='flex justify-between items-center gap-4'>
                                         <button className={`inline-flex items-center py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 border border-1`}>Feedback
                                         </button>
-                                        <button className={`inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                            colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                    colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                        colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                            'bg-indigo-500 hover:bg-indigo-600'
-                                            } `}>Learn
+                                        <button className={`inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 ${selectBtnColorClass} `}>Learn
 
                                         </button>
                                     </div>
@@ -495,13 +455,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                             </p>
                                             <div className="flex justify-center">
                                                 <button
-                                                    className={`inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded text-lg ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                        colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                            colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                                colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                    colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                        'bg-indigo-500 hover:bg-indigo-600'
-                                                        }`}
+                                                    className={`inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded text-lg ${selectBtnColorClass}`}
                                                 >
                                                     Button
                                                 </button>
@@ -532,13 +486,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         </p>
                                         <div className="flex justify-center">
                                             <button
-                                                className={`inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded text-lg ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    }`}
+                                                className={`inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded text-lg ${selectBtnColorClass}`}
                                             >
                                                 Button
                                             </button>
@@ -567,13 +515,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         </p>
                                         <div className="flex justify-center">
                                             <button
-                                                className={`inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded text-lg ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    }`}
+                                                className={`inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded text-lg ${selectBtnColorClass}`}
                                             >
                                                 Button
                                             </button>
@@ -600,13 +542,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
 
                                                 <input type="text" id="hero-field" name="hero-field" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                             </div>
-                                            <button className={`inline-flex text-white ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                    colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                        colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                            colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                'bg-indigo-500 hover:bg-indigo-600'
-                                                }  border-0 py-2 px-6 focus:outline-none  rounded text-lg`}>Button</button>
+                                            <button className={`inline-flex text-white ${selectBtnColorClass}  border-0 py-2 px-6 focus:outline-none  rounded text-lg`}>Button</button>
                                         </div>
                                         <p className="text-sm mt-2 text-gray-500 mb-8 w-full">Neutra shabby chic ramps, viral fixie.</p>
                                         <div className="flex lg:flex-row md:flex-col">
@@ -659,13 +595,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                             <label htmlFor="message" className="leading-7 text-sm text-gray-600">How Can We Help You?</label>
                                             <textarea id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                                         </div>
-                                        <button className={`${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                            colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                    colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                        colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                            'bg-indigo-500 hover:bg-indigo-600'
-                                            } bg-indigo-500 border-0 py-2 px-6 focus:outline-none text-white hover:bg-indigo-600 rounded text-lg`}>Submit</button>
+                                        <button className={`${selectBtnColorClass} bg-indigo-500 border-0 py-2 px-6 focus:outline-none text-white hover:bg-indigo-600 rounded text-lg`}>Submit</button>
                                         <p className="text-xs text-end text-gray-500 mt-3">We value your feedback!</p>
                                     </div>
                                 </div>
@@ -685,13 +615,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         placeholder="Password"
                                     />
                                     <p className="text-right text-sm text-gray-700 underline cursor-pointer">Forgot Password?</p>
-                                    <button className={`rounded-full ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                        colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                            colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                    colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                        'bg-indigo-500 hover:bg-indigo-600'
-                                        } text-white py-3 shadow-md `}>Log in</button>
+                                    <button className={`rounded-full ${selectBtnColorClass} text-white py-3 shadow-md `}>Log in</button>
                                 </form>
                                 <p className="text-center text-xs text-gray-700">
                                     Don't have an account?
@@ -740,13 +664,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         className="rounded-full border border-gray-300 px-4 py-3 outline-none"
                                         placeholder="Confirm Password"
                                     />
-                                    <button className={`rounded-full ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                        colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                            colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                    colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                        'bg-indigo-500 hover:bg-indigo-600'
-                                        } text-white py-3 shadow-md `}>Register</button>
+                                    <button className={`rounded-full ${selectBtnColorClass} text-white py-3 shadow-md `}>Register</button>
                                 </form>
                                 <p className="text-center text-xs text-gray-700">
                                     Don't have an account?
@@ -782,13 +700,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                                 </div>
                                             </div>
                                             <div className="p-2 w-full">
-                                                <button className={`flex mx-auto text-white ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg`}>Send Message</button>
+                                                <button className={`flex mx-auto text-white ${selectBtnColorClass} border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg`}>Send Message</button>
                                             </div>
                                             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
                                                 <a className="text-indigo-400">support@example.com</a>
@@ -892,13 +804,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                             </a>
                                         </div>
                                     </div>
-                                    <button className={`flex mx-auto mt-16 text-white  border-0 py-2 px-8 focus:outline-none  rounded text-lg ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                        colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                            colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                    colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                        'bg-indigo-500 hover:bg-indigo-600'
-                                        }`}>
+                                    <button className={`flex mx-auto mt-16 text-white  border-0 py-2 px-8 focus:outline-none  rounded text-lg ${selectBtnColorClass}`}>
                                         Button
                                     </button>
                                 </div>
@@ -909,13 +815,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                     <div className="flex flex-wrap w-full mb-20">
                                         <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
                                             <h1 className={`sm:text-3xl text-2xl font-medium title-font mb-2 ${colorClass} `}>Innovative Solutions for Modern Challenges</h1>
-                                            <div className={`h-1 w-20 ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                    colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                        colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                            colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                'bg-indigo-500 hover:bg-indigo-600'
-                                                } rounded`}></div>
+                                            <div className={`h-1 w-20 ${selectBtnColorClass} rounded`}></div>
                                         </div>
                                         <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">We offer a variety of cutting-edge solutions designed to meet the unique needs of today's fast-paced world. From advanced technology to sustainable practices, our services are tailored to help you succeed.</p>
                                     </div>
@@ -1033,13 +933,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                             </div>
                                         </div>
                                     </div>
-                                    <button className={`flex mx-auto mt-16 text-white ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                        colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                            colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                    colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                        'bg-indigo-500 hover:bg-indigo-600'
-                                        } border-0 py-2 px-8 focus:outline-none rounded text-lg`}>Learn More</button>
+                                    <button className={`flex mx-auto mt-16 text-white ${selectBtnColorClass} border-0 py-2 px-8 focus:outline-none rounded text-lg`}>Learn More</button>
                                 </div>
                             </section>
                         case 3:
@@ -1260,13 +1154,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         </div>
                                         <div className="flex flex-col sm:flex-row mt-10">
                                             <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-                                                <div className={`w-20 h-20 rounded-full inline-flex items-center justify-center ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } text-white`}>
+                                                <div className={`w-20 h-20 rounded-full inline-flex items-center justify-center ${selectBtnColorClass} text-white`}>
                                                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10" viewBox="0 0 24 24">
                                                         <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
                                                         <circle cx="12" cy="7" r="4"></circle>
@@ -1274,13 +1162,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                                 </div>
                                                 <div className="flex flex-col items-center text-center justify-center mt-4">
                                                     <h2 className={`font-medium title-font ${colorClass} text-lg`}>John Doe</h2>
-                                                    <div className={`w-12 h-1 ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                        colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                            colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                                colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                    colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                        'bg-indigo-500 hover:bg-indigo-600'
-                                                        } rounded mt-2 mb-4`}></div>
+                                                    <div className={`w-12 h-1 ${selectBtnColorClass} rounded mt-2 mb-4`}></div>
                                                     <p className="text-base text-gray-700">Experienced Business Analyst | Strategic Planner</p>
                                                 </div>
                                             </div>
@@ -1687,21 +1569,8 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                     <div className="flex flex-col text-center w-full mb-20">
                                         <h1 className={`sm:text-4xl text-3xl font-medium title-font mb-2 ${colorClass}`}>Pricing</h1>
                                         <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.</p>
-                                        <div className={`flex mx-auto border-2 ${colorClass === 'text-red-500' ? 'border-red-500' :
-                                            colorClass === 'text-purple-500' ? 'border-purple-500' :
-                                                colorClass === 'text-blue-500' ? 'border-blue-500' :
-                                                    colorClass === 'text-pink-500' ? 'border-pink-500' :
-                                                        colorClass === 'text-orange-500' ? 'border-orange-500' :
-                                                            'border-indigo-500 hover:border-indigo-600'
-                                            } rounded overflow-hidden mt-6`}>
-
-                                            <button className={`py-1 px-4 ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                    colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                        colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                            colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                'bg-indigo-500 hover:bg-indigo-600'
-                                                } text-white focus:outline-none`}>Monthly</button>
+                                        <div className={`flex mx-auto border-2 ${selectColorBorder} rounded overflow-hidden mt-6`}>
+                                            <button className={`py-1 px-4 ${selectBtnColorClass} text-white focus:outline-none`}>Monthly</button>
                                             <button className="py-1 px-4 focus:outline-none">Annually</button>
                                         </div>
                                     </div>
@@ -1740,20 +1609,8 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                             </div>
                                         </div>
                                         <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-                                            <div className={`h-full p-6 rounded-lg border-2 ${colorClass === 'text-red-500' ? 'border-red-500' :
-                                                colorClass === 'text-purple-500' ? 'border-purple-500' :
-                                                    colorClass === 'text-blue-500' ? 'border-blue-500' :
-                                                        colorClass === 'text-pink-500' ? 'border-pink-500' :
-                                                            colorClass === 'text-orange-500' ? 'border-orange-500' :
-                                                                'border-indigo-500 hover:border-indigo-600'
-                                                } flex flex-col relative overflow-hidden`}>
-                                                <span className={`${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl`}>POPULAR</span>
+                                            <div className={`h-full p-6 rounded-lg border-2 ${selectColorBorder} flex flex-col relative overflow-hidden`}>
+                                                <span className={`${selectBtnColorClass} text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl`}>POPULAR</span>
                                                 <h2 className="text-sm tracking-widest title-font mb-1 font-medium">PRO</h2>
                                                 <h1 className={`text-5xl ${colorClass} leading-none flex items-center pb-4 mb-4 border-b border-gray-200`}>
                                                     <span>$38</span>
@@ -1787,13 +1644,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                                         </svg>
                                                     </span>Mixtape chillwave tumeric
                                                 </p>
-                                                <button className={`flex items-center mt-auto text-white border-0 py-2 px-4 w-full focus:outline-none ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } rounded`}>Button
+                                                <button className={`flex items-center mt-auto text-white border-0 py-2 px-4 w-full focus:outline-none ${selectBtnColorClass} rounded`}>Button
                                                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                                                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                                                     </svg>
@@ -1957,13 +1808,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
                                             </svg>
                                         </a>
-                                        <button className={`flex ml-auto text-white  border-0 py-2 px-6 focus:outline-none ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                            colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                    colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                        colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                            'bg-indigo-500 hover:bg-indigo-600'
-                                            } rounded`}>
+                                        <button className={`flex ml-auto text-white  border-0 py-2 px-6 focus:outline-none ${selectBtnColorClass} rounded`}>
                                             Get Started
                                         </button>
                                     </div>
@@ -1976,13 +1821,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         <h1 className={`text-4xl font-semibold ${colorClass}`}>Our Pricing Plans</h1>
                                         <p className="mt-4 text-gray-600">Choose the plan that suits your needs best. All plans come with a 14-day free trial.</p>
                                         <div className="inline-flex border rounded-lg mt-6">
-                                            <button className={`py-2 px-6 ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                    colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                        colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                            colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                'bg-indigo-500 hover:bg-indigo-600'
-                                                } text-white rounded-l-lg focus:outline-none`}>Monthly</button>
+                                            <button className={`py-2 px-6 ${selectBtnColorClass} text-white rounded-l-lg focus:outline-none`}>Monthly</button>
                                             <button className="py-2 px-6 text-gray-600 bg-white rounded-r-lg focus:outline-none">Yearly</button>
                                         </div>
                                     </div>
@@ -2015,24 +1854,12 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                                         Email support
                                                     </li>
                                                 </ul>
-                                                <button className={`mt-8 w-full py-3 ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } text-white rounded-lg transition-colors duration-300`}>Sign Up</button>
+                                                <button className={`mt-8 w-full py-3 ${selectBtnColorClass} text-white rounded-lg transition-colors duration-300`}>Sign Up</button>
                                             </div>
                                         </div>
                                         <div className="w-full md:w-1/3 px-4 mb-8">
                                             <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 relative">
-                                                <span className={`absolute top-0 right-0 px-3 py-1 ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } text-white text-xs font-bold rounded-bl-lg`}>POPULAR</span>
+                                                <span className={`absolute top-0 right-0 px-3 py-1 ${selectBtnColorClass} text-white text-xs font-bold rounded-bl-lg`}>POPULAR</span>
                                                 <h2 className="text-lg font-semibold text-gray-800">Standard</h2>
                                                 <div className="flex items-center mt-6">
                                                     <h1 className="text-5xl font-bold text-gray-800">$29</h1>
@@ -2059,13 +1886,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                                         Priority support
                                                     </li>
                                                 </ul>
-                                                <button className={`mt-8 w-full py-3 ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } text-white rounded-lg transition-colors duration-300`}>Sign Up</button>
+                                                <button className={`mt-8 w-full py-3 ${selectBtnColorClass} text-white rounded-lg transition-colors duration-300`}>Sign Up</button>
                                             </div>
                                         </div>
                                         <div className="w-full md:w-1/3 px-4 mb-8">
@@ -2096,13 +1917,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                                         24/7 support
                                                     </li>
                                                 </ul>
-                                                <button className={`mt-8 w-full py-3 ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } text-white rounded-lg transition-colors duration-300`}>Sign Up</button>
+                                                <button className={`mt-8 w-full py-3 ${selectBtnColorClass} text-white rounded-lg transition-colors duration-300`}>Sign Up</button>
                                             </div>
                                         </div>
                                     </div>
@@ -2342,13 +2157,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                                 <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
                                                     <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
                                                 </div>
-                                                <div className={`flex-shrink-0 w-10 h-10 rounded-full ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } inline-flex items-center justify-center text-white relative z-10`}>
+                                                <div className={`flex-shrink-0 w-10 h-10 rounded-full ${selectBtnColorClass} inline-flex items-center justify-center text-white relative z-10`}>
                                                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
                                                         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                                                     </svg>
@@ -2403,13 +2212,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                                 </div>
                                             </div>
                                             <div className="flex relative">
-                                                <div className={`flex-shrink-0 w-10 h-10 rounded-full ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } inline-flex items-center justify-center text-white relative z-10`}>
+                                                <div className={`flex-shrink-0 w-10 h-10 rounded-full ${selectBtnColorClass} inline-flex items-center justify-center text-white relative z-10`}>
                                                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
                                                         <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                                                         <path d="M22 4L12 14.01l-3-3"></path>
@@ -2429,13 +2232,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                             return <section className="text-gray-600 body-font">
                                 <div className="container px-5 py-24 mx-auto flex flex-wrap flex-col">
                                     <div className="flex mx-auto flex-wrap mb-20">
-                                        <a className={`sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-400 inline-flex items-center leading-none ${colorClass === 'text-red-500' ? 'border-red-500' :
-                                            colorClass === 'text-purple-500' ? 'border-purple-500' :
-                                                colorClass === 'text-blue-500' ? 'border-blue-500' :
-                                                    colorClass === 'text-pink-500' ? 'border-pink-500' :
-                                                        colorClass === 'text-orange-500' ? 'border-orange-500' :
-                                                            'border-indigo-500 hover:border-indigo-600'
-                                            } ${colorClass} tracking-wider rounded-t`}>
+                                        <a className={`sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-400 inline-flex items-center leading-none ${selectColorBorder}  ${colorClass} tracking-wider rounded-t`}>
                                             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5 mr-3" viewBox="0 0 24 24">
                                                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                                             </svg>
@@ -2550,13 +2347,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                     <div className="flex flex-wrap -m-4">
                                         <div className="p-4 md:w-1/2 w-full">
                                             <div className="h-full bg-gray-400 p-8 rounded">
-                                                <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } text-white flex-shrink-0`}>
+                                                <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${selectBtnColorClass} text-white flex-shrink-0`}>
                                                     <span className="text-lg font-medium">1</span>
                                                 </div>
                                                 <h2 className={`text-lg font-medium title-font mb-2 ${colorClass}`}>Step 1: Initial Planning</h2>
@@ -2565,13 +2356,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         </div>
                                         <div className="p-4 md:w-1/2 w-full">
                                             <div className="h-full bg-gray-400 p-8 rounded">
-                                                <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } text-white flex-shrink-0`}>
+                                                <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${selectBtnColorClass} text-white flex-shrink-0`}>
                                                     <span className="text-lg font-medium">2</span>
                                                 </div>
                                                 <h2 className={`text-lg font-medium title-font mb-2 ${colorClass}`}>Step 2: Research</h2>
@@ -2580,13 +2365,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         </div>
                                         <div className="p-4 md:w-1/2 w-full">
                                             <div className="h-full bg-gray-400 p-8 rounded">
-                                                <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } text-white flex-shrink-0`}>
+                                                <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${selectBtnColorClass} text-white flex-shrink-0`}>
                                                     <span className="text-lg font-medium">3</span>
                                                 </div>
                                                 <h2 className={`text-lg font-medium title-font mb-2 ${colorClass}`}>Step 3: Design</h2>
@@ -2595,13 +2374,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         </div>
                                         <div className="p-4 md:w-1/2 w-full">
                                             <div className="h-full bg-gray-400 p-8 rounded">
-                                                <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } text-white flex-shrink-0`}>
+                                                <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${selectBtnColorClass} text-white flex-shrink-0`}>
                                                     <span className="text-lg font-medium">4</span>
                                                 </div>
                                                 <h2 className={`text-lg font-medium title-font mb-2 ${colorClass}`}>Step 4: Development</h2>
@@ -2610,13 +2383,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         </div>
                                         <div className="p-4 md:w-1/2 w-full">
                                             <div className="h-full bg-gray-400 p-8 rounded">
-                                                <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } text-white flex-shrink-0`}>
+                                                <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${selectBtnColorClass} text-white flex-shrink-0`}>
                                                     <span className="text-lg font-medium">5</span>
                                                 </div>
                                                 <h2 className={`text-lg font-medium title-font mb-2 ${colorClass}`}>Step 5: Testing</h2>
@@ -2625,13 +2392,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         </div>
                                         <div className="p-4 md:w-1/2 w-full">
                                             <div className="h-full bg-gray-400 p-8 rounded">
-                                                <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } text-white flex-shrink-0`}>
+                                                <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${selectBtnColorClass} text-white flex-shrink-0`}>
                                                     <span className="text-lg font-medium">6</span>
                                                 </div>
                                                 <h2 className={`text-lg font-medium title-font mb-2 ${colorClass}`}>Step 6: Launch</h2>
@@ -2651,13 +2412,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                     <div className="flex flex-wrap">
                                         <div className="p-4 md:w-1/3 w-full">
                                             <div className="h-full bg-gray-400 p-8 rounded-lg border shadow-md flex flex-col items-center text-center">
-                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full   ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } text-white mb-5 flex-shrink-0`}>
+                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full   ${selectBtnColorClass} text-white mb-5 flex-shrink-0`}>
                                                     <span className="text-lg font-medium">1</span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -2668,13 +2423,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         </div>
                                         <div className="p-4 md:w-1/3 w-full">
                                             <div className="h-full bg-gray-400 p-8 rounded-lg border shadow-md flex flex-col items-center text-center">
-                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full   ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } text-white mb-5 flex-shrink-0`}>
+                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full   ${selectBtnColorClass} text-white mb-5 flex-shrink-0`}>
                                                     <span className="text-lg font-medium">2</span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -2685,13 +2434,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         </div>
                                         <div className="p-4 md:w-1/3 w-full">
                                             <div className="h-full bg-gray-400 p-8 rounded-lg border shadow-md flex flex-col items-center text-center">
-                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full   ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } text-white mb-5 flex-shrink-0`}>
+                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full   ${selectBtnColorClass} text-white mb-5 flex-shrink-0`}>
                                                     <span className="text-lg font-medium">3</span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -2702,13 +2445,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         </div>
                                         <div className="p-4 md:w-1/3 w-full">
                                             <div className="h-full bg-gray-400 p-8 rounded-lg border shadow-md flex flex-col items-center text-center">
-                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full   ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } text-white mb-5 flex-shrink-0`}>
+                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full   ${selectBtnColorClass} text-white mb-5 flex-shrink-0`}>
                                                     <span className="text-lg font-medium">4</span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -2719,13 +2456,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         </div>
                                         <div className="p-4 md:w-1/3 w-full">
                                             <div className="h-full bg-gray-400 p-8 rounded-lg border shadow-md flex flex-col items-center text-center">
-                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full   ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } text-white mb-5 flex-shrink-0`}>
+                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full   ${selectBtnColorClass} text-white mb-5 flex-shrink-0`}>
                                                     <span className="text-lg font-medium">5</span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -2736,13 +2467,7 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                         </div>
                                         <div className="p-4 md:w-1/3 w-full">
                                             <div className="h-full bg-gray-400 p-8 rounded-lg border shadow-md flex flex-col items-center text-center">
-                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full   ${colorClass === 'text-red-500' ? 'bg-red-500' :
-                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
-                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
-                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
-                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
-                                                                    'bg-indigo-500 hover:bg-indigo-600'
-                                                    } text-white mb-5 flex-shrink-0`}>
+                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full   ${selectBtnColorClass} text-white mb-5 flex-shrink-0`}>
                                                     <span className="text-lg font-medium">6</span>
                                                 </div>
                                                 <div className="flex-grow">
@@ -2765,6 +2490,144 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                     }
                 }
                 return renderComponentDesignForSteps();
+            // For the Ecommerce Section
+            case 9:
+                const renderComponentDesignForEcommerce = () => {
+                    switch (codevalue) {
+                        case 0:
+                            return <section className="text-gray-600 body-font">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <div className="flex flex-wrap -m-4">
+                                        <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+                                            <a className="block relative h-48 rounded overflow-hidden">
+                                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260" />
+                                            </a>
+                                            <div className="mt-4">
+                                                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">ELECTRONICS</h3>
+                                                <h2 className={`${colorClass} title-font text-lg font-medium`}>Smartphone</h2>
+                                                <p className="mt-1">$299.99</p>
+                                            </div>
+                                        </div>
+                                        <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+                                            <a className="block relative h-48 rounded overflow-hidden">
+                                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/421x261" />
+                                            </a>
+                                            <div className="mt-4">
+                                                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">FASHION</h3>
+                                                <h2 className={`${colorClass} title-font text-lg font-medium`}>Designer Dress</h2>
+                                                <p className="mt-1">$149.99</p>
+                                            </div>
+                                        </div>
+                                        <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+                                            <a className="block relative h-48 rounded overflow-hidden">
+                                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/422x262" />
+                                            </a>
+                                            <div className="mt-4">
+                                                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">HOME</h3>
+                                                <h2 className={`${colorClass} title-font text-lg font-medium`}>Modern Lamp</h2>
+                                                <p className="mt-1">$39.99</p>
+                                            </div>
+                                        </div>
+                                        <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+                                            <a className="block relative h-48 rounded overflow-hidden">
+                                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/423x263" />
+                                            </a>
+                                            <div className="mt-4">
+                                                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">GADGETS</h3>
+                                                <h2 className={`${colorClass} title-font text-lg font-medium`}>Wireless Headphones</h2>
+                                                <p className="mt-1">$89.99</p>
+                                            </div>
+                                        </div>
+                                        <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+                                            <a className="block relative h-48 rounded overflow-hidden">
+                                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264" />
+                                            </a>
+                                            <div className="mt-4">
+                                                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">BOOKS</h3>
+                                                <h2 className={`${colorClass} title-font text-lg font-medium`}>Best Seller</h2>
+                                                <p className="mt-1">$24.99</p>
+                                            </div>
+                                        </div>
+                                        <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+                                            <a className="block relative h-48 rounded overflow-hidden">
+                                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/425x265" />
+                                            </a>
+                                            <div className="mt-4">
+                                                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">FASHION</h3>
+                                                <h2 className={`${colorClass} title-font text-lg font-medium`}>Luxury Watch</h2>
+                                                <p className="mt-1">$199.99</p>
+                                            </div>
+                                        </div>
+                                        <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+                                            <a className="block relative h-48 rounded overflow-hidden">
+                                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/427x267" />
+                                            </a>
+                                            <div className="mt-4">
+                                                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">HOME</h3>
+                                                <h2 className={`${colorClass} title-font text-lg font-medium`}>Cozy Sofa</h2>
+                                                <p className="mt-1">$499.99</p>
+                                            </div>
+                                        </div>
+                                        <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+                                            <a className="block relative h-48 rounded overflow-hidden">
+                                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://dummyimage.com/428x268" />
+                                            </a>
+                                            <div className="mt-4">
+                                                <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">GADGETS</h3>
+                                                <h2 className={`${colorClass} title-font text-lg font-medium`}>Smart Watch</h2>
+                                                <p className="mt-1">$129.99</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        case 1:
+                            return <section className="text-gray-600 body-font overflow-hidden">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <div className="lg:w-4/5 mx-auto flex flex-wrap">
+                                        <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+                                            <h2 className="text-sm title-font text-gray-500 tracking-widest">BRAND NAME</h2>
+                                            <h1 className={`${colorClass} text-3xl title-font font-medium mb-4`}>Eco-Friendly Reusable Bottle</h1>
+                                            <div className="flex mb-4">
+                                                <a className={`flex-grow ${colorClass} border-b-2 ${selectColorBorder} py-2 text-lg px-1`}>Description</a>
+                                                <a className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Reviews</a>
+                                                <a className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Details</a>
+                                            </div>
+                                            <p className="leading-relaxed mb-4">This eco-friendly reusable bottle is perfect for those who care about the environment. Made from sustainable materials, it helps reduce plastic waste and keeps your beverages at the right temperature for hours.</p>
+                                            <div className="flex border-t border-gray-200 py-2">
+                                                <span className="text-gray-500">Color</span>
+                                                <span className="ml-auto text-gray-900">Green</span>
+                                            </div>
+                                            <div className="flex border-t border-gray-200 py-2">
+                                                <span className="text-gray-500">Size</span>
+                                                <span className="ml-auto text-gray-900">750ml</span>
+                                            </div>
+                                            <div className="flex border-t border-b mb-6 border-gray-200 py-2">
+                                                <span className="text-gray-500">Quantity</span>
+                                                <span className="ml-auto text-gray-900">1</span>
+                                            </div>
+                                            <div className="flex">
+                                                <span className="title-font font-medium text-2xl text-gray-900">$25.00</span>
+                                                <button className={`flex ml-auto text-white ${selectBtnColorClass} border-0 py-2 px-6 focus:outline-none rounded`}>Add to Cart</button>
+                                                <button className="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
+                                                    <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                                                        <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400" />
+                                    </div>
+                                </div>
+                            </section>
+
+
+
+                        default:
+                            break;
+                    }
+                }
+                return renderComponentDesignForEcommerce();
             default:
                 return ''
 
