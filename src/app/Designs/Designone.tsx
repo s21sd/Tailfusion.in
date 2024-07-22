@@ -2469,6 +2469,294 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                     </div>
                                 </div>
                             </section>
+                        case 2:
+                            return <section className="text-gray-600 body-font">
+                                <div className="container px-5 py-24 mx-auto flex flex-wrap">
+                                    <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+                                        <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+                                            <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                                        </div>
+                                        <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">1</div>
+                                        <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                                            <div className={"flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"}>
+                                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-12 h-12" viewBox="0 0 24 24">
+                                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                                </svg>
+                                            </div>
+                                            <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                                <h2 className={`font-medium title-font ${colorClass} mb-1 text-xl`}>Step One</h2>
+                                                <p className="leading-relaxed">This is the updated content for step one. It provides detailed information about the first step of the process.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+                                        <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+                                            <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                                        </div>
+                                        <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">2</div>
+                                        <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                                            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+                                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-12 h-12" viewBox="0 0 24 24">
+                                                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                                                </svg>
+                                            </div>
+                                            <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                                <h2 className={`font-medium title-font ${colorClass} mb-1 text-xl`}>Step Two</h2>
+                                                <p className="leading-relaxed">This is the updated content for step two. It provides detailed information about the second step of the process.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+                                        <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+                                            <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                                        </div>
+                                        <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">3</div>
+                                        <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                                            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+                                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-12 h-12" viewBox="0 0 24 24">
+                                                    <circle cx="12" cy="5" r="3"></circle>
+                                                    <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                                                </svg>
+                                            </div>
+                                            <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                                <h2 className={`font-medium title-font ${colorClass} mb-1 text-xl`}>Step Three</h2>
+                                                <p className="leading-relaxed">This is the updated content for step three. It provides detailed information about the third step of the process.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+                                        <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+                                            <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                                        </div>
+                                        <div className="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">4</div>
+                                        <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                                            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+                                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-12 h-12" viewBox="0 0 24 24">
+                                                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                                    <circle cx="12" cy="7" r="4"></circle>
+                                                </svg>
+                                            </div>
+                                            <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                                                <h2 className={`font-medium title-font ${colorClass} mb-1 text-xl`}>Step Four</h2>
+                                                <p className="leading-relaxed">This is the updated content for step four. It provides detailed information about the fourth step of the process.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        case 3:
+                            return <section className="text-gray-600 body-font">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <div className="flex flex-wrap -m-4">
+                                        <div className="p-4 md:w-1/2 w-full">
+                                            <div className="h-full bg-gray-400 p-8 rounded">
+                                                <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                                    } text-white flex-shrink-0`}>
+                                                    <span className="text-lg font-medium">1</span>
+                                                </div>
+                                                <h2 className={`text-lg font-medium title-font mb-2 ${colorClass}`}>Step 1: Initial Planning</h2>
+                                                <p className="leading-relaxed text-base">Start by outlining the main objectives and scope of the project. Ensure all stakeholders are aligned and understand their roles.</p>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/2 w-full">
+                                            <div className="h-full bg-gray-400 p-8 rounded">
+                                                <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                                    } text-white flex-shrink-0`}>
+                                                    <span className="text-lg font-medium">2</span>
+                                                </div>
+                                                <h2 className={`text-lg font-medium title-font mb-2 ${colorClass}`}>Step 2: Research</h2>
+                                                <p className="leading-relaxed text-base">Conduct thorough research on the market, competitors, and user needs to gather essential information for the project.</p>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/2 w-full">
+                                            <div className="h-full bg-gray-400 p-8 rounded">
+                                                <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                                    } text-white flex-shrink-0`}>
+                                                    <span className="text-lg font-medium">3</span>
+                                                </div>
+                                                <h2 className={`text-lg font-medium title-font mb-2 ${colorClass}`}>Step 3: Design</h2>
+                                                <p className="leading-relaxed text-base">Create initial designs and prototypes. Gather feedback from stakeholders and iterate to refine the designs.</p>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/2 w-full">
+                                            <div className="h-full bg-gray-400 p-8 rounded">
+                                                <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                                    } text-white flex-shrink-0`}>
+                                                    <span className="text-lg font-medium">4</span>
+                                                </div>
+                                                <h2 className={`text-lg font-medium title-font mb-2 ${colorClass}`}>Step 4: Development</h2>
+                                                <p className="leading-relaxed text-base">Begin the development process. Follow best practices and ensure code quality through regular reviews and testing.</p>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/2 w-full">
+                                            <div className="h-full bg-gray-400 p-8 rounded">
+                                                <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                                    } text-white flex-shrink-0`}>
+                                                    <span className="text-lg font-medium">5</span>
+                                                </div>
+                                                <h2 className={`text-lg font-medium title-font mb-2 ${colorClass}`}>Step 5: Testing</h2>
+                                                <p className="leading-relaxed text-base">Perform extensive testing to identify and fix bugs. Ensure the application meets all functional and non-functional requirements.</p>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/2 w-full">
+                                            <div className="h-full bg-gray-400 p-8 rounded">
+                                                <div className={`inline-flex items-center justify-center mb-4 w-12 h-12 rounded-full  ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                                    } text-white flex-shrink-0`}>
+                                                    <span className="text-lg font-medium">6</span>
+                                                </div>
+                                                <h2 className={`text-lg font-medium title-font mb-2 ${colorClass}`}>Step 6: Launch</h2>
+                                                <p className="leading-relaxed text-base">Prepare for the launch by finalizing all documentation and marketing materials. Deploy the application to production.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        case 4:
+                            return <section className="text-gray-600 body-font">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <div className="flex flex-col text-center w-full mb-20">
+                                        <h1 className={`sm:text-3xl text-2xl font-medium title-font mb-4 ${colorClass}`}>Project Timeline</h1>
+                                        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Follow these steps to ensure a successful project completion.</p>
+                                    </div>
+                                    <div className="flex flex-wrap">
+                                        <div className="p-4 md:w-1/3 w-full">
+                                            <div className="h-full bg-gray-400 p-8 rounded-lg border shadow-md flex flex-col items-center text-center">
+                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full   ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                                    } text-white mb-5 flex-shrink-0`}>
+                                                    <span className="text-lg font-medium">1</span>
+                                                </div>
+                                                <div className="flex-grow">
+                                                    <h2 className={`${colorClass} text-lg title-font font-medium mb-3`}>Ideation</h2>
+                                                    <p className="leading-relaxed text-base">Brainstorm and generate ideas for your project. Discuss with your team to identify the best concept to pursue.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/3 w-full">
+                                            <div className="h-full bg-gray-400 p-8 rounded-lg border shadow-md flex flex-col items-center text-center">
+                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full   ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                                    } text-white mb-5 flex-shrink-0`}>
+                                                    <span className="text-lg font-medium">2</span>
+                                                </div>
+                                                <div className="flex-grow">
+                                                    <h2 className={`${colorClass} text-lg title-font font-medium mb-3`}>Planning</h2>
+                                                    <p className="leading-relaxed text-base">Create a detailed plan including timelines, resources, and roles. Ensure everyone is clear about their tasks.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/3 w-full">
+                                            <div className="h-full bg-gray-400 p-8 rounded-lg border shadow-md flex flex-col items-center text-center">
+                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full   ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                                    } text-white mb-5 flex-shrink-0`}>
+                                                    <span className="text-lg font-medium">3</span>
+                                                </div>
+                                                <div className="flex-grow">
+                                                    <h2 className={`${colorClass} text-lg title-font font-medium mb-3`}>Design</h2>
+                                                    <p className="leading-relaxed text-base">Develop wireframes and prototypes. Iterate on the design based on feedback until you reach the final version.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/3 w-full">
+                                            <div className="h-full bg-gray-400 p-8 rounded-lg border shadow-md flex flex-col items-center text-center">
+                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full   ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                                    } text-white mb-5 flex-shrink-0`}>
+                                                    <span className="text-lg font-medium">4</span>
+                                                </div>
+                                                <div className="flex-grow">
+                                                    <h2 className={`${colorClass} text-lg title-font font-medium mb-3`}>Development</h2>
+                                                    <p className="leading-relaxed text-base">Start coding the project. Follow best practices and ensure regular code reviews to maintain quality.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/3 w-full">
+                                            <div className="h-full bg-gray-400 p-8 rounded-lg border shadow-md flex flex-col items-center text-center">
+                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full   ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                                    } text-white mb-5 flex-shrink-0`}>
+                                                    <span className="text-lg font-medium">5</span>
+                                                </div>
+                                                <div className="flex-grow">
+                                                    <h2 className={`${colorClass} text-lg title-font font-medium mb-3`}>Testing</h2>
+                                                    <p className="leading-relaxed text-base">Thoroughly test the project to catch any bugs. Perform both functional and user acceptance testing.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/3 w-full">
+                                            <div className="h-full bg-gray-400 p-8 rounded-lg border shadow-md flex flex-col items-center text-center">
+                                                <div className={`w-10 h-10 inline-flex items-center justify-center rounded-full   ${colorClass === 'text-red-500' ? 'bg-red-500' :
+                                                    colorClass === 'text-purple-500' ? 'bg-purple-500' :
+                                                        colorClass === 'text-blue-500' ? 'bg-blue-500' :
+                                                            colorClass === 'text-pink-500' ? 'bg-pink-500' :
+                                                                colorClass === 'text-orange-500' ? 'bg-orange-500' :
+                                                                    'bg-indigo-500 hover:bg-indigo-600'
+                                                    } text-white mb-5 flex-shrink-0`}>
+                                                    <span className="text-lg font-medium">6</span>
+                                                </div>
+                                                <div className="flex-grow">
+                                                    <h2 className={`${colorClass} text-lg title-font font-medium mb-3`}>Launch</h2>
+                                                    <p className="leading-relaxed text-base">Deploy the project to production. Monitor the launch and be ready to address any issues that arise.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+
+
 
 
 

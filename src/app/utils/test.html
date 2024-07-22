@@ -6,167 +6,150 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steps Section</title>
     <style>
-        .body-font {
-            font-family: 'Inter', sans-serif;
-            color: #4b5563;
+        .project-timeline {
+            color: #4A5568;
+            font-family: 'Helvetica', 'Arial', sans-serif;
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 1.25rem;
+            padding: 0 20px;
         }
 
-        .content-wrapper {
-            padding: 6rem 0;
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
+        .intro {
+            text-align: center;
+            margin-bottom: 20px;
         }
 
-        .steps-wrapper {
+        .title {
+            font-size: 2rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+            color: #1A202C;
+        }
+
+        .description {
+            max-width: 66.666667%;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+
+        .steps {
             display: flex;
+            gap: 12px;
             flex-wrap: wrap;
-            margin-bottom: 5rem;
-            justify-content: center;
         }
 
         .step {
-            padding: 0.75rem 1.5rem;
-            width: 50%;
+            padding: 1rem;
+            width: 100%;
+            max-width: 40%;
+        }
+
+        .step-number {
+            width: 2.5rem;
+            height: 2.5rem;
             display: flex;
             align-items: center;
             justify-content: center;
-            border-bottom: 2px solid #cbd5e1;
+            border-radius: 50%;
+            background-color: #4C51BF;
+            color: #FFFFFF;
+            margin-bottom: 1.25rem;
+            font-size: 1.125rem;
             font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            border-radius: 0.5rem 0.5rem 0 0;
-
         }
 
-        .step.active {
-            border-color: #6366f1;
-            color: #6366f1;
-            background-color: #f3f4f6;
-        }
-
-        .step svg {
-            width: 1.25rem;
-            height: 1.25rem;
-            margin-right: 0.75rem;
-        }
-
-        .image-wrapper {
-            max-width: 33.3333%;
-            width: 100%;
-            margin: 0 auto 2.5rem;
-            border-radius: 0.5rem;
-            display: block;
-            object-fit: cover;
-            object-position: center;
-        }
-
-        @media (min-width: 768px) {
-            .step {
-                width: auto;
-                justify-content: flex-start;
-            }
-
-            .image-wrapper {
-                max-width: 50%;
-            }
-        }
-
-        @media (min-width: 1024px) {
-            .image-wrapper {
-                max-width: 25%;
-            }
-        }
-
-        .text-center {
+        .step-content {
             text-align: center;
         }
 
-        .text-xl {
-            font-size: 1.25rem;
-            margin-bottom: 1rem;
-            color: #111827;
-        }
-
-        .text-base {
-            font-size: 1rem;
-            line-height: 1.75;
-            color: #4b5563;
-        }
-
-        .leading-relaxed {
-            line-height: 1.75;
-        }
-
-        .title-font {
-            font-family: 'Inter', sans-serif;
-        }
-
-        .font-medium {
+        .step-title {
+            color: #1A202C;
+            font-size: 1.125rem;
             font-weight: 500;
+            margin-bottom: 0.75rem;
         }
 
-        .mb-4 {
-            margin-bottom: 1rem;
+        .step-text {
+            line-height: 1.5;
         }
 
-        .lg-w-2-3 {
-            max-width: 66.6667%;
-            margin: 0 auto;
+        .step {
+            background-color: #FFFFFF;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            border: 1px solid #E2E8F0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
     </style>
 </head>
 
 <body>
-    <section class="body-font content-wrapper">
+    <section class="project-timeline">
         <div class="container">
-            <div class="steps-wrapper">
-                <a class="step active">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                        stroke-width="2" viewBox="0 0 24 24">
-                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                    </svg>
-                    STEP 1
-                </a>
-                <a class="step">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                        stroke-width="2" viewBox="0 0 24 24">
-                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                    </svg>
-                    STEP 2
-                </a>
-                <a class="step">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                        stroke-width="2" viewBox="0 0 24 24">
-                        <circle cx="12" cy="5" r="3"></circle>
-                        <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
-                    </svg>
-                    STEP 3
-                </a>
-                <a class="step">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                        stroke-width="2" viewBox="0 0 24 24">
-                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                        <circle cx="12" cy="7" r="4"></circle>
-                    </svg>
-                    STEP 4
-                </a>
+            <div class="intro">
+                <h1 class="title">Project Timeline</h1>
+                <p class="description">Follow these steps to ensure a successful project completion.</p>
             </div>
-            <img class="image-wrapper" src="https://dummyimage.com/720x600" alt="hero">
-            <div class="text-center">
-                <h1 class="text-xl font-medium title-font mb-4">Master Cleanse Reliac Heirloom</h1>
-                <p class="lg-w-2-3 leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn
-                    asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them
-                    man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h2 class="step-title">Ideation</h2>
+                        <p class="step-text">Brainstorm and generate ideas for your project. Discuss with your team to
+                            identify the best concept to pursue.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h2 class="step-title">Planning</h2>
+                        <p class="step-text">Create a detailed plan including timelines, resources, and roles. Ensure
+                            everyone is clear about their tasks.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h2 class="step-title">Design</h2>
+                        <p class="step-text">Develop wireframes and prototypes. Iterate on the design based on feedback
+                            until you reach the final version.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h2 class="step-title">Development</h2>
+                        <p class="step-text">Start coding the project. Follow best practices and ensure regular code
+                            reviews to maintain quality.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h2 class="step-title">Testing</h2>
+                        <p class="step-text">Thoroughly test the project to catch any bugs. Perform both functional and
+                            user acceptance testing.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">6</div>
+                    <div class="step-content">
+                        <h2 class="step-title">Launch</h2>
+                        <p class="step-text">Deploy the project to production. Monitor the launch and be ready to
+                            address any issues that arise.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
+
 </body>
 
 </html>

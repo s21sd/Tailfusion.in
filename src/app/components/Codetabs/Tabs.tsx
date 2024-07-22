@@ -15,6 +15,7 @@ import { SelectColor } from "./SelectColor";
 import '../../utils/Devices.css';
 import RenderDeviceComponents from '@/app/utils/DevicesComponentsCodeHelper/RenderDeviceComponents';
 import { renderColor } from '@/app/utils/RenderColor/RenderColor';
+import { CiHeart } from 'react-icons/ci';
 
 export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheComponent: number, codevalue: number }) {
     const [deviceView, setDeviceView] = useState<string | null>(null);
@@ -76,24 +77,28 @@ export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheCompone
                     </TabsList>
                     <SelectColor handleSelectValueChange={handleSelectValueChange} />
                 </div>
-                <div className="border border-gray-300 dark:border-gray-700 p-2 rounded-md flex gap-4 dark:text-[#9e4ceb] text-white">
-                    <IoPhonePortraitOutline
-                        className={`cursor-pointer ${deviceView === 'phone' ? 'text-white dark:text-[#9e4ceb]' : 'text-gray-600 dark:text-gray-400'}`}
-                        size={25}
-                        onClick={() => setDeviceView('phone')}
-                    />
-                    <MdOutlineTabletMac
-                        className={`cursor-pointer ${deviceView === 'tablet' ? 'text-white dark:text-[#9e4ceb]' : 'text-gray-600 dark:text-gray-400'}`}
-                        size={25}
-                        onClick={() => setDeviceView('tablet')}
-                    />
-                    <FaLaptopCode
-                        className={`cursor-pointer ${deviceView === null ? 'text-white dark:text-[#9e4ceb]' : 'text-gray-600 dark:text-gray-400'}`}
-                        size={25}
-                        onClick={() => setDeviceView(null)}
-                    />
+                <div className='flex justify-center items-center gap-4'>
+                    <div>
+                        <CiHeart className='git_icon_color cursor-pointer' size={40} />
+                    </div>
+                    <div className="border border-gray-300 dark:border-gray-700 p-2 rounded-md flex gap-4 dark:text-[#9e4ceb] text-white">
+                        <IoPhonePortraitOutline
+                            className={`cursor-pointer ${deviceView === 'phone' ? 'text-white dark:text-[#9e4ceb]' : 'text-gray-600 dark:text-gray-400'}`}
+                            size={25}
+                            onClick={() => setDeviceView('phone')}
+                        />
+                        <MdOutlineTabletMac
+                            className={`cursor-pointer ${deviceView === 'tablet' ? 'text-white dark:text-[#9e4ceb]' : 'text-gray-600 dark:text-gray-400'}`}
+                            size={25}
+                            onClick={() => setDeviceView('tablet')}
+                        />
+                        <FaLaptopCode
+                            className={`cursor-pointer ${deviceView === null ? 'text-white dark:text-[#9e4ceb]' : 'text-gray-600 dark:text-gray-400'}`}
+                            size={25}
+                            onClick={() => setDeviceView(null)}
+                        />
+                    </div>
                 </div>
-
             </div>
             <TabsContent value="Preview">
                 <div className="h-fit m-3 border-gray-600 bg-[#151518] rounded-md shadow-md p-4 mx-auto">
