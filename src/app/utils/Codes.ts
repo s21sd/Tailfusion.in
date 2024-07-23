@@ -11520,3 +11520,693 @@ export const designCodeForEcommerceSection: any = [
         }
     ]
 ]
+
+// This is the design code for the CTA I have component Code 10
+export const designCodeForCTA: any = [
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+                                        <h1 className="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">
+                                            Enhance your online shopping experience with our versatile and high-performing eCommerce sections.
+                                        </h1>
+                                        <button className="flex-shrink-0 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0">
+                                            Get Started
+                                        </button>
+                                    </div>
+                                </div>
+                            </section>`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTA Section</title>
+    <style>
+        .section {
+            color: #4a5568;
+            font-family: 'Body Font', sans-serif;
+        }
+
+        .section-container {
+            max-width: 1280px;
+            padding: 6rem 1.25rem;
+            margin: 0 auto;
+        }
+
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            margin: 0 auto;
+            max-width: 66.67%;
+        }
+
+        @media (min-width: 640px) {
+
+            .content-wrapper {
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+
+        .title {
+            flex-grow: 1;
+            padding-right: 4rem;
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #1a202c;
+        }
+
+        .cta-button {
+            flex-shrink: 0;
+            color: #fff;
+            background-color: #6366f1;
+            border: none;
+            padding: 0.5rem 2rem;
+            cursor: pointer;
+            border-radius: 0.375rem;
+            font-size: 1.125rem;
+            margin-top: 2.5rem;
+        }
+
+        @media (min-width: 640px) {
+            .cta-button {
+                margin-top: 0;
+            }
+        }
+
+        .cta-button:hover {
+            background-color: #4f46e5;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section">
+        <div class="section-container">
+            <div class="content-wrapper">
+                <h1 class="title">
+                    Enhance your online shopping experience with our versatile and high-performing eCommerce sections.
+                </h1>
+                <button class="cta-button">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>`
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto flex flex-wrap items-center">
+    <div className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+      <h1 className="title-font font-medium text-3xl text-gray-900">
+        Discover our high-quality, engaging, and efficient eCommerce solutions.
+      </h1>
+      <p className="leading-relaxed mt-4">
+        Explore a variety of sections designed to enhance your online shopping experience with versatility and performance.
+      </p>
+    </div>
+    <div className="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+      <h2 className="text-gray-900 text-lg font-medium title-font mb-5">Sign Up</h2>
+      <div className="relative mb-4">
+        <label htmlFor="full-name" className="leading-7 text-sm text-gray-600">Full Name</label>
+        <input type="text" id="full-name" name="full-name" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+      </div>
+      <div className="relative mb-4">
+        <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email</label>
+        <input type="email" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+      </div>
+      <button className="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+        Sign Up
+      </button>
+      <p className="text-xs text-gray-500 mt-3">
+        Join our community and start enjoying the benefits of seamless online shopping.
+      </p>
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTA Section</title>
+    <style>
+        .section {
+            color: #4a5568;
+            font-family: 'Body Font', sans-serif;
+        }
+
+        .container {
+            max-width: 1280px;
+            padding: 6rem 1.25rem;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .text-content {
+            width: 60%;
+            max-width: 50%;
+            padding-right: 0;
+        }
+
+        @media (min-width: 768px) {
+            .text-content {
+                padding-right: 4rem;
+            }
+        }
+
+        .title {
+            font-size: 1.875rem;
+            font-weight: 500;
+            color: #1a202c;
+        }
+
+        .description {
+            margin-top: 1rem;
+            line-height: 1.625;
+        }
+
+        .signup-form {
+            width: 33.33%;
+            max-width: 50%;
+            background-color: #f7fafc;
+            border-radius: 0.5rem;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            margin-top: 2.5rem;
+        }
+
+        @media (min-width: 768px) {
+
+            .signup-form {
+                margin-left: auto;
+                margin-top: 0;
+            }
+        }
+
+        .form-title {
+            color: #1a202c;
+            font-size: 1.125rem;
+            font-weight: 500;
+            margin-bottom: 1.25rem;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+            position: relative;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 0.875rem;
+            color: #4a5568;
+            line-height: 1.75;
+        }
+
+        .form-input {
+            width: 100%;
+            background-color: #fff;
+            border-radius: 0.25rem;
+            border: 1px solid #d2d6dc;
+            padding: 0.5rem 0.75rem;
+            font-size: 1rem;
+            color: #4a5568;
+            outline: none;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .form-input:focus {
+            border-color: #6366f1;
+            box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.5);
+        }
+
+        .signup-button {
+            color: #fff;
+            background-color: #6366f1;
+            border: none;
+            padding: 0.5rem 2rem;
+            cursor: pointer;
+            border-radius: 0.375rem;
+            font-size: 1.125rem;
+            margin-top: 0.75rem;
+            transition: background-color 0.3s;
+        }
+
+        .signup-button:hover {
+            background-color: #4f46e5;
+        }
+
+        .footer-text {
+            font-size: 0.75rem;
+            color: #a0aec0;
+            margin-top: 0.75rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="text-content">
+                <h1 class="title">
+                    Discover our high-quality, engaging, and efficient eCommerce solutions.
+                </h1>
+                <p class="description">
+                    Explore a variety of sections designed to enhance your online shopping experience with versatility
+                    and performance.
+                </p>
+            </div>
+            <div class="signup-form">
+                <h2 class="form-title">Sign Up</h2>
+                <div class="form-group">
+                    <label for="full-name" class="form-label">Full Name</label>
+                    <input type="text" id="full-name" name="full-name" class="form-input" />
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-input" />
+                </div>
+                <button class="signup-button">
+                    Sign Up
+                </button>
+                <p class="footer-text">
+                    Join our community and start enjoying the benefits of seamless online shopping.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>`
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-col text-center w-full mb-12">
+      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+        Enhance Your Shopping Experience
+      </h1>
+      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+        Discover our curated collection of eCommerce solutions designed to provide a seamless and engaging shopping experience. Join us and explore the future of online shopping.
+      </p>
+    </div>
+    <div className="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
+      <div className="relative flex-grow w-full">
+        <label htmlFor="full-name" className="leading-7 text-sm text-gray-600">Full Name</label>
+        <input type="text" id="full-name" name="full-name" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+      </div>
+      <div className="relative flex-grow w-full">
+        <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email</label>
+        <input type="email" id="email" name="email" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+      </div>
+      <button className="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+        Register
+      </button>
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTA Section</title>
+    <style>
+        .section {
+            color: #4a5568;
+            font-family: 'Body Font', sans-serif;
+        }
+
+        .container {
+            max-width: 1280px;
+            padding: 6rem 1.25rem;
+            margin: 0 auto;
+        }
+
+        .text-center {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .w-full {
+            width: 100%;
+        }
+
+        .mb-12 {
+            margin-bottom: 3rem;
+        }
+
+        .title {
+            font-size: 1.875rem;
+            font-weight: 500;
+            color: #1a202c;
+            margin-bottom: 1rem;
+        }
+
+        @media (min-width: 640px) {
+            .title {
+                font-size: 2.25rem;
+            }
+        }
+
+        .description {
+            max-width: 66.67%;
+            margin: 0 auto;
+            line-height: 1.625;
+            font-size: 1rem;
+        }
+
+        .form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            max-width: 50%;
+            margin: 0 auto;
+            padding: 0 2rem;
+
+        }
+
+        @media (min-width: 640px) {
+            .form-container {
+                flex-direction: row;
+                padding: 0;
+                justify-content: space-between;
+                align-items: flex-end;
+            }
+        }
+
+        .input-label {
+            display: block;
+            font-size: 0.875rem;
+            color: #4a5568;
+            line-height: 1.75;
+        }
+
+        .input-field {
+            width: 100%;
+            background-color: rgba(243, 244, 246, 0.5);
+            border-radius: 0.25rem;
+            border: 1px solid #d2d6dc;
+            padding: 0.5rem 0.75rem;
+            font-size: 1rem;
+            color: #4a5568;
+            outline: none;
+            transition: border-color 0.2s, background-color 0.2s, box-shadow 0.2s;
+        }
+
+        .input-field:focus {
+            border-color: #6366f1;
+            background-color: transparent;
+            box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.5);
+        }
+
+        .signup-button {
+            color: #fff;
+            background-color: #6366f1;
+            border: none;
+            padding: 0.5rem 2rem;
+            cursor: pointer;
+            border-radius: 0.375rem;
+            font-size: 1.125rem;
+            transition: background-color 0.3s;
+        }
+
+        .signup-button:hover {
+            background-color: #4f46e5;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="text-center w-full mb-12">
+                <h1 class="title">
+                    Enhance Your Shopping Experience
+                </h1>
+                <p class="description">
+                    Discover our curated collection of eCommerce solutions designed to provide a seamless and engaging
+                    shopping experience. Join us and explore the future of online shopping.
+                </p>
+            </div>
+            <div class="form-container">
+                <div class="input-group">
+                    <label for="full-name" class="input-label">Full Name</label>
+                    <input type="text" id="full-name" name="full-name" class="input-field" />
+                </div>
+                <div class="input-group">
+                    <label for="email" class="input-label">Email</label>
+                    <input type="email" id="email" name="email" class="input-field" />
+                </div>
+                <button class="signup-button">
+                    Register
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+</body>
+
+</html>`
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto flex items-center md:flex-row flex-col">
+    <div className="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
+      <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">E-COMMERCE SOLUTIONS</h2>
+      <h1 className="md:text-3xl text-2xl font-medium title-font text-gray-900">
+        Enhance Your Online Shopping Experience
+      </h1>
+    </div>
+    <div className="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
+      <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-6 h-6" viewBox="0 0 512 512">
+          <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
+        </svg>
+        <span className="ml-4 flex items-start flex-col leading-none">
+          <span className="text-xs text-gray-600 mb-1">GET IT ON</span>
+          <span className="title-font font-medium">Google Play</span>
+        </span>
+      </button>
+      <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-6 h-6" viewBox="0 0 305 305">
+          <path d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z"></path>
+          <path d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z"></path>
+        </svg>
+        <span className="ml-4 flex items-start flex-col leading-none">
+          <span className="text-xs text-gray-600 mb-1">Download on the</span>
+          <span className="title-font font-medium">App Store</span>
+        </span>
+      </button>
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTA Section</title>
+    <style>
+        .section {
+            color: #4a5568;
+            font-family: 'Body Font', sans-serif;
+        }
+
+        .container {
+            max-width: 1280px;
+            padding: 6rem 1.25rem;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .header {
+                text-align: left;
+                margin-bottom: 0;
+            }
+
+            .header h2 {
+                margin-bottom: 0.25rem;
+            }
+        }
+
+        .subtitle {
+            font-size: 0.75rem;
+            color: #6366f1;
+            letter-spacing: 0.1em;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin-bottom: 0.25rem;
+        }
+
+        .title {
+            font-size: 1.875rem;
+            font-weight: 500;
+            color: #1a202c;
+        }
+
+        @media (min-width: 768px) {
+            .title {
+                font-size: 2.25rem;
+            }
+        }
+
+        .button-group {
+            display: flex;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+
+        @media (min-width: 768px) {
+            .button-group {
+                margin-top: 0;
+                margin-left: auto;
+            }
+        }
+
+        .button {
+            background-color: #f7fafc;
+            padding: 0.75rem 1.25rem;
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            border: none;
+            outline: none;
+            margin-left: 1rem;
+        }
+
+        .button:hover {
+            background-color: #e2e8f0;
+        }
+
+        .icon {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+
+        .button-text {
+            display: flex;
+            flex-direction: column;
+            margin-left: 1rem;
+        }
+
+        .small-text {
+            font-size: 0.75rem;
+            color: #4a5568;
+            margin-bottom: 0.25rem;
+        }
+
+        .large-text {
+            font-size: 1rem;
+            font-weight: 500;
+            color: #1a202c;
+        }
+
+        @media (min-width: 768px) {
+            .button-text {
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="header">
+                <h2 class="subtitle">E-COMMERCE SOLUTIONS</h2>
+                <h1 class="title">Enhance Your Online Shopping Experience</h1>
+            </div>
+            <div class="button-group">
+                <button class="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon" viewBox="0 0 512 512">
+                        <path
+                            d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z">
+                        </path>
+                    </svg>
+                    <span class="button-text">
+                        <span class="small-text">GET IT ON</span>
+                        <span class="large-text">Google Play</span>
+                    </span>
+                </button>
+                <button class="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon" viewBox="0 0 305 305">
+                        <path
+                            d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z">
+                        </path>
+                        <path
+                            d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z">
+                        </path>
+                    </svg>
+                    <span class="button-text">
+                        <span class="small-text">Download on the</span>
+                        <span class="large-text">App Store</span>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
+        }
+    ]
+]

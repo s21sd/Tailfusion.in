@@ -322,7 +322,46 @@ export const content = [
       "Increased Engagement: Engaging and intuitive sections can help increase user interaction and conversion rates.",
       "Improved Sales: Clear and visually appealing product displays, along with a smooth checkout process, can help boost sales and customer satisfaction."
     ]
+  },
+  // This is for the CTA Component Code 10
+  {
+    "title": "Call-to-Action (CTA)",
+    "description": "The Call-to-Action sections component is designed to drive user engagement and conversions by providing clear, compelling, and strategically placed CTAs. Built to capture attention and guide users towards desired actions, our CTA sections component ensures your website achieves its goals effectively.",
+    "sections": [
+      {
+        "title": "Primary CTA",
+        "description": "Highlight the main action you want users to take, such as signing up, purchasing, or subscribing."
+      },
+      {
+        "title": "Secondary CTA",
+        "description": "Provide an alternative action for users who may not be ready to commit to the primary CTA, such as learning more or getting a free trial."
+      },
+      {
+        "title": "CTA with Visual Elements",
+        "description": "Enhance your CTAs with visual elements like icons, images, or illustrations to make them more engaging and eye-catching."
+      },
+      {
+        "title": "Inline CTA",
+        "description": "Integrate CTAs seamlessly within your content to guide users towards actions without disrupting their reading experience."
+      }
+    ],
+    "features": [
+      "Responsive Design: Ensures the CTA sections component adapts seamlessly to different screen sizes for optimal visibility.",
+      "Customizable Layouts: Easily modify the layout, design, and positioning of CTAs to match your project's branding and style.",
+      "Visual Appeal: Use high-quality images, icons, and animations to enhance the visual appeal and effectiveness of CTAs.",
+      "Interactive Elements: Support for interactive elements like hover effects, animations, and countdown timers to increase engagement.",
+      "Analytics Integration: Track the performance of your CTAs with integrated analytics tools to measure effectiveness and optimize conversions."
+    ],
+    "benefits": [
+      "Increased Engagement: Strategically placed and well-designed CTAs can significantly boost user interaction and engagement.",
+      "Higher Conversion Rates: Clear and compelling CTAs guide users towards desired actions, leading to higher conversion rates.",
+      "Responsive Design: Ensures CTAs are visible and functional on all devices, enhancing the user experience.",
+      "Customizable Layouts: Flexibility to design CTAs that align with your branding and goals, making them more effective.",
+      "Data-Driven Optimization: Analytics integration allows you to track and analyze CTA performance, enabling data-driven improvements."
+    ]
   }
+
+
 
 
 
