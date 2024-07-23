@@ -359,10 +359,43 @@ export const content = [
       "Customizable Layouts: Flexibility to design CTAs that align with your branding and goals, making them more effective.",
       "Data-Driven Optimization: Analytics integration allows you to track and analyze CTA performance, enabling data-driven improvements."
     ]
+  },
+  // This is for the CTA Component Code 11
+  {
+    "title": "Team",
+    "description": "The Team section component is crafted to present your team members in a professional and engaging manner. Designed to build trust and credibility, our Team sections component highlights the expertise and roles of your team, making your organization more relatable and trustworthy.",
+    "sections": [
+      {
+        "title": "Team Introduction",
+        "description": "Provide a brief overview of your team, highlighting the diverse skills and expertise that contribute to your organization's success."
+      },
+      {
+        "title": "Individual Profiles",
+        "description": "Showcase detailed profiles of each team member, including their roles, experience, and key contributions."
+      },
+      {
+        "title": "Team Photos",
+        "description": "Enhance your Team section with professional photos of your team members to create a personal connection with your audience."
+      },
+      {
+        "title": "Team Achievements",
+        "description": "Highlight significant achievements and milestones reached by your team to demonstrate their capabilities and successes."
+      }
+    ],
+    "features": [
+      "Responsive Design: Ensures the Team section component adapts seamlessly to different screen sizes for optimal visibility.",
+      "Customizable Layouts: Easily modify the layout, design, and positioning of team profiles to match your project's branding and style.",
+      "Visual Appeal: Use high-quality images and professional design elements to enhance the visual appeal of the Team section.",
+      "Interactive Elements: Support for interactive elements like hover effects, animations, and expandable profiles to increase engagement.",
+      "Social Media Integration: Include links to team members' social media profiles for additional networking and engagement opportunities."
+    ],
+    "benefits": [
+      "Increased Trust: Showcasing your team members helps build trust and credibility with your audience.",
+      "Enhanced Connection: Personalizing your Team section with photos and profiles fosters a stronger connection with visitors.",
+      "Responsive Design: Ensures the Team section is visible and functional on all devices, enhancing the user experience.",
+      "Customizable Layouts: Flexibility to design a Team section that aligns with your branding and goals, making it more effective.",
+      "Increased Engagement: Interactive elements and social media integration can boost user interaction and engagement with your team profiles."
+    ]
   }
-
-
-
-
 
 ];

@@ -12208,5 +12208,608 @@ export const designCodeForCTA: any = [
 
 </html>`
         }
+    ],
+    [
+        {
+            Tailwind: `<div className="container m-auto px-6 py-40">
+    <div
+        className="flex flex-col md:flex-row items-center justify-between relative w-100 h-auto md:h-64 bg-100 shadow-2xl rounded-lg p-8">
+        <div className="w-8/12 text-2xl">
+            <span className="flex">We are team of developers with houndreds hours spend on coding, we create
+                professional
+                apps, webs.</span>
+        </div>
+        <div
+            className="relative shadow-md font-medium my-5 py-2 px-4 text-white cursor-pointer bg-yellow-600 hover:bg-yellow-500 rounded text-lg text-center w-48">
+            <span
+                className="absolute right-0 top-0 animate-ping inline-flex rounded-full h-3 w-3 bg-yellow-600">
+            </span>
+            Call now
+        </div>
+    </div>
+</div>`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTA Section</title>
+    <style>
+        .container {
+            margin: auto;
+            padding: 10rem 1.5rem;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+            height: auto;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 1rem;
+            padding: 2rem;
+        }
+
+        @media (min-width: 768px) {
+            .card {
+                flex-direction: row;
+                height: 16rem;
+            }
+        }
+
+        .text-section {
+            width: 66.6667%;
+            font-size: 1.5rem;
+        }
+
+        .text {
+            display: flex;
+        }
+
+        .button {
+            position: relative;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            font-weight: 500;
+            margin: 1.25rem 0;
+            background-color: blue;
+            padding: 0.5rem 1rem;
+            color: white;
+            cursor: pointer;
+            border-radius: 0.5rem;
+            font-size: 1.125rem;
+            text-align: center;
+            width: 12rem;
+        }
+
+        .ping {
+            position: absolute;
+            width: 0.75rem;
+            right: 0;
+            background-color: blue;
+            top: 0;
+            animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+            display: inline-flex;
+            border-radius: 9999px;
+            height: 0.75rem;
+        }
+
+        @keyframes ping {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+
+            75%,
+            100% {
+                transform: scale(2);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="text-section">
+                <span class="text">
+                    We are a team of developers with hundreds of hours spent on coding, we create professional apps,
+                    websites.
+                </span>
+            </div>
+            <div class="button">
+                <span class="ping"></span>
+                Call now
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>`
+        }
+    ]
+]
+
+export const designCodeForTeams: any = [
+    [
+        {
+            Tailwind: `<div className="mb-16">
+                                <div className="container flex justify-center mx-auto pt-16">
+                                    <div>
+                                        <p className='text-white text-lg text-center font-normal pb-3'>BUILDING TEAM</p>
+                                        <h1 className="xl:text-2xl text-2xl text-center text-gray-600 font-extrabold pb-6 mx-auto">
+                                            The Talented People Behind the Scenes of the Organization
+                                        </h1>
+                                    </div>
+                                </div>
+                                <div className="w-full px-10 pt-10">
+                                    <div className="flex  gap-3 container mx-auto">
+                                        <div
+                                            role="list"
+                                            aria-label="Behind the scenes People"
+                                            className="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around"
+                                        >
+                                            <div
+                                                role="listitem"
+                                                className="relative mt-16 mb-32 sm:mb-24 "
+                                            >
+                                                <div className="rounded-xl overflow-hidden shadow-md border border-gray-600">
+                                                    <div className="absolute -mt-20 w-full flex justify-center">
+                                                        <div className="h-32 w-32">
+                                                            <img
+                                                                src="https://dummyimage.com/120x120"
+                                                                alt='Display Picture of Andres Berlin'
+                                                                role="img"
+                                                                className="rounded-full object-cover h-full w-full shadow-md"
+                                                            />
+                                                        </div>
+                                                    </div>
+                                                    <div className="px-6 mt-16">
+                                                        <h1 className='font-bold text-3xl text-center text-white mb-1'>Andres Berlin</h1>
+                                                        <p className="text-white text-sm text-center">Chief Executive Officer</p>
+                                                        <p className="text-center text-gray-600 text-base pt-3 font-normal">
+                                                            The CEO's role in raising a company's corporate IQ is to establish an atmosphere that promotes knowledge sharing and collaboration.
+                                                        </p>
+                                                        <div className="w-full flex justify-center pt-5 pb-5">
+                                                            <h1 className="mx-5">
+                                                                <div aria-label="Github" role="img">
+                                                                    <svg
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        width="24"
+                                                                        height="24"
+                                                                        viewBox="0 0 24 24"
+                                                                        fill="none"
+                                                                        stroke="#718096"
+                                                                        strokeWidth="1.5"
+                                                                        strokeLinecap="round"
+                                                                        strokeLinejoin="round"
+                                                                        className="feather feather-github"
+                                                                    >
+                                                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                                                    </svg>
+                                                                </div>
+                                                            </h1>
+                                                            <h1 className="mx-5">
+                                                                <div aria-label="Twitter" role="img">
+                                                                    <svg
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        width="24"
+                                                                        height="24"
+                                                                        viewBox="0 0 24 24"
+                                                                        fill="none"
+                                                                        stroke="#718096"
+                                                                        strokeWidth="1.5"
+                                                                        strokeLinecap="round"
+                                                                        strokeLinejoin="round"
+                                                                        className="feather feather-twitter"
+                                                                    >
+                                                                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                                                    </svg>
+                                                                </div>
+                                                            </h1>
+                                                            <h1 className="mx-5">
+                                                                <div aria-label="Instagram" role="img">
+                                                                    <svg
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        width="24"
+                                                                        height="24"
+                                                                        viewBox="0 0 24 24"
+                                                                        fill="none"
+                                                                        stroke="#718096"
+                                                                        strokeWidth="1.5"
+                                                                        strokeLinecap="round"
+                                                                        strokeLinejoin="round"
+                                                                        className="feather feather-instagram"
+                                                                    >
+                                                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                                                    </svg>
+                                                                </div>
+                                                            </h1>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div
+                                            role="list"
+                                            aria-label="Behind the scenes People"
+                                            className="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around"
+                                        >
+                                            <div
+                                                role="listitem"
+                                                className="relative mt-16 mb-32 sm:mb-24 "
+                                            >
+                                                <div className="rounded-xl overflow-hidden shadow-md border border-gray-600">
+                                                    <div className="absolute -mt-20 w-full flex justify-center">
+                                                        <div className="h-32 w-32">
+                                                            <img
+                                                                src="https://dummyimage.com/120x120"
+                                                                alt='Display Picture of Andres Berlin'
+                                                                role="img"
+                                                                className="rounded-full object-cover h-full w-full shadow-md"
+                                                            />
+                                                        </div>
+                                                    </div>
+                                                    <div className="px-6 mt-16">
+                                                        <h1 className='font-bold text-3xl text-center text-white mb-1'>Dean Jones</h1>
+                                                        <p className="text-white text-sm text-center">Principal Software Engineer</p>
+                                                        <p className="text-center text-gray-600 text-base pt-3 font-normal">
+                                                            An avid open-source developer who loves to be creative and inventive. I have 20 years of experience in the field.
+                                                        </p>
+                                                        <div className="w-full flex justify-center pt-5 pb-5">
+                                                            <h1 className="mx-5">
+                                                                <div aria-label="Github" role="img">
+                                                                    <svg
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        width="24"
+                                                                        height="24"
+                                                                        viewBox="0 0 24 24"
+                                                                        fill="none"
+                                                                        stroke="#718096"
+                                                                        strokeWidth="1.5"
+                                                                        strokeLinecap="round"
+                                                                        strokeLinejoin="round"
+                                                                        className="feather feather-github"
+                                                                    >
+                                                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                                                    </svg>
+                                                                </div>
+                                                            </h1>
+                                                            <h1 className="mx-5">
+                                                                <div aria-label="Twitter" role="img">
+                                                                    <svg
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        width="24"
+                                                                        height="24"
+                                                                        viewBox="0 0 24 24"
+                                                                        fill="none"
+                                                                        stroke="#718096"
+                                                                        strokeWidth="1.5"
+                                                                        strokeLinecap="round"
+                                                                        strokeLinejoin="round"
+                                                                        className="feather feather-twitter"
+                                                                    >
+                                                                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                                                    </svg>
+                                                                </div>
+                                                            </h1>
+                                                            <h1 className="mx-5">
+                                                                <div aria-label="Instagram" role="img">
+                                                                    <svg
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        width="24"
+                                                                        height="24"
+                                                                        viewBox="0 0 24 24"
+                                                                        fill="none"
+                                                                        stroke="#718096"
+                                                                        strokeWidth="1.5"
+                                                                        strokeLinecap="round"
+                                                                        strokeLinejoin="round"
+                                                                        className="feather feather-instagram"
+                                                                    >
+                                                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                                                    </svg>
+                                                                </div>
+                                                            </h1>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div
+                                            role="list"
+                                            aria-label="Behind the scenes People"
+                                            className="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around"
+                                        >
+                                            <div
+                                                role="listitem"
+                                                className="relative mt-16 mb-32 sm:mb-24 "
+                                            >
+                                                <div className="rounded-xl overflow-hidden shadow-md border border-gray-600">
+                                                    <div className="absolute -mt-20 w-full flex justify-center">
+                                                        <div className="h-32 w-32">
+                                                            <img
+                                                                src="https://dummyimage.com/120x120"
+                                                                alt='Display Picture of Andres Berlin'
+                                                                role="img"
+                                                                className="rounded-full object-cover h-full w-full shadow-md"
+                                                            />
+                                                        </div>
+                                                    </div>
+                                                    <div className="px-6 mt-16">
+                                                        <h1 className='font-bold text-3xl text-center text-white mb-1'>Andres Berlin</h1>
+                                                        <p className="text-white text-sm text-center">Chief Executive Officer</p>
+                                                        <p className="text-center text-gray-600 text-base pt-3 font-normal">
+                                                            The CEO's role in raising a company's corporate IQ is to establish an atmosphere that promotes knowledge sharing and collaboration.
+                                                        </p>
+                                                        <div className="w-full flex justify-center pt-5 pb-5">
+                                                            <h1 className="mx-5">
+                                                                <div aria-label="Github" role="img">
+                                                                    <svg
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        width="24"
+                                                                        height="24"
+                                                                        viewBox="0 0 24 24"
+                                                                        fill="none"
+                                                                        stroke="#718096"
+                                                                        strokeWidth="1.5"
+                                                                        strokeLinecap="round"
+                                                                        strokeLinejoin="round"
+                                                                        className="feather feather-github"
+                                                                    >
+                                                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                                                    </svg>
+                                                                </div>
+                                                            </h1>
+                                                            <h1 className="mx-5">
+                                                                <div aria-label="Twitter" role="img">
+                                                                    <svg
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        width="24"
+                                                                        height="24"
+                                                                        viewBox="0 0 24 24"
+                                                                        fill="none"
+                                                                        stroke="#718096"
+                                                                        strokeWidth="1.5"
+                                                                        strokeLinecap="round"
+                                                                        strokeLinejoin="round"
+                                                                        className="feather feather-twitter"
+                                                                    >
+                                                                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                                                    </svg>
+                                                                </div>
+                                                            </h1>
+                                                            <h1 className="mx-5">
+                                                                <div aria-label="Instagram" role="img">
+                                                                    <svg
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        width="24"
+                                                                        height="24"
+                                                                        viewBox="0 0 24 24"
+                                                                        fill="none"
+                                                                        stroke="#718096"
+                                                                        strokeWidth="1.5"
+                                                                        strokeLinecap="round"
+                                                                        strokeLinejoin="round"
+                                                                        className="feather feather-instagram"
+                                                                    >
+                                                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                                                    </svg>
+                                                                </div>
+                                                            </h1>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Section</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .team-section {
+            margin-bottom: 4rem;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            padding-top: 4rem;
+            margin: auto;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        .team-title {
+            color: #4A5568;
+            font-size: 1.125rem;
+            font-weight: 400;
+            margin-bottom: 0.75rem;
+        }
+
+        .team-heading {
+            font-size: 1.5rem;
+            color: #4A5568;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+        }
+
+        .profiles {
+            display: flex;
+            gap: 1rem;
+            margin-top: 40px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .profile {
+            position: relative;
+            margin-top: 4rem;
+            margin-bottom: 8rem;
+            width: 100%;
+            max-width: 360px;
+        }
+
+        .profile-image {
+            position: absolute;
+            top: -6rem;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 8rem;
+            height: 8rem;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-info {
+            padding: 1.5rem;
+            background-color: #fff;
+            border: 1px solid #4A5568;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-name {
+            font-size: 1.875rem;
+            font-weight: 700;
+            text-align: center;
+            color: #4A5568;
+            margin-bottom: 0.25rem;
+        }
+
+        .profile-role {
+            font-size: 0.875rem;
+            color: #fff;
+            text-align: center;
+        }
+
+        .profile-description {
+            font-size: 1rem;
+            color: #4A5568;
+            text-align: center;
+            padding-top: 0.75rem;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            padding-top: 1.25rem;
+            padding-bottom: 1.25rem;
+        }
+
+        .social-icon {
+            width: 1.5rem;
+            height: 1.5rem;
+            margin: 0 0.5rem;
+            display: inline-block;
+            fill: none;
+            stroke: #4A5568;
+            stroke-width: 1.5;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="team-section">
+        <div class="container">
+            <div class="header">
+                <p class="team-title">BUILDING TEAM</p>
+                <h1 class="team-heading">The Talented People Behind the Scenes of the Organization</h1>
+            </div>
+        </div>
+        <div class="profiles">
+            <div class="profile">
+                <div class="profile-image">
+                    <img src="https://dummyimage.com/120x120" alt="Display Picture of Andres Berlin">
+                </div>
+                <div class="profile-info">
+                    <h1 class="profile-name">Andres Berlin</h1>
+                    <p class="profile-role">Chief Executive Officer</p>
+                    <p class="profile-description">The CEO's role in raising a company's corporate IQ is to establish an
+                        atmosphere that promotes knowledge sharing and collaboration.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon github" aria-label="Github"></a>
+                        <a href="#" class="social-icon twitter" aria-label="Twitter"></a>
+                        <a href="#" class="social-icon instagram" aria-label="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profile-image">
+                    <img src="https://dummyimage.com/120x120" alt="Display Picture of Dean Jones">
+                </div>
+                <div class="profile-info">
+                    <h1 class="profile-name">Dean Jones</h1>
+                    <p class="profile-role">Principal Software Engineer</p>
+                    <p class="profile-description">An avid open-source developer who loves to be creative and inventive.
+                        I have 20 years of experience in the field.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon github" aria-label="Github"></a>
+                        <a href="#" class="social-icon twitter" aria-label="Twitter"></a>
+                        <a href="#" class="social-icon instagram" aria-label="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="profile-image">
+                    <img src="https://dummyimage.com/120x120" alt="Display Picture of Andres Berlin">
+                </div>
+                <div class="profile-info">
+                    <h1 class="profile-name">Andres Berlin</h1>
+                    <p class="profile-role">Chief Executive Officer</p>
+                    <p class="profile-description">The CEO's role in raising a company's corporate IQ is to establish an
+                        atmosphere that promotes knowledge sharing and collaboration.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon github" aria-label="Github"></a>
+                        <a href="#" class="social-icon twitter" aria-label="Twitter"></a>
+                        <a href="#" class="social-icon instagram" aria-label="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>`
+        }
     ]
 ]
