@@ -6,183 +6,258 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Section</title>
     <style>
+        /* External CSS file: styles.css */
+
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
+            color: #4a4a4a;
         }
 
         .team-section {
-            margin-bottom: 4rem;
+            background-color: #f9f9f9;
+            padding: 40px 5%;
         }
 
         .container {
-            display: flex;
-            justify-content: center;
-            padding-top: 4rem;
-            margin: auto;
+            margin: 0 auto;
+            max-width: 1200px;
         }
 
         .header {
             text-align: center;
+            margin-bottom: 40px;
         }
 
-        .team-title {
-            color: #4A5568;
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: #333;
+            letter-spacing: 0.05em;
+        }
+
+        .header p {
             font-size: 1.125rem;
-            font-weight: 400;
-            margin-bottom: 0.75rem;
+            color: #666;
+            max-width: 70%;
+            margin: 0 auto;
+            line-height: 1.6;
         }
 
-        .team-heading {
-            font-size: 1.5rem;
-            color: #4A5568;
-            font-weight: 800;
-            margin-bottom: 1.5rem;
-        }
-
-        .profiles {
+        .team-members {
             display: flex;
-            gap: 1rem;
-            margin-top: 40px;
             flex-wrap: wrap;
+            gap: 20px;
             justify-content: center;
         }
 
-        .profile {
-            position: relative;
-            margin-top: 4rem;
-            margin-bottom: 8rem;
-            width: 100%;
-            max-width: 360px;
-        }
-
-        .profile-image {
-            position: absolute;
-            top: -6rem;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 8rem;
-            height: 8rem;
-            border-radius: 50%;
+        .team-member {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            text-align: center;
+            padding: 20px;
         }
 
-        .profile-image img {
-            width: 100%;
-            height: 100%;
+        .team-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
             object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid #eee;
         }
 
-        .profile-info {
-            padding: 1.5rem;
-            background-color: #fff;
-            border: 1px solid #4A5568;
-            border-radius: 0.75rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        .team-info h2 {
+            font-size: 1.25rem;
+            color: #333;
+            margin: 0;
         }
 
-        .profile-name {
-            font-size: 1.875rem;
-            font-weight: 700;
-            text-align: center;
-            color: #4A5568;
-            margin-bottom: 0.25rem;
-        }
-
-        .profile-role {
-            font-size: 0.875rem;
-            color: #fff;
-            text-align: center;
-        }
-
-        .profile-description {
+        .team-info h3 {
             font-size: 1rem;
-            color: #4A5568;
-            text-align: center;
-            padding-top: 0.75rem;
+            color: #737373;
+            margin: 5px 0 15px;
+        }
+
+        .team-info p {
+            font-size: 0.875rem;
+            color: #555;
         }
 
         .social-links {
             display: flex;
             justify-content: center;
-            padding-top: 1.25rem;
-            padding-bottom: 1.25rem;
+            gap: 10px;
+        }
+
+        .social-link {
+            color: #737373;
+            transition: color 0.3s;
         }
 
         .social-icon {
-            width: 1.5rem;
-            height: 1.5rem;
-            margin: 0 0.5rem;
-            display: inline-block;
-            fill: none;
-            stroke: #4A5568;
-            stroke-width: 1.5;
-            stroke-linecap: round;
-            stroke-linejoin: round;
+            width: 24px;
+            height: 24px;
+        }
+
+        .social-link:hover .social-icon {
+            color: #333;
         }
     </style>
 </head>
 
 <body>
-    <div class="team-section">
+    <section class="team-section">
         <div class="container">
             <div class="header">
-                <p class="team-title">BUILDING TEAM</p>
-                <h1 class="team-heading">The Talented People Behind the Scenes of the Organization</h1>
+                <h1>Meet Our Team</h1>
+                <p>Our diverse and dedicated team brings a wealth of experience and expertise, committed to delivering
+                    exceptional results and fostering innovation.</p>
+            </div>
+            <div class="team-members">
+                <!-- Team Member 1 -->
+                <div class="team-member">
+                    <img src="https://dummyimage.com/200x200" alt="Alice Johnson" class="team-img" />
+                    <div class="team-info">
+                        <h2>Alice Johnson</h2>
+                        <h3>Lead UI Developer</h3>
+                        <p>Alice has a knack for creating stunning user interfaces and a passion for pixel-perfect
+                            design.</p>
+                        <div class="social-links">
+                            <a href="https://facebook.com" class="social-link" aria-label="Facebook">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com" class="social-link" aria-label="Twitter">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="team-member">
+                    <img src="https://dummyimage.com/201x201" alt="Bob Smith" class="team-img" />
+                    <div class="team-info">
+                        <h2>Bob Smith</h2>
+                        <h3>CTO</h3>
+                        <p>Bob's technical expertise and leadership drive our innovative solutions and strategic growth.
+                        </p>
+                        <div class="social-links">
+                            <a href="https://facebook.com" class="social-link" aria-label="Facebook">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com" class="social-link" aria-label="Twitter">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="team-member">
+                    <img src="https://dummyimage.com/204x204" alt="Charlie Brown" class="team-img" />
+                    <div class="team-info">
+                        <h2>Charlie Brown</h2>
+                        <h3>UX Researcher</h3>
+                        <p>Charlie excels in understanding user needs and translating them into impactful designs.</p>
+                        <div class="social-links">
+                            <a href="https://facebook.com" class="social-link" aria-label="Facebook">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com" class="social-link" aria-label="Twitter">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 4 -->
+                <div class="team-member">
+                    <img src="https://dummyimage.com/207x207" alt="Dana White" class="team-img" />
+                    <div class="team-info">
+                        <h2>Dana White</h2>
+                        <h3>Content Strategist</h3>
+                        <p>Dana develops compelling content strategies that engage and resonate with our audience.</p>
+                        <div class="social-links">
+                            <a href="https://facebook.com" class="social-link" aria-label="Facebook">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com" class="social-link" aria-label="Twitter">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="profiles">
-            <div class="profile">
-                <div class="profile-image">
-                    <img src="https://dummyimage.com/120x120" alt="Display Picture of Andres Berlin">
-                </div>
-                <div class="profile-info">
-                    <h1 class="profile-name">Andres Berlin</h1>
-                    <p class="profile-role">Chief Executive Officer</p>
-                    <p class="profile-description">The CEO's role in raising a company's corporate IQ is to establish an
-                        atmosphere that promotes knowledge sharing and collaboration.</p>
-                    <div class="social-links">
-                        <a href="#" class="social-icon github" aria-label="Github"></a>
-                        <a href="#" class="social-icon twitter" aria-label="Twitter"></a>
-                        <a href="#" class="social-icon instagram" aria-label="Instagram"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="profile">
-                <div class="profile-image">
-                    <img src="https://dummyimage.com/120x120" alt="Display Picture of Dean Jones">
-                </div>
-                <div class="profile-info">
-                    <h1 class="profile-name">Dean Jones</h1>
-                    <p class="profile-role">Principal Software Engineer</p>
-                    <p class="profile-description">An avid open-source developer who loves to be creative and inventive.
-                        I have 20 years of experience in the field.</p>
-                    <div class="social-links">
-                        <a href="#" class="social-icon github" aria-label="Github"></a>
-                        <a href="#" class="social-icon twitter" aria-label="Twitter"></a>
-                        <a href="#" class="social-icon instagram" aria-label="Instagram"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="profile">
-                <div class="profile-image">
-                    <img src="https://dummyimage.com/120x120" alt="Display Picture of Andres Berlin">
-                </div>
-                <div class="profile-info">
-                    <h1 class="profile-name">Andres Berlin</h1>
-                    <p class="profile-role">Chief Executive Officer</p>
-                    <p class="profile-description">The CEO's role in raising a company's corporate IQ is to establish an
-                        atmosphere that promotes knowledge sharing and collaboration.</p>
-                    <div class="social-links">
-                        <a href="#" class="social-icon github" aria-label="Github"></a>
-                        <a href="#" class="social-icon twitter" aria-label="Twitter"></a>
-                        <a href="#" class="social-icon instagram" aria-label="Instagram"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
 </body>
 
 </html>

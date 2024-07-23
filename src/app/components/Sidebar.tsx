@@ -1,14 +1,19 @@
 "use client";
-import React from 'react';
+import React, { useState } from 'react';
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { useRouter } from 'next/navigation';
 import { RxCross2 } from 'react-icons/rx';
 
 const Sidebar = ({ toggleSidebar }: any) => {
     const router = useRouter();
+    const [selectedComp, setSelectedComp] = useState<string | null>('Card');
     const handleClick = () => {
         window.location.href = "https://github.com/s21sd/Tailfusion.io";
     };
+    const handleRoute = (label: string, route: string) => {
+        setSelectedComp(label);
+        router.push(route)
+    }
     return (
         <div className='fixed top-0 shadow-2xl shadow-[#4b4739] dark:shadow-gray-400 rounded-md left-0 h-full bg-black dark:bg-white  z-50 m-h-screen w-80 pt-4'>
             <main className="flex flex-col p-4">
@@ -59,10 +64,10 @@ const Sidebar = ({ toggleSidebar }: any) => {
                                 ].map((item, index) => (
                                     <button
                                         key={index}
-                                        onClick={() => router.push(item.route)}
+                                        onClick={() => handleRoute(item.label, item.route)}
                                         className="rounded-lg mt-2 cursor-pointer sm:justify-start flex items-center justify-center active"
                                     >
-                                        <span className="ml-3 font-semibold tracking-wide hover:text-[#fff2c1] dark:hover:text-[#9e4ceb]  hover:ml-4 transition-transform duration-300 ease-out">
+                                        <span className={`ml-3 font-semibold tracking-wide hover:text-[#fff2c1] dark:hover:text-[#9e4ceb] hover:ml-4 transition-transform duration-300 ease-out ${selectedComp === item.label ? 'text-[#fff2c1] dark:text-[#9e4ceb]' : ''}`}>
                                             {item.label}
                                         </span>
                                     </button>

@@ -11,6 +11,8 @@ const page = () => {
             <Card contentVal={valueOfTheComponent} />
             <div className='flex flex-col gap-3'>
                 <TabsDemo valueOfTheComponent={valueOfTheComponent} codevalue={0} />
+                <TabsDemo valueOfTheComponent={valueOfTheComponent} codevalue={1} />
+                <TabsDemo valueOfTheComponent={valueOfTheComponent} codevalue={2} />
             </div>
         </ScrollArea>
     )

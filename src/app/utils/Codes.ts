@@ -12811,5 +12811,631 @@ export const designCodeForTeams: any = [
 
 </html>`
         }
+    ],
+    [
+        {
+            Tailwind: ` <section className="text-gray-400 bg-gray-900 body-font">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <div className="flex flex-col text-center w-full mb-20">
+                                        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Our Team</h1>
+                                        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+                                            Meet the dedicated team behind our success. Our talented professionals are committed to delivering exceptional results and pushing the boundaries of innovation.
+                                        </p>
+                                    </div>
+                                    <div className="flex flex-wrap -m-2">
+                                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                            <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                                                <img
+                                                    alt="team"
+                                                    className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                                                    src="https://dummyimage.com/80x80"
+                                                />
+                                                <div className="flex-grow">
+                                                    <h2 className="text-white title-font font-medium">Alice Johnson</h2>
+                                                    <p className="text-gray-600">UI Designer</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                            <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                                                <img
+                                                    alt="team"
+                                                    className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                                                    src="https://dummyimage.com/84x84"
+                                                />
+                                                <div className="flex-grow">
+                                                    <h2 className="text-white title-font font-medium">Bob Smith</h2>
+                                                    <p className="text-gray-600">CTO</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                            <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                                                <img
+                                                    alt="team"
+                                                    className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                                                    src="https://dummyimage.com/88x88"
+                                                />
+                                                <div className="flex-grow">
+                                                    <h2 className="text-white title-font font-medium">Charlie Brown</h2>
+                                                    <p className="text-gray-600">Founder</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                            <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                                                <img
+                                                    alt="team"
+                                                    className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                                                    src="https://dummyimage.com/90x90"
+                                                />
+                                                <div className="flex-grow">
+                                                    <h2 className="text-white title-font font-medium">David Williams</h2>
+                                                    <p className="text-gray-600">DevOps</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                            <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                                                <img
+                                                    alt="team"
+                                                    className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                                                    src="https://dummyimage.com/94x94"
+                                                />
+                                                <div className="flex-grow">
+                                                    <h2 className="text-white title-font font-medium">Eva Thompson</h2>
+                                                    <p className="text-gray-600">Software Engineer</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                            <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                                                <img
+                                                    alt="team"
+                                                    className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                                                    src="https://dummyimage.com/94x94"
+                                                />
+                                                <div className="flex-grow">
+                                                    <h2 className="text-white title-font font-medium">Eva Thompson</h2>
+                                                    <p className="text-gray-600">Software Engineer</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a202c;
+            color: #cbd5e0;
+        }
+
+        .team-section {
+            padding: 60px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .header p {
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 18px;
+            color: #a0aec0;
+        }
+
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .team-member {
+            background-color: #2d3748;
+            border: 1px solid #4a5568;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            width: 100%;
+            max-width: 380px;
+            margin: 0 auto;
+        }
+
+        .team-img {
+            width: 64px;
+            height: 64px;
+            background-color: #edf2f7;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .team-info h2 {
+            font-size: 20px;
+            color: #fff;
+            margin: 0 0 5px;
+        }
+
+        .team-info p {
+            font-size: 16px;
+            color: #718096;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="team-section">
+        <div class="container">
+            <div class="header">
+                <h1>Our Team</h1>
+                <p>
+                    Meet the dedicated team behind our success. Our talented professionals are committed to delivering
+                    exceptional results and pushing the boundaries of innovation.
+                </p>
+            </div>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="https://dummyimage.com/80x80" alt="team" class="team-img" />
+                    <div class="team-info">
+                        <h2>Alice Johnson</h2>
+                        <p>UI Designer</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="https://dummyimage.com/84x84" alt="team" class="team-img" />
+                    <div class="team-info">
+                        <h2>Bob Smith</h2>
+                        <p>CTO</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="https://dummyimage.com/88x88" alt="team" class="team-img" />
+                    <div class="team-info">
+                        <h2>Charlie Brown</h2>
+                        <p>Founder</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="https://dummyimage.com/90x90" alt="team" class="team-img" />
+                    <div class="team-info">
+                        <h2>David Williams</h2>
+                        <p>DevOps</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="https://dummyimage.com/94x94" alt="team" class="team-img" />
+                    <div class="team-info">
+                        <h2>Eva Thompson</h2>
+                        <p>Software Engineer</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="https://dummyimage.com/94x94" alt="team" class="team-img" />
+                    <div class="team-info">
+                        <h2>Eva Thompson</h2>
+                        <p>Software Engineer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>`
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
+      <div className="container px-5 py-24 mx-auto">
+        <div className="flex flex-col text-center w-full mb-20">
+          <h1 className="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">OUR TEAM</h1>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            Our diverse and dedicated team brings a wealth of experience and expertise, committed to delivering exceptional results and fostering innovation.
+          </p>
+        </div>
+        <div className="flex flex-wrap -m-4">
+          <div className="p-4 lg:w-1/2">
+            <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+              <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200" />
+              <div className="flex-grow sm:pl-8">
+                <h2 className="title-font font-medium text-lg text-gray-900">Alice Johnson</h2>
+                <h3 className="text-gray-500 mb-3">Lead UI Developer</h3>
+                <p className="mb-4">Alice has a knack for creating stunning user interfaces and a passion for pixel-perfect design.</p>
+                <span className="inline-flex">
+                  <a className="text-gray-500" href="https://facebook.com">
+                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                  </a>
+                  <a className="ml-2 text-gray-500" href="https://twitter.com">
+                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                    </svg>
+                  </a>
+                  <a className="ml-2 text-gray-500" href="https://linkedin.com">
+                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="p-4 lg:w-1/2">
+            <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+              <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/201x201" />
+              <div className="flex-grow sm:pl-8">
+                <h2 className="title-font font-medium text-lg text-gray-900">Bob Smith</h2>
+                <h3 className="text-gray-500 mb-3">CTO</h3>
+                <p className="mb-4">Bob's technical expertise and leadership drive our innovative solutions and strategic growth.</p>
+                <span className="inline-flex">
+                  <a className="text-gray-500" href="https://facebook.com">
+                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                  </a>
+                  <a className="ml-2 text-gray-500" href="https://twitter.com">
+                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                    </svg>
+                  </a>
+                  <a className="ml-2 text-gray-500" href="https://linkedin.com">
+                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="p-4 lg:w-1/2">
+            <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+              <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/204x204" />
+              <div className="flex-grow sm:pl-8">
+                <h2 className="title-font font-medium text-lg text-gray-900">Charlie Brown</h2>
+                <h3 className="text-gray-500 mb-3">UX Researcher</h3>
+                <p className="mb-4">Charlie excels in understanding user needs and translating them into impactful designs.</p>
+                <span className="inline-flex">
+                  <a className="text-gray-500" href="https://facebook.com">
+                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                  </a>
+                  <a className="ml-2 text-gray-500" href="https://twitter.com">
+                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                    </svg>
+                  </a>
+                  <a className="ml-2 text-gray-500" href="https://linkedin.com">
+                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="p-4 lg:w-1/2">
+            <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+              <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/207x207" />
+              <div className="flex-grow sm:pl-8">
+                <h2 className="title-font font-medium text-lg text-gray-900">Dana White</h2>
+                <h3 className="text-gray-500 mb-3">Content Strategist</h3>
+                <p className="mb-4">Dana develops compelling content strategies that engage and resonate with our audience.</p>
+                <span className="inline-flex">
+                  <a className="text-gray-500" href="https://facebook.com">
+                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                  </a>
+                  <a className="ml-2 text-gray-500" href="https://twitter.com">
+                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                    </svg>
+                  </a>
+                  <a className="ml-2 text-gray-500" href="https://linkedin.com">
+                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Section</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #4a4a4a;
+        }
+
+        .team-section {
+            background-color: #f9f9f9;
+            padding: 40px 5%;
+        }
+
+        .container {
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: #333;
+            letter-spacing: 0.05em;
+        }
+
+        .header p {
+            font-size: 1.125rem;
+            color: #666;
+            max-width: 70%;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .team-member {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 350px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .team-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid #eee;
+        }
+
+        .team-info h2 {
+            font-size: 1.25rem;
+            color: #333;
+            margin: 0;
+        }
+
+        .team-info h3 {
+            font-size: 1rem;
+            color: #737373;
+            margin: 5px 0 15px;
+        }
+
+        .team-info p {
+            font-size: 0.875rem;
+            color: #555;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .social-link {
+            color: #737373;
+            transition: color 0.3s;
+        }
+
+        .social-icon {
+            width: 24px;
+            height: 24px;
+        }
+
+        .social-link:hover .social-icon {
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="team-section">
+        <div class="container">
+            <div class="header">
+                <h1>Meet Our Team</h1>
+                <p>Our diverse and dedicated team brings a wealth of experience and expertise, committed to delivering
+                    exceptional results and fostering innovation.</p>
+            </div>
+            <div class="team-members">
+                <!-- Team Member 1 -->
+                <div class="team-member">
+                    <img src="https://dummyimage.com/200x200" alt="Alice Johnson" class="team-img" />
+                    <div class="team-info">
+                        <h2>Alice Johnson</h2>
+                        <h3>Lead UI Developer</h3>
+                        <p>Alice has a knack for creating stunning user interfaces and a passion for pixel-perfect
+                            design.</p>
+                        <div class="social-links">
+                            <a href="https://facebook.com" class="social-link" aria-label="Facebook">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com" class="social-link" aria-label="Twitter">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="team-member">
+                    <img src="https://dummyimage.com/201x201" alt="Bob Smith" class="team-img" />
+                    <div class="team-info">
+                        <h2>Bob Smith</h2>
+                        <h3>CTO</h3>
+                        <p>Bob's technical expertise and leadership drive our innovative solutions and strategic growth.
+                        </p>
+                        <div class="social-links">
+                            <a href="https://facebook.com" class="social-link" aria-label="Facebook">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com" class="social-link" aria-label="Twitter">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="team-member">
+                    <img src="https://dummyimage.com/204x204" alt="Charlie Brown" class="team-img" />
+                    <div class="team-info">
+                        <h2>Charlie Brown</h2>
+                        <h3>UX Researcher</h3>
+                        <p>Charlie excels in understanding user needs and translating them into impactful designs.</p>
+                        <div class="social-links">
+                            <a href="https://facebook.com" class="social-link" aria-label="Facebook">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com" class="social-link" aria-label="Twitter">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 4 -->
+                <div class="team-member">
+                    <img src="https://dummyimage.com/207x207" alt="Dana White" class="team-img" />
+                    <div class="team-info">
+                        <h2>Dana White</h2>
+                        <h3>Content Strategist</h3>
+                        <p>Dana develops compelling content strategies that engage and resonate with our audience.</p>
+                        <div class="social-links">
+                            <a href="https://facebook.com" class="social-link" aria-label="Facebook">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com" class="social-link" aria-label="Twitter">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="social-icon" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
+        }
     ]
 ]
