@@ -3383,6 +3383,45 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
                                     </div>
                                 </div>
                             </section>
+                        case 3:
+                            return <section className="py-6 text-gray-800">
+                                <div className="container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10">
+                                    <h1 className={`text-4xl font-bold leading-none text-center ${colorClass} sm:text-5xl`}>Our team</h1>
+                                    <p className="max-w-2xl text-center text-gray-600">At a assumenda quas cum earum ut itaque commodi saepe rem aspernatur quam natus quis nihil quod, hic explicabo doloribus magnam neque, exercitationem eius sunt!</p>
+                                    <div className="flex flex-row flex-wrap-reverse justify-center">
+                                        <div className="flex flex-col justify-center m-8 text-center">
+                                            <img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full bg-gray-500" src="https://dummyimage.com/200x200" />
+                                            <p className={`text-xl font-semibold leading-tight ${colorClass}`}>Leroy Jenkins</p>
+                                            <p className="text-gray-600">Visual Designer</p>
+                                        </div>
+                                        <div className="flex flex-col justify-center m-8 text-center">
+                                            <img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full bg-gray-500" src="https://dummyimage.com/200x200" />
+                                            <p className={`text-xl font-semibold leading-tight ${colorClass}`}>Leroy Jenkins</p>
+                                            <p className="text-gray-600">Visual Designer</p>
+                                        </div>
+                                        <div className="flex flex-col justify-center m-8 text-center">
+                                            <img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full bg-gray-500" src="https://dummyimage.com/200x200" />
+                                            <p className={`text-xl font-semibold leading-tight ${colorClass}`}>Leroy Jenkins</p>
+                                            <p className="text-gray-600">Visual Designer</p>
+                                        </div>
+                                        <div className="flex flex-col justify-center m-8 text-center">
+                                            <img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full bg-gray-500" src="https://dummyimage.com/200x200" />
+                                            <p className={`text-xl font-semibold leading-tight ${colorClass}`}>Leroy Jenkins</p>
+                                            <p className="text-gray-600">Visual Designer</p>
+                                        </div>
+                                        <div className="flex flex-col justify-center m-8 text-center">
+                                            <img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full bg-gray-500" src="https://dummyimage.com/200x200" />
+                                            <p className={`text-xl font-semibold leading-tight ${colorClass}`}>Leroy Jenkins</p>
+                                            <p className="text-gray-600">Visual Designer</p>
+                                        </div>
+                                        <div className="flex flex-col justify-center m-8 text-center">
+                                            <img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full bg-gray-500" src="https://dummyimage.com/200x200" />
+                                            <p className={`text-xl font-semibold leading-tight ${colorClass}`}>Leroy Jenkins</p>
+                                            <p className="text-gray-600">Visual Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
 
                         default:
                             break;

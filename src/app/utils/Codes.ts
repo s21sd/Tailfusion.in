@@ -13437,5 +13437,172 @@ export const designCodeForTeams: any = [
 
 </html>`
         }
+    ],
+    [
+        {
+            Tailwind: `<section className="py-6 bg-gray-100 text-gray-800">
+	<div className="container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10">
+		<h1 className="text-4xl font-bold leading-none text-center sm:text-5xl">Our team</h1>
+		<p className="max-w-2xl text-center text-gray-600">At a assumenda quas cum earum ut itaque commodi saepe rem aspernatur quam natus quis nihil quod, hic explicabo doloribus magnam neque, exercitationem eius sunt!</p>
+		<div className="flex flex-row flex-wrap-reverse justify-center">
+			<div className="flex flex-col justify-center m-8 text-center">
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full bg-gray-500" src="https://dummyimage.com/200x200" />
+				<p className="text-xl font-semibold leading-tight">Leroy Jenkins</p>
+				<p className="text-gray-600">Visual Designer</p>
+			</div>
+			<div className="flex flex-col justify-center m-8 text-center">
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full bg-gray-500" src="https://dummyimage.com/200x200" />
+				<p className="text-xl font-semibold leading-tight">Leroy Jenkins</p>
+				<p className="text-gray-600">Visual Designer</p>
+			</div>
+			<div className="flex flex-col justify-center m-8 text-center">
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full bg-gray-500" src="https://dummyimage.com/200x200" />
+				<p className="text-xl font-semibold leading-tight">Leroy Jenkins</p>
+				<p className="text-gray-600">Visual Designer</p>
+			</div>
+			<div className="flex flex-col justify-center m-8 text-center">
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full bg-gray-500" src="https://dummyimage.com/200x200" />
+				<p className="text-xl font-semibold leading-tight">Leroy Jenkins</p>
+				<p className="text-gray-600">Visual Designer</p>
+			</div>
+			<div className="flex flex-col justify-center m-8 text-center">
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full bg-gray-500" src="https://dummyimage.com/200x200" />
+				<p className="text-xl font-semibold leading-tight">Leroy Jenkins</p>
+				<p className="text-gray-600">Visual Designer</p>
+			</div>
+			<div className="flex flex-col justify-center m-8 text-center">
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full bg-gray-500" src="https://dummyimage.com/200x200" />
+				<p className="text-xl font-semibold leading-tight">Leroy Jenkins</p>
+				<p className="text-gray-600">Visual Designer</p>
+			</div>
+		</div>
+	</div>
+</section>`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Section</title>
+    <style>
+        .team-section {
+            padding: 24px;
+            background-color: #f7f7f7;
+            color: #4a4a4a;
+            font-family: Arial, sans-serif;
+        }
+
+        .team-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+            margin: 0 auto;
+        }
+
+        .team-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 16px;
+        }
+
+        .team-description {
+            max-width: 640px;
+            text-align: center;
+            margin-bottom: 32px;
+            color: #737373;
+        }
+
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 32px;
+        }
+
+        .team-member {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .team-member-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 12px;
+            object-fit: cover;
+            background-color: #cccccc;
+        }
+
+        .team-member-name {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .team-member-role {
+            color: #737373;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="team-section">
+        <div class="team-container">
+            <h1 class="team-title">Our team</h1>
+            <p class="team-description">At a assumenda quas cum earum ut itaque commodi saepe rem aspernatur quam
+                natus quis nihil quod, hic explicabo doloribus magnam neque, exercitationem eius sunt!</p>
+            <div class="team-members">
+                <div class="team-member">
+                    <img alt="" class="team-member-img"
+                        src="https://source.unsplash.com/100x100/?portrait?0" />
+                    <p class="team-member-name">Leroy Jenkins</p>
+                    <p class="team-member-role">Visual Designer</p>
+                </div>
+                <div class="team-member">
+                    <img alt="" class="team-member-img"
+                        src="https://source.unsplash.com/100x100/?portrait?1" />
+                    <p class="team-member-name">Jane Doe</p>
+                    <p class="team-member-role">Lead Developer</p>
+                </div>
+                <div class="team-member">
+                    <img alt="" class="team-member-img"
+                        src="https://source.unsplash.com/100x100/?portrait?2" />
+                    <p class="team-member-name">John Smith</p>
+                    <p class="team-member-role">Project Manager</p>
+                </div>
+                <div class="team-member">
+                    <img alt="" class="team-member-img"
+                        src="https://source.unsplash.com/100x100/?portrait?3" />
+                    <p class="team-member-name">Emily Johnson</p>
+                    <p class="team-member-role">UX Designer</p>
+                </div>
+                <div class="team-member">
+                    <img alt="" class="team-member-img"
+                        src="https://source.unsplash.com/100x100/?portrait?4" />
+                    <p class="team-member-name">Michael Brown</p>
+                    <p class="team-member-role">Backend Developer</p>
+                </div>
+                <div class="team-member">
+                    <img alt="" class="team-member-img"
+                        src="https://source.unsplash.com/100x100/?portrait?5" />
+                    <p class="team-member-name">Sarah Davis</p>
+                    <p class="team-member-role">Marketing Specialist</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+`
+        }
     ]
 ]
