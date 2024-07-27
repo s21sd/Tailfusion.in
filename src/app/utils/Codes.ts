@@ -13704,7 +13704,213 @@ export const designCodeForFeatures: any = [
                             </section>`
         },
         {
-            Css: ``
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components Section</title>
+    <style>
+        .section {
+            color: #4b5563;
+        }
+
+        .container {
+            padding: 40px 24px;
+            margin: 0 auto;
+        }
+
+        .title {
+            font-size: 2rem;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+
+        .title-lg {
+            font-size: 2.5rem;
+        }
+
+        .underline {
+            text-decoration: underline;
+            text-decoration-color: #3b82f6;
+        }
+
+        .description {
+            margin-top: 16px;
+            color: #6b7280;
+        }
+
+        .description-xl {
+            margin-top: 24px;
+        }
+
+        .grid {
+            display: grid;
+            gap: 32px;
+            margin-top: 32px;
+        }
+
+        .grid-md {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .grid-xl {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 48px;
+            margin-top: 48px;
+        }
+
+        .card {
+            padding: 32px;
+            border: 2px solid #3b82f6;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .icon {
+            display: inline-block;
+            color: #3b82f6;
+        }
+
+        .icon-lg {
+            width: 32px;
+            height: 32px;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #374151;
+            text-transform: capitalize;
+        }
+
+        .card-description {
+            color: #6b7280;
+        }
+
+        .button {
+            display: inline-flex;
+            width: fit-content;
+            padding: 8px;
+            color: #3b82f6;
+            text-transform: capitalize;
+            transition: color 0.2s, background-color 0.2s;
+            background-color: #bfdbfe;
+            border-radius: 9999px;
+        }
+
+        .button:hover {
+            color: #1e40af;
+            background-color: #93c5fd;
+        }
+
+        .button-icon {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title title-lg">explore our <br> awesome
+                <span class="underline">Components</span>
+            </h1>
+
+            <p class="description description-xl">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
+            </p>
+
+            <div class="grid grid-md grid-xl">
+                <div class="card">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon-lg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                        </svg>
+                    </span>
+
+                    <h1 class="card-title">elegant Dark Mode</h1>
+
+                    <p class="card-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel
+                        non
+                        corrupti doloribus voluptatum eveniet
+                    </p>
+
+                    <a href="#" class="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="button-icon" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon-lg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
+                        </svg>
+                    </span>
+
+                    <h1 class="card-title">Easy to customizations</h1>
+
+                    <p class="card-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel
+                        non
+                        corrupti doloribus voluptatum eveniet
+                    </p>
+
+                    <a href="#" class="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="button-icon" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon-lg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                        </svg>
+                    </span>
+
+                    <h1 class="card-title">Simple & clean designs</h1>
+
+                    <p class="card-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel
+                        non
+                        corrupti doloribus voluptatum eveniet
+                    </p>
+
+                    <a href="#" class="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="button-icon" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
         }
     ],
     [
@@ -13777,7 +13983,650 @@ export const designCodeForFeatures: any = [
 `
         },
         {
-            Css: ``
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components Section</title>
+    <style>
+        .features-section {
+            color: #4A5568;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 5rem 1rem;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .mb-20 {
+            margin-bottom: 5rem;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #1A202C;
+            margin-bottom: 1rem;
+        }
+
+        .section-subtitle {
+            font-size: 1rem;
+            line-height: 1.625rem;
+            max-width: 50%;
+            margin: 0 auto;
+        }
+
+        .features-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .feature-item {
+            width: 45%;
+            padding: 0.5rem;
+        }
+
+        .feature-content {
+            background-color: #F7FAFC;
+            border-radius: 0.5rem;
+            display: flex;
+            padding: 1rem;
+            align-items: center;
+        }
+
+        .feature-icon {
+            width: 1.5rem;
+            height: 1.5rem;
+            color: #5A67D8;
+            margin-right: 1rem;
+        }
+
+        .feature-title {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .cta-button {
+            display: flex;
+            margin: 2rem auto 0;
+            background-color: #5A67D8;
+            border: none;
+            padding: 0.5rem 2rem;
+            color: white;
+            border-radius: 0.25rem;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #4C51BF;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="features-section">
+        <div class="container">
+            <div class="text-center mb-20">
+                <h1 class="section-title">Our Unique Features</h1>
+                <p class="section-subtitle">Explore the key features that set our product apart. From seamless
+                    integration to user-friendly design, we provide everything you need for success.</p>
+            </div>
+            <div class="features-list">
+                <div class="feature-item">
+                    <div class="feature-content">
+                        <svg class="feature-icon" fill="none" stroke="currentColor" strokeLinecap="round"
+                            strokeLinejoin="round" strokeWidth="3" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="feature-title">Seamless Integration</span>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-content">
+                        <svg class="feature-icon" fill="none" stroke="currentColor" strokeLinecap="round"
+                            strokeLinejoin="round" strokeWidth="3" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="feature-title">User-Friendly Design</span>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-content">
+                        <svg class="feature-icon" fill="none" stroke="currentColor" strokeLinecap="round"
+                            strokeLinejoin="round" strokeWidth="3" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="feature-title">Advanced Security</span>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-content">
+                        <svg class="feature-icon" fill="none" stroke="currentColor" strokeLinecap="round"
+                            strokeLinejoin="round" strokeWidth="3" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="feature-title">Customizable Options</span>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-content">
+                        <svg class="feature-icon" fill="none" stroke="currentColor" strokeLinecap="round"
+                            strokeLinejoin="round" strokeWidth="3" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="feature-title">24/7 Support</span>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-content">
+                        <svg class="feature-icon" fill="none" stroke="currentColor" strokeLinecap="round"
+                            strokeLinejoin="round" strokeWidth="3" viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                            <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <span class="feature-title">Scalable Solutions</span>
+                    </div>
+                </div>
+            </div>
+            <button class="cta-button">Learn More</button>
+        </div>
+    </section>
+
+</body>
+
+</html>`
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-400 body-font">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-white mb-20">Our Premium Services
+                                        <h1 className="hidden sm:block">Designed for Excellence </h1>
+                                    </h1>
+                                    <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+                                        <div className="p-4 md:w-1/3 flex">
+                                            <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-4 flex-shrink-0">
+                                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-6 h-6" viewBox="0 0 24 24">
+                                                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                                                </svg>
+                                            </div>
+                                            <div className="flex-grow pl-6">
+                                                <h2 className="text-white text-lg title-font font-medium mb-2">Web Development</h2>
+                                                <p className="leading-relaxed text-base">We provide cutting-edge web development services tailored to meet your business needs. Our expertise ensures your website is fast, responsive, and visually appealing.</p>
+                                                <a className="mt-3 text-indigo-400 inline-flex items-center">Learn More
+                                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/3 flex">
+                                            <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-4 flex-shrink-0">
+                                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-6 h-6" viewBox="0 0 24 24">
+                                                    <circle cx="6" cy="6" r="3"></circle>
+                                                    <circle cx="6" cy="18" r="3"></circle>
+                                                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                                                </svg>
+                                            </div>
+                                            <div className="flex-grow pl-6">
+                                                <h2 className="text-white text-lg title-font font-medium mb-2">App Development</h2>
+                                                <p className="leading-relaxed text-base">Our team specializes in creating high-performance mobile applications. We turn your ideas into innovative, user-friendly apps that engage your audience effectively.</p>
+                                                <a className="mt-3 text-indigo-400 inline-flex items-center">Learn More
+                                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div className="p-4 md:w-1/3 flex">
+                                            <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-4 flex-shrink-0">
+                                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-6 h-6" viewBox="0 0 24 24">
+                                                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                                    <circle cx="12" cy="7" r="4"></circle>
+                                                </svg>
+                                            </div>
+                                            <div className="flex-grow pl-6">
+                                                <h2 className="text-white text-lg title-font font-medium mb-2">Digital Marketing</h2>
+                                                <p className="leading-relaxed text-base">Our digital marketing strategies are designed to boost your online presence. We leverage SEO, social media, and content marketing to drive traffic and increase conversions.</p>
+                                                <a className="mt-3 text-indigo-400 inline-flex items-center">Learn More
+                                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components Section</title>
+    <style>
+        .premium-services-section {
+            color: black;
+            background-color: gray;
+            height: 100vh;
+            font-family: 'Helvetica Neue', sans-serif;
+            padding: 6rem 1rem;
+        }
+
+        .container {
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 500;
+            text-align: center;
+            color: #FFFFFF;
+            margin-bottom: 5rem;
+        }
+
+        .services-list {
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 1.5rem;
+            justify-content: space-between;
+        }
+
+        .service-item {
+            padding: 1rem;
+            width: 30%;
+            display: flex;
+        }
+
+        .icon-wrapper {
+            width: 3rem;
+            height: 3rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: #2D3748;
+            color: #63B3ED;
+            margin-bottom: 1rem;
+            flex-shrink: 0;
+        }
+
+        .service-icon {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+
+        .service-content {
+            flex-grow: 1;
+            padding-left: 1.5rem;
+        }
+
+        .service-title {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: #FFFFFF;
+            margin-bottom: 0.5rem;
+        }
+
+        .service-description {
+            line-height: 1.625rem;
+            font-size: 1rem;
+            color: #CBD5E0;
+        }
+
+        .service-link {
+            margin-top: 0.75rem;
+            color: #63B3ED;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .service-link-icon {
+            width: 1rem;
+            height: 1rem;
+            margin-left: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="premium-services-section">
+        <div class="container">
+            <h1 class="section-title">Our Premium Services<br class="hidden sm:block">Designed for Excellence</h1>
+            <div class="services-list">
+                <div class="service-item">
+                    <div class="icon-wrapper">
+                        <svg class="service-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                        </svg>
+                    </div>
+                    <div class="service-content">
+                        <h2 class="service-title">Web Development</h2>
+                        <p class="service-description">We provide cutting-edge web development services tailored to meet
+                            your business needs. Our expertise ensures your website is fast, responsive, and visually
+                            appealing.</p>
+                        <a class="service-link">Learn More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="service-link-icon" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="icon-wrapper">
+                        <svg class="service-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                            <circle cx="6" cy="6" r="3"></circle>
+                            <circle cx="6" cy="18" r="3"></circle>
+                            <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                        </svg>
+                    </div>
+                    <div class="service-content">
+                        <h2 class="service-title">App Development</h2>
+                        <p class="service-description">Our team specializes in creating high-performance mobile
+                            applications. We turn your ideas into innovative, user-friendly apps that engage your
+                            audience effectively.</p>
+                        <a class="service-link">Learn More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="service-link-icon" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="icon-wrapper">
+                        <svg class="service-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <div class="service-content">
+                        <h2 class="service-title">Digital Marketing</h2>
+                        <p class="service-description">Our digital marketing strategies are designed to boost your
+                            online presence. We leverage SEO, social media, and content marketing to drive traffic and
+                            increase conversions.</p>
+                        <a class="service-link">Learn More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="service-link-icon" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>`
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+                                        <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
+                                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                                            </svg>
+                                        </div>
+                                        <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                                            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">Web Design</h2>
+                                            <p className="leading-relaxed text-base">Our web design services focus on creating visually stunning and user-friendly websites that captivate your audience and enhance your online presence.</p>
+                                            <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+                                        <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                                            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">E-commerce Solutions</h2>
+                                            <p className="leading-relaxed text-base">We offer comprehensive e-commerce solutions that help you build and manage your online store, from product listings to payment processing and customer support.</p>
+                                            <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                        <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
+                                                <circle cx="6" cy="6" r="3"></circle>
+                                                <circle cx="6" cy="18" r="3"></circle>
+                                                <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
+                                        <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
+                                                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                                <circle cx="12" cy="7" r="4"></circle>
+                                            </svg>
+                                        </div>
+                                        <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                                            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">SEO Optimization</h2>
+                                            <p className="leading-relaxed text-base">Our SEO services are designed to improve your website's visibility on search engines, driving more traffic and increasing your online reach.</p>
+                                            <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <button className="flex mx-auto mt-20 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Get Started</button>
+                                </div>
+                            </section>`
+        }, {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components Section</title>
+    <style>
+        .services-section {
+            background-color: #f7fafc;
+            padding: 60px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .service-item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 40px;
+        }
+
+        .icon-wrapper {
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: #ebf4ff;
+            color: #5a67d8;
+            margin-right: 20px;
+        }
+
+        .service-icon {
+            width: 40px;
+            height: 40px;
+        }
+
+        .service-content {
+            text-align: left;
+            flex: 1;
+        }
+
+        .service-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .service-description {
+            font-size: 1rem;
+            color: #4a5568;
+            margin-bottom: 20px;
+        }
+
+        .service-link {
+            font-size: 1rem;
+            color: #5a67d8;
+            display: flex;
+            align-items: center;
+        }
+
+        .service-link-icon {
+            width: 20px;
+            margin-left: 5px;
+        }
+
+        .cta-button {
+            font-size: 1rem;
+            color: #fff;
+            display: flex;
+            margin: auto;
+            background-color: #5a67d8;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #434190;
+        }
+
+        @media (max-width: 768px) {
+            .service-item {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .icon-wrapper {
+                margin-bottom: 20px;
+                margin-right: 0;
+            }
+
+            .service-content {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="services-section">
+        <div class="container">
+            <div class="service-item">
+                <div class="icon-wrapper">
+                    <svg class="service-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                    </svg>
+                </div>
+                <div class="service-content">
+                    <h2 class="service-title">Web Design</h2>
+                    <p class="service-description">Our web design services focus on creating visually stunning and
+                        user-friendly websites that captivate your audience and enhance your online presence.</p>
+                    <a class="service-link">Learn More
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="service-link-icon" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="service-item">
+                <div class="icon-wrapper order-last">
+                    <svg class="service-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                        <circle cx="6" cy="6" r="3"></circle>
+                        <circle cx="6" cy="18" r="3"></circle>
+                        <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                    </svg>
+                </div>
+                <div class="service-content order-first">
+                    <h2 class="service-title">E-commerce Solutions</h2>
+                    <p class="service-description">We offer comprehensive e-commerce solutions that help you build and
+                        manage your online store, from product listings to payment processing and customer support.</p>
+                    <a class="service-link">Learn More
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="service-link-icon" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="service-item">
+                <div class="icon-wrapper">
+                    <svg class="service-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </div>
+                <div class="service-content">
+                    <h2 class="service-title">SEO Optimization</h2>
+                    <p class="service-description">Our SEO services are designed to improve your website's visibility on
+                        search engines, driving more traffic and increasing your online reach.</p>
+                    <a class="service-link">Learn More
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="service-link-icon" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <button class="cta-button">Get Started</button>
+        </div>
+    </section>
+</body>
+
+</html>`
         }
     ]
 ]

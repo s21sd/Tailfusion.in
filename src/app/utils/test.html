@@ -4,75 +4,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Section</title>
+    <title>Components Section</title>
     <style>
-        .team-section {
-            padding: 24px;
-            background-color: #f7f7f7;
-            color: #4a4a4a;
-            font-family: Arial, sans-serif;
+        .services-section {
+            background-color: #f7fafc;
+            padding: 60px 0;
         }
 
-        .team-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 16px;
+        .container {
+            max-width: 1200px;
             margin: 0 auto;
+            padding: 0 20px;
         }
 
-        .team-title {
-            font-size: 2.5rem;
-            font-weight: bold;
-            text-align: center;
-            margin-bottom: 16px;
-        }
-
-        .team-description {
-            max-width: 640px;
-            text-align: center;
-            margin-bottom: 32px;
-            color: #737373;
-        }
-
-        .team-members {
+        .service-item {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 32px;
-        }
-
-        .team-member {
-            display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
-            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 40px;
         }
 
-        .team-member-img {
-            width: 100px;
-            height: 100px;
+        .icon-wrapper {
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             border-radius: 50%;
-            margin-bottom: 12px;
-            object-fit: cover;
-            background-color: #cccccc;
+            background-color: #ebf4ff;
+            color: #5a67d8;
+            margin-right: 20px;
         }
 
-        .team-member-name {
+        .service-icon {
+            width: 40px;
+            height: 40px;
+        }
+
+        .service-content {
+            text-align: left;
+            flex: 1;
+        }
+
+        .service-title {
             font-size: 1.25rem;
             font-weight: 600;
-            color: #333;
+            color: #2d3748;
+            margin-bottom: 10px;
         }
 
-        .team-member-role {
-            color: #737373;
+        .service-description {
+            font-size: 1rem;
+            color: #4a5568;
+            margin-bottom: 20px;
+        }
+
+        .service-link {
+            font-size: 1rem;
+            color: #5a67d8;
+            display: flex;
+            align-items: center;
+        }
+
+        .service-link-icon {
+            width: 20px;
+            margin-left: 5px;
+        }
+
+        .cta-button {
+            font-size: 1rem;
+            color: #fff;
+            display: flex;
+            margin: auto;
+            background-color: #5a67d8;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #434190;
+        }
+
+        @media (max-width: 768px) {
+            .service-item {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .icon-wrapper {
+                margin-bottom: 20px;
+                margin-right: 0;
+            }
+
+            .service-content {
+                text-align: center;
+            }
         }
     </style>
 </head>
 
 <body>
-
+    <section class="services-section">
+        <div class="container">
+            <div class="service-item">
+                <div class="icon-wrapper">
+                    <svg class="service-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                    </svg>
+                </div>
+                <div class="service-content">
+                    <h2 class="service-title">Web Design</h2>
+                    <p class="service-description">Our web design services focus on creating visually stunning and
+                        user-friendly websites that captivate your audience and enhance your online presence.</p>
+                    <a class="service-link">Learn More
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="service-link-icon" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="service-item">
+                <div class="icon-wrapper order-last">
+                    <svg class="service-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                        <circle cx="6" cy="6" r="3"></circle>
+                        <circle cx="6" cy="18" r="3"></circle>
+                        <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                    </svg>
+                </div>
+                <div class="service-content order-first">
+                    <h2 class="service-title">E-commerce Solutions</h2>
+                    <p class="service-description">We offer comprehensive e-commerce solutions that help you build and
+                        manage your online store, from product listings to payment processing and customer support.</p>
+                    <a class="service-link">Learn More
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="service-link-icon" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="service-item">
+                <div class="icon-wrapper">
+                    <svg class="service-icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </div>
+                <div class="service-content">
+                    <h2 class="service-title">SEO Optimization</h2>
+                    <p class="service-description">Our SEO services are designed to improve your website's visibility on
+                        search engines, driving more traffic and increasing your online reach.</p>
+                    <a class="service-link">Learn More
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="service-link-icon" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <button class="cta-button">Get Started</button>
+        </div>
+    </section>
 </body>
 
 </html>
