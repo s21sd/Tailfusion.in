@@ -396,6 +396,43 @@ export const content = [
       "Customizable Layouts: Flexibility to design a Team section that aligns with your branding and goals, making it more effective.",
       "Increased Engagement: Interactive elements and social media integration can boost user interaction and engagement with your team profiles."
     ]
+  },
+  // This is for the Features Component Code 12
+  {
+    "title": "Features",
+    "description": "The Features section component is designed to highlight the unique selling points and key functionalities of your product or service. This component helps potential customers quickly understand the benefits and value your offering brings.",
+    "sections": [
+      {
+        "title": "Key Features",
+        "description": "Outline the most important features of your product or service, showcasing what makes it stand out from the competition."
+      },
+      {
+        "title": "Detailed Descriptions",
+        "description": "Provide in-depth explanations of each feature, including how they work and the specific benefits they offer to users."
+      },
+      {
+        "title": "Visual Aids",
+        "description": "Use images, icons, and graphics to visually represent each feature, making it easier for users to grasp the information."
+      },
+      {
+        "title": "Interactive Demonstrations",
+        "description": "Incorporate interactive elements such as videos, demos, or animations to give users a hands-on understanding of the features."
+      }
+    ],
+    "features": [
+      "Responsive Design: Ensures the Features section component adapts seamlessly to different screen sizes for optimal visibility.",
+      "Customizable Layouts: Easily modify the layout, design, and positioning of features to match your project's branding and style.",
+      "Visual Appeal: Use high-quality images and professional design elements to enhance the visual appeal of the Features section.",
+      "Interactive Elements: Support for interactive elements like hover effects, animations, and expandable descriptions to increase engagement.",
+      "Clear Messaging: Focus on clear and concise messaging to effectively communicate the value and benefits of your features."
+    ],
+    "benefits": [
+      "Enhanced Understanding: Highlighting key features helps users quickly understand the value and benefits of your product or service.",
+      "Increased Engagement: Interactive elements and visual aids can boost user interaction and engagement with the features.",
+      "Responsive Design: Ensures the Features section is visible and functional on all devices, enhancing the user experience.",
+      "Customizable Layouts: Flexibility to design a Features section that aligns with your branding and goals, making it more effective.",
+      "Clear Communication: Clear and concise feature descriptions help eliminate confusion and make the benefits more apparent to users."
+    ]
   }
 
 ];
