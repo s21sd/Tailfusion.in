@@ -1163,7 +1163,7 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
                                             </div>
                                             <div className="sm:pl-8 sm:py-8 sm:border-l sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                                                 <p className="leading-relaxed text-lg mb-4">Seasoned business analyst with a track record of delivering strategic insights and solutions that drive business growth. Proven expertise in market analysis, competitive benchmarking, and strategic planning. Strong analytical skills combined with a deep understanding of industry trends and customer behavior.</p>
-                                                <a  className={`${colorClass} inline-flex items-center`}>Read More
+                                                <a className={`${colorClass} inline-flex items-center`}>Read More
                                                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                                                     </svg>
@@ -2709,10 +2709,10 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
                                 <div className="grid 2xl:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-x-6 gap-y-12 w-full mt-6">
 
                                     <div>
-                                        <a  className="block h-64 rounded-lg shadow-lg bg-gray-300"></a>
+                                        <a className="block h-64 rounded-lg shadow-lg bg-gray-300"></a>
                                         <div className="flex items-center justify-between mt-3">
                                             <div>
-                                                <a  className="font-medium">Product Name</a>
+                                                <a className="font-medium">Product Name</a>
                                                 <a className="flex items-center" >
                                                     <span className="text-xs font-medium text-gray-600">by</span>
                                                     <span className={`text-xs font-medium ml-1 ${colorClass}`}>Store Name</span>
@@ -2723,10 +2723,10 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
                                     </div>
 
                                     <div>
-                                        <a  className="block h-64 rounded-lg shadow-lg bg-gray-300"></a>
+                                        <a className="block h-64 rounded-lg shadow-lg bg-gray-300"></a>
                                         <div className="flex items-center justify-between mt-3">
                                             <div>
-                                                <a  className="font-medium">Product Name</a>
+                                                <a className="font-medium">Product Name</a>
                                                 <a className="flex items-center" >
                                                     <span className="text-xs font-medium text-gray-600">by</span>
                                                     <span className={`text-xs font-medium ml-1 ${colorClass}`}>Store Name</span>
@@ -2737,10 +2737,10 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
                                     </div>
 
                                     <div>
-                                        <a  className="block h-64 rounded-lg shadow-lg bg-gray-300"></a>
+                                        <a className="block h-64 rounded-lg shadow-lg bg-gray-300"></a>
                                         <div className="flex items-center justify-between mt-3">
                                             <div>
-                                                <a  className="font-medium">Product Name</a>
+                                                <a className="font-medium">Product Name</a>
                                                 <a className="flex items-center" >
                                                     <span className="text-xs font-medium text-gray-600">by</span>
                                                     <span className={`text-xs font-medium ml-1 ${colorClass}`}>Store Name</span>
@@ -2751,10 +2751,10 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
                                     </div>
 
                                     <div>
-                                        <a  className="block h-64 rounded-lg shadow-lg bg-gray-300"></a>
+                                        <a className="block h-64 rounded-lg shadow-lg bg-gray-300"></a>
                                         <div className="flex items-center justify-between mt-3">
                                             <div>
-                                                <a  className="font-medium">Product Name</a>
+                                                <a className="font-medium">Product Name</a>
                                                 <a className="flex items-center" >
                                                     <span className="text-xs font-medium text-gray-600">by</span>
                                                     <span className={`text-xs font-medium ml-1 ${colorClass}`}>Store Name</span>
@@ -2765,10 +2765,10 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
                                     </div>
 
                                     <div>
-                                        <a  className="block h-64 rounded-lg shadow-lg bg-gray-300"></a>
+                                        <a className="block h-64 rounded-lg shadow-lg bg-gray-300"></a>
                                         <div className="flex items-center justify-between mt-3">
                                             <div>
-                                                <a  className="font-medium">Product Name</a>
+                                                <a className="font-medium">Product Name</a>
                                                 <a className="flex items-center" >
                                                     <span className="text-xs font-medium text-gray-600">by</span>
                                                     <span className={`text-xs font-medium ml-1 ${colorClass}`}>Store Name</span>
@@ -2779,10 +2779,10 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
                                     </div>
 
                                     <div>
-                                        <a  className="block h-64 rounded-lg shadow-lg bg-gray-300"></a>
+                                        <a className="block h-64 rounded-lg shadow-lg bg-gray-300"></a>
                                         <div className="flex items-center justify-between mt-3">
                                             <div>
-                                                <a  className="font-medium">Product Name</a>
+                                                <a className="font-medium">Product Name</a>
                                                 <a className="flex items-center" >
                                                     <span className="text-xs font-medium text-gray-600">by</span>
                                                     <span className={`text-xs font-medium ml-1 ${colorClass}`}>Store Name</span>
@@ -2793,10 +2793,10 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
                                     </div>
 
                                     <div>
-                                        <a  className="block h-64 rounded-lg shadow-lg bg-gray-300"></a>
+                                        <a className="block h-64 rounded-lg shadow-lg bg-gray-300"></a>
                                         <div className="flex items-center justify-between mt-3">
                                             <div>
-                                                <a  className="font-medium">Product Name</a>
+                                                <a className="font-medium">Product Name</a>
                                                 <a className="flex items-center" >
                                                     <span className="text-xs font-medium text-gray-600">by</span>
                                                     <span className={`text-xs font-medium ml-1 ${colorClass}`}>Store Name</span>
@@ -2807,10 +2807,10 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
                                     </div>
 
                                     <div>
-                                        <a  className="block h-64 rounded-lg shadow-lg bg-gray-300"></a>
+                                        <a className="block h-64 rounded-lg shadow-lg bg-gray-300"></a>
                                         <div className="flex items-center justify-between mt-3">
                                             <div>
-                                                <a  className="font-medium">Product Name</a>
+                                                <a className="font-medium">Product Name</a>
                                                 <a className="flex items-center" >
                                                     <span className="text-xs font-medium text-gray-600">by</span>
                                                     <span className={`text-xs font-medium ml-1 ${colorClass}`}>Store Name</span>
@@ -4004,19 +4004,19 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
 
                                                 <ul className="mt-6 space-y-4 text-sm">
                                                     <li>
-                                                        <a  className="text-gray-700 transition hover:opacity-75"> Accessibility </a>
+                                                        <a className="text-gray-700 transition hover:opacity-75"> Accessibility </a>
                                                     </li>
 
                                                     <li>
-                                                        <a  className="text-gray-700 transition hover:opacity-75"> Returns Policy </a>
+                                                        <a className="text-gray-700 transition hover:opacity-75"> Returns Policy </a>
                                                     </li>
 
                                                     <li>
-                                                        <a  className="text-gray-700 transition hover:opacity-75"> Refund Policy </a>
+                                                        <a className="text-gray-700 transition hover:opacity-75"> Refund Policy </a>
                                                     </li>
 
                                                     <li>
-                                                        <a  className="text-gray-700 transition hover:opacity-75"> Hiring Statistics </a>
+                                                        <a className="text-gray-700 transition hover:opacity-75"> Hiring Statistics </a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -4026,11 +4026,11 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
 
                                                 <ul className="mt-6 space-y-4 text-sm">
                                                     <li>
-                                                        <a  className="text-gray-700 transition hover:opacity-75"> Marketing Calendar </a>
+                                                        <a className="text-gray-700 transition hover:opacity-75"> Marketing Calendar </a>
                                                     </li>
 
                                                     <li>
-                                                        <a  className="text-gray-700 transition hover:opacity-75"> SEO Infographics </a>
+                                                        <a className="text-gray-700 transition hover:opacity-75"> SEO Infographics </a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -4038,7 +4038,7 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
                                             <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
                                                 <li>
                                                     <a
-                                                        
+
                                                         rel="noreferrer"
                                                         target="_blank"
                                                         className="text-gray-700 transition hover:opacity-75"
@@ -4057,7 +4057,7 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
 
                                                 <li>
                                                     <a
-                                                        
+
                                                         rel="noreferrer"
                                                         target="_blank"
                                                         className="text-gray-700 transition hover:opacity-75"
@@ -4076,7 +4076,7 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
 
                                                 <li>
                                                     <a
-                                                        
+
                                                         rel="noreferrer"
                                                         target="_blank"
                                                         className="text-gray-700 transition hover:opacity-75"
@@ -4093,7 +4093,7 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
 
                                                 <li>
                                                     <a
-                                                        
+
                                                         rel="noreferrer"
                                                         target="_blank"
                                                         className="text-gray-700 transition hover:opacity-75"
@@ -4112,7 +4112,7 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
 
                                                 <li>
                                                     <a
-                                                        
+
                                                         rel="noreferrer"
                                                         target="_blank"
                                                         className="text-gray-700 transition hover:opacity-75"
@@ -4138,21 +4138,128 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
 
                                             <ul className="mt-8 flex flex-wrap justify-start gap-4 text-xs sm:mt-0 lg:justify-end">
                                                 <li>
-                                                    <p  className="text-gray-500 transition hover:opacity-75"> Terms & Conditions </p>
+                                                    <p className="text-gray-500 transition hover:opacity-75"> Terms & Conditions </p>
                                                 </li>
 
                                                 <li>
-                                                    <p  className="text-gray-500 transition hover:opacity-75"> Privacy Policy </p>
+                                                    <p className="text-gray-500 transition hover:opacity-75"> Privacy Policy </p>
                                                 </li>
 
                                                 <li>
-                                                    <p  className="text-gray-500 transition hover:opacity-75"> Cookies </p>
+                                                    <p className="text-gray-500 transition hover:opacity-75"> Cookies </p>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </section>
+                        case 1:
+                            return <section className="text-gray-600 body-font">
+                                <div className="container px-5 py-24 mx-auto grid md:items-center md:flex-row md:flex-nowrap flex-wrap flex-col">
+                                    <div className=" text-center ">
+                                        <a className="flex title-font font-medium items-center justify-center text-gray-900">
+
+                                            <span className={`ml-3 text-xl ${colorClass}`}>TailFusion</span>
+                                        </a>
+                                        <p className="mt-2 text-sm text-gray-600">Creating beautiful UIs with ease and efficiency.</p>
+                                    </div>
+                                    <div className="flex-grow flex flex-wrap mt-10 text-center">
+                                        <div className="w-1/2 px-4">
+                                            <h2 className={`title-font font-medium ${colorClass} tracking-widest text-sm mb-3`}>CONTACT INFORMATION</h2>
+                                            <nav className="list-none mb-10">
+                                                <li>
+                                                    <a href="mailto:info@tailfusion.com" className="text-gray-600 hover:text-gray-800">info@tailfusion.com</a>
+                                                </li>
+                                                <li>
+                                                    <a href="tel:+1234567890" className="text-gray-600 hover:text-gray-800">+1 (234) 567-890</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.google.com/maps/place/TailFusion" target="_blank" className="text-gray-600 hover:text-gray-800">123 TailFusion St, UI City</a>
+                                                </li>
+                                            </nav>
+                                        </div>
+                                        <div className="w-1/2 px-4">
+                                            <h2 className={`title-font font-medium ${colorClass} tracking-widest text-sm mb-3`}>QUICK LINKS</h2>
+                                            <nav className="list-none mb-10">
+                                                <li>
+                                                    <a href="/about" className="text-gray-600 hover:text-gray-800">About Us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/services" className="text-gray-600 hover:text-gray-800">Services</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/privacy-policy" className="text-gray-600 hover:text-gray-800">Privacy Policy</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/terms-of-service" className="text-gray-600 hover:text-gray-800">Terms of Service</a>
+                                                </li>
+                                            </nav>
+                                        </div>
+                                        <div className="w-1/2 px-4">
+                                            <h2 className={`title-font font-medium ${colorClass} tracking-widest text-sm mb-3`}>SOCIAL MEDIA</h2>
+                                            <nav className="list-none mb-10">
+                                                <li>
+                                                    <a href="https://facebook.com/tailfusion" target="_blank" className="text-gray-600 hover:text-gray-800">Facebook</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://twitter.com/tailfusion" target="_blank" className="text-gray-600 hover:text-gray-800">Twitter</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://linkedin.com/company/tailfusion" target="_blank" className="text-gray-600 hover:text-gray-800">LinkedIn</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://instagram.com/tailfusion" target="_blank" className="text-gray-600 hover:text-gray-800">Instagram</a>
+                                                </li>
+                                            </nav>
+                                        </div>
+                                        <div className="w-1/2 px-4">
+                                            <h2 className={`title-font font-medium ${colorClass} tracking-widest text-sm mb-3`}>NEWSLETTER</h2>
+                                            <nav className="list-none mb-10">
+                                                <li>
+                                                    <p className="text-gray-600">Sign up for our newsletter to stay updated with the latest news and special offers.</p>
+                                                </li>
+                                                <li>
+                                                    <form action="#" method="post" className="mt-4">
+                                                        <input type="email" name="email" placeholder="Your Email" className="w-full px-4 py-2 text-gray-900 bg-gray-200 rounded-lg focus:outline-none" required />
+                                                        <button type="submit" className={`mt-2 px-4 py-2 text-white rounded-lg ${selectBtnColorClass}`}>Subscribe</button>
+                                                    </form>
+                                                </li>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                                        <p className="text-gray-500 text-sm text-center sm:text-left">© 2024 TailFusion —
+                                            <a href="https://twitter.com/tailfusion" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@tailfusion</a>
+                                        </p>
+                                        <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                                            <a className="text-gray-500 hover:text-gray-800" href="https://facebook.com/tailfusion" target="_blank">
+                                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+                                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                                </svg>
+                                            </a>
+                                            <a className="ml-3 text-gray-500 hover:text-gray-800" href="https://twitter.com/tailfusion" target="_blank">
+                                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+                                                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                                                </svg>
+                                            </a>
+                                            <a className="ml-3 text-gray-500 hover:text-gray-800" href="https://linkedin.com/company/tailfusion" target="_blank">
+                                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+                                                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                                                </svg>
+                                            </a>
+                                            <a className="ml-3 text-gray-500 hover:text-gray-800" href="https://instagram.com/tailfusion" target="_blank">
+                                                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" className="w-5 h-5" viewBox="0 0 24 24">
+                                                    <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                                                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                                </svg>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </section >
 
 
                         default:
