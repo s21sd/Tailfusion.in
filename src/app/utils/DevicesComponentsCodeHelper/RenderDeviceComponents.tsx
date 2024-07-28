@@ -3710,6 +3710,181 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
                                     <button className={`flex mx-auto mt-20 text-white  border-0 py-2 px-8 focus:outline-none ${selectBtnColorClass} rounded text-lg`}>Get Started</button>
                                 </div>
                             </section>
+                        case 4:
+                            return <section className="text-gray-600 body-font">
+                                <div className="container px-5 py-24">
+                                    <div className="text-center mb-20">
+                                        <h1 className={`sm:text-3xl text-2xl font-medium  title-font ${colorClass} mb-4`}>Unique Handcrafted Items</h1>
+                                        <p className="text-base leading-relaxed mx-auto">Discover a range of unique, handcrafted items that blend tradition with modernity. Our collection includes bespoke pieces that are perfect for any occasion.</p>
+                                    </div>
+                                    <div className="flex flex-wrap w-full gap-4">
+                                        <div className="flex justify-between item-center">
+                                            <div className="p-4">
+                                                <h2 className={`font-medium title-font tracking-widest ${colorClass} mb-4 text-sm text-center `}>Artisanal Jewelry</h2>
+                                                <nav className="flex flex-col sm:items-start text-center items-center -mb-1 space-y-2.5">
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Necklaces
+                                                    </a>
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Rings
+                                                    </a>
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Bracelets
+                                                    </a>
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Earrings
+                                                    </a>
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Custom Orders
+                                                    </a>
+                                                </nav>
+                                            </div>
+                                            <div className="p-4 ">
+                                                <h2 className={`font-medium title-font tracking-widest ${colorClass} mb-4 text-sm text-center sm:text-left`}>Handmade Decor</h2>
+                                                <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Wall Art
+                                                    </a>
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Sculptures
+                                                    </a>
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Planters
+                                                    </a>
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Furniture
+                                                    </a>
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Textiles
+                                                    </a>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                        <div className="flex justify-between item-center">
+                                            <div className="p-4 ">
+                                                <h2 className={`font-medium title-font tracking-widest ${colorClass} mb-4 text-sm text-center sm:text-left`}>Eco-Friendly Products</h2>
+                                                <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Reusable Bags
+                                                    </a>
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Bamboo Products
+                                                    </a>
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Zero Waste Kits
+                                                    </a>
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Recycled Stationery
+                                                    </a>
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Organic Clothing
+                                                    </a>
+                                                </nav>
+                                            </div>
+                                            <div className="p-4 ">
+                                                <h2 className={`font-medium title-font tracking-widest ${colorClass} mb-4 text-sm text-center sm:text-left`}>Gourmet Treats</h2>
+                                                <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Handmade Chocolates
+                                                    </a>
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Organic Teas
+                                                    </a>
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Artisanal Spices
+                                                    </a>
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Homemade Jams
+                                                    </a>
+                                                    <a>
+                                                        <span className="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="w-3 h-3" viewBox="0 0 24 24">
+                                                                <path d="M20 6L9 17l-5-5"></path>
+                                                            </svg>
+                                                        </span>Gourmet Sauces
+                                                    </a>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
 
 
                         default:
