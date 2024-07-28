@@ -4259,9 +4259,9 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
                                         </span>
                                     </div>
                                 </div>
-                            </section >
-
-
+                            </section>
+                        
+                        
                         default:
                             break;
                     }
