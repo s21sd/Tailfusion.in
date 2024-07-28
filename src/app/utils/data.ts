@@ -433,6 +433,45 @@ export const content = [
       "Customizable Layouts: Flexibility to design a Features section that aligns with your branding and goals, making it more effective.",
       "Clear Communication: Clear and concise feature descriptions help eliminate confusion and make the benefits more apparent to users."
     ]
+  },
+  // This is for the Footer Component Code 13
+  {
+    "title": "Footer",
+    "description": "The Footer section component is an essential part of your website, providing users with important information and easy access to various resources. This component enhances the overall user experience by offering quick links, contact details, and additional content, ensuring visitors can find what they need without hassle.",
+    "sections": [
+      {
+        "title": "Contact Information",
+        "description": "Display your contact details, including email address, phone number, and physical address, making it easy for users to get in touch with you."
+      },
+      {
+        "title": "Quick Links",
+        "description": "Provide links to key pages and resources, such as About Us, Services, Privacy Policy, and Terms of Service, to help users navigate your site more efficiently."
+      },
+      {
+        "title": "Social Media Integration",
+        "description": "Include icons and links to your social media profiles, encouraging users to connect with you on platforms like Facebook, Twitter, LinkedIn, and Instagram."
+      },
+      {
+        "title": "Newsletter Signup",
+        "description": "Offer a subscription form for users to sign up for your newsletter, keeping them informed about updates, promotions, and news related to your business."
+      }
+    ],
+    "features": [
+      "Responsive Design: Ensures the Footer section component adapts seamlessly to different screen sizes for optimal visibility.",
+      "Customizable Layouts: Easily modify the layout, design, and positioning of elements to match your project's branding and style.",
+      "Visual Appeal: Use high-quality images and professional design elements to enhance the visual appeal of the Footer section.",
+      "Interactive Elements: Support for interactive elements like hover effects and animations to increase engagement.",
+      "Clear Messaging: Focus on clear and concise messaging to effectively communicate important information to users."
+    ],
+    "benefits": [
+      "Improved Navigation: Providing quick links to important pages helps users find the information they need more easily.",
+      "Enhanced Connectivity: Displaying contact information and social media links encourages users to connect with you.",
+      "Increased Engagement: Interactive elements and visual appeal can boost user interaction and engagement with the footer.",
+      "Responsive Design: Ensures the Footer section is visible and functional on all devices, enhancing the user experience.",
+      "Customizable Layouts: Flexibility to design a Footer section that aligns with your branding and goals, making it more effective.",
+      "Clear Communication: Clear and concise messaging helps eliminate confusion and make important information more apparent to users."
+    ]
   }
+
 
 ];

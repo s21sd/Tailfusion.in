@@ -14804,7 +14804,862 @@ export const designCodeForFeatures: any = [
 `
         },
         {
-            Css: ``
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components Section</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial, sans-serif';
+            background-color: #f9f9f9;
+            
+        }
+
+        .text-section {
+            color: #4A4A4A;
+        }
+
+        .container {
+            padding: 20px;
+            margin: auto;
+            max-width: 1200px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .title {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            font-size: 1.2em;
+            color: #6B6B6B;
+        }
+
+        .items-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .item {
+            width: 22%;
+            margin-bottom: 20px;
+        }
+
+        .item-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .item-list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .item-link {
+            display: flex;
+            align-items: center;
+            font-size: 1em;
+            color: #333;
+            text-decoration: none;
+            margin-bottom: 5px;
+            transition: color 0.3s;
+        }
+
+        .item-link:hover {
+            color: #007BFF;
+        }
+
+        .icon-wrapper {
+            display: inline-block;
+            margin-right: 8px;
+        }
+
+        .icon {
+            width: 10px;
+            height: 10px;
+            stroke: currentColor;
+        }
+    </style>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Components Section</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <section class="text-section">
+            <div class="container">
+                <div class="header">
+                    <h1 class="title">Unique Handcrafted Items</h1>
+                    <p class="description">Discover a range of unique, handcrafted items that blend tradition with
+                        modernity. Our collection includes bespoke pieces that are perfect for any occasion.</p>
+                </div>
+                <div class="items-wrapper">
+                    <div class="item">
+                        <h2 class="item-title">Artisanal Jewelry</h2>
+                        <nav class="item-list">
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Necklaces
+                            </a>
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Rings
+                            </a>
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Bracelets
+                            </a>
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Earrings
+                            </a>
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Custom Orders
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="item">
+                        <h2 class="item-title">Handmade Decor</h2>
+                        <nav class="item-list">
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Wall Art
+                            </a>
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Sculptures
+                            </a>
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Planters
+                            </a>
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Furniture
+                            </a>
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Textiles
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="item">
+                        <h2 class="item-title">Eco-Friendly Products</h2>
+                        <nav class="item-list">
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Reusable Bags
+                            </a>
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Bamboo Products
+                            </a>
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Zero Waste Kits
+                            </a>
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Recycled Stationery
+                            </a>
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Organic Clothing
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="item">
+                        <h2 class="item-title">Gourmet Treats</h2>
+                        <nav class="item-list">
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Handmade Chocolates
+                            </a>
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Organic Teas
+                            </a>
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Artisanal Spices
+                            </a>
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Gourmet Jams
+                            </a>
+                            <a class="item-link" href="#">
+                                <span class="icon-wrapper">
+                                    <svg class="icon" fill="none" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                    </svg>
+                                </span>
+                                Honey
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+
+    </html>
+
+
+</body>
+
+</html>`
+        }
+    ]
+]
+// This is the design code for the footer I have component code 13
+export const designCodeForfooter: any = [
+    [
+        {
+            Tailwind: `<section className="text-gray-600 bg-white">
+                                <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+                                    <div className="lg:flex lg:items-start lg:gap-8">
+                                        <div className="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
+                                            <div className="col-span-2">
+                                                <div>
+                                                    <h2 className="text-2xl font-bold text-gray-900">Get the latest news!</h2>
+
+                                                    <p className="mt-4 text-gray-500">
+                                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non cupiditate quae nam
+                                                        molestias.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div className="col-span-2 lg:col-span-3 lg:flex lg:items-end">
+                                                <form className="w-full">
+                                                    <label htmlFor="UserEmail" className="sr-only"> Email </label>
+
+                                                    <div
+                                                        className="border border-gray-100 p-2 focus-within:ring sm:flex sm:items-center sm:gap-4"
+                                                    >
+                                                        <input
+                                                            type="email"
+                                                            id="UserEmail"
+                                                            placeholder="john@rhcp.com"
+                                                            className="w-full border-none focus:border-transparent focus:ring-transparent sm:text-sm"
+                                                        />
+
+                                                        <button
+                                                            className="mt-1 w-full bg-teal-500 px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-teal-600 sm:mt-0 sm:w-auto sm:shrink-0"
+                                                        >
+                                                            Sign Up
+                                                        </button>
+                                                    </div>
+                                                </form>
+                                            </div>
+
+                                            <div className="col-span-2 sm:col-span-1">
+                                                <p className="font-medium text-gray-900">Services</p>
+
+                                                <ul className="mt-6 space-y-4 text-sm">
+                                                    <li>
+                                                        <a href="#" className="text-gray-700 transition hover:opacity-75"> 1on1 Coaching </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" className="text-gray-700 transition hover:opacity-75"> Company Review </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" className="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" className="text-gray-700 transition hover:opacity-75"> HR Consulting </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" className="text-gray-700 transition hover:opacity-75"> SEO Optimisation </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div className="col-span-2 sm:col-span-1">
+                                                <p className="font-medium text-gray-900">Company</p>
+
+                                                <ul className="mt-6 space-y-4 text-sm">
+                                                    <li>
+                                                        <a href="#" className="text-gray-700 transition hover:opacity-75"> About </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" className="text-gray-700 transition hover:opacity-75"> Meet the Team </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" className="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div className="col-span-2 sm:col-span-1">
+                                                <p className="font-medium text-gray-900">Helpful Links</p>
+
+                                                <ul className="mt-6 space-y-4 text-sm">
+                                                    <li>
+                                                        <a href="#" className="text-gray-700 transition hover:opacity-75"> Contact </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" className="text-gray-700 transition hover:opacity-75"> FAQs </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" className="text-gray-700 transition hover:opacity-75"> Live Chat </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div className="col-span-2 sm:col-span-1">
+                                                <p className="font-medium text-gray-900">Legal</p>
+
+                                                <ul className="mt-6 space-y-4 text-sm">
+                                                    <li>
+                                                        <a href="#" className="text-gray-700 transition hover:opacity-75"> Accessibility </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" className="text-gray-700 transition hover:opacity-75"> Returns Policy </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" className="text-gray-700 transition hover:opacity-75"> Refund Policy </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" className="text-gray-700 transition hover:opacity-75"> Hiring Statistics </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div className="col-span-2 sm:col-span-1">
+                                                <p className="font-medium text-gray-900">Downloads</p>
+
+                                                <ul className="mt-6 space-y-4 text-sm">
+                                                    <li>
+                                                        <a href="#" className="text-gray-700 transition hover:opacity-75"> Marketing Calendar </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" className="text-gray-700 transition hover:opacity-75"> SEO Infographics </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
+                                                <li>
+                                                    <a
+                                                        href="#"
+                                                        rel="noreferrer"
+                                                        target="_blank"
+                                                        className="text-gray-700 transition hover:opacity-75"
+                                                    >
+                                                        <span className="sr-only">Facebook</span>
+
+                                                        <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                                            <path
+                                                                fillRule="evenodd"
+                                                                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                                                                clipRule="evenodd"
+                                                            />
+                                                        </svg>
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        href="#"
+                                                        rel="noreferrer"
+                                                        target="_blank"
+                                                        className="text-gray-700 transition hover:opacity-75"
+                                                    >
+                                                        <span className="sr-only">Instagram</span>
+
+                                                        <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                                            <path
+                                                                fillRule="evenodd"
+                                                                d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                                                                clipRule="evenodd"
+                                                            />
+                                                        </svg>
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        href="#"
+                                                        rel="noreferrer"
+                                                        target="_blank"
+                                                        className="text-gray-700 transition hover:opacity-75"
+                                                    >
+                                                        <span className="sr-only">Twitter</span>
+
+                                                        <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                                            <path
+                                                                d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
+                                                            />
+                                                        </svg>
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        href="#"
+                                                        rel="noreferrer"
+                                                        target="_blank"
+                                                        className="text-gray-700 transition hover:opacity-75"
+                                                    >
+                                                        <span className="sr-only">GitHub</span>
+
+                                                        <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                                            <path
+                                                                fillRule="evenodd"
+                                                                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                                                                clipRule="evenodd"
+                                                            />
+                                                        </svg>
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a
+                                                        href="#"
+                                                        rel="noreferrer"
+                                                        target="_blank"
+                                                        className="text-gray-700 transition hover:opacity-75"
+                                                    >
+                                                        <span className="sr-only">Dribbble</span>
+
+                                                        <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                                            <path
+                                                                fillRule="evenodd"
+                                                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                                                                clipRule="evenodd"
+                                                            />
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div className="mt-8 border-t border-gray-100 pt-8">
+                                        <div className="sm:flex sm:justify-between">
+                                            <p className="text-xs text-gray-500">&copy; 2022. Company Name. All rights reserved.</p>
+
+                                            <ul className="mt-8 flex flex-wrap justify-start gap-4 text-xs sm:mt-0 lg:justify-end">
+                                                <li>
+                                                    <a href="#" className="text-gray-500 transition hover:opacity-75"> Terms & Conditions </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="#" className="text-gray-500 transition hover:opacity-75"> Privacy Policy </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="#" className="text-gray-500 transition hover:opacity-75"> Cookies </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Signup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .newsletter-section {
+            background-color: #fff;
+            padding: 2rem 1rem;
+            border-top: 4px solid #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .main-content {
+            grid-column: span 2;
+            text-align: center;
+        }
+
+        .heading {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #333;
+        }
+
+        .description {
+            margin-top: 0.5rem;
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .form-wrapper {
+            grid-column: span 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .email-form {
+            display: flex;
+            align-items: center;
+        }
+
+        .input-group {
+            display: flex;
+            border: 1px solid #ccc;
+            border-radius: 0.25rem;
+        }
+
+        .email-input {
+            padding: 0.75rem 1rem;
+            border: none;
+            border-radius: 0.25rem 0 0 0.25rem;
+            flex: 1;
+            font-size: 1rem;
+        }
+
+        .submit-button {
+            padding: 0.75rem 1rem;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 0 0.25rem 0.25rem 0;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        .submit-button:hover {
+            background-color: #555;
+        }
+
+        .links-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .links-column {
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .link-heading {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+
+        .link-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .link {
+            display: block;
+            margin-top: 0.5rem;
+            color: #666;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+
+        .link:hover {
+            color: #333;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            justify-content: center;
+        }
+
+        .social-link {
+            display: inline-block;
+            width: 2rem;
+            height: 2rem;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        .social-link:hover {
+            color: #555;
+        }
+
+        .icon {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="grid-container">
+                    <div class="main-content">
+                        <h2 class="heading">Get the latest news!</h2>
+                        <p class="description">Stay updated with the latest news and special offers. Subscribe to our
+                            newsletter.</p>
+                    </div>
+
+                    <div class="form-wrapper">
+                        <form class="email-form">
+                            <label for="UserEmail" class="sr-only">Email</label>
+                            <div class="input-group">
+                                <input type="email" id="UserEmail" placeholder="john@rhcp.com" class="email-input"
+                                    required />
+                                <button type="submit" class="submit-button">Sign Up</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="links-section">
+                        <div class="links-column">
+                            <p class="link-heading">Services</p>
+                            <ul class="link-list">
+                                <li><a href="#" class="link">1on1 Coaching</a></li>
+                                <li><a href="#" class="link">Company Review</a></li>
+                                <li><a href="#" class="link">Accounts Review</a></li>
+                                <li><a href="#" class="link">HR Consulting</a></li>
+                                <li><a href="#" class="link">SEO Optimisation</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="links-column">
+                            <p class="link-heading">Company</p>
+                            <ul class="link-list">
+                                <li><a href="#" class="link">About</a></li>
+                                <li><a href="#" class="link">Meet the Team</a></li>
+                                <li><a href="#" class="link">Accounts Review</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="links-column">
+                            <p class="link-heading">Helpful Links</p>
+                            <ul class="link-list">
+                                <li><a href="#" class="link">Contact</a></li>
+                                <li><a href="#" class="link">FAQs</a></li>
+                                <li><a href="#" class="link">Live Chat</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="links-column">
+                            <p class="link-heading">Legal</p>
+                            <ul class="link-list">
+                                <li><a href="#" class="link">Accessibility</a></li>
+                                <li><a href="#" class="link">Returns Policy</a></li>
+                                <li><a href="#" class="link">Refund Policy</a></li>
+                                <li><a href="#" class="link">Hiring Statistics</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="links-column">
+                            <p class="link-heading">Downloads</p>
+                            <ul class="link-list">
+                                <li><a href="#" class="link">Marketing Calendar</a></li>
+                                <li><a href="#" class="link">SEO Infographics</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" rel="noreferrer" target="_blank" class="social-link">
+                            <svg class="icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+
+                        <a href="#" rel="noreferrer" target="_blank" class="social-link">
+                            <svg class="icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.067-.06-1.407-.06-4.123v-.08c0-2.643.012-2.987.06-4.043.049-1.064.218-1.791.465-2.427A4.902 4.902 0 014.45 3.678 4.902 4.902 0 016.222 2.525c.636-.247 1.363-.416 2.427-.465C9.716 2.013 10.07 2 12.315 2zm-.081 1.802c-2.392 0-2.677.011-3.621.05-.877.04-1.354.187-1.67.31-.42.163-.717.357-1.032.672a3.1 3.1 0 00-.672 1.032c-.123.316-.27.793-.31 1.67-.039.944-.05 1.229-.05 3.621 0 2.392.011 2.677.05 3.621.04.877.187 1.354.31 1.67.163.42.357.717.672 1.032.315.315.611.509 1.032.672.316.123.793.27 1.67.31.944.039 1.229.05 3.621.05 2.392 0 2.677-.011 3.621-.05.877-.04 1.354-.187 1.67-.31.42-.163.717-.357 1.032-.672.315-.315.509-.611.672-1.032.123-.316.27-.793.31-1.67.039-.944.05-1.229.05-3.621 0-2.392-.011-2.677-.05-3.621-.04-.877-.187-1.354-.31-1.67a3.097 3.097 0 00-.672-1.032 3.098 3.098 0 00-1.032-.672c-.316-.123-.793-.27-1.67-.31-.944-.039-1.229-.05-3.621-.05zm0 4.377a4.315 4.315 0 100 8.63 4.315 4.315 0 000-8.63zm0 1.802a2.513 2.513 0 110 5.026 2.513 2.513 0 010-5.026zm5.634-1.092a1.044 1.044 0 11-2.088 0 1.044 1.044 0 012.088 0z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+
+                        <a href="#" rel="noreferrer" target="_blank" class="social-link">
+                            <svg class="icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M19.633 7.997c.013.178.013.356.013.533 0 5.42-4.126 11.662-11.662 11.662-2.317 0-4.473-.676-6.286-1.83.321.038.63.05.962.05a8.219 8.219 0 005.096-1.753 4.104 4.104 0 01-3.832-2.847c.25.038.498.064.761.064.363 0 .738-.05 1.086-.138a4.098 4.098 0 01-3.282-4.015v-.05c.54.302 1.173.496 1.84.516a4.087 4.087 0 01-1.83-3.407c0-.756.202-1.455.553-2.063a11.635 11.635 0 008.455 4.287 4.633 4.633 0 01-.101-.939 4.095 4.095 0 017.086-2.795 8.19 8.19 0 002.605-.998 4.1 4.1 0 01-1.797 2.27 8.154 8.154 0 002.36-.64 8.748 8.748 0 01-2.051 2.117z" />
+                            </svg>
+                        </a>
+
+                        <a href="#" rel="noreferrer" target="_blank" class="social-link">
+                            
+                            <svg class="icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M2.833 2.833a2.833 2.833 0 115.666 0 2.833 2.833 0 01-5.666 0zM.999 8.5h3.667v14.5H.999V8.5zm8.5 0h3.511v2h.048c.488-.925 1.683-1.898 3.462-1.898 3.704 0 4.385 2.438 4.385 5.61v8.789H17.14v-7.785c0-1.852-.033-4.238-2.582-4.238-2.585 0-2.981 2.017-2.981 4.1v7.923H8.5V8.5z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+`
         }
     ]
 ]

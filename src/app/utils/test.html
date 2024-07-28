@@ -4,175 +4,264 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Components Section</title>
+    <title>Newsletter Signup</title>
     <style>
-        .services-section {
-            background-color: #f7fafc;
-            padding: 60px 0;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .newsletter-section {
+            background-color: #fff;
+            padding: 2rem 1rem;
+            border-top: 4px solid #333;
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 20px;
         }
 
-        .service-item {
+        .content-wrapper {
             display: flex;
-            flex-direction: row;
-            align-items: center;
-            margin-bottom: 40px;
-            border-bottom: 1px solid #e2e8f0;
-            padding-bottom: 40px;
+            flex-direction: column;
+            gap: 2rem;
         }
 
-        .icon-wrapper {
-            width: 80px;
-            height: 80px;
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .main-content {
+            grid-column: span 2;
+            text-align: center;
+        }
+
+        .heading {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #333;
+        }
+
+        .description {
+            margin-top: 0.5rem;
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .form-wrapper {
+            grid-column: span 1;
             display: flex;
-            align-items: center;
             justify-content: center;
-            border-radius: 50%;
-            background-color: #ebf4ff;
-            color: #5a67d8;
-            margin-right: 20px;
         }
 
-        .service-icon {
-            width: 40px;
-            height: 40px;
-        }
-
-        .service-content {
-            text-align: left;
-            flex: 1;
-        }
-
-        .service-title {
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: #2d3748;
-            margin-bottom: 10px;
-        }
-
-        .service-description {
-            font-size: 1rem;
-            color: #4a5568;
-            margin-bottom: 20px;
-        }
-
-        .service-link {
-            font-size: 1rem;
-            color: #5a67d8;
+        .email-form {
             display: flex;
             align-items: center;
         }
 
-        .service-link-icon {
-            width: 20px;
-            margin-left: 5px;
+        .input-group {
+            display: flex;
+            border: 1px solid #ccc;
+            border-radius: 0.25rem;
         }
 
-        .cta-button {
-            font-size: 1rem;
-            color: #fff;
-            display: flex;
-            margin: auto;
-            background-color: #5a67d8;
+        .email-input {
+            padding: 0.75rem 1rem;
             border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
+            border-radius: 0.25rem 0 0 0.25rem;
+            flex: 1;
+            font-size: 1rem;
+        }
+
+        .submit-button {
+            padding: 0.75rem 1rem;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 0 0.25rem 0.25rem 0;
             cursor: pointer;
+            font-size: 1rem;
             transition: background-color 0.3s;
         }
 
-        .cta-button:hover {
-            background-color: #434190;
+        .submit-button:hover {
+            background-color: #555;
         }
 
-        @media (max-width: 768px) {
-            .service-item {
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-            }
+        .links-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
 
-            .icon-wrapper {
-                margin-bottom: 20px;
-                margin-right: 0;
-            }
+        .links-column {
+            flex: 1;
+            min-width: 150px;
+        }
 
-            .service-content {
-                text-align: center;
-            }
+        .link-heading {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+
+        .link-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .link {
+            display: block;
+            margin-top: 0.5rem;
+            color: #666;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+
+        .link:hover {
+            color: #333;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            justify-content: center;
+        }
+
+        .social-link {
+            display: inline-block;
+            width: 2rem;
+            height: 2rem;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        .social-link:hover {
+            color: #555;
+        }
+
+        .icon {
+            width: 100%;
+            height: 100%;
         }
     </style>
 </head>
 
 <body>
-    <section class="services-section">
+    <section class="newsletter-section">
         <div class="container">
-            <div class="service-item">
-                <div class="icon-wrapper">
-                    <svg class="service-icon" fill="none" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
-                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                    </svg>
-                </div>
-                <div class="service-content">
-                    <h2 class="service-title">Web Design</h2>
-                    <p class="service-description">Our web design services focus on creating visually stunning and
-                        user-friendly websites that captivate your audience and enhance your online presence.</p>
-                    <a class="service-link">Learn More
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2" class="service-link-icon" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
+            <div class="content-wrapper">
+                <div class="grid-container">
+                    <div class="main-content">
+                        <h2 class="heading">Get the latest news!</h2>
+                        <p class="description">Stay updated with the latest news and special offers. Subscribe to our
+                            newsletter.</p>
+                    </div>
+
+                    <div class="form-wrapper">
+                        <form class="email-form">
+                            <label for="UserEmail" class="sr-only">Email</label>
+                            <div class="input-group">
+                                <input type="email" id="UserEmail" placeholder="john@rhcp.com" class="email-input"
+                                    required />
+                                <button type="submit" class="submit-button">Sign Up</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="links-section">
+                        <div class="links-column">
+                            <p class="link-heading">Services</p>
+                            <ul class="link-list">
+                                <li><a href="#" class="link">1on1 Coaching</a></li>
+                                <li><a href="#" class="link">Company Review</a></li>
+                                <li><a href="#" class="link">Accounts Review</a></li>
+                                <li><a href="#" class="link">HR Consulting</a></li>
+                                <li><a href="#" class="link">SEO Optimisation</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="links-column">
+                            <p class="link-heading">Company</p>
+                            <ul class="link-list">
+                                <li><a href="#" class="link">About</a></li>
+                                <li><a href="#" class="link">Meet the Team</a></li>
+                                <li><a href="#" class="link">Accounts Review</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="links-column">
+                            <p class="link-heading">Helpful Links</p>
+                            <ul class="link-list">
+                                <li><a href="#" class="link">Contact</a></li>
+                                <li><a href="#" class="link">FAQs</a></li>
+                                <li><a href="#" class="link">Live Chat</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="links-column">
+                            <p class="link-heading">Legal</p>
+                            <ul class="link-list">
+                                <li><a href="#" class="link">Accessibility</a></li>
+                                <li><a href="#" class="link">Returns Policy</a></li>
+                                <li><a href="#" class="link">Refund Policy</a></li>
+                                <li><a href="#" class="link">Hiring Statistics</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="links-column">
+                            <p class="link-heading">Downloads</p>
+                            <ul class="link-list">
+                                <li><a href="#" class="link">Marketing Calendar</a></li>
+                                <li><a href="#" class="link">SEO Infographics</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" rel="noreferrer" target="_blank" class="social-link">
+                            <svg class="icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+
+                        <a href="#" rel="noreferrer" target="_blank" class="social-link">
+                            <svg class="icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.067-.06-1.407-.06-4.123v-.08c0-2.643.012-2.987.06-4.043.049-1.064.218-1.791.465-2.427A4.902 4.902 0 014.45 3.678 4.902 4.902 0 016.222 2.525c.636-.247 1.363-.416 2.427-.465C9.716 2.013 10.07 2 12.315 2zm-.081 1.802c-2.392 0-2.677.011-3.621.05-.877.04-1.354.187-1.67.31-.42.163-.717.357-1.032.672a3.1 3.1 0 00-.672 1.032c-.123.316-.27.793-.31 1.67-.039.944-.05 1.229-.05 3.621 0 2.392.011 2.677.05 3.621.04.877.187 1.354.31 1.67.163.42.357.717.672 1.032.315.315.611.509 1.032.672.316.123.793.27 1.67.31.944.039 1.229.05 3.621.05 2.392 0 2.677-.011 3.621-.05.877-.04 1.354-.187 1.67-.31.42-.163.717-.357 1.032-.672.315-.315.509-.611.672-1.032.123-.316.27-.793.31-1.67.039-.944.05-1.229.05-3.621 0-2.392-.011-2.677-.05-3.621-.04-.877-.187-1.354-.31-1.67a3.097 3.097 0 00-.672-1.032 3.098 3.098 0 00-1.032-.672c-.316-.123-.793-.27-1.67-.31-.944-.039-1.229-.05-3.621-.05zm0 4.377a4.315 4.315 0 100 8.63 4.315 4.315 0 000-8.63zm0 1.802a2.513 2.513 0 110 5.026 2.513 2.513 0 010-5.026zm5.634-1.092a1.044 1.044 0 11-2.088 0 1.044 1.044 0 012.088 0z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+
+                        <a href="#" rel="noreferrer" target="_blank" class="social-link">
+                            <svg class="icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M19.633 7.997c.013.178.013.356.013.533 0 5.42-4.126 11.662-11.662 11.662-2.317 0-4.473-.676-6.286-1.83.321.038.63.05.962.05a8.219 8.219 0 005.096-1.753 4.104 4.104 0 01-3.832-2.847c.25.038.498.064.761.064.363 0 .738-.05 1.086-.138a4.098 4.098 0 01-3.282-4.015v-.05c.54.302 1.173.496 1.84.516a4.087 4.087 0 01-1.83-3.407c0-.756.202-1.455.553-2.063a11.635 11.635 0 008.455 4.287 4.633 4.633 0 01-.101-.939 4.095 4.095 0 017.086-2.795 8.19 8.19 0 002.605-.998 4.1 4.1 0 01-1.797 2.27 8.154 8.154 0 002.36-.64 8.748 8.748 0 01-2.051 2.117z" />
+                            </svg>
+                        </a>
+
+                        <a href="#" rel="noreferrer" target="_blank" class="social-link">
+                            
+                            <svg class="icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M2.833 2.833a2.833 2.833 0 115.666 0 2.833 2.833 0 01-5.666 0zM.999 8.5h3.667v14.5H.999V8.5zm8.5 0h3.511v2h.048c.488-.925 1.683-1.898 3.462-1.898 3.704 0 4.385 2.438 4.385 5.61v8.789H17.14v-7.785c0-1.852-.033-4.238-2.582-4.238-2.585 0-2.981 2.017-2.981 4.1v7.923H8.5V8.5z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="service-item">
-                <div class="icon-wrapper order-last">
-                    <svg class="service-icon" fill="none" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
-                        <circle cx="6" cy="6" r="3"></circle>
-                        <circle cx="6" cy="18" r="3"></circle>
-                        <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-                    </svg>
-                </div>
-                <div class="service-content order-first">
-                    <h2 class="service-title">E-commerce Solutions</h2>
-                    <p class="service-description">We offer comprehensive e-commerce solutions that help you build and
-                        manage your online store, from product listings to payment processing and customer support.</p>
-                    <a class="service-link">Learn More
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2" class="service-link-icon" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-            <div class="service-item">
-                <div class="icon-wrapper">
-                    <svg class="service-icon" fill="none" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
-                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                        <circle cx="12" cy="7" r="4"></circle>
-                    </svg>
-                </div>
-                <div class="service-content">
-                    <h2 class="service-title">SEO Optimization</h2>
-                    <p class="service-description">Our SEO services are designed to improve your website's visibility on
-                        search engines, driving more traffic and increasing your online reach.</p>
-                    <a class="service-link">Learn More
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2" class="service-link-icon" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-            <button class="cta-button">Get Started</button>
         </div>
     </section>
 </body>
