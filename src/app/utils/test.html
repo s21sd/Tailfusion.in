@@ -4,236 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Footer</title>
+    <title>Stats Section</title>
     <style>
         body {
+            margin: 0;
             font-family: Arial, sans-serif;
-            color: #4a4a4a;
+            background-color: #F9FAFB;
         }
 
-        .footer {
-            color: #4a4a4a;
-            padding: 24px 0;
+        .stats-section {
+            color: #4B5563;
+            padding: 6rem 0;
         }
 
         .container {
-            max-width: 1200px;
             margin: 0 auto;
-            padding: 0 20px;
+            padding: 0 1rem;
         }
 
-        .footer-content {
+        .stats-wrapper {
             display: flex;
             flex-wrap: wrap;
-            gap: 12px;
-            justify-content: space-between;
-            align-items: start;
-        }
-
-        .footer-logo {
+            margin: -1rem;
             text-align: center;
-            margin-bottom: 20px;
         }
 
-        .footer-logo svg {
-            width: 40px;
-            height: 40px;
-            padding: 5px;
-            background-color: #6366f1;
-            border-radius: 50%;
-            color: #fff;
+        .stats-item {
+            padding: 1rem;
+            flex: 1 1 50%;
+            max-width: 25%;
         }
 
-        .footer-logo span {
-            font-size: 1.25rem;
-            margin-left: 10px;
-        }
-
-        .footer-description {
-            margin-top: 10px;
-            font-size: 0.875rem;
-        }
-
-        .footer-section {
-            flex: 1;
-            min-width: 200px;
-            margin-bottom: 20px;
-        }
-
-        .footer-section h2 {
+        .stats-title {
+            font-size: 3rem;
+            color: #111827;
+            margin-bottom: 0.5rem;
             font-weight: 500;
-            margin-bottom: 10px;
-            font-size: 0.875rem;
-            color: #2d2d2d;
         }
 
-        .footer-section nav {
-            list-style: none;
-            padding: 0;
+        .stats-description {
+            font-size: 1rem;
+            color: #6B7280;
             margin: 0;
         }
 
-        .footer-section nav li {
-            margin-bottom: 10px;
+        @media (min-width: 640px) {
+            .stats-item {
+                flex: 1 1 25%;
+            }
         }
 
-        .footer-section nav a {
-            text-decoration: none;
-            color: #4a4a4a;
-            transition: color 0.3s;
-        }
-
-        .footer-section nav a:hover {
-            color: #2d2d2d;
-        }
-
-        .newsletter {
-            font-size: 0.875rem;
-        }
-
-        .newsletter form {
-            margin-top: 10px;
-        }
-
-        .newsletter input {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #d1d5db;
-            border-radius: 5px;
-        }
-
-        .newsletter button {
-            width: 100%;
-            padding: 10px;
-            background-color: #6366f1;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .newsletter button:hover {
-            background-color: #4f46e5;
-        }
-
-        .footer-bottom {
-
-            padding: 20px 0;
-            text-align: center;
-            font-size: 0.875rem;
-        }
-
-        .social-icons {
-            display: flex;
-            justify-content: center;
-            margin-top: 10px;
-        }
-
-        .social-icons a {
-            margin: 0 10px;
-            color: #4a4a4a;
-            transition: color 0.3s;
-        }
-
-        .social-icons a:hover {
-            color: #2d2d2d;
-        }
-
-        .social-icons svg {
-            width: 20px;
-            height: 20px;
+        @media (max-width: 640px) {
+            .stats-item {
+                flex: 1 1 50%;
+            }
         }
     </style>
 </head>
 
 <body>
-    <footer class="footer">
+    <section class="stats-section">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <p class="logo-link">
-                        <span>TailFusion</span>
-                    </p>
-                    <p class="footer-description">Creating beautiful UIs with ease and efficiency.</p>
+            <div class="stats-wrapper">
+                <div class="stats-item">
+                    <h2 class="stats-title">5.1K</h2>
+                    <p class="stats-description">Active Users</p>
                 </div>
-                <div class="footer-section">
-                    <h2>Contact Information</h2>
-                    <nav>
-                        <li><a href="mailto:info@tailfusion.com">info@tailfusion.com</a></li>
-                        <li><a href="tel:+1234567890">+1 (234) 567-890</a></li>
-                        <li><a href="https://www.google.com/maps/place/TailFusion" target="_blank">123 TailFusion St, UI
-                                City</a></li>
-                    </nav>
+                <div class="stats-item">
+                    <h2 class="stats-title">3.2K</h2>
+                    <p class="stats-description">Monthly Subscriptions</p>
                 </div>
-                <div class="footer-section">
-                    <h2>Quick Links</h2>
-                    <nav>
-                        <li><a href="/about">About Us</a></li>
-                        <li><a href="/services">Services</a></li>
-                        <li><a href="/privacy-policy">Privacy Policy</a></li>
-                        <li><a href="/terms-of-service">Terms of Service</a></li>
-                    </nav>
+                <div class="stats-item">
+                    <h2 class="stats-title">120</h2>
+                    <p class="stats-description">Total Downloads</p>
                 </div>
-                <div class="footer-section">
-                    <h2>Social Media</h2>
-                    <nav>
-                        <li><a href="https://facebook.com/tailfusion" target="_blank">Facebook</a></li>
-                        <li><a href="https://twitter.com/tailfusion" target="_blank">Twitter</a></li>
-                        <li><a href="https://linkedin.com/company/tailfusion" target="_blank">LinkedIn</a></li>
-                        <li><a href="https://instagram.com/tailfusion" target="_blank">Instagram</a></li>
-                    </nav>
-                </div>
-                <div class="footer-section">
-                    <h2>Newsletter</h2>
-                    <div class="newsletter">
-                        <p>Sign up for our newsletter to stay updated with the latest news and special offers.</p>
-                        <form action="#" method="post">
-                            <input type="email" name="email" placeholder="Your Email" required>
-                            <button type="submit">Subscribe</button>
-                        </form>
-                    </div>
+                <div class="stats-item">
+                    <h2 class="stats-title">8</h2>
+                    <p class="stats-description">Products Launched</p>
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <>© 2024 TailFusion —
-                @tailfusion
-                </p>
-                <div class="social-icons">
-                    <a href="https://facebook.com/tailfusion" target="_blank">
-                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            viewBox="0 0 24 24">
-                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                        </svg>
-                    </a>
-                    <a href="https://twitter.com/tailfusion" target="_blank">
-                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            viewBox="0 0 24 24">
-                            <path
-                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
-                            </path>
-                        </svg>
-                    </a>
-                    <a href="https://linkedin.com/company/tailfusion" target="_blank">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2" viewBox="0 0 24 24">
-                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-                        </svg>
-                    </a>
-                    <a href="https://instagram.com/tailfusion" target="_blank">
-                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="0" viewBox="0 0 24 24">
-                            <path stroke="none"
-                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
-                            </path>
-                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
-                        </svg>
-                    </a>
-                </div>
-        </div>
-    </footer>
+    </section>
 </body>
 
 </html>

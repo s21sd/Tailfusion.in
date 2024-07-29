@@ -16055,7 +16055,620 @@ export const designCodeForfooter: any = [
                             </section>`
         },
         {
-            Css: ``
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Section</title>
+    <style>
+        .footer-section {
+            color: #718096;
+            font-family: sans-serif;
+        }
+
+        .footer-container {
+            display: flex;
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 1200px;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .footer-brand {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: #1a202c;
+            text-decoration: none;
+        }
+
+        .footer-title {
+            margin-left: 12px;
+            font-size: 24px;
+            color: #1a202c;
+        }
+
+        .footer-description {
+            font-size: 14px;
+            color: #718096;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-link {
+            color: #4a5568;
+            text-decoration: none;
+            margin-left: 4px;
+        }
+
+        .footer-link:hover {
+            color: #2d3748;
+        }
+
+        .footer-social {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .footer-social-link {
+            color: #718096;
+            margin-left: 12px;
+            transition: color 0.3s;
+        }
+
+        .footer-social-link:hover {
+            color: #2d3748;
+        }
+
+        .footer-icon {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <section class="footer-section">
+        <div class="footer-container">
+            <a class="footer-brand">
+                <span class="footer-title">TailFusion</span>
+            </a>
+            <p class="footer-description">© 2024 TailFusion —
+                <a href="https://github.com/s21sd/Tailfusion.io" class="footer-link" rel="noopener noreferrer"
+                    target="_blank">@s21sd</a>
+            </p>
+            <span class="footer-social">
+                <a class="footer-social-link">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="footer-icon" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                </a>
+                <a class="footer-social-link">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="footer-icon" viewBox="0 0 24 24">
+                        <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                        </path>
+                    </svg>
+                </a>
+                <a class="footer-social-link">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="footer-icon" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                </a>
+                <a class="footer-social-link">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="0" class="footer-icon" viewBox="0 0 24 24">
+                        <path stroke="none"
+                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                        </path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                </a>
+            </span>
+        </div>
+    </section>
+</body>
+
+</html>`
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="flex flex-col items-center text-center text-surface dark:bg-neutral-700 dark:text-white">
+                                <div className="container p-6">
+                                    <div className="grid gap-4 md:grid-cols-3 lg:grid-cols-6">
+                                        <div className="mb-6 lg:mb-0">
+                                            <img
+                                                src="https://dummyimage.com/200x100"
+                                                className="w-full rounded-md shadow-lg" />
+                                        </div>
+                                        <div className="mb-6 lg:mb-0">
+                                            <img
+                                                src="https://dummyimage.com/200x100"
+                                                className="w-full rounded-md shadow-lg" />
+                                        </div>
+                                        <div className="mb-6 lg:mb-0">
+                                            <img
+                                                src="https://dummyimage.com/200x100"
+                                                className="w-full rounded-md shadow-lg" />
+                                        </div>
+                                        <div className="mb-6 lg:mb-0">
+                                            <img
+                                                src="https://dummyimage.com/200x100"
+                                                className="w-full rounded-md shadow-lg" />
+                                        </div>
+                                        <div className="mb-6 lg:mb-0">
+                                            <img
+                                                src="https://dummyimage.com/200x100"
+                                                className="w-full rounded-md shadow-lg" />
+                                        </div>
+                                        <div className="mb-6 lg:mb-0">
+                                            <img
+                                                src="https://dummyimage.com/200x100"
+                                                className="w-full rounded-md shadow-lg" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="w-full bg-black/5 p-4 text-center">
+                                    © 2024 Copyright:
+                                    TailFusion
+                                </div>
+                            </section>`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Grid Section</title>
+    <style>
+        .section-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            color: #1a202c;
+            color: white;
+            padding: 20px;
+        }
+
+        .container {
+            padding: 24px;
+        }
+
+        .grid-container {
+            display: grid;
+            gap: 16px;
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        @media (min-width: 768px) {
+            .grid-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .grid-container {
+                grid-template-columns: repeat(6, 1fr);
+            }
+        }
+
+        .grid-item {
+            margin-bottom: 24px;
+        }
+
+        @media (min-width: 1024px) {
+            .grid-item {
+                margin-bottom: 0;
+            }
+        }
+
+        .grid-image {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer {
+            width: 100%;
+            padding: 16px;
+            text-align: center;
+            color: #1a202c;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section-container">
+        <div class="container">
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="https://dummyimage.com/200x100" class="grid-image" />
+                </div>
+                <div class="grid-item">
+                    <img src="https://dummyimage.com/200x100" class="grid-image" />
+                </div>
+                <div class="grid-item">
+                    <img src="https://dummyimage.com/200x100" class="grid-image" />
+                </div>
+                <div class="grid-item">
+                    <img src="https://dummyimage.com/200x100" class="grid-image" />
+                </div>
+                <div class="grid-item">
+                    <img src="https://dummyimage.com/200x100" class="grid-image" />
+                </div>
+                <div class="grid-item">
+                    <img src="https://dummyimage.com/200x100" class="grid-image" />
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            © 2024 Copyright: TailFusion
+        </div>
+    </section>
+</body>
+
+</html>`
+        }
+    ],
+    [
+        {
+            Tailwind: `<div className="w-full min-h-screen flex items-center justify-center">
+                                <div className="md:w-2/3 w-full px-4 text-white flex flex-col">
+                                    <div className="w-full text-7xl font-bold">
+                                        <h1 className="w-full md:w-2/3">How can we help you. get
+                                            in touch</h1>
+                                    </div>
+                                    <div className="flex mt-8 flex-col md:flex-row md:justify-between">
+                                        <p className="w-full md:w-2/3 text-gray-400">To ensure that all Wikipedia content is verifiable, anyone may question an uncited claim. If your work has been tagged</p>
+                                        <div className="w-44 pt-6 md:pt-0">
+                                            <a className="bg-red-500 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center">Contact US</a>
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-col">
+                                        <div className="flex mt-24 mb-12 flex-row justify-between">
+                                            <div className="">
+                                                <h1 className="hidden md:block text-2xl cursor-pointer text-gray-600 hover:text-white uppercase">TailFusion</h1>
+                                            </div>
+                                            <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">About</a>
+                                            <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Services</a>
+                                            <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Why us</a>
+                                            <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">Contact</a>
+                                            <div className="flex flex-row space-x-8 items-center justify-between">
+                                                <a>
+                                                    <svg width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M3.89782 12V6.53514H5.67481L5.93895 4.39547H3.89782V3.03259C3.89782 2.41516 4.06363 1.99243 4.91774 1.99243H6V0.0847928C5.47342 0.0262443 4.94412 -0.00202566 4.41453 0.000112795C2.84383 0.000112795 1.76542 0.994936 1.76542 2.82122V4.39147H0V6.53114H1.76928V12H3.89782Z" fill="white" />
+                                                    </svg>
+                                                </a>
+                                                <a>
+                                                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M5.99536 2.91345C5.17815 2.91345 4.39441 3.23809 3.81655 3.81594C3.2387 4.3938 2.91406 5.17754 2.91406 5.99475C2.91406 6.81196 3.2387 7.5957 3.81655 8.17356C4.39441 8.75141 5.17815 9.07605 5.99536 9.07605C6.81257 9.07605 7.59631 8.75141 8.17417 8.17356C8.75202 7.5957 9.07666 6.81196 9.07666 5.99475C9.07666 5.17754 8.75202 4.3938 8.17417 3.81594C7.59631 3.23809 6.81257 2.91345 5.99536 2.91345ZM5.99536 7.99586C5.46446 7.99586 4.9553 7.78496 4.57989 7.40955C4.20448 7.03415 3.99358 6.52499 3.99358 5.99408C3.99358 5.46318 4.20448 4.95402 4.57989 4.57861C4.9553 4.20321 5.46446 3.99231 5.99536 3.99231C6.52626 3.99231 7.03542 4.20321 7.41083 4.57861C7.78624 4.95402 7.99714 5.46318 7.99714 5.99408C7.99714 6.52499 7.78624 7.03415 7.41083 7.40955C7.03542 7.78496 6.52626 7.99586 5.99536 7.99586Z" fill="white" />
+                                                        <path d="M9.19863 3.51848C9.59537 3.51848 9.91698 3.19687 9.91698 2.80013C9.91698 2.4034 9.59537 2.08179 9.19863 2.08179C8.8019 2.08179 8.48029 2.4034 8.48029 2.80013C8.48029 3.19687 8.8019 3.51848 9.19863 3.51848Z" fill="white" />
+                                                        <path d="M11.6821 2.06975C11.5279 1.67138 11.2921 1.30961 10.99 1.00759C10.6879 0.705576 10.326 0.469972 9.92759 0.31586C9.46135 0.140842 8.9688 0.0462069 8.4709 0.0359839C7.82919 0.00799638 7.62594 0 5.99867 0C4.37139 0 4.16282 -6.70254e-08 3.52643 0.0359839C3.02891 0.0456842 2.53671 0.140339 2.07108 0.31586C1.67255 0.469792 1.31059 0.705333 1.00844 1.00737C0.706289 1.30941 0.47061 1.67127 0.316526 2.06975C0.141474 2.53595 0.0470554 3.02855 0.0373167 3.52643C0.00866281 4.16748 0 4.37072 0 5.99867C0 7.62594 -4.96485e-09 7.83319 0.0373167 8.4709C0.0473123 8.96935 0.14127 9.46113 0.316526 9.92825C0.471042 10.3266 0.70695 10.6883 1.00918 10.9903C1.3114 11.2923 1.6733 11.5279 2.07175 11.6821C2.5365 11.8642 3.0289 11.9656 3.52777 11.982C4.16948 12.01 4.37272 12.0187 6 12.0187C7.62728 12.0187 7.83585 12.0187 8.47223 11.982C8.97008 11.9719 9.46262 11.8775 9.92892 11.7028C10.3272 11.5483 10.689 11.3125 10.9911 11.0104C11.2932 10.7083 11.529 10.3466 11.6835 9.94825C11.8587 9.48179 11.9527 8.99 11.9627 8.49156C11.9913 7.85051 12 7.64727 12 6.01932C12 4.39138 12 4.18481 11.9627 3.54709C11.9549 3.04216 11.86 2.54237 11.6821 2.06975ZM10.8705 8.42159C10.8662 8.80562 10.7961 9.18608 10.6633 9.54642C10.5632 9.80555 10.41 10.0409 10.2135 10.2372C10.017 10.4336 9.78162 10.5867 9.52243 10.6866C9.16608 10.8188 8.78967 10.8889 8.4096 10.8938C7.77654 10.9231 7.59796 10.9305 5.97468 10.9305C4.35007 10.9305 4.18414 10.9305 3.53909 10.8938C3.15921 10.8892 2.78298 10.8191 2.42692 10.6866C2.16683 10.5873 1.93048 10.4345 1.73316 10.2381C1.53584 10.0417 1.38194 9.80605 1.28143 9.54642C1.15045 9.18995 1.08039 8.81398 1.07419 8.43425C1.04554 7.8012 1.03887 7.62261 1.03887 5.99933C1.03887 4.37539 1.03887 4.20946 1.07419 3.56375C1.0785 3.17993 1.14859 2.7997 1.28143 2.43958C1.48467 1.91382 1.90116 1.5 2.42692 1.29876C2.78316 1.16691 3.15928 1.09682 3.53909 1.09151C4.17281 1.06286 4.35073 1.05486 5.97468 1.05486C7.59862 1.05486 7.76522 1.05486 8.4096 1.09151C8.7897 1.09609 9.16617 1.1662 9.52243 1.29876C9.7816 1.39889 10.017 1.55211 10.2134 1.74858C10.4099 1.94504 10.5631 2.18041 10.6633 2.43958C10.7942 2.79606 10.8643 3.17203 10.8705 3.55175C10.8992 4.18547 10.9065 4.36339 10.9065 5.98734C10.9065 7.61062 10.9065 7.78521 10.8778 8.42226H10.8705V8.42159Z" fill="white" />
+                                                    </svg>
+                                                </a>
+                                                <a href="https://www.youtube.com/channel/UCjtCbnkIaiCJgj13sEZ9iqw">
+                                                    <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12.7355 1.415C12.6616 1.14357 12.517 0.896024 12.3162 0.697014C12.1154 0.498004 11.8654 0.354468 11.5911 0.280692C10.5739 0.00450089 6.5045 4.87928e-06 6.5045 4.87928e-06C6.5045 4.87928e-06 2.43578 -0.00449139 1.41795 0.259496C1.14379 0.336667 0.894302 0.482233 0.693428 0.68222C0.492554 0.882207 0.347041 1.1299 0.270859 1.40152C0.00259923 2.40737 9.51671e-07 4.49358 9.51671e-07 4.49358C9.51671e-07 4.49358 -0.0025972 6.59006 0.263714 7.58564C0.413109 8.13609 0.851549 8.57094 1.40885 8.71931C2.43643 8.9955 6.49476 9 6.49476 9C6.49476 9 10.5641 9.00449 11.5813 8.74115C11.8557 8.6675 12.106 8.52429 12.3073 8.32569C12.5086 8.12709 12.6539 7.87996 12.729 7.60876C12.998 6.60355 12.9999 4.51798 12.9999 4.51798C12.9999 4.51798 13.0129 2.42086 12.7355 1.415ZM5.20282 6.42628L5.20607 2.57244L8.58823 4.50257L5.20282 6.42628Z" fill="white" />
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <hr className="border-gray-600" />
+                                        <p className="w-full text-center my-12 text-gray-600">Copyright © 2024 TailFusion</p>
+                                    </div>
+                                </div>
+                            </div>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Grid Section</title>
+    <style>
+        /* styles.css */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #F9FAFB;
+        }
+
+        .main-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 1rem;
+        }
+
+        .content {
+            text-align: center;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .headline h1 {
+            font-size: 2rem;
+            color: #111827;
+            margin-bottom: 1rem;
+        }
+
+        .info-section p {
+            color: #4B5563;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .contact-button a {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            background-color: #4F46E5;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+
+        .contact-button a:hover {
+            background-color: #3730A3;
+        }
+
+        .footer {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid #E5E7EB;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+
+        .footer-links .logo {
+            font-size: 1.5rem;
+            color: #111827;
+            margin-bottom: 1rem;
+        }
+
+        .footer-links a {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #4B5563;
+            text-decoration: none;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .footer-links a:hover {
+            color: #111827;
+        }
+
+        .social-media a {
+            display: inline-block;
+            margin: 0 0.5rem;
+        }
+
+        .social-media svg {
+            fill: #FFFFFF;
+        }
+
+        .footer p {
+            color: #6B7280;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Section</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="main-container">
+            <div class="content">
+                <div class="headline">
+                    <h1>How can we help you. get in touch</h1>
+                </div>
+                <div class="info-section">
+                    <p>To ensure that all Wikipedia content is verifiable, anyone may question an uncited claim. If your
+                        work has been tagged</p>
+                    <div class="contact-button">
+                        <a href="#">Contact US</a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="footer-links">
+                        <h1 class="logo">TailFusion</h1>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Why us</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="social-media">
+                        <a href="#">
+                            <svg width="6" height="12" viewBox="0 0 6 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M3.89782 12V6.53514H5.67481L5.93895 4.39547H3.89782V3.03259C3.89782 2.41516 4.06363 1.99243 4.91774 1.99243H6V0.0847928C5.47342 0.0262443 4.94412 -0.00202566 4.41453 0.000112795C2.84383 0.000112795 1.76542 0.994936 1.76542 2.82122V4.39147H0V6.53114H1.76928V12H3.89782Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5.99536 2.91345C5.17815 2.91345 4.39441 3.23809 3.81655 3.81594C3.2387 4.3938 2.91406 5.17754 2.91406 5.99475C2.91406 6.81196 3.2387 7.5957 3.81655 8.17356C4.39441 8.75141 5.17815 9.07605 5.99536 9.07605C6.81257 9.07605 7.59631 8.75141 8.17417 8.17356C8.75202 7.5957 9.07666 6.81196 9.07666 5.99475C9.07666 5.17754 8.75202 4.3938 8.17417 3.81594C7.59631 3.23809 6.81257 2.91345 5.99536 2.91345ZM5.99536 7.99586C5.46446 7.99586 4.9553 7.78496 4.57989 7.40955C4.20448 7.03415 3.99358 6.52499 3.99358 5.99408C3.99358 5.46318 4.20448 4.95402 4.57989 4.57861C4.9553 4.20321 5.46446 3.99231 5.99536 3.99231C6.52626 3.99231 7.03542 4.20321 7.41083 4.57861C7.78624 4.95402 7.99714 5.46318 7.99714 5.99408C7.99714 6.52499 7.78624 7.03415 7.41083 7.40955C7.03542 7.78496 6.52626 7.99586 5.99536 7.99586Z"
+                                    fill="white" />
+                                <path
+                                    d="M9.19863 3.51848C9.59537 3.51848 9.91698 3.19687 9.91698 2.80013C9.91698 2.4034 9.59537 2.08179 9.19863 2.08179C8.8019 2.08179 8.48029 2.4034 8.48029 2.80013C8.48029 3.19687 8.8019 3.51848 9.19863 3.51848Z"
+                                    fill="white" />
+                                <path
+                                    d="M11.6821 2.06975C11.5279 1.67138 11.2921 1.30961 10.99 1.00759C10.6879 0.705576 10.326 0.469972 9.92759 0.31586C9.46135 0.140842 8.9688 0.0462069 8.4709 0.0359839C7.82919 0.00799638 7.62594 0 5.99867 0C4.37139 0 4.16282 -6.70254e-08 3.52643 0.0359839C3.02891 0.0456842 2.53671 0.140339 2.07108 0.31586C1.67255 0.469792 1.31059 0.705333 1.00844 1.00737C0.706289 1.30941 0.47061 1.67127 0.316526 2.06975C0.141474 2.53595 0.0470554 3.02855 0.0373167 3.52643C0.00866281 4.16748 0 4.37072 0 5.99867C0 7.62594 -4.96485e-09 7.83319 0.0373167 8.4709C0.0473123 8.96935 0.14127 9.46113 0.316526 9.92825C0.471042 10.3266 0.70695 10.6883 1.00918 10.9903C1.3114 11.2923 1.6733 11.5279 2.07175 11.6821C2.5365 11.8642 3.0289 11.9656 3.52777 11.982C4.16948 12.01 4.37272 12.0187 6 12.0187C7.62728 12.0187 7.83585 12.0187 8.47223 11.982C8.97008 11.9719 9.46262 11.8775 9.92892 11.7028C10.3272 11.5483 10.689 11.3125 10.9911 11.0104C11.2932 10.7083 11.529 10.3466 11.6835 9.94825C11.8587 9.48179 11.9527 8.99 11.9627 8.49156C11.9913 7.85051 12 7.64727 12 6.01932C12 4.39138 12 4.18481 11.9627 3.54709C11.9549 3.04216 11.86 2.54237 11.6821 2.06975ZM10.8705 8.42159C10.8662 8.80562 10.7961 9.18608 10.6633 9.54642C10.5632 9.80555 10.41 10.0409 10.2135 10.2372C10.017 10.4336 9.78162 10.5867 9.52243 10.6866C9.16608 10.8188 8.78967 10.8889 8.4096 10.8938C7.77654 10.9231 7.56009 10.9231 6 10.9231C4.43955 10.9231 4.22104 10.9231 3.58894 10.8938C3.20884 10.8894 2.83099 10.8192 2.47337 10.6866C2.20758 10.5862 1.97394 10.4305 1.77942 10.2372C1.58443 10.0432 1.42876 9.80583 1.32845 9.54642C1.19748 9.18657 1.12727 8.80621 1.12264 8.42159C1.1179 8.03531 1.191 7.683 1.32348 7.36922C1.44258 7.08543 1.65744 6.84672 1.93435 6.69366C2.22884 6.53939 2.55932 6.41789 2.88656 6.32912C3.24388 6.23643 3.58094 6.1821 3.92341 6.1821C4.28946 6.1821 4.52855 6.21363 4.74843 6.24631C4.96817 6.278 5.18802 6.34995 5.37022 6.45217C5.53493 6.54386 5.68874 6.68404 5.82369 6.8669C5.94389 7.03563 6.06759 7.18831 6.18654 7.36841C6.26444 7.47923 6.33895 7.58699 6.40911 7.68563C6.47894 7.78253 6.54227 7.87784 6.60523 7.97048C6.68219 8.06329 6.7702 8.14729 6.85397 8.21546C6.93634 8.27498 7.02457 8.32964 7.11844 8.39838C7.15884 8.42709 7.2098 8.46319 7.26866 8.49191C7.27512 8.50516 7.28145 8.5188 7.28758 8.53286C7.31573 8.57238 7.34632 8.60836 7.37879 8.63887C7.41774 8.67486 7.45837 8.70723 7.5003 8.73644C7.6689 8.82442 7.84074 8.89734 8.01027 8.95299C8.1614 8.99732 8.30736 9.0403 8.4511 9.08348C8.59665 9.12331 8.72834 9.16112 8.8558 9.19366C9.15974 9.25658 9.42804 9.231 9.66389 9.09344C9.79254 8.99276 9.89726 8.86765 9.96409 8.71751C10.0134 8.60482 10.0168 8.45915 10.0345 8.35629C10.0868 8.01066 10.1382 7.67107 10.1689 7.31803C10.1925 6.94414 10.2219 6.59695 10.2888 6.2358C10.3528 5.87743 10.4379 5.51538 10.508 5.16506C10.5778 4.8205 10.6267 4.48263 10.6476 4.16132C10.6653 3.87513 10.6861 3.60303 10.7117 3.34898C10.7341 3.12099 10.7615 2.92285 10.7708 2.76114C10.7769 2.68493 10.7715 2.62041 10.7708 2.5762C10.7684 2.5081 10.7739 2.47141 10.8705 2.06975Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                    <p>&copy; 2024 TailFusion. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+</body>
+</html>`
+        }
+    ]
+]
+
+// This is the design code for the Stastistics I have component code 14
+export const designCodeForStatistics: any = [
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-wrap -m-4 text-center">
+      <div className="p-4 sm:w-1/4 w-1/2">
+        <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">5.1K</h2>
+        <p className="leading-relaxed">Active Users</p>
+      </div>
+      <div className="p-4 sm:w-1/4 w-1/2">
+        <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">3.2K</h2>
+        <p className="leading-relaxed">Monthly Subscriptions</p>
+      </div>
+      <div className="p-4 sm:w-1/4 w-1/2">
+        <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">120</h2>
+        <p className="leading-relaxed">Total Downloads</p>
+      </div>
+      <div className="p-4 sm:w-1/4 w-1/2">
+        <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">8</h2>
+        <p className="leading-relaxed">Products Launched</p>
+      </div>
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats Section</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #F9FAFB;
+        }
+
+        .stats-section {
+            color: #4B5563;
+            padding: 6rem 0;
+        }
+
+        .container {
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .stats-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -1rem;
+            text-align: center;
+        }
+
+        .stats-item {
+            padding: 1rem;
+            flex: 1 1 50%;
+            max-width: 25%;
+        }
+
+        .stats-title {
+            font-size: 3rem;
+            color: #111827;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .stats-description {
+            font-size: 1rem;
+            color: #6B7280;
+            margin: 0;
+        }
+
+        @media (min-width: 640px) {
+            .stats-item {
+                flex: 1 1 25%;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .stats-item {
+                flex: 1 1 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-wrapper">
+                <div class="stats-item">
+                    <h2 class="stats-title">5.1K</h2>
+                    <p class="stats-description">Active Users</p>
+                </div>
+                <div class="stats-item">
+                    <h2 class="stats-title">3.2K</h2>
+                    <p class="stats-description">Monthly Subscriptions</p>
+                </div>
+                <div class="stats-item">
+                    <h2 class="stats-title">120</h2>
+                    <p class="stats-description">Total Downloads</p>
+                </div>
+                <div class="stats-item">
+                    <h2 class="stats-title">8</h2>
+                    <p class="stats-description">Products Launched</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
         }
     ]
 ]

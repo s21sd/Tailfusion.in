@@ -471,7 +471,46 @@ export const content = [
       "Customizable Layouts: Flexibility to design a Footer section that aligns with your branding and goals, making it more effective.",
       "Clear Communication: Clear and concise messaging helps eliminate confusion and make important information more apparent to users."
     ]
+  },
+  // This is for the Statistic Component Code 14
+  {
+    "title": "Statistic",
+    "description": "The Statistic section component provides a visually engaging way to showcase key metrics and data points related to your product, service, or company. This component helps convey important statistics in a clear and attractive manner, allowing users to quickly grasp significant information and achievements.",
+    "sections": [
+      {
+        "title": "Key Metrics",
+        "description": "Highlight the most significant metrics related to your product, service, or company. This can include figures like user numbers, revenue, growth rates, and other important statistics."
+      },
+      {
+        "title": "Data Visualization",
+        "description": "Use charts, graphs, and other visual aids to represent the data effectively. Visual elements help users understand the metrics at a glance and make the information more engaging."
+      },
+      {
+        "title": "Milestones and Achievements",
+        "description": "Showcase major milestones and achievements to highlight your successes. This can include awards, certifications, major project completions, or any significant accomplishments."
+      },
+      {
+        "title": "Comparison and Trends",
+        "description": "Provide comparative data and trends over time to show progress and growth. This helps users understand the evolution and impact of your product or service."
+      }
+    ],
+    "features": [
+      "Responsive Design: Ensures the Statistic section component adapts seamlessly to different screen sizes for optimal visibility.",
+      "Customizable Layouts: Easily modify the layout, design, and positioning of data elements to match your project's branding and style.",
+      "Visual Appeal: Use high-quality charts, graphs, and design elements to enhance the visual appeal of the Statistic section.",
+      "Interactive Elements: Support for interactive elements like hover effects, tooltips, and animations to increase user engagement.",
+      "Clear Messaging: Focus on clear and concise data presentation to effectively communicate key metrics and achievements to users."
+    ],
+    "benefits": [
+      "Enhanced Understanding: Displaying key metrics and data visually helps users quickly grasp important information and trends.",
+      "Increased Engagement: Interactive and visually appealing elements can boost user interaction and interest in the data.",
+      "Improved Credibility: Showcasing achievements and milestones helps build trust and credibility with users.",
+      "Responsive Design: Ensures the Statistic section is visible and functional on all devices, enhancing the user experience.",
+      "Customizable Layouts: Flexibility to design a Statistic section that aligns with your branding and goals, making it more effective.",
+      "Clear Communication: Clear and concise data presentation helps eliminate confusion and makes important statistics more apparent to users."
+    ]
   }
+
 
 
 ];
