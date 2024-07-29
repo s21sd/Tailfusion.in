@@ -16670,5 +16670,185 @@ export const designCodeForStatistics: any = [
 
 </html>`
         }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto flex flex-wrap">
+    <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+      <div className="w-full sm:p-4 px-4 mb-6">
+        <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
+        <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
+      </div>
+      <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+        <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+        <p className="leading-relaxed">Users</p>
+      </div>
+      <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+        <h2 className="title-font font-medium text-3xl text-gray-900">1.8K</h2>
+        <p className="leading-relaxed">Subscribes</p>
+      </div>
+      <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+        <h2 className="title-font font-medium text-3xl text-gray-900">35</h2>
+        <p className="leading-relaxed">Downloads</p>
+      </div>
+      <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+        <h2 className="title-font font-medium text-3xl text-gray-900">4</h2>
+        <p className="leading-relaxed">Products</p>
+      </div>
+    </div>
+    <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+      <img className="object-cover object-center w-full h-full" src="https://dummyimage.com/600x300" alt="stats"/>
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats Section</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #F9FAFB;
+        }
+
+        .stats-section {
+            color: #4B5563;
+            padding: 6rem 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .stats-content {
+            flex: 1 1 auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin-right: 1rem;
+        }
+
+        .stats-text {
+            width: 100%;
+            margin-bottom: 1.5rem;
+        }
+
+        .stats-title {
+            font-size: 1.25rem;
+            color: #111827;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .stats-description {
+            font-size: 1rem;
+        }
+
+        .stats-item {
+            padding: 1rem;
+            width: 50%;
+            box-sizing: border-box;
+        }
+
+        .stats-number {
+            font-size: 1.875rem;
+            color: #111827;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .stats-label {
+            font-size: 1rem;
+            color: #6B7280;
+        }
+
+        .stats-image {
+            flex: 1 1 auto;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            margin-top: 1.5rem;
+        }
+
+        .stats-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        @media (min-width: 640px) {
+            .stats-item {
+                width: 50%;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .stats-content {
+                flex-wrap: nowrap;
+            }
+
+            .stats-item {
+                width: 25%;
+            }
+
+            .stats-text {
+                width: 50%;
+            }
+
+            .stats-image {
+                width: 50%;
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-content">
+                <div class="stats-text">
+                    <h1 class="stats-title">Moon hashtag pop-up try-hard offal truffaut</h1>
+                    <div class="stats-description">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar
+                        neutra sustainable fingerstache kickstarter.</div>
+                </div>
+                <div class="stats-item">
+                    <h2 class="stats-number">2.7K</h2>
+                    <p class="stats-label">Users</p>
+                </div>
+                <div class="stats-item">
+                    <h2 class="stats-number">1.8K</h2>
+                    <p class="stats-label">Subscribes</p>
+                </div>
+                <div class="stats-item">
+                    <h2 class="stats-number">35</h2>
+                    <p class="stats-label">Downloads</p>
+                </div>
+                <div class="stats-item">
+                    <h2 class="stats-number">4</h2>
+                    <p class="stats-label">Products</p>
+                </div>
+            </div>
+            <div class="stats-image">
+                <img src="https://dummyimage.com/600x300" alt="stats" />
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>`
+        }
     ]
 ]

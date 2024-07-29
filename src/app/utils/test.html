@@ -18,25 +18,28 @@
         }
 
         .container {
+            max-width: 1200px;
             margin: 0 auto;
             padding: 0 1rem;
-        }
-
-        .stats-wrapper {
             display: flex;
             flex-wrap: wrap;
-            margin: -1rem;
-            text-align: center;
         }
 
-        .stats-item {
-            padding: 1rem;
-            flex: 1 1 50%;
-            max-width: 25%;
+        .stats-content {
+            flex: 1 1 auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin-right: 1rem;
+        }
+
+        .stats-text {
+            width: 100%;
+            margin-bottom: 1.5rem;
         }
 
         .stats-title {
-            font-size: 3rem;
+            font-size: 1.25rem;
             color: #111827;
             margin-bottom: 0.5rem;
             font-weight: 500;
@@ -44,19 +47,62 @@
 
         .stats-description {
             font-size: 1rem;
+        }
+
+        .stats-item {
+            padding: 1rem;
+            width: 50%;
+            box-sizing: border-box;
+        }
+
+        .stats-number {
+            font-size: 1.875rem;
+            color: #111827;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .stats-label {
+            font-size: 1rem;
             color: #6B7280;
-            margin: 0;
+        }
+
+        .stats-image {
+            flex: 1 1 auto;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            margin-top: 1.5rem;
+        }
+
+        .stats-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
         }
 
         @media (min-width: 640px) {
             .stats-item {
-                flex: 1 1 25%;
+                width: 50%;
             }
         }
 
-        @media (max-width: 640px) {
+        @media (min-width: 1024px) {
+            .stats-content {
+                flex-wrap: nowrap;
+            }
+
             .stats-item {
-                flex: 1 1 50%;
+                width: 25%;
+            }
+
+            .stats-text {
+                width: 50%;
+            }
+
+            .stats-image {
+                width: 50%;
+                margin-top: 0;
             }
         }
     </style>
@@ -65,23 +111,31 @@
 <body>
     <section class="stats-section">
         <div class="container">
-            <div class="stats-wrapper">
-                <div class="stats-item">
-                    <h2 class="stats-title">5.1K</h2>
-                    <p class="stats-description">Active Users</p>
+            <div class="stats-content">
+                <div class="stats-text">
+                    <h1 class="stats-title">Moon hashtag pop-up try-hard offal truffaut</h1>
+                    <div class="stats-description">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar
+                        neutra sustainable fingerstache kickstarter.</div>
                 </div>
                 <div class="stats-item">
-                    <h2 class="stats-title">3.2K</h2>
-                    <p class="stats-description">Monthly Subscriptions</p>
+                    <h2 class="stats-number">2.7K</h2>
+                    <p class="stats-label">Users</p>
                 </div>
                 <div class="stats-item">
-                    <h2 class="stats-title">120</h2>
-                    <p class="stats-description">Total Downloads</p>
+                    <h2 class="stats-number">1.8K</h2>
+                    <p class="stats-label">Subscribes</p>
                 </div>
                 <div class="stats-item">
-                    <h2 class="stats-title">8</h2>
-                    <p class="stats-description">Products Launched</p>
+                    <h2 class="stats-number">35</h2>
+                    <p class="stats-label">Downloads</p>
                 </div>
+                <div class="stats-item">
+                    <h2 class="stats-number">4</h2>
+                    <p class="stats-label">Products</p>
+                </div>
+            </div>
+            <div class="stats-image">
+                <img src="https://dummyimage.com/600x300" alt="stats" />
             </div>
         </div>
     </section>
