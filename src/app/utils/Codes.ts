@@ -16186,7 +16186,7 @@ export const designCodeForfooter: any = [
     ],
     [
         {
-            Tailwind: `<section className="flex flex-col items-center text-center text-surface dark:bg-neutral-700 dark:text-white">
+            Tailwind: `<section className="flex flex-col items-center text-center text-surface ">
                                 <div className="container p-6">
                                     <div className="grid gap-4 md:grid-cols-3 lg:grid-cols-6">
                                         <div className="mb-6 lg:mb-0">
@@ -16846,6 +16846,471 @@ export const designCodeForStatistics: any = [
             </div>
         </div>
     </section>
+</body>
+
+</html>`
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-col text-center w-full mb-20">
+      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Innovative Tech Solutions</h1>
+      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+        Discover the latest advancements in technology with our cutting-edge solutions. From AI-powered applications to scalable cloud services, we provide the tools you need to stay ahead in the digital world.
+      </p>
+    </div>
+    <div className="flex flex-wrap -m-4 text-center">
+      <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+        <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
+          <svg
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            className="text-indigo-500 w-12 h-12 mb-3 inline-block"
+            viewBox="0 0 24 24"
+          >
+            <path d="M8 17l4 4 4-4m-4-5v9"></path>
+            <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
+          </svg>
+          <h2 className="title-font font-medium text-3xl text-gray-900">3.5K</h2>
+          <p className="leading-relaxed">Downloads</p>
+        </div>
+      </div>
+      <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+        <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
+          <svg
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            className="text-indigo-500 w-12 h-12 mb-3 inline-block"
+            viewBox="0 0 24 24"
+          >
+            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+          </svg>
+          <h2 className="title-font font-medium text-3xl text-gray-900">2.1K</h2>
+          <p className="leading-relaxed">Users</p>
+        </div>
+      </div>
+      <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+        <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
+          <svg
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            className="text-indigo-500 w-12 h-12 mb-3 inline-block"
+            viewBox="0 0 24 24"
+          >
+            <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+            <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
+          </svg>
+          <h2 className="title-font font-medium text-3xl text-gray-900">89</h2>
+          <p className="leading-relaxed">Files</p>
+        </div>
+      </div>
+      <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+        <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
+          <svg
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            className="text-indigo-500 w-12 h-12 mb-3 inline-block"
+            viewBox="0 0 24 24"
+          >
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+          <h2 className="title-font font-medium text-3xl text-gray-900">57</h2>
+          <p className="leading-relaxed">Projects</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats Section</title>
+    <style>
+        /* styles.css */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #F9FAFB;
+        }
+
+        .stats-section {
+            color: #4B5563;
+            padding: 6rem 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .title {
+            font-size: 2rem;
+            color: #111827;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .description {
+            max-width: 66.6667%;
+            margin: 0 auto;
+            font-size: 1rem;
+        }
+
+        .stats-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .stats-item {
+            padding: 1rem;
+            width: 100%;
+            max-width: 25%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .stats-icon {
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin: auto;
+            width: 50px;
+            margin-bottom: 1rem;
+        }
+        
+        .stats-number {
+            font-size: 1.875rem;
+            color: #111827;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .stats-label {
+            font-size: 1rem;
+            color: #6B7280;
+        }
+
+        @media (max-width: 768px) {
+            .stats-item {
+                max-width: 50%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .stats-item {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Innovative Tech Solutions</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <section class="stats-section">
+            <div class="container">
+                <div class="header">
+                    <h1 class="title">Innovative Tech Solutions</h1>
+                    <p class="description">
+                        Discover the latest advancements in technology with our cutting-edge solutions. From AI-powered
+                        applications to scalable cloud services, we provide the tools you need to stay ahead in the
+                        digital world.
+                    </p>
+                </div>
+                <div class="stats-container">
+                    <div class="stats-item">
+                        <div class="stats-icon">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M8 17l4 4 4-4m-4-5v9"></path>
+                                <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
+                            </svg>
+                            <div class="headings">
+                                <h2 class="stats-number">3.5K</h2>
+                                <p class="stats-label">Downloads</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stats-item">
+                        <div class="stats-icon">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+                            </svg>
+                            <div class="headings">
+
+                                <h2 class="stats-number">2.1K</h2>
+                                <p class="stats-label">Users</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stats-item">
+                        <div class="stats-icon">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+                                <path
+                                    d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z">
+                                </path>
+                            </svg>
+                            <div class="headings">
+
+                                <h2 class="stats-number">89</h2>
+                                <p class="stats-label">Files</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stats-item">
+                        <div class="stats-icon">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                            <div class="headings">
+
+                                <h2 class="stats-number">57</h2>
+                                <p class="stats-label">Projects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+
+    </html>
+
+</body>
+
+</html>`
+        }
+    ],
+    [
+        {
+            Tailwind: `<div className="h-screen w-full flex justify-center items-center">
+                                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:py-24 lg:px-8">
+                                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl ">
+                                        Our Performance Metrics
+                                    </h2>
+                                    <div className="grid grid-cols-1 gap-5 sm:grid-cols-4 mt-4">
+                                        <div className="bg-white overflow-hidden shadow sm:rounded-lg   ">
+                                            <div className="px-4 py-5 sm:p-6">
+                                                <dl>
+                                                    <dt className="text-sm leading-5 font-medium text-gray-500 truncate  ">
+                                                        Total Projects
+                                                    </dt>
+                                                    <dd className="mt-1 text-3xl leading-9 font-semibold text-indigo-600  ">
+                                                        2.1K
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                        <div className="bg-white overflow-hidden shadow sm:rounded-lg  ">
+                                            <div className="px-4 py-5 sm:p-6">
+                                                <dl>
+                                                    <dt className="text-sm leading-5 font-medium text-gray-500 truncate  ">
+                                                        New Projects This Month
+                                                    </dt>
+                                                    <dd className="mt-1 text-3xl leading-9 font-semibold text-indigo-600  ">
+                                                        5.4K
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                        <div className="bg-white overflow-hidden shadow sm:rounded-lg  ">
+                                            <div className="px-4 py-5 sm:p-6">
+                                                <dl>
+                                                    <dt className="text-sm leading-5 font-medium text-gray-500 truncate  ">
+                                                        Active Users This Week
+                                                    </dt>
+                                                    <dd className="mt-1 text-3xl leading-9 font-semibold text-indigo-600  ">
+                                                        1.2K
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                        <div className="bg-white overflow-hidden shadow sm:rounded-lg ">
+                                            <div className="px-4 py-5 sm:p-6">
+                                                <dl>
+                                                    <dt className="text-sm leading-5 font-medium text-gray-500 truncate  ">
+                                                        Total Active Users
+                                                    </dt>
+                                                    <dd className="mt-1 text-3xl leading-9 font-semibold text-indigo-600  ">
+                                                        300.5K
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Metrics</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #F9FAFB;
+        }
+
+        .full-height-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+        }
+
+        .container {
+            max-width: 80rem;
+            width: 100%;
+            padding: 0 1rem;
+            box-sizing: border-box;
+        }
+
+        .heading {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #111827;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 1.25rem;
+            margin-top: 1rem;
+        }
+
+        .metric-card {
+            background-color: #ffffff;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+            border-radius: 0.375rem;
+            overflow: hidden;
+        }
+
+        .card-content {
+            padding: 1.25rem;
+        }
+
+        .metric-title {
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: #6B7280;
+            margin: 0;
+        }
+
+        .metric-value {
+            margin-top: 0.25rem;
+            font-size: 1.875rem;
+            font-weight: 600;
+            color: #4F46E5;
+        }
+
+        @media (min-width: 640px) {
+            .metrics-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 768px) {
+            .metrics-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="full-height-center">
+        <div class="container">
+            <h2 class="heading">Our Performance Metrics</h2>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="card-content">
+                        <dl>
+                            <dt class="metric-title">Total Projects</dt>
+                            <dd class="metric-value">2.1K</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="card-content">
+                        <dl>
+                            <dt class="metric-title">New Projects This Month</dt>
+                            <dd class="metric-value">5.4K</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="card-content">
+                        <dl>
+                            <dt class="metric-title">Active Users This Week</dt>
+                            <dd class="metric-value">1.2K</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="card-content">
+                        <dl>
+                            <dt class="metric-title">Total Active Users</dt>
+                            <dd class="metric-value">300.5K</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>`

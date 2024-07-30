@@ -11,6 +11,7 @@ import mylogo from '../../assets/blacklogo.png';
 import { NavigationMenuDemo } from '@/components/Blocks/NavigationContainer';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
+import { SearchBox } from '@/components/Blocks/SearchBox';
 
 const Navbar = () => {
   const router = useRouter();
@@ -46,7 +47,7 @@ const Navbar = () => {
 
         {/* Search and Icons */}
         <div className='flex justify-between items-center gap-4'>
-          <div className="bg-black border border-[#fff2c1] shadow-lg px-3 py-2 rounded-xl w-42 flex justify-between items-center">
+          {/* <div className="bg-black border border-[#fff2c1] shadow-lg px-3 py-2 rounded-xl w-42 flex justify-between items-center">
             <input
               placeholder="Search Blocks..."
               className="bg-black outline-none"
@@ -54,7 +55,8 @@ const Navbar = () => {
               type="search"
             />
             <BiSearch color='white' size={30} />
-          </div>
+          </div> */}
+          <SearchBox />
           <div>
             <CiHeart className='git_icon_color cursor-pointer' size={40} />
           </div>
