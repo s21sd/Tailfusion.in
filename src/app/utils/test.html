@@ -6,121 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Performance Metrics</title>
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #F9FAFB;
-        }
-
-        .full-height-center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            width: 100%;
+        .testimonial-section {
+            background-color: #f7fafc;
+            color: #4a5568;
+            padding: 24px;
         }
 
         .container {
-            max-width: 80rem;
-            width: 100%;
-            padding: 0 1rem;
-            box-sizing: border-box;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 16px;
         }
 
-        .heading {
-            font-size: 2rem;
-            font-weight: 800;
-            color: #111827;
+        .testimonial-content {
+            max-width: 50%;
+            margin: 0 auto;
             text-align: center;
-            margin-bottom: 1rem;
         }
 
-        .metrics-grid {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 1.25rem;
-            margin-top: 1rem;
+        .images {
+            width: 20px;
         }
 
-        .metric-card {
-            background-color: #ffffff;
-            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
-            border-radius: 0.375rem;
-            overflow: hidden;
+        .icon {
+            width: 32px;
+            height: 32px;
+            color: #e2e8f0;
+            margin-bottom: 32px;
         }
 
-        .card-content {
-            padding: 1.25rem;
+        .testimonial-text {
+            font-size: 1.125rem;
+            line-height: 1.75;
+            margin-bottom: 24px;
         }
 
-        .metric-title {
-            font-size: 0.875rem;
+        .underline {
+            display: inline-block;
+            height: 4px;
+            width: 40px;
+            border-radius: 4px;
+            background-color: #5a67d8;
+            margin: 32px 0;
+        }
+
+        .testimonial-author {
+            color: #1a202c;
             font-weight: 500;
-            color: #6B7280;
-            margin: 0;
+            letter-spacing: 0.1em;
+            font-size: 0.875rem;
         }
 
-        .metric-value {
-            margin-top: 0.25rem;
-            font-size: 1.875rem;
-            font-weight: 600;
-            color: #4F46E5;
-        }
-
-        @media (min-width: 640px) {
-            .metrics-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media (min-width: 768px) {
-            .metrics-grid {
-                grid-template-columns: repeat(4, 1fr);
-            }
+        .testimonial-role {
+            color: #a0aec0;
         }
     </style>
 </head>
 
 <body>
-    <div class="full-height-center">
+    <section class="testimonial-section">
         <div class="container">
-            <h2 class="heading">Our Performance Metrics</h2>
-            <div class="metrics-grid">
-                <div class="metric-card">
-                    <div class="card-content">
-                        <dl>
-                            <dt class="metric-title">Total Projects</dt>
-                            <dd class="metric-value">2.1K</dd>
-                        </dl>
-                    </div>
-                </div>
-                <div class="metric-card">
-                    <div class="card-content">
-                        <dl>
-                            <dt class="metric-title">New Projects This Month</dt>
-                            <dd class="metric-value">5.4K</dd>
-                        </dl>
-                    </div>
-                </div>
-                <div class="metric-card">
-                    <div class="card-content">
-                        <dl>
-                            <dt class="metric-title">Active Users This Week</dt>
-                            <dd class="metric-value">1.2K</dd>
-                        </dl>
-                    </div>
-                </div>
-                <div class="metric-card">
-                    <div class="card-content">
-                        <dl>
-                            <dt class="metric-title">Total Active Users</dt>
-                            <dd class="metric-value">300.5K</dd>
-                        </dl>
-                    </div>
-                </div>
+            <div class="testimonial-content">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="images"
+                    viewBox="0 0 975.036 975.036">
+                    <path
+                        d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                    </path>
+                </svg>
+                <p class="testimonial-text">
+                    “This platform has truly transformed our team's approach to project management. The intuitive design
+                    and powerful features have streamlined our workflow and increased productivity. We couldn't be
+                    happier with the results!”
+                </p>
+                <span class="underline"></span>
+                <h2 class="testimonial-author">Alex Johnson</h2>
+                <p class="testimonial-role">Product Manager</p>
             </div>
         </div>
-    </div>
+    </section>
+
+
 </body>
 
 </html>

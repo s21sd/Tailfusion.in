@@ -17317,3 +17317,356 @@ export const designCodeForStatistics: any = [
         }
     ]
 ]
+
+// This is the design code for the testimonials I have component code 15
+export const designCodeForTestimonials: any = [
+    [
+        {
+            Tailwind: `<section className="text-gray-400 bg-gray-900 body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <h1 className="text-4xl font-bold title-font text-white mb-12 text-center">Client Testimonials</h1>
+    <div className="flex flex-wrap -m-4">
+      <div className="p-4 md:w-1/2 w-full">
+        <div className="h-full bg-gray-800 bg-opacity-60 p-8 rounded-lg shadow-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="block w-6 h-6 text-yellow-400 mb-4" viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm1-13h-2v6h2V7zm0 8h-2v2h2v-2z"/>
+          </svg>
+          <p className="leading-relaxed mb-6">
+            “This product revolutionized our workflow! The efficiency and reliability are unmatched. Highly recommended for teams looking to boost productivity.”
+          </p>
+          <a className="inline-flex items-center">
+            <img alt="testimonial" src="https://dummyimage.com/106x106/000/fff" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
+            <span className="flex-grow flex flex-col pl-4">
+              <span className="title-font font-semibold text-white">Alex Johnson</span>
+              <span className="text-gray-400 text-sm">Project Manager</span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div className="p-4 md:w-1/2 w-full">
+        <div className="h-full bg-gray-800 bg-opacity-60 p-8 rounded-lg shadow-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="block w-6 h-6 text-yellow-400 mb-4" viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm1-13h-2v6h2V7zm0 8h-2v2h2v-2z"/>
+          </svg>
+          <p className="leading-relaxed mb-6">
+            “A game-changer for our design team! The intuitive interface and extensive features make it easy to create stunning visuals. An essential tool for any designer.”
+          </p>
+          <a className="inline-flex items-center">
+            <img alt="testimonial" src="https://dummyimage.com/107x107/000/fff" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
+            <span className="flex-grow flex flex-col pl-4">
+              <span className="title-font font-semibold text-white">Jordan Lee</span>
+              <span className="text-gray-400 text-sm">Lead Designer</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Metrics</title>
+    <style>
+        .testimonial-section {
+            background-color: #1a202c;
+            color: #e2e8f0;
+            display: flex;
+            margin: auto;
+            height: 100vh;
+            padding: 24px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 16px;
+        }
+
+        .title {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            gap: 16px;
+        }
+
+        .testimonial {
+            width: 100%;
+            max-width: 40%;
+            display: flex;
+            margin: auto;
+            padding: 16px;
+        }
+
+        .testimonial-content {
+            background-color: #2d3748;
+            color: #e2e8f0;
+            padding: 32px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .icon {
+            width: 24px;
+            height: 24px;
+            color: #f6e05e;
+            margin-bottom: 16px;
+        }
+
+        .testimonial-text {
+            margin-bottom: 24px;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+        }
+
+        .author-image {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 16px;
+        }
+
+        .author-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .author-name {
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .author-role {
+            color: #e2e8f0;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="testimonial-section">
+        <div class="container">
+            <h1 class="title">Client Testimonials</h1>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm1-13h-2v6h2V7zm0 8h-2v2h2v-2z" />
+                        </svg>
+                        <p class="testimonial-text">
+                            “This product revolutionized our workflow! The efficiency and reliability are unmatched.
+                            Highly recommended for teams looking to boost productivity.”
+                        </p>
+                        <div class="testimonial-author">
+                            <img alt="testimonial" src="https://dummyimage.com/106x106/000/fff" class="author-image" />
+                            <div class="author-info">
+                                <span class="author-name">Alex Johnson</span>
+                                <span class="author-role">Project Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm1-13h-2v6h2V7zm0 8h-2v2h2v-2z" />
+                        </svg>
+                        <p class="testimonial-text">
+                            “A game-changer for our design team! The intuitive interface and extensive features make it
+                            easy to create stunning visuals. An essential tool for any designer.”
+                        </p>
+                        <div class="testimonial-author">
+                            <img alt="testimonial" src="https://dummyimage.com/107x107/000/fff" class="author-image" />
+                            <div class="author-info">
+                                <span class="author-name">Jordan Lee</span>
+                                <span class="author-role">Lead Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>`
+        }
+
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
+ <div className="container px-5 py-24 mx-auto">
+    <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 24 24">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm1-13h-2v6h2V7zm0 8h-2v2h2v-2z"/>
+      </svg>
+        <p className="leading-relaxed text-lg">
+         “This platform has truly transformed our team's approach to project management. The intuitive design and powerful features have streamlined our workflow and increased productivity. We couldn't be happier with the results!”
+        </p>
+        <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+        <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">Alex Johnson</h2>
+        <p className="text-gray-500">Product Manager</p>
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+            Css: `<!DOCTYPE html>
+            <html lang="en">
+            <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Performance Metrics</title>
+            <style>
+                .testimonial-section {
+                    background-color: #f7fafc;
+                    color: #4a5568;
+                    padding: 24px;
+                }
+
+                .container {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    padding: 0 16px;
+                }
+
+                .testimonial-content {
+                    max-width: 50%;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+
+                .images {
+                    width: 20px;
+                }
+
+                .icon {
+                    width: 32px;
+                    height: 32px;
+                    color: #e2e8f0;
+                    margin-bottom: 32px;
+                }
+
+                .testimonial-text {
+                    font-size: 1.125rem;
+                    line-height: 1.75;
+                    margin-bottom: 24px;
+                }
+
+                .underline {
+                    display: inline-block;
+                    height: 4px;
+                    width: 40px;
+                    border-radius: 4px;
+                    background-color: #5a67d8;
+                    margin: 32px 0;
+                }
+
+                .testimonial-author {
+                    color: #1a202c;
+                    font-weight: 500;
+                    letter-spacing: 0.1em;
+                    font-size: 0.875rem;
+                }
+
+                .testimonial-role {
+                    color: #a0aec0;
+                }
+            </style>
+        </head>
+        <body>
+            <section class="testimonial-section">
+                <div class="container">
+                    <div class="testimonial-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="images"
+                            viewBox="0 0 975.036 975.036">
+                            <path
+                                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                            </path>
+                        </svg>
+                        <p class="testimonial-text">
+                            “This platform has truly transformed our team's approach to project management. The intuitive design
+                            and powerful features have streamlined our workflow and increased productivity. We couldn't be
+                            happier with the results!”
+                        </p>
+                        <span class="underline"></span>
+                        <h2 class="testimonial-author">Alex Johnson</h2>
+                        <p class="testimonial-role">Product Manager</p>
+                    </div>
+                </div>
+            </section>
+        </body>
+        </html>`
+        }
+    ],
+    [
+        {
+            Tailwind: `<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-wrap -m-4">
+      <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+        <div className="h-full text-center">
+          <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/302x302" />
+          <p className="leading-relaxed">
+            “This service has completely revolutionized how we handle our daily tasks. The interface is clean, intuitive, and it has made our workflow significantly more efficient.”
+          </p>
+          <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+          <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">Jamie Lee</h2>
+          <p className="text-gray-500">Product Designer</p>
+        </div>
+      </div>
+      <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+        <div className="h-full text-center">
+          <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/300x300" />
+          <p className="leading-relaxed">
+            “Absolutely fantastic experience! The customization options are extensive, and the support team is always ready to help with any issues we encounter.”
+          </p>
+          <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+          <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">Morgan Taylor</h2>
+          <p className="text-gray-500">UX Researcher</p>
+        </div>
+      </div>
+      <div className="lg:w-1/3 lg:mb-0 p-4">
+        <div className="h-full text-center">
+          <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/305x305" />
+          <p className="leading-relaxed">
+            “The platform is highly effective and user-friendly. It has integrated seamlessly into our daily operations, enhancing productivity and team collaboration.”
+          </p>
+          <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+          <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">Samantha Green</h2>
+          <p className="text-gray-500">Chief Technology Officer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`
+        },
+        {
+            Css: ``
+        }
+    ]
+]
