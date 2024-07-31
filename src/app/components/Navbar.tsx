@@ -12,6 +12,7 @@ import { NavigationMenuDemo } from '@/components/Blocks/NavigationContainer';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
 import { SearchBox } from '@/components/Blocks/SearchBox';
+import { Headingwords } from '@/components/Blocks/Headingwords';
 
 const Navbar = () => {
   const router = useRouter();
@@ -28,11 +29,8 @@ const Navbar = () => {
   return (
     <div className="body-font main_heading">
       <div className="mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center cursor-pointer">
-        {/* Logo */}
-        <div className="text-2xl flex justify-center items-center">
-          <span className="text-[#fff2c1] dark:text-[#9e4ceb] text-2xl font-bold">&lt;</span>
-          <h1 onClick={() => router.push('/')} className="m-1 text-2xl font-bold tracking-wide text-[#fff2c1] main_heading">TailFusion</h1>
-          <span className="text-[#fff2c1] dark:text-[#9e4ceb] text-2xl font-bold">/&gt;</span>
+        <div className="text-2xl flex justify-center items-center" onClick={() => router.push('/')}>
+          <Headingwords />
         </div>
 
         {/* Hamburger Menu for Mobile */}

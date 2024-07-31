@@ -33,7 +33,7 @@ const Landing = () => {
                 </div>
             </div>
 
-            <div className='flex justify-center items-center mt-20 bg-white p-10 rounded-xl'>
+            <div className='flex justify-center items-center mt-20  p-10 rounded-xl'>
                 <Image className='rounded-xl w-[80%]' sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     alt='phoneImg' src={finalPng} />
             </div>

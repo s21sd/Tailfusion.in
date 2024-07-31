@@ -54,7 +54,7 @@ export const content = [
   },
   // This is for the Hero Section component code 2
   {
-    title: "Hero Section",
+    title: "Hero",
     description: "The hero section is a prominent component at the top of your webpage, designed to capture the user's attention with a compelling message, image, or call to action. Our hero section is built to be visually appealing and highly functional, providing a strong introduction to your website's content.",
     sections: [
       {
