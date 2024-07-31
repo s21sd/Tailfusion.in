@@ -4,6 +4,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { useRouter } from 'next/navigation';
 import { RxCross2 } from 'react-icons/rx';
 
+
 const Sidebar = ({ toggleSidebar }: any) => {
     const router = useRouter();
     const [selectedComp, setSelectedComp] = useState<string | null>('Card');
