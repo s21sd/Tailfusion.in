@@ -4,9 +4,10 @@ import { Sidebar, SidebarBody } from "../ui/sidebar";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { useRouter, usePathname } from "next/navigation";
-import { Table } from "lucide-react";
+import { AudioWaveform, Blinds, Blocks, CircleDollarSign, FolderDot, Images, ListEnd, LockKeyhole, MessageSquareCode, Navigation, ShoppingBag, SwatchBook, Table, Users, WalletCards } from "lucide-react";
 import { ScrollArea } from "../ui/scroll-area";
 import { cn } from "@/lib/utils";
+import { FaChartArea } from "react-icons/fa";
 
 export function MySidebar({ children }: any) {
     const [open, setOpen] = useState(false);
@@ -14,22 +15,22 @@ export function MySidebar({ children }: any) {
 
     // Dynamically render sidebar items
     const sidebarItems = [
-        { label: 'Card', href: '/components/blocks/cards', icon: <Table className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
-        { label: 'Hero', href: '/components/blocks/hero', icon: <Table className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
-        { label: 'Navbar', href: '/components/blocks/navbars', icon: <Table className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
-        { label: 'Content', href: '/components/blocks/contents', icon: <Table className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
-        { label: 'Gallery', href: '/components/blocks/gallery', icon: <Table className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
-        { label: 'Testimonial', href: '/components/blocks/testimonials', icon: <Table className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
-        { label: 'Ecommerce', href: '/components/blocks/ecommerces', icon: <Table className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
+        { label: 'Card', href: '/components/blocks/cards', icon: <WalletCards className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
+        { label: 'Hero', href: '/components/blocks/hero', icon: <Blinds className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
+        { label: 'Navbar', href: '/components/blocks/navbars', icon: <Navigation className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
+        { label: 'Content', href: '/components/blocks/contents', icon: <FolderDot className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
+        { label: 'Gallery', href: '/components/blocks/gallery', icon: <Images className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
+        { label: 'Testimonial', href: '/components/blocks/testimonials', icon: <SwatchBook className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
+        { label: 'Ecommerce', href: '/components/blocks/ecommerces', icon: <ShoppingBag className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
         { label: 'Cta', href: '/components/blocks/cta', icon: <Table className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
-        { label: 'Statistic', href: '/components/blocks/statistics', icon: <Table className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
-        { label: 'Feature', href: '/components/blocks/features', icon: <Table className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
-        { label: 'Blog', href: '/components/blocks/blogs', icon: <Table className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
-        { label: 'Auth', href: '/components/blocks/auths', icon: <Table className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
-        { label: 'Pricing', href: '/components/blocks/pricing', icon: <Table className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
-        { label: 'Footer', href: '/components/blocks/footers', icon: <Table className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
-        { label: 'Step', href: '/components/blocks/steps', icon: <Table className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
-        { label: 'Team', href: '/components/blocks/teams', icon: <Table className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
+        { label: 'Statistic', href: '/components/blocks/statistics', icon: <FaChartArea className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
+        { label: 'Feature', href: '/components/blocks/features', icon: <MessageSquareCode className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
+        { label: 'Blog', href: '/components/blocks/blogs', icon: <Blocks className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
+        { label: 'Auth', href: '/components/blocks/auths', icon: <LockKeyhole className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
+        { label: 'Pricing', href: '/components/blocks/pricing', icon: <CircleDollarSign className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
+        { label: 'Footer', href: '/components/blocks/footers', icon: <ListEnd className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
+        { label: 'Step', href: '/components/blocks/steps', icon: <AudioWaveform className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
+        { label: 'Team', href: '/components/blocks/teams', icon: <Users className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" /> },
     ];
 
     return (
@@ -68,7 +69,6 @@ export function MySidebar({ children }: any) {
 }
 
 const SidebarLink = ({ link, isActive }: any) => {
-    const router = useRouter();
     return (
         <Link
             href={link.href}

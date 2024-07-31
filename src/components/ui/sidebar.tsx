@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import Link, { LinkProps } from "next/link";
 import React, { useState, createContext, useContext } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Cross, CrossIcon, Icon, User } from "lucide-react";
+import { Cross, CrossIcon, Icon, Menu, User, X } from "lucide-react";
 import { IconBase } from "react-icons/lib";
 import { FaHamburger } from "react-icons/fa";
 // import { IconMenu2, IconX } from "@tabler/icons-react";
@@ -123,10 +123,11 @@ export const MobileSidebar = ({
         {...props}
       >
         <div className="flex justify-end z-20 w-full">
-          <FaHamburger
+          <Menu
             className="text-white dark:text-[#9e4ceb]"
             onClick={() => setOpen(!open)}
           />
+
         </div>
         <AnimatePresence>
           {open && (
@@ -139,7 +140,7 @@ export const MobileSidebar = ({
                 ease: "easeInOut",
               }}
               className={cn(
-                "fixed h-full w-full inset-0 bg-white dark:bg-neutral-900 p-10 z-[100] flex flex-col justify-between",
+                "fixed h-full w-[70%] inset-0 bg-white dark:bg-neutral-900 p-10 z-[100] flex flex-col justify-between",
                 className
               )}
             >
@@ -147,7 +148,7 @@ export const MobileSidebar = ({
                 className="absolute right-10 top-10 z-50 text-neutral-800 dark:text-neutral-200"
                 onClick={() => setOpen(!open)}
               >
-                <CrossIcon />
+                <X />
               </div>
               {children}
             </motion.div>
