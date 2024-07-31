@@ -3,10 +3,8 @@ import { cn } from "@/lib/utils";
 import Link, { LinkProps } from "next/link";
 import React, { useState, createContext, useContext } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Cross, CrossIcon, Icon, Menu, User, X } from "lucide-react";
-import { IconBase } from "react-icons/lib";
-import { FaHamburger } from "react-icons/fa";
-// import { IconMenu2, IconX } from "@tabler/icons-react";
+import { Menu, X } from "lucide-react";
+
 
 interface Links {
   label: string;
@@ -118,12 +116,12 @@ export const MobileSidebar = ({
     <>
       <div
         className={cn(
-          "h-10 px-4 py-4 flex flex-row md:hidden  items-center justify-between w-full"
+          "h-10 px-4 py-4 flex flex-row md:hidden items-center justify-between w-full"
         )}
         {...props}
       >
         <div className="flex justify-end z-20 w-full">
-          <Menu
+          <Menu size={28}
             className="text-white dark:text-[#9e4ceb]"
             onClick={() => setOpen(!open)}
           />
@@ -140,7 +138,7 @@ export const MobileSidebar = ({
                 ease: "easeInOut",
               }}
               className={cn(
-                "fixed h-full w-[70%] inset-0 bg-white dark:bg-neutral-900 p-10 z-[100] flex flex-col justify-between",
+                "fixed h-full w-[70%] inset-0 dark:bg-white bg-neutral-900 p-10 z-[100] flex flex-col justify-between",
                 className
               )}
             >
@@ -148,7 +146,7 @@ export const MobileSidebar = ({
                 className="absolute right-10 top-10 z-50 text-neutral-800 dark:text-neutral-200"
                 onClick={() => setOpen(!open)}
               >
-                <X />
+                <X size={28} className="text-white dark:text-[#9e4ceb]" />
               </div>
               {children}
             </motion.div>
