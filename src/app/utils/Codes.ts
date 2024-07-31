@@ -3498,6 +3498,422 @@ export const designCodeForAuth: any = [
 
 </html>`
         }
+    ],
+    [
+        {
+            Tailwind: `<div className="flex flex-col h-screen ">
+                                <div className="grid place-items-center mx-2 my-20 sm:my-auto">
+                                    <div className="w-11/12 p-12 sm:w-8/12 md:w-6/12 lg:w-5/12 2xl:w-4/12 px-6 py-10 sm:px-10 sm:py-6 bg-gray-400 rounded-lg shadow-md lg:shadow-lg">
+                                        <h2 className="text-center font-semibold text-3xl lg:text-4xl">
+                                            Login
+                                        </h2>
+                                        <form className="mt-10" method="POST">
+                                            <label
+                                                htmlFor="email"
+                                                className="block text-xs font-semibold text-black uppercase"
+                                            >
+                                                E-mail
+                                            </label>
+                                            <input
+                                                id="email"
+                                                type="email"
+                                                name="email"
+                                                placeholder="e-mail address"
+                                                autoComplete="email"
+                                                className="block w-full py-3 px-1 mt-2 text-gray-800 rounded-md appearance-none border-b-2 border-gray-100 focus:text-gray-500 focus:outline-none focus:border-gray-200"
+                                                required
+                                            />
+
+                                            <label
+                                                htmlFor="password"
+                                                className="block mt-4 text-xs font-semibold text-black uppercase"
+                                            >
+                                                Password
+                                            </label>
+                                            <input
+                                                id="password"
+                                                type="password"
+                                                name="password"
+                                                placeholder="password"
+                                                autoComplete="current-password"
+                                                className="block w-full py-3 px-1 mt-2 mb-4 text-gray-800 rounded-md appearance-none border-b-2 border-gray-100 focus:text-gray-500 focus:outline-none focus:border-gray-200"
+                                                required
+                                            />
+
+                                            <button
+                                                type="submit"
+                                                className="w-full py-3 mt-6 bg-gray-800 rounded-sm font-medium text-white uppercase focus:outline-none hover:bg-gray-700 hover:shadow-none"
+                                            >
+                                                Login
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>`
+        },
+        {
+            Css: `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        .login-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .login-form {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            background-color: #cbd5e0;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+        }
+
+        .login-title {
+            text-align: center;
+            font-weight: 600;
+            font-size: 24px;
+            color: #000;
+            margin-bottom: 20px;
+        }
+
+        .login-form-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .login-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: #000;
+            text-transform: uppercase;
+            margin-bottom: 4px;
+        }
+
+        .login-input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 16px;
+            color: #1a202c;
+            border-radius: 4px;
+            border: 2px solid #e2e8f0;
+            background-color: #fff;
+            box-sizing: border-box;
+        }
+
+        .login-input:focus {
+            color: #2d3748;
+            border-color: #edf2f7;
+            outline: none;
+        }
+
+        .login-button {
+            width: 100%;
+            padding: 12px;
+            background-color: #2d3748;
+            border-radius: 4px;
+            color: #fff;
+            font-weight: 500;
+            text-transform: uppercase;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-button:hover {
+            background-color: #4a5568;
+        }
+
+        /* Responsive Styles */
+        @media (min-width: 640px) {
+            .login-form {
+                max-width: 500px;
+                padding: 24px;
+            }
+
+            .login-title {
+                font-size: 28px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .login-form {
+                max-width: 600px;
+            }
+
+            .login-title {
+                font-size: 32px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .login-form {
+                max-width: 700px;
+            }
+
+            .login-title {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="login-form">
+            <h2 class="login-title">Login</h2>
+            <form class="login-form-content" method="POST">
+                <label for="email" class="login-label">E-mail</label>
+                <input id="email" type="email" name="email" placeholder="e-mail address" autoComplete="email"
+                    class="login-input" required />
+                <label for="password" class="login-label">Password</label>
+                <input id="password" type="password" name="password" placeholder="password"
+                    autoComplete="current-password" class="login-input" required />
+                <button type="submit" class="login-button">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>`
+        }
+    ],
+    [
+        {
+            Tailwind:`<div className="h-screen w-full">
+                                <div className="border border-gray-400 border-1 rounded-md h-screen mx-auto max-w-md">
+                                    <div className="p-12">
+                                        <p className="text-5xl pt-10 text-yellow-500 font-bold">
+                                            Welcome <br />
+                                            Back
+                                        </p>
+                                        <p className="text-xl py-3 text-gray-400 font-semibold">Sign in to continue</p>
+                                    </div>
+                                    <div className="mx-12 p-3 rounded-xl shadow-sm bg-gray-900">
+                                        <div className="p-3 mx-6 border-b border-gray-500">
+                                            <input placeholder="Phone Number" className="bg-transparent text-yellow-500 w-full focus:outline-none focus:rang" type="tel" />
+                                        </div>
+                                        <div className="p-3 mx-6 flex border-b border-gray-500">
+                                            <input placeholder="Password" className="bg-transparent text-yellow-500 focus:outline-none focus:rang w-full" type="password" />
+                                            <div className="w-auto text-yellow-500">eyes</div>
+                                        </div>
+                                    </div>
+                                    <div className="mx-12 p-3 justify-between flex">
+                                        <div className="flex">
+                                            <div className="relative inline-block w-12 mr-2 align-middle select-none transition duration-200 ease-in">
+                                                <input type="checkbox" name="toggle" id="toggle" className="toggle-checkbox absolute block w-6 h-6 rounded-full bg-gray-800 border-4 appearance-none cursor-pointer" />
+                                                <label htmlFor="toggle" className="toggle-label block overflow-hidden h-6 rounded-full bg-yellow-500 cursor-pointer"></label>
+                                            </div>
+                                            <label htmlFor="toggle" className="text-xs text-gray-300 mt-1">remeber me</label>
+                                        </div>
+                                        <div className="bg mt-1 text-xs text-gray-300">
+                                            <p>forget password?</p>
+                                        </div>
+                                    </div>
+                                    <div className="w-full p-12">
+                                        <button className=" bg-yellow-500 p-3 rounded-3xl w-full h-full hover:bg-yellow-600"> Login</button>
+                                        <p className="mx-auto text-center mt-3 text-gray-400">don't have an account?  <p className="text-md font-semibold">Sign up</p> </p>
+                                    </div>
+                                </div>
+                            </div>`
+        },
+        {
+            Css:`<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .login-box {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            background-color: #cbd5e0;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .welcome-text {
+            text-align: center;
+            font-size: 24px;
+            color: #fbbf24;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .subtext {
+            text-align: center;
+            font-size: 16px;
+            color: #9ca3af;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group input {
+            width: 90%;
+            padding: 12px;
+            border-radius: 4px;
+            border: 2px solid #e2e8f0;
+            background-color: #fff;
+            color: #fbbf24;
+        }
+
+        .form-group input:focus {
+            border-color: #fef3c7;
+            outline: none;
+        }
+
+        .toggle-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .toggle-container label {
+            font-size: 12px;
+            color: #d1d5db;
+        }
+
+        .toggle-checkbox {
+            display: none;
+        }
+
+        .toggle-label {
+            display: block;
+            width: 24px;
+            height: 12px;
+            background-color: #fbbf24;
+            border-radius: 9999px;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .toggle-checkbox:checked + .toggle-label {
+            background-color: #4b5563;
+        }
+
+        .toggle-checkbox:checked + .toggle-label::before {
+            transform: translateX(12px);
+        }
+
+        .toggle-label::before {
+            content: '';
+            display: block;
+            width: 12px;
+            height: 12px;
+            background-color: #1f2937;
+            border-radius: 9999px;
+            position: absolute;
+            left: 0;
+            transition: transform 0.2s;
+        }
+
+        .login-button {
+            width: 100%;
+            padding: 12px;
+            background-color: #fbbf24;
+            border-radius: 24px;
+            color: #1f2937;
+            font-weight: 600;
+            text-transform: uppercase;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-button:hover {
+            background-color: #f59e0b;
+        }
+
+        .signup-link {
+            text-align: center;
+            font-size: 14px;
+            color: #9ca3af;
+        }
+
+        .signup-link a {
+            color: #fbbf24;
+            font-weight: 600;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-box">
+            <p class="welcome-text">
+                Welcome <br />
+                Back
+            </p>
+            <p class="subtext">Sign in to continue</p>
+            <form method="POST">
+                <div class="form-group">
+                    <input placeholder="Phone Number" type="tel" required />
+                </div>
+                <div class="form-group">
+                    <input placeholder="Password" type="password" required />
+                </div>
+                <div class="toggle-container">
+                    <div>
+                        <input type="checkbox" id="toggle" class="toggle-checkbox" />
+                        <label for="toggle" class="toggle-label"></label>
+                        <label for="toggle">Remember me</label>
+                    </div>
+                    <div class="text-xs text-gray-300">
+                        <p>Forgot password?</p>
+                    </div>
+                </div>
+                <button type="submit" class="login-button">Login</button>
+                <p class="signup-link">Don't have an account? <a href="#">Sign up</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+`
+        }
     ]
 ]
 

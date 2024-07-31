@@ -736,6 +736,94 @@ const Designone = ({ valueOfTheComponent, codevalue, selectColor }: { valueOfThe
                                     </div>
                                 </div>
                             </section>
+                        case 4:
+                            return <div className="flex flex-col h-screen ">
+                                <div className="grid place-items-center mx-2 my-20 sm:my-auto">
+                                    <div className="w-11/12 p-12 sm:w-8/12 md:w-6/12 lg:w-5/12 2xl:w-4/12 px-6 py-10 sm:px-10 sm:py-6 bg-gray-400 rounded-lg shadow-md lg:shadow-lg">
+                                        <h2 className={`text-center font-semibold text-3xl lg:text-4xl ${colorClass}`}>
+                                            Login
+                                        </h2>
+                                        <form className="mt-10" method="POST">
+                                            <label
+                                                htmlFor="email"
+                                                className="block text-xs font-semibold text-black uppercase"
+                                            >
+                                                E-mail
+                                            </label>
+                                            <input
+                                                id="email"
+                                                type="email"
+                                                name="email"
+                                                placeholder="e-mail address"
+                                                autoComplete="email"
+                                                className="block w-full py-3 px-1 mt-2 text-gray-800 rounded-md appearance-none border-b-2 border-gray-100 focus:text-gray-500 focus:outline-none focus:border-gray-200"
+                                                required
+                                            />
+
+                                            <label
+                                                htmlFor="password"
+                                                className="block mt-4 text-xs font-semibold text-black uppercase"
+                                            >
+                                                Password
+                                            </label>
+                                            <input
+                                                id="password"
+                                                type="password"
+                                                name="password"
+                                                placeholder="password"
+                                                autoComplete="current-password"
+                                                className="block w-full py-3 px-1 mt-2 mb-4 text-gray-800 rounded-md appearance-none border-b-2 border-gray-100 focus:text-gray-500 focus:outline-none focus:border-gray-200"
+                                                required
+                                            />
+
+                                            <button
+                                                type="submit"
+                                                className="w-full py-3 mt-6 bg-gray-800 rounded-sm font-medium text-white uppercase focus:outline-none hover:bg-gray-700 hover:shadow-none"
+                                            >
+                                                Login
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        case 5:
+                            return <div className="h-screen w-full">
+                                <div className="border border-gray-400 border-1 rounded-md h-screen mx-auto max-w-md">
+                                    <div className="p-12">
+                                        <p className={`text-5xl pt-10 ${colorClass} font-bold`}>
+                                            Welcome <br />
+                                            Back
+                                        </p>
+                                        <p className="text-xl py-3 text-gray-400 font-semibold">Sign in to continue</p>
+                                    </div>
+                                    <div className="mx-12 p-3 rounded-xl shadow-sm bg-gray-900">
+                                        <div className="p-3 mx-6 border-b border-gray-500">
+                                            <input placeholder="Phone Number" className="bg-transparent text-yellow-500 w-full focus:outline-none focus:rang" type="tel" />
+                                        </div>
+
+                                        <div className="p-3 mx-6 flex border-b border-gray-500">
+                                            <input placeholder="Password" className="bg-transparent text-yellow-500 focus:outline-none focus:rang w-full" type="password" />
+                                            <div className={`w-auto ${colorClass}`}>eyes</div>
+                                        </div>
+                                    </div>
+                                    <div className="mx-12 p-3 justify-between flex">
+                                        <div className="flex">
+                                            <div className="relative inline-block w-12 mr-2 align-middle select-none transition duration-200 ease-in">
+                                                <input type="checkbox" name="toggle" id="toggle" className="toggle-checkbox absolute block w-6 h-6 rounded-full bg-gray-800 border-4 appearance-none cursor-pointer" />
+                                                <label htmlFor="toggle" className={`toggle-label block overflow-hidden h-6 rounded-full ${selectBtnColorClass} cursor-pointer`}></label>
+                                            </div>
+                                            <label htmlFor="toggle" className="text-xs text-gray-300 mt-1">remeber me</label>
+                                        </div>
+                                        <div className="bg mt-1 text-xs text-gray-300">
+                                            <p>forget password?</p>
+                                        </div>
+                                    </div>
+                                    <div className="w-full p-12">
+                                        <button className={`${selectBtnColorClass} p-3 rounded-3xl w-full h-full `}> Login</button>
+                                        <p className="mx-auto text-center mt-3 text-gray-400">don't have an account?  <p className="text-md font-semibold">Sign up</p> </p>
+                                    </div>
+                                </div>
+                            </div>
 
                     }
                 }
