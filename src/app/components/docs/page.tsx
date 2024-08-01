@@ -1,7 +1,7 @@
 import React from 'react'
 const page = () => {
     return (
-        <div>Here Our Docs Page will Go</div>
+        <div className='text-purple-300'>Here Our Docs Page will Go</div>
     )
 }
 
