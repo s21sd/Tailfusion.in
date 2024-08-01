@@ -10,7 +10,6 @@ import { cn } from "@/lib/utils";
 import { FaChartArea } from "react-icons/fa";
 import Image from "next/image";
 import logo from '../../assets/blacklogo.png'
-import { Scrollbar } from "@radix-ui/react-scroll-area";
 export function MySidebar({ children }: any) {
     const [open, setOpen] = useState(false);
     const pathname = usePathname();
@@ -41,12 +40,11 @@ export function MySidebar({ children }: any) {
             )}
         >
             <Sidebar open={open} setOpen={setOpen}>
-
-                <SidebarBody className="justify-between gap-5 h-full max-h-screen overflow-hidden">
+                <SidebarBody className="justify-between gap-5">
                     <div className="flex flex-col flex-1">
-                        {open ? <Logo /> : <LogoIcon />}
-                        <ScrollArea className="h-full max-h-screen overflow-y-auto">
-                            <div className="mt-8 flex flex-col gap-2">
+                        {/* {open ? <Logo /> : <LogoIcon />} */}
+                        <ScrollArea className="h-full max-h-screen overflow-y-auto ">
+                            <div className="mb-10 flex flex-col gap-2">
                                 {sidebarItems.map((item, idx) => (
                                     <SidebarLink key={idx} link={item} isActive={pathname === item.href} />
                                 ))}
@@ -149,6 +147,6 @@ export const LogoIcon = () => {
 
 const Dashboard = ({ children }: any) => {
     return (
-        <div className="flex-1 p-4">{children}</div>
+        <div className="">{children}</div>
     );
 };
