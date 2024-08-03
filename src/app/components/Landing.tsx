@@ -10,6 +10,7 @@ import { AnimatedShinyTextDemo } from '@/components/Blocks/Shinytextdemo';
 import { TextRevealDemo } from '@/components/Blocks/TextReveal';
 import { AnimatedListDemo } from '@/components/Blocks/AnimatedList';
 import { BentoGridDemo } from '@/components/Blocks/BantoGrid';
+import { BoxRevealDemo } from '@/components/Blocks/Reveatext';
 
 const Landing = () => {
     const router = useRouter();
@@ -29,14 +30,19 @@ const Landing = () => {
 
             </div>
 
-            <div className="flex flex-col text-center w-full mb-10 mt-5">
+            <div className="flex flex-col justify-center mx-auto text-center w-full mb-10 mt-5">
                 <TypewriterEffectSmoothDemo />
-                <p className="lg:w-[90%] text-xl sm:text-xm mx-auto leading-relaxed mb-1 main_heading text-[#fff2c1]">
+                <div className='flex justify-center items-center'>
+
+                    <BoxRevealDemo />
+                </div>
+                {/* <p className="lg:w-[90%] text-xl sm:text-xm mx-auto leading-relaxed mb-1 main_heading text-[#fff2c1]">
                     Copy paste the most trending components and use them in your websites without having to worry about styling.
-                </p>
+                </p> */}
             </div>
 
-            <div className='grid gap-6'>
+
+            {/* <div className='grid gap-6'>
 
                 <div onClick={() => router.push('components/docs')} className='bg-[#fff2c1] hover:bg-gray-50 rounded-md w-[250px] cursor-pointer font-semibold text-black flex justify-center items-center mx-auto p-4 dark:hover:bg-[#c98fff] dark:bg-[#9e4ceb] dark:text-white'>
                     <h1>Browse Components</h1>
@@ -45,7 +51,7 @@ const Landing = () => {
                     <FaGithub size={30} />
                     <h1>GitHub</h1>
                 </div>
-            </div>
+            </div> */}
 
             {/* <div className='flex justify-center items-center mt-20 p-10 rounded-xl'>
                 <Image className='rounded-xl w-[80%]' sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
