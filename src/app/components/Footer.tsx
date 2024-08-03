@@ -13,15 +13,20 @@ const Footer = () => {
                         </svg>
                         <span className="ml-3 text-[#fff2c1] text-xl">TailFusion</span>
                     </a>
-                    <p className="mt-2 text-sm text-gray-500">Make Your Website look 10 X Modern.
+                    <p className="mt-2 text-sm text-gray-500">A product by TailFusion</p>
+                    <p className="mt-2 text-sm text-gray-500">
+                        Building in public at <a href="https://www.linkedin.com/in/sunny-srivastava-a82996244/" className="text-blue-500 hover:underline">LinkedIn</a>
                     </p>
                 </div>
-                <div className="flex-grow flex justify-end items-end flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 text-center">
+                <div className='mt-20 flex justify-center items-center'>
+                    <h1 className='mycolor1'>Built by <span className='text-[#fff2c1] tracking-wide font-bold main_heading'>TailFusion</span>. The source code is available on <span className='text-[#fff2c1] tracking-wide font-bold main_heading'>GitHub</span></h1>
+                </div>
+                {/* <div className="flex-grow flex justify-end items-end flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 text-center">
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                         <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
                         <nav className="list-none mb-10">
                             <li>
-                                <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                                <a className="text-gray-600 hover:text-gray-800">Component</a>
                             </li>
                             <li>
                                 <a className="text-gray-600 hover:text-gray-800">Second Link</a>
@@ -34,7 +39,7 @@ const Footer = () => {
                             </li>
                         </nav>
                     </div>
-                </div>
+                </div> */}
             </div>
             <div>
                 <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
