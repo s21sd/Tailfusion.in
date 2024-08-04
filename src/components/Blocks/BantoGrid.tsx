@@ -3,32 +3,55 @@ import React from "react";
 
 import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
 import { AudioWaveform, Blinds, Blocks, CircleDollarSign, Copy, FolderDot, Navigation, WalletCards } from "lucide-react";
-import Image from "next/image";
-import cardImage from '../../assets/card.png'
+import { FaArrowRight } from "react-icons/fa6";
+import { useRouter } from "next/navigation";
+
 export function BentoGridDemo() {
+    const router = useRouter();
+    const handleClick = (i: number) => {
+        console.log(i);
+        switch (i) {
+            case 0:
+                router.push('http://localhost:3000/components/blocks/cards')
+            case 1:
+                router.push('http://localhost:3000/components/blocks/steps')
+            case 2:
+                router.push('http://localhost:3000/components/blocks/hero')
+            case 3:
+                router.push('http://localhost:3000/components/blocks/navbars')
+            case 4:
+                router.push('http://localhost:3000/components/blocks/blogs')
+            case 5:
+                router.push('http://localhost:3000/components/blocks/pricing')
+            case 6:
+                router.push('http://localhost:3000/components/blocks/contents')
+
+
+            default:
+                break;
+        }
+    }
     return (
-        <BentoGrid className="max-w-4xl mx-auto">
+        <BentoGrid className="max-w-4xl mx-auto cursor-pointer">
             {items.map((item, i) => (
                 <BentoGridItem
                     key={i}
                     title={item.title}
+                   
                     description={item.description}
                     header={item.header}
                     icon={item.icon}
+                    icon2={item.icon2}
                     className={i === 3 || i === 6 ? "md:col-span-2" : ""}
                 />
             ))}
         </BentoGrid>
     );
 }
-const Skeleton = () => (
-    <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-[#fff2c1] dark:from-neutral-900 dark:to-neutral-800 to-neutral-400">
-
-
-
-
-    </div>
-);
+// const Skeleton = () => (
+//     <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-[#fff2c1] dark:from-neutral-900 dark:to-neutral-800 to-neutral-400">
+//     </div>
+// );
 const items = [
     {
         title: "Card",
@@ -38,6 +61,7 @@ const items = [
             <span className="sr-only">Loading...</span>
         </div>,
         icon: <WalletCards className="h-4 w-4 text-neutral-500" />,
+        icon2: <FaArrowRight className="h-4 w-4 text-neutral-500" />
     },
     {
         title: "Steps",
@@ -55,12 +79,13 @@ const items = [
 
         ,
         icon: <AudioWaveform className="h-4 w-4 text-neutral-500" />,
+        icon2: <FaArrowRight className="h-4 w-4 text-neutral-500" />
     },
     {
         title: "Hero",
         description: "Prominent top section to capture attention with a message or image.",
         header:
-            <div role="status" className="animate-pulse mt-4">
+            <div role="status" className="animate-pulse cursor-pointer mt-4">
                 <div className="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 max-w-[640px] mb-2.5 mx-auto"></div>
                 <div className="h-2.5 mx-auto bg-gray-300 rounded-full dark:bg-gray-700 max-w-[540px]"></div>
                 <div className="flex items-center justify-center mt-4">
@@ -74,6 +99,7 @@ const items = [
             </div>
         ,
         icon: <Blinds className="h-4 w-4 text-neutral-500" />,
+        icon2: <FaArrowRight className="h-4 w-4 text-neutral-500" />
     },
     {
         title: "Navbar",
@@ -107,6 +133,7 @@ const items = [
 
         ,
         icon: <Navigation className="h-4 w-4 text-neutral-500" />,
+        icon2: <FaArrowRight className="h-4 w-4 text-neutral-500" />
     },
     {
         title: "Blog",
@@ -121,6 +148,7 @@ const items = [
             </div>
         </div>,
         icon: <Blocks className="h-4 w-4 text-neutral-500" />,
+        icon2: <FaArrowRight className="h-4 w-4 text-neutral-500" />
     },
     {
         title: "Pricing",
@@ -134,6 +162,7 @@ const items = [
             </div>
         ,
         icon: <CircleDollarSign className="h-4 w-4 text-neutral-500" />,
+        icon2: <FaArrowRight className="h-4 w-4 text-neutral-500" />
     },
     {
         title: "Content",
@@ -158,6 +187,7 @@ const items = [
 
         ,
         icon: <FolderDot className="h-4 w-4 text-neutral-500" />,
+        icon2: <FaArrowRight className="h-4 w-4 text-neutral-500" />
     },
 ];
 

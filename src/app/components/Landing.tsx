@@ -30,10 +30,9 @@ const Landing = () => {
 
             </div>
 
-            <div className="flex flex-col justify-center mx-auto text-center w-full mb-10 mt-5">
+            <div className="flex flex-col justify-center mx-auto text-center w-full mb-5 mt-5">
                 <TypewriterEffectSmoothDemo />
                 <div className='flex justify-center items-center'>
-
                     <BoxRevealDemo />
                 </div>
                 {/* <p className="lg:w-[90%] text-xl sm:text-xm mx-auto leading-relaxed mb-1 main_heading text-[#fff2c1]">
@@ -53,11 +52,11 @@ const Landing = () => {
                 </div>
             </div> */}
 
-            {/* <div className='flex justify-center items-center mt-20 p-10 rounded-xl'>
+            <div className='flex justify-center items-center mt-20 p-10 rounded-xl'>
                 <Image className='rounded-xl w-[80%]' sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     alt='phoneImg' src={finalPng} />
-            </div> */}
-            <div className='flex justify-between items-center'>
+            </div>
+            <div className='flex'>
                 <TextRevealDemo />
                 <BentoGridDemo />
             </div>
