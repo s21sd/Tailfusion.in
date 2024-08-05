@@ -8,9 +8,10 @@ import { useRouter } from 'next/navigation';
 import { MessageBox } from '@/components/Blocks/MessageBox';
 import { AnimatedShinyTextDemo } from '@/components/Blocks/Shinytextdemo';
 import { TextRevealDemo } from '@/components/Blocks/TextReveal';
-import { AnimatedListDemo } from '@/components/Blocks/AnimatedList';
 import { BentoGridDemo } from '@/components/Blocks/BantoGrid';
 import { BoxRevealDemo } from '@/components/Blocks/Reveatext';
+import { GlobeDemo } from '@/components/Blocks/GlobeDemo';
+import { TextGenerateEffectDemo } from '@/components/Blocks/TextGenerationDemo';
 
 const Landing = () => {
     const router = useRouter();
@@ -60,7 +61,10 @@ const Landing = () => {
                 <TextRevealDemo />
                 <BentoGridDemo />
             </div>
-            <AnimatedListDemo />
+            <div className='flex  justify-between items-center'>
+                <TextGenerateEffectDemo />
+                <GlobeDemo />
+            </div>
         </div>
     );
 };

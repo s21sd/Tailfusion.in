@@ -1,63 +1,57 @@
-import { Github, Linkedin } from 'lucide-react'
 import React from 'react'
-import { FaGithub, FaInstagram, FaLinkedin, FaRetweet } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
     return (
-        <div><footer className="text-gray-600 body-font mb-3">
-            <div className="container px-5 py-24 mx-auto  flex justify-between md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-                <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center justify-between ">
-                    <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24">
-                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                        </svg>
-                        <span className="ml-3 text-[#fff2c1] text-xl">TailFusion</span>
-                    </a>
-                    <p className="mt-2 text-sm text-gray-500">A product by TailFusion</p>
-                    <p className="mt-2 text-sm text-gray-500">
-                        Building in public at <a href="https://www.linkedin.com/in/sunny-srivastava-a82996244/" className="text-blue-500 hover:underline">LinkedIn</a>
-                    </p>
-                </div>
-                <div className='mt-20 flex justify-center items-center'>
-                    <h1 className='mycolor1'>Built by <span className='text-[#fff2c1] tracking-wide font-bold main_heading'>TailFusion</span>. The source code is available on <span className='text-[#fff2c1] tracking-wide font-bold main_heading'>GitHub</span></h1>
-                </div>
-                {/* <div className="flex-grow flex justify-end items-end flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 text-center">
-                    <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-                        <nav className="list-none mb-10">
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">Component</a>
-                            </li>
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                            </li>
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                            </li>
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                            </li>
-                        </nav>
+        <footer className=" text-gray-200">
+            <div className="container mx-auto px-6 py-12">
+                <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
+                    {/* Logo and Info */}
+                    <div className="flex-shrink-0 text-center md:text-left mb-6 md:mb-0">
+                        <a href="#" className="flex items-center justify-center md:justify-start text-gray-100">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-12 h-12 text-[#fff2c1] bg-blue-600 rounded-full p-2 shadow-lg transform transition-transform hover:scale-105" viewBox="0 0 24 24">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                            </svg>
+                            <span className="ml-3 text-2xl font-bold text-[#fff2c1] dark:text-[#9e4ceb]">TailFusion</span>
+                        </a>
+                        <p className="mt-2 text-sm text-gray-400">A product by TailFusion</p>
+                        <p className="mt-2 text-sm text-gray-400">
+                            Building in public at{' '}
+                            <a href="https://www.linkedin.com/in/sunny-srivastava-a82996244/" className="text-[#fff2c1] dark:text-[#9e4ceb] " target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        </p>
                     </div>
-                </div> */}
-            </div>
-            <div>
-                <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-                    <p className="text-[#fff2c1] text-sm text-center sm:text-left">© 2024 TailFusion —
-                        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@xxxxxxx</a>
-                    </p>
-                    <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-                        <div className="text-gray-500 flex justify-between items-center gap-2">
-                            <FaGithub className='hover:text-[#fff2c1] cursor-pointer' size={23} />
-                            <FaLinkedin className='hover:text-[#fff2c1] cursor-pointer' size={23} />
-                            <FaInstagram className='hover:text-[#fff2c1] cursor-pointer' size={23} />
-                        </div>
 
-                    </span>
+                    {/* Info Section */}
+                    <div className="text-center md:text-left mb-6 md:mb-0">
+                        <h1 className="text-lg font-medium text-gray-400">
+                            Built by <span className="text-[#fff2c1] dark:text-[#9e4ceb] font-bold">TailFusion</span>. The source code is available on{' '}
+                            <a href="https://github.com/s21sd/Tailfusion.io" className="text-[#fff2c1] dark:text-[#9e4ceb] font-bold" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </h1>
+                    </div>
+                </div>
+
+                {/* Footer Bottom */}
+                <div className="border-t border-gray-700 pt-6 mt-2">
+                    <div className="flex flex-col sm:flex-row items-center justify-between">
+                        <p className="text-sm text-gray-400 text-center sm:text-left">
+                            © 2024 TailFusion — 
+                            <a href="https://github.com/s21sd/Tailfusion.io" className="text-[#fff2c1] dark:text-[#9e4ceb] " target="_blank" rel="noopener noreferrer"> @s21sd</a>
+                        </p>
+                        <div className="mt-4 sm:mt-0 flex justify-center sm:justify-start gap-4">
+                            <a href="https://github.com/s21sd" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#fff2c1] hover:dark:text-[#9e4ceb] transform transition-transform hover:scale-110">
+                                <FaGithub size={24} />
+                            </a>
+                            <a href="https://www.linkedin.com/in/sunny-srivastava-a82996244/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#fff2c1] hover:dark:text-[#9e4ceb] transform transition-transform hover:scale-110">
+                                <FaLinkedin size={24} />
+                            </a>
+                            <a href="https://www.instagram.com/sunnysrivastava8063/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#fff2c1] hover:dark:text-[#9e4ceb] transform transition-transform hover:scale-110">
+                                <FaInstagram size={24} />
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
-        </div>
     )
 }
 
