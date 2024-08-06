@@ -13,6 +13,12 @@ import {
     NavigationMenuTrigger,
     navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
+import Hamburger from "hamburger-react"
+import { IconButton } from "@mui/material"
+import { FaGithub } from "react-icons/fa"
+import { CiHeart } from "react-icons/ci"
+import { SearchBox } from "./SearchBox"
+import { useRouter } from "next/navigation"
 
 const components: { title: string; href: string; description: string }[] = [
     {
@@ -53,13 +59,23 @@ const components: { title: string; href: string; description: string }[] = [
 ]
 
 export function NavigationMenuDemo() {
+    const router = useRouter();
+    const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
+
+    const handleClick = () => {
+        window.location.href = "https://github.com/s21sd/Tailfusion.io";
+    };
+
+    const toggleDrawer = () => {
+        setIsDrawerOpen(!isDrawerOpen);
+    };
     return (
         <NavigationMenu>
-            <NavigationMenuList>
+            <NavigationMenuList className="grid sm:flex">
                 <NavigationMenuItem>
                     <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
                     <NavigationMenuContent>
-                        <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+                        <ul className="grid gap-3 w-[230px] p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                             <li className="row-span-3">
                                 <NavigationMenuLink asChild>
                                     <a
@@ -94,7 +110,7 @@ export function NavigationMenuDemo() {
                 <NavigationMenuItem>
                     <NavigationMenuTrigger>Components</NavigationMenuTrigger>
                     <NavigationMenuContent>
-                        <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                        <ul className="grid w-[230px] gap-3 p-1 sm:p-4 md:w-[400px] md:grid-cols-2 lg:w-[600px] ">
                             {components.map((component) => (
                                 <ListItem
                                     key={component.title}
@@ -114,6 +130,18 @@ export function NavigationMenuDemo() {
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
+                <div className="h-[1px] bg-gray-600"></div>
+                <div className='flex mt-10 justify-between items-center gap-4'>
+                    <div className='block sm:hidden'>
+                        <CiHeart className='text-black cursor-pointer' size={40} />
+                    </div>
+                    <div className='flex items-center gap-3 '>
+                        <div onClick={handleClick}>
+                            <FaGithub className='text-black cursor-pointer block sm:hidden' size={38} />
+                        </div>
+                    </div>
+
+                </div>
             </NavigationMenuList>
         </NavigationMenu>
     )

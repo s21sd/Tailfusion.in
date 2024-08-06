@@ -25,56 +25,51 @@ const Navbar = () => {
   const toggleDrawer = () => {
     setIsDrawerOpen(!isDrawerOpen);
   };
+  const getTheBoxColor = () => {
+    return localStorage.getItem('theme') === 'dark' ? '#9e4ceb' : '#fff2c1'
+  }
 
   return (
     <div className="body-font main_heading">
-      <div className="mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center cursor-pointer">
-        <div className="text-2xl flex justify-center items-center" onClick={() => router.push('/')}>
-          <Headingwords />
+      <div className="mx-auto flex p-5 md:flex-row items-center justify-between">
+        {/* Logo / Heading */}
+        <div className="flex items-center">
+          <div className="text-2xl hidden sm:block cursor-pointer" onClick={() => router.push('/')}>
+            <Headingwords />
+          </div>
+          <div className="font-display block sm:hidden text-center text-2xl font-bold tracking-wide text-[#fff2c1] main_heading cursor-pointer" onClick={() => router.push('/')}>
+            <h1>{"<TF />"}</h1>
+          </div>
         </div>
-
-        {/* Hamburger Menu for Mobile */}
-        <IconButton className="block md:hidden mb-4 text-white" onClick={toggleDrawer}>
-          <Hamburger toggled={isDrawerOpen} toggle={setIsDrawerOpen} />
-        </IconButton>
-
         {/* Navigation for Desktop */}
         <div className="hidden md:flex md:mr-auto md:ml-4 md:py-1 md:pl-4 flex-wrap items-center text-base justify-center sec_heading text-gray-400">
           <NavigationMenuDemo />
         </div>
 
-        {/* Search and Icons */}
-        <div className='flex justify-between items-center gap-4'>
-          {/* <div className="bg-black border border-[#fff2c1] shadow-lg px-3 py-2 rounded-xl w-42 flex justify-between items-center">
-            <input
-              placeholder="Search Blocks..."
-              className="bg-black outline-none"
-              name="search"
-              type="search"
-            />
-            <BiSearch color='white' size={30} />
-          </div> */}
-          <SearchBox />
-          <div>
+        <div className='flex items-center gap-4'>
+          <div className='hidden sm:block'>
+            <SearchBox />
+          </div>
+          <div className='hidden sm:block'>
             <CiHeart className='git_icon_color cursor-pointer' size={40} />
           </div>
-          <div className='flex justify-center items-center gap-3 cursor-pointer'>
+          <div className='flex items-center gap-3 '>
             <div onClick={handleClick}>
-              <FaGithub className='git_icon_color' size={38} />
+              <FaGithub className='git_icon_color cursor-pointer hidden sm:block' size={38} />
             </div>
-            <div className=''>
-              <ModeToggle />
-            </div>
+            <ModeToggle />
           </div>
+          <IconButton className="block md:hidden" onClick={toggleDrawer}>
+            <Hamburger color={getTheBoxColor()} toggled={isDrawerOpen} toggle={setIsDrawerOpen} />
+          </IconButton>
         </div>
+
       </div>
 
       {/* Drawer for Mobile Navigation */}
       <Drawer open={isDrawerOpen} anchor="right" onClose={toggleDrawer}>
         <div className="p-4 w-64">
-          <div className="md:grid md:mr-auto md:ml-4 md:py-1 md:pl-4  items-center text-base justify-center sec_heading text-gray-400">
-            <NavigationMenuDemo />
-          </div>
+          <NavigationMenuDemo />
         </div>
       </Drawer>
     </div>

@@ -122,7 +122,7 @@ export const MobileSidebar = ({
       >
         <div className="flex justify-end z-20 w-full">
           <Menu size={28}
-            className="text-white dark:text-[#9e4ceb]"
+            className="text-[#fff2c1] dark:text-[#9e4ceb]"
             onClick={() => setOpen(!open)}
           />
 

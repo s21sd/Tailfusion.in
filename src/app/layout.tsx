@@ -53,7 +53,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className={cn("absolute inset-0 -z-10", { "dark:bg-[url('https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?w=800&dpr=2&q=80')]": true })}>
+          <div className={cn("absolute inset-0 -z-10 bg-cover bg-center", { "dark:bg-[url('https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?w=800&dpr=2&q=80')]": true })}>
             <div className="hidden dark:block absolute inset-0">
               <Image
                 src="https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?w=800&dpr=2&q=80"
@@ -69,13 +69,6 @@ export default function RootLayout({
 
             <div className="flex">
               {!isLandingPage && <MySidebar children={children} />}
-              {/* {!isLandingPage && (
-                !isOpen && <GiHamburgerMenu
-                  onClick={toggleSidebar}
-                  className="cursor-pointer fixed ml-2 dark:text-[#9e4ceb] text-[#fff2c1]"
-                  size={40}
-                />
-              )} */}
 
               {isLandingPage && <div className="flex-1 p-4">{children}</div>}
             </div>

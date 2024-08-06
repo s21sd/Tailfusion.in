@@ -7,5 +7,5 @@ const words = `Elevate Your Design with TailFusion TailFusion is a UI library fo
 `;
 
 export function TextGenerateEffectDemo() {
-    return <TextGenerateEffect className="w-[50%]" words={words} />;
+    return <TextGenerateEffect className="w-full sm:w-[50%]" words={words} />;
 }
