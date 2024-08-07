@@ -16,7 +16,7 @@ const RenderDeviceComponents = ({ valueOfTheComponent, codevalue, colorClass, se
                                     <div className="flex flex-wrap -m-4">
                                         <div className="p-4 ">
                                             <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                                                <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                                                <h2 className="tracking-widest text-xs title-font font-medium text-black mb-1">CATEGORY</h2>
                                                 <h1 className={`title-font sm:text-2xl text-xl font-medium ${colorClass} mb-3`}>
                                                     Raclette Blueberry Nextious Level
                                                 </h1>

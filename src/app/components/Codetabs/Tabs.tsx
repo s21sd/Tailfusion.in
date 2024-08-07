@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Designone from "@/app/Designs/Designone";
 import {
     Tabs,
@@ -20,6 +20,24 @@ import { CiHeart } from 'react-icons/ci';
 export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheComponent: number, codevalue: number }) {
     const [deviceView, setDeviceView] = useState<string | null>(null);
     const [selectColor, setSelectColor] = useState<string>('');
+
+    useEffect(() => {
+        const updateDeviceView = () => {
+            if (window.innerWidth >= 768) {
+                setDeviceView(null);
+            } else if (window.innerWidth >= 680) {
+                setDeviceView('tablet');
+            } else {
+                setDeviceView('phone');
+            }
+        };
+
+        updateDeviceView(); // Set initial value
+        window.addEventListener('resize', updateDeviceView); // Update on resize
+
+        return () => window.removeEventListener('resize', updateDeviceView);
+    }, []);
+
     const handleSelectValueChange = (value: string) => {
         setSelectColor(value);
     };
@@ -27,12 +45,13 @@ export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheCompone
     const colorClass = renderColor(selectColor);
     const selectBtnColorClass = renderBtnColors(colorClass);
     const selectColorBorder = renderColorsBorder(colorClass);
+
     const renderDeviceView = () => {
         switch (deviceView) {
             case 'phone':
                 return (
-                    <div className="flex">
-                        <div className="marvel-device iphone8 silver mx-auto ">
+                    <div className="flex justify-center">
+                        <div className="marvel-device iphone8 silver mx-auto">
                             <div className="top-bar"></div>
                             <div className="sleep"></div>
                             <div className="volume"></div>
@@ -51,7 +70,7 @@ export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheCompone
                 );
             case 'tablet':
                 return (
-                    <div className='flex'>
+                    <div className="flex justify-center">
                         <div className="marvel-device ipad silver mx-auto">
                             <div className="camera"></div>
                             <div className="screen">
@@ -63,8 +82,8 @@ export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheCompone
                         </div>
                     </div>
                 );
-            default: // Everthing I will render with codition of ValueOf The Component
-                return <Designone valueOfTheComponent={valueOfTheComponent} codevalue={codevalue} selectColor={selectColor} />; // Here also I want to conditionally check the number of the component
+            default:
+                return <Designone valueOfTheComponent={valueOfTheComponent} codevalue={codevalue} selectColor={selectColor} />;
         }
     };
 
@@ -82,7 +101,7 @@ export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheCompone
                     <div>
                         <CiHeart className='git_icon_color cursor-pointer' size={40} />
                     </div>
-                    <div className="border border-gray-300 dark:border-gray-700 p-2 rounded-md flex gap-4 dark:text-[#9e4ceb] text-white">
+                    <div className="border hidden sm:flex md:flex lg:flex border-gray-300 dark:border-gray-700 p-2 rounded-md  gap-4 dark:text-[#9e4ceb] text-white">
                         <IoPhonePortraitOutline
                             className={`cursor-pointer ${deviceView === 'phone' ? 'text-white dark:text-[#9e4ceb]' : 'text-gray-600 dark:text-gray-400'}`}
                             size={25}
