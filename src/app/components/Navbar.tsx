@@ -59,9 +59,11 @@ const Navbar = () => {
             </div>
             <ModeToggle />
           </div>
-          <IconButton className="block md:hidden" onClick={toggleDrawer}>
-            <Hamburger color={getTheBoxColor()} toggled={isDrawerOpen} toggle={setIsDrawerOpen} />
-          </IconButton>
+          <div className="block md:hidden">
+            <IconButton onClick={toggleDrawer}>
+              <Hamburger color={getTheBoxColor()} toggled={isDrawerOpen} toggle={setIsDrawerOpen} />
+            </IconButton>
+          </div>
         </div>
 
       </div>
