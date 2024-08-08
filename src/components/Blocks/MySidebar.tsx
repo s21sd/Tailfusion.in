@@ -9,7 +9,7 @@ import { ScrollArea } from "../ui/scroll-area";
 import { cn } from "@/lib/utils";
 import { FaChartArea } from "react-icons/fa";
 import Image from "next/image";
-import logo from '../../assets/blacklogo.png'
+import logo from '@/assets/darklogo.png'
 export function MySidebar({ children }: any) {
     const [open, setOpen] = useState(false);
     const pathname = usePathname();

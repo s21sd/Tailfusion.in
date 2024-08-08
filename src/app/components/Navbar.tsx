@@ -1,22 +1,27 @@
 "use client";
-import React, { useState } from 'react';
-import { BiSearch } from 'react-icons/bi';
+import React, { useState, useEffect } from 'react';
 import { FaGithub } from "react-icons/fa";
 import { useRouter } from 'next/navigation';
 import { ModeToggle } from '../utils/ToggleMode';
 import { CiHeart } from "react-icons/ci";
 import Hamburger from 'hamburger-react';
 import Image from 'next/image';
-import mylogo from '../../assets/blacklogo.png';
 import { NavigationMenuDemo } from '@/components/Blocks/NavigationContainer';
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
 import { SearchBox } from '@/components/Blocks/SearchBox';
 import { Headingwords } from '@/components/Blocks/Headingwords';
+import lightlogo from '@/assets/llogo.png';
+import darklogo from '@/assets/dlogo.png';
 
 const Navbar = () => {
   const router = useRouter();
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
+  console.log(theme);
+  useEffect(() => {
+    setTheme(localStorage.getItem('theme') || 'dark');
+  }, [theme]);
 
   const handleClick = () => {
     window.location.href = "https://github.com/s21sd/Tailfusion.io";
@@ -25,14 +30,27 @@ const Navbar = () => {
   const toggleDrawer = () => {
     setIsDrawerOpen(!isDrawerOpen);
   };
+
   const getTheBoxColor = () => {
-    return localStorage.getItem('theme') === 'dark' ? '#9e4ceb' : '#fff2c1'
-  }
+    return theme === 'dark' ? '#9e4ceb' : '#fff2c1';
+  };
+
+  const getTheValOfTheme = () => {
+    return theme === 'dark' ? darklogo : lightlogo;
+  };
 
   return (
     <div className="body-font main_heading">
       <div className="mx-auto flex p-5 md:flex-row items-center justify-between">
         {/* Logo / Heading */}
+        <Image
+          src={getTheValOfTheme()}
+          alt='logo'
+          className='object-contain mr-2'
+          width={50}
+          height={50}
+          style={{ imageRendering: 'crisp-edges' }}
+        />
         <div className="flex items-center">
           <div className="text-2xl hidden sm:block cursor-pointer" onClick={() => router.push('/')}>
             <Headingwords />
@@ -65,7 +83,6 @@ const Navbar = () => {
             </IconButton>
           </div>
         </div>
-
       </div>
 
       {/* Drawer for Mobile Navigation */}
