@@ -24,12 +24,15 @@ const Navbar = () => {
   };
 
   const toggleDrawer = () => {
+
     setIsDrawerOpen(!isDrawerOpen);
   };
 
 
   return (
+
     <div className="body-font main_heading">
+
       <div className="mx-auto flex p-5 md:flex-row items-center justify-between">
         {/* Logo / Heading will add this further */}
         {/* <Image
@@ -54,7 +57,7 @@ const Navbar = () => {
         </div>
 
         <div className='flex items-center gap-4'>
-          <div className='hidden sm:block'>
+          <div className='hidden md:block'>
             <SearchBox />
           </div>
           <div className='hidden sm:block'>

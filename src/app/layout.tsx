@@ -12,6 +12,7 @@ import { useState } from "react";
 import { ThemeProvider } from "@/components/theme-provider";
 import Image from "next/image";
 import { MySidebar } from "@/components/Blocks/MySidebar";
+import { Toaster } from "@/components/ui/sonner"
 
 const inter = Inter({ subsets: ["latin"] });
 const fontSans = FontSans({
@@ -53,6 +54,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <Toaster />
           <div className={cn("absolute inset-0 -z-10 bg-cover bg-center", { "dark:bg-[url('https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?w=800&dpr=2&q=80')]": true })}>
             <div className="hidden dark:block absolute inset-0">
               <Image

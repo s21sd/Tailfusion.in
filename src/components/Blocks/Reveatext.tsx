@@ -42,10 +42,10 @@ export function BoxRevealDemo() {
             </BoxReveal>
             <div className="grid sm:flex  items-center justify-center gap-4 mt-4 text-sm">
                 <BoxReveal boxColor={getTheBoxColor()} duration={0.5}>
-                    <div onClick={() => router.push('components/docs')} className="bg-[#fff2c1] p-4 hover:bg-gray-50 rounded-md w-[230px] cursor-pointer font-semibold text-black flex justify-center items-center mx-auto dark:hover:bg-[#c98fff] dark:bg-[#9e4ceb] dark:text-white">Browse Components</div>
+                    <div onClick={() => router.push('components/docs')} className="bg-[#fff2c1] p-6 hover:bg-gray-50 rounded-md w-[230px] cursor-pointer font-semibold text-black flex justify-center items-center mx-auto dark:hover:bg-[#c98fff] dark:bg-[#9e4ceb] dark:text-white">Browse Components</div>
                 </BoxReveal>
                 <BoxReveal boxColor={getTheBoxColor()} duration={0.5}>
-                    <div onClick={handleClick} className="border rounded-md p-4 w-[230px] font-semibold cursor-pointer text-white border-[#fff2c1] dark:border-[#9e4ceb] dark:text-black flex justify-center items-center mx-auto gap-4"><FaGithub size={30} />
+                    <div onClick={handleClick} className="border rounded-md p-4 w-[230px] font-semibold cursor-pointer text-white border-[#fff2c1] dark:border-[#9e4ceb] dark:text-black flex justify-center items-center mx-auto gap-4"><FaGithub size={32} />
                         <h1>GitHub</h1></div>
                 </BoxReveal>
             </div>
