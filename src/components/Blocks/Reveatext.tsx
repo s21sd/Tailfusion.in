@@ -23,7 +23,7 @@ export function BoxRevealDemo() {
             <BoxReveal boxColor={getTheBoxColor()} duration={0.6}>
                 <h2 className="mt-[.5rem] text-[1rem] text-white dark:text-black">
                     UI library for{" "}
-                    <span className="text-[#fff2c1] dark:text-[#9e4ceb]">Design Engineers</span>
+                    <span className="text-[#fff2c1] dark:text-[#9e4ceb]">Developers</span>
                 </h2>
             </BoxReveal>
 

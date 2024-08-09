@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
-
+import logo from '@/assets/dlogo.png'
+import Image from 'next/image'
 const Footer = () => {
     return (
         <footer className=" text-gray-200">
@@ -9,9 +10,14 @@ const Footer = () => {
                     {/* Logo and Info */}
                     <div className="flex-shrink-0 text-center md:text-left mb-6 md:mb-0">
                         <a href="#" className="flex items-center justify-center md:justify-start text-gray-100">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-12 h-12 text-[#fff2c1] bg-blue-600 rounded-full p-2 shadow-lg transform transition-transform hover:scale-105" viewBox="0 0 24 24">
-                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                            </svg>
+                            <Image
+                                src={logo}
+                                alt='logo'
+                                className='object-contain mr-2'
+                                width={50}
+                                height={50}
+                                style={{ imageRendering: 'crisp-edges' }}
+                            />
                             <span className="ml-3 text-2xl font-bold text-[#fff2c1] dark:text-[#9e4ceb]">TailFusion</span>
                         </a>
                         <p className="mt-2 text-sm text-gray-400">A product by TailFusion</p>
@@ -34,7 +40,7 @@ const Footer = () => {
                 <div className="border-t border-gray-700 pt-6 mt-2">
                     <div className="flex flex-col sm:flex-row items-center justify-between">
                         <p className="text-sm text-gray-400 text-center sm:text-left">
-                            © 2024 TailFusion — 
+                            © 2024 TailFusion —
                             <a href="https://github.com/s21sd/Tailfusion.io" className="text-[#fff2c1] dark:text-[#9e4ceb] " target="_blank" rel="noopener noreferrer"> @s21sd</a>
                         </p>
                         <div className="mt-4 sm:mt-0 flex justify-center sm:justify-start gap-4">

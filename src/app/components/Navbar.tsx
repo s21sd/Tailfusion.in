@@ -17,11 +17,7 @@ import darklogo from '@/assets/dlogo.png';
 const Navbar = () => {
   const router = useRouter();
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
-  console.log(theme);
-  useEffect(() => {
-    setTheme(localStorage.getItem('theme') || 'dark');
-  }, [theme]);
+
 
   const handleClick = () => {
     window.location.href = "https://github.com/s21sd/Tailfusion.io";
@@ -31,26 +27,19 @@ const Navbar = () => {
     setIsDrawerOpen(!isDrawerOpen);
   };
 
-  const getTheBoxColor = () => {
-    return theme === 'dark' ? '#9e4ceb' : '#fff2c1';
-  };
-
-  const getTheValOfTheme = () => {
-    return theme === 'dark' ? darklogo : lightlogo;
-  };
 
   return (
     <div className="body-font main_heading">
       <div className="mx-auto flex p-5 md:flex-row items-center justify-between">
-        {/* Logo / Heading */}
-        <Image
+        {/* Logo / Heading will add this further */}
+        {/* <Image
           src={getTheValOfTheme()}
           alt='logo'
           className='object-contain mr-2'
           width={50}
           height={50}
           style={{ imageRendering: 'crisp-edges' }}
-        />
+        /> */}
         <div className="flex items-center">
           <div className="text-2xl hidden sm:block cursor-pointer" onClick={() => router.push('/')}>
             <Headingwords />
@@ -79,7 +68,7 @@ const Navbar = () => {
           </div>
           <div className="block md:hidden">
             <IconButton onClick={toggleDrawer}>
-              <Hamburger color={getTheBoxColor()} toggled={isDrawerOpen} toggle={setIsDrawerOpen} />
+              <Hamburger color='#ffffff' toggled={isDrawerOpen} toggle={setIsDrawerOpen} />
             </IconButton>
           </div>
         </div>
