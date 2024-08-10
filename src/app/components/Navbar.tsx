@@ -60,9 +60,9 @@ const Navbar = () => {
           <div className='hidden md:block'>
             <SearchBox />
           </div>
-          <div className='hidden sm:block'>
+          {/* <div className='hidden sm:block'>
             <CiHeart className='git_icon_color cursor-pointer' size={40} />
-          </div>
+          </div> */}
           <div className='flex items-center gap-3 '>
             <div onClick={handleClick}>
               <FaGithub className='git_icon_color cursor-pointer hidden sm:block' size={38} />

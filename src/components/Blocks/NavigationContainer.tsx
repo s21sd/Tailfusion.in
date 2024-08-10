@@ -98,9 +98,9 @@ export function NavigationMenuDemo() {
                 </NavigationMenuItem>
                 <div className="h-[1px] bg-gray-600"></div>
                 <div className='flex mt-10 justify-between items-center gap-4'>
-                    <div className='block sm:hidden'>
+                    {/* <div className='block sm:hidden'>
                         <CiHeart className='text-black cursor-pointer' size={40} />
-                    </div>
+                    </div> */}
                     <div className='flex items-center gap-3 '>
                         <div onClick={handleClick}>
                             <FaGithub className='text-black cursor-pointer block sm:hidden' size={38} />

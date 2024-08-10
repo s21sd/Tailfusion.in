@@ -20,7 +20,6 @@ import { CiHeart } from 'react-icons/ci';
 export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheComponent: number, codevalue: number }) {
     const [deviceView, setDeviceView] = useState<string | null>(null);
     const [selectColor, setSelectColor] = useState<string>('');
-
     useEffect(() => {
         const updateDeviceView = () => {
             if (window.innerWidth >= 768) {
@@ -41,6 +40,9 @@ export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheCompone
     const handleSelectValueChange = (value: string) => {
         setSelectColor(value);
     };
+    const saveToFavourite = () => {
+
+    }
 
     const colorClass = renderColor(selectColor);
     const selectBtnColorClass = renderBtnColors(colorClass);
@@ -98,9 +100,7 @@ export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheCompone
                     <SelectColor handleSelectValueChange={handleSelectValueChange} />
                 </div>
                 <div className='flex justify-center items-center gap-4'>
-                    <div>
-                        <CiHeart className='git_icon_color cursor-pointer' size={40} />
-                    </div>
+                   
                     <div className="border hidden sm:flex md:flex lg:flex border-gray-300 dark:border-gray-700 p-2 rounded-md  gap-4 dark:text-[#9e4ceb] text-white">
                         <IoPhonePortraitOutline
                             className={`cursor-pointer ${deviceView === 'phone' ? 'text-white dark:text-[#9e4ceb]' : 'text-gray-600 dark:text-gray-400'}`}
