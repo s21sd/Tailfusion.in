@@ -1,7 +1,6 @@
 "use client";
 import React, { Suspense, lazy } from 'react';
 import { TypewriterEffectSmoothDemo } from '@/components/Blocks/Typeeffect';
-import { FaGithub } from "react-icons/fa";
 import finalPng from '../../assets/Final.png';
 import Image from 'next/image';
 import { MessageBox } from '@/components/Blocks/MessageBox';
@@ -11,7 +10,6 @@ import { BentoGridDemo } from '@/components/Blocks/BantoGrid';
 import { BoxRevealDemo } from '@/components/Blocks/Reveatext';
 import { TextGenerateEffectDemo } from '@/components/Blocks/TextGenerationDemo';
 
-// Correct lazy import assuming default export
 const GlobeDemoComp = lazy(() => delayForDemo(import('@/components/Blocks/GlobeDemo')));
 async function delayForDemo(promise: any) {
     await new Promise(resolve => {
@@ -21,7 +19,7 @@ async function delayForDemo(promise: any) {
 }
 const Landing = () => {
     return (
-        <div className="container px-5 py-24 mx-auto relative">
+        <div className="container px-5 py-12 sm:py-24 mx-auto relative">
             <AnimatedShinyTextDemo />
 
             <div className='fixed bottom-5 right-5 z-10'>
