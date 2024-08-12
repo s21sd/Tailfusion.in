@@ -55,7 +55,7 @@ const Landing = () => {
                 </video>
             </div>
 
-            <div className='grid sm:flex'>
+            <div className='grid sm:flex mt-10'>
                 <TextRevealDemo />
                 <BentoGridDemo />
             </div>
