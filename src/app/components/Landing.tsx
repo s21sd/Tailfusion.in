@@ -1,9 +1,7 @@
 "use client";
 import React, { Suspense, lazy } from 'react';
 import { TypewriterEffectSmoothDemo } from '@/components/Blocks/Typeeffect';
-import finalPng from '../../assets/phonef.png';
-import macPng from '../../assets/macf.png';
-// import macvideo from '../../../public/assests/videos/'
+import finalPng from '../../assets/myfinal.png';
 import Image from 'next/image';
 import { MessageBox } from '@/components/Blocks/MessageBox';
 import { AnimatedShinyTextDemo } from '@/components/Blocks/Shinytextdemo';
@@ -34,31 +32,51 @@ const Landing = () => {
                 </div>
 
             </div>
-            <div className='flex flex-col sm:flex-row justify-center items-center mt-5 sm:mt-20 p-10 space-x-4'>
-                <video
-                    className='rounded-xl w-full sm:w-[50%]'
-                    loop
-                    muted
-                    autoPlay
-                    src='/assests/videos/mac.mp4'
-                >
-                    Your browser does not support the video tag.
-                </video>
-                <video
-                    className='rounded-xl w-full sm:w-[50%]'
-                    loop
-                    muted
-                    autoPlay
-                    src='/assests/videos/phone.mp4'
-                >
-                    Your browser does not support the video tag.
-                </video>
-            </div>
+            <div className='flex flex-col sm:flex-row  justify-between items-center mt-5 sm:mt-20 p-10 space-x-4'>
+                <Image className='rounded-xl w-[100%]'
+                    alt='phoneImg' src={finalPng} />
 
+            </div>
             <div className='grid sm:flex mt-10'>
                 <TextRevealDemo />
                 <BentoGridDemo />
             </div>
+
+            <div className='relative flex flex-col sm:flex-row justify-between items-center mt-5 sm:mt-20 p-10 space-x-4'>
+                <div className='relative w-full sm:w-[50%]'>
+                    <video
+                        className='rounded-xl w-full h-full object-cover blur-sm'
+                        loop
+                        muted
+                        autoPlay
+                        src='/assests/videos/mac.mp4'
+                    >
+                        Your browser does not support the video tag.
+                    </video>
+                    <div className='absolute inset-0 flex flex-col justify-center items-center text-white font-bold text-2xl p-4 bg-black bg-opacity-50'>
+                        <span className='text-3xl'>Discover Dynamic Box Animations</span>
+                        <span className='mt-2 text-xl'>Elevate Your UI with Smooth Transitions</span>
+                    </div>
+                </div>
+                <div className='relative w-full mt-10 sm:mt-0 sm:w-[50%]'>
+                    <video
+                        className='rounded-xl w-full h-full object-cover blur-sm'
+                        loop
+                        muted
+                        autoPlay
+                        src='/assests/videos/phone.mp4'
+                    >
+                        Your browser does not support the video tag.
+                    </video>
+                    <div className='absolute inset-0 flex flex-col justify-center items-center text-white font-bold text-2xl p-4 bg-black bg-opacity-50'>
+                        <span className='text-3xl'>Engage with Stunning Text Effects</span>
+                        <span className='mt-2 text-xl'>Transform Static Text into Dynamic Displays</span>
+                    </div>
+                </div>
+            </div>
+
+
+
             <div className='grid justify-center sm:flex sm:justify-between items-center mt-10 sm:mt-0'>
                 <TextGenerateEffectDemo />
                 <Suspense fallback={<div></div>}>
@@ -72,7 +90,3 @@ const Landing = () => {
 export default Landing;
 
 
-{/* <Image className='rounded-xl w-[100%] sm:w-[80%]' sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    alt='phoneImg' src={finalPng} />
-                <Image className='rounded-xl w-[100%] sm:w-[80%]' sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    alt='phoneImg' src={macPng} /> */}
