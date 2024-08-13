@@ -53,9 +53,10 @@ const Landing = () => {
                     >
                         Your browser does not support the video tag.
                     </video>
-                    <div className='absolute inset-0 flex flex-col justify-center items-center text-white font-bold text-2xl p-4 bg-black bg-opacity-50'>
-                        <span className='text-3xl'>Discover Dynamic Box Animations</span>
-                        <span className='mt-2 text-xl'>Elevate Your UI with Smooth Transitions</span>
+                    <div className='absolute inset-0 flex flex-col   justify-between  sm:justify-center items-center text-white font-bold text-2xl p-4 bg-black bg-opacity-50'>
+                        <span className="text-xl sm:text-3xl">Explore TailFusion UI Components</span>
+                        <span className="text-xs mt-2 sm:text-xl">Enhance Your Projects with Versatile, Customizable Designs</span>
+
                     </div>
                 </div>
                 <div className='relative w-full mt-10 sm:mt-0 sm:w-[50%]'>
@@ -69,13 +70,12 @@ const Landing = () => {
                         Your browser does not support the video tag.
                     </video>
                     <div className='absolute inset-0 flex flex-col justify-center items-center text-white font-bold text-2xl p-4 bg-black bg-opacity-50'>
-                        <span className='text-3xl'>Engage with Stunning Text Effects</span>
-                        <span className='mt-2 text-xl'>Transform Static Text into Dynamic Displays</span>
+                        <span className="text-xl sm:text-3xl">Transform Your UI with TailFusion</span>
+                        <span className="text-xs mt-2 sm:text-xl">Seamlessly Integrate Elegant Components into Your Designs</span>
+
                     </div>
                 </div>
             </div>
-
-
 
             <div className='grid justify-center sm:flex sm:justify-between items-center mt-10 sm:mt-0'>
                 <TextGenerateEffectDemo />
