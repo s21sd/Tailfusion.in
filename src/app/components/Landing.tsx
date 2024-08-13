@@ -53,7 +53,7 @@ const Landing = () => {
                     >
                         Your browser does not support the video tag.
                     </video>
-                    <div className='absolute inset-0 flex flex-col   justify-between  sm:justify-center items-center text-white font-bold text-2xl p-4 bg-black bg-opacity-50'>
+                    <div className='absolute inset-0 flex flex-col justify-center items-center text-white font-bold text-2xl p-4 bg-black bg-opacity-50'>
                         <span className="text-xl sm:text-3xl">Explore TailFusion UI Components</span>
                         <span className="text-xs mt-2 sm:text-xl">Enhance Your Projects with Versatile, Customizable Designs</span>
 

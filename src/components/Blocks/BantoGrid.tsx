@@ -142,8 +142,8 @@ const items = [
             <div className="">
                 <div className=" rounded shadow-lg animate-pulse">
                     <div className="w-full h-[70px] bg-gray-300 rounded-lg"></div>
-                    <div className="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-32 mt-4"></div>
-                    <div className="w-30 h-2 mt-6 mb-5 bg-gray-200 rounded-full dark:bg-gray-700"></div>
+                    <div className="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mt-4"></div>
+                    <div className="h-2 mt-6 mb-5 bg-gray-200 rounded-full dark:bg-gray-700"></div>
                 </div>
             </div>
         </div>,
