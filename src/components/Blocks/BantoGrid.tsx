@@ -1,6 +1,5 @@
 import { cn } from "@/lib/utils";
 import React from "react";
-
 import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
 import { AudioWaveform, Blinds, Blocks, CircleDollarSign, Copy, FolderDot, Navigation, WalletCards } from "lucide-react";
 import { FaArrowRight } from "react-icons/fa6";
@@ -8,50 +7,41 @@ import { useRouter } from "next/navigation";
 
 export function BentoGridDemo() {
     const router = useRouter();
+
     const handleClick = (i: number) => {
-        console.log(i);
-        switch (i) {
-            case 0:
-                router.push('http://localhost:3000/components/blocks/cards')
-            case 1:
-                router.push('http://localhost:3000/components/blocks/steps')
-            case 2:
-                router.push('http://localhost:3000/components/blocks/hero')
-            case 3:
-                router.push('http://localhost:3000/components/blocks/navbars')
-            case 4:
-                router.push('http://localhost:3000/components/blocks/blogs')
-            case 5:
-                router.push('http://localhost:3000/components/blocks/pricing')
-            case 6:
-                router.push('http://localhost:3000/components/blocks/contents')
+        const routes = [
+            'http://localhost:3000/components/blocks/cards',
+            'http://localhost:3000/components/blocks/steps',
+            'http://localhost:3000/components/blocks/hero',
+            'http://localhost:3000/components/blocks/navbars',
+            'http://localhost:3000/components/blocks/blogs',
+            'http://localhost:3000/components/blocks/pricing',
+            'http://localhost:3000/components/blocks/contents'
+        ];
 
-
-            default:
-                break;
+        if (i >= 0 && i < routes.length) {
+            router.push(routes[i]);
         }
-    }
+    };
+
     return (
         <BentoGrid className="max-w-4xl mx-auto cursor-pointer">
             {items.map((item, i) => (
                 <BentoGridItem
                     key={i}
                     title={item.title}
-
                     description={item.description}
                     header={item.header}
                     icon={item.icon}
                     icon2={item.icon2}
                     className={i === 3 || i === 6 ? "md:col-span-2" : ""}
+                    onClick={() => handleClick(i)} 
                 />
             ))}
         </BentoGrid>
     );
 }
-// const Skeleton = () => (
-//     <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-[#fff2c1] dark:from-neutral-900 dark:to-neutral-800 to-neutral-400">
-//     </div>
-// );
+
 const items = [
     {
         title: "Card",
@@ -190,4 +180,3 @@ const items = [
         icon2: <FaArrowRight className="h-4 w-4 text-neutral-500" />
     },
 ];
-
