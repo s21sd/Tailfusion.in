@@ -19,7 +19,7 @@ export function BoxRevealDemo() {
     return (
         <div className="h-full w-full flex flex-col mx-auto items-center justify-center overflow-hidden ">
             <BoxReveal boxColor={boxColor} duration={0.5}>
-                <p className="text-[1.5rem] sm:text-[3.5rem] font-semibold text-[#fff2c1] dark:text-[#9e4ceb]">
+                <p className="text-[1.5rem] sm:text-[2.5rem] font-semibold text-[#fff2c1] dark:text-[#9e4ceb]">
                     TailFusion UI<span className="text-[#fff2c1] dark:text-[#9e4ceb]">.</span>
                 </p>
             </BoxReveal>
@@ -32,7 +32,7 @@ export function BoxRevealDemo() {
             </BoxReveal>
 
             <BoxReveal boxColor={boxColor} duration={0.7}>
-                <div className="mt-[1.5rem] w-full sm:min-w-[20rem] text-xs sm:text-xl ">
+                <div className=" text-center mx-auto mt-[1.5rem] w-[85%] sm:min-w-[14rem] text-xs sm:text-xl ">
                     <p className="text-white dark:text-black">
                         16+ free and open-source animated components built with
                         <span className="font-semibold text-[#fff2c1] dark:text-[#9e4ceb]"> React</span>,

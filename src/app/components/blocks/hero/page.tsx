@@ -1,7 +1,6 @@
 "use client"
 import Card from '@/app/DescriptionCard/Card'
 import React, { lazy, useState } from 'react'
-// import TabsDemo from '../../Codetabs/Tabs';
 import { ScrollArea } from '@/components/ui/scroll-area';
 const TabsDemo = lazy(() => delayForDemo(import('../../Codetabs/Tabs')));
 async function delayForDemo(promise: any) {

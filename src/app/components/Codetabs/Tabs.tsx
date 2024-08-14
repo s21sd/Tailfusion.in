@@ -15,8 +15,6 @@ import { SelectColor } from "./SelectColor";
 import '../../utils/Devices.css';
 import RenderDeviceComponents from '@/app/utils/DevicesComponentsCodeHelper/RenderDeviceComponents';
 import { renderBtnColors, renderColor, renderColorsBorder } from '@/app/utils/RenderColor/RenderColor';
-import { CiHeart } from 'react-icons/ci';
-
 export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheComponent: number, codevalue: number }) {
     const [deviceView, setDeviceView] = useState<string | null>(null);
     const [selectColor, setSelectColor] = useState<string>('');
@@ -31,8 +29,8 @@ export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheCompone
             }
         };
 
-        updateDeviceView(); // Set initial value
-        window.addEventListener('resize', updateDeviceView); // Update on resize
+        updateDeviceView();
+        window.addEventListener('resize', updateDeviceView);
 
         return () => window.removeEventListener('resize', updateDeviceView);
     }, []);
@@ -40,10 +38,6 @@ export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheCompone
     const handleSelectValueChange = (value: string) => {
         setSelectColor(value);
     };
-    const saveToFavourite = () => {
-
-    }
-
     const colorClass = renderColor(selectColor);
     const selectBtnColorClass = renderBtnColors(colorClass);
     const selectColorBorder = renderColorsBorder(colorClass);
@@ -52,7 +46,7 @@ export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheCompone
         switch (deviceView) {
             case 'phone':
                 return (
-                    <div className="flex justify-center">
+                    <div className="flex  justify-start sm:justify-center">
                         <div className="marvel-device iphone8 silver mx-auto">
                             <div className="top-bar"></div>
                             <div className="sleep"></div>
@@ -93,7 +87,7 @@ export function TabsDemo({ valueOfTheComponent, codevalue }: { valueOfTheCompone
         <Tabs defaultValue="Preview" className="w-full">
             <div className="flex justify-between items-center mx-auto py-4 w-[95%]">
                 <div className="flex justify-center items-center gap-4">
-                    <TabsList className="grid w-[150px] grid-cols-2">
+                    <TabsList className="grid w-[120px] sm:w-[150px] grid-cols-2">
                         <TabsTrigger value="Preview">Preview</TabsTrigger>
                         <TabsTrigger value="Code">Code</TabsTrigger>
                     </TabsList>

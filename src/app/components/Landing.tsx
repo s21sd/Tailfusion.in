@@ -18,7 +18,7 @@ async function delayForDemo(promise: any) {
 }
 const Landing = () => {
     return (
-        <div className="container px-5 py-12 sm:py-24 mx-auto relative">
+        <div className="container px-5 py-12 sm:py-12 mx-auto relative">
             <AnimatedShinyTextDemo />
 
             <div className='fixed right-6 bottom-5 sm:right-5 z-10'>
