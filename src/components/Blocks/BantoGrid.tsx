@@ -10,13 +10,13 @@ export function BentoGridDemo() {
 
     const handleClick = (i: number) => {
         const routes = [
-            'http://localhost:3000/components/blocks/cards',
-            'http://localhost:3000/components/blocks/steps',
-            'http://localhost:3000/components/blocks/hero',
-            'http://localhost:3000/components/blocks/navbars',
-            'http://localhost:3000/components/blocks/blogs',
-            'http://localhost:3000/components/blocks/pricing',
-            'http://localhost:3000/components/blocks/contents'
+            'https://tailfusion.vercel.app/components/blocks/cards',
+            'https://tailfusion.vercel.app/components/blocks/steps',
+            'https://tailfusion.vercel.app/components/blocks/hero',
+            'https://tailfusion.vercel.app/components/blocks/navbars',
+            'https://tailfusion.vercel.app/components/blocks/blogs',
+            'https://tailfusion.vercel.app/components/blocks/pricing',
+            'https://tailfusion.vercel.app/components/blocks/contents'
         ];
 
         if (i >= 0 && i < routes.length) {
