@@ -10,13 +10,13 @@ export function BentoGridDemo() {
 
     const handleClick = (i: number) => {
         const routes = [
-            'https://tailfusion.vercel.app/components/blocks/cards',
-            'https://tailfusion.vercel.app/components/blocks/steps',
-            'https://tailfusion.vercel.app/components/blocks/hero',
-            'https://tailfusion.vercel.app/components/blocks/navbars',
-            'https://tailfusion.vercel.app/components/blocks/blogs',
-            'https://tailfusion.vercel.app/components/blocks/pricing',
-            'https://tailfusion.vercel.app/components/blocks/contents'
+            'https://tailfusion.in/components/blocks/cards',
+            'https://tailfusion.in/components/blocks/steps',
+            'https://tailfusion.in/components/blocks/hero',
+            'https://tailfusion.in/components/blocks/navbars',
+            'https://tailfusion.in/components/blocks/blogs',
+            'https://tailfusion.in/components/blocks/pricing',
+            'https://tailfusion.in/components/blocks/contents'
         ];
 
         if (i >= 0 && i < routes.length) {
@@ -35,7 +35,7 @@ export function BentoGridDemo() {
                     icon={item.icon}
                     icon2={item.icon2}
                     className={i === 3 || i === 6 ? "md:col-span-2" : ""}
-                    onClick={() => handleClick(i)} 
+                    onClick={() => handleClick(i)}
                 />
             ))}
         </BentoGrid>
