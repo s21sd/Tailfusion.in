@@ -1,5 +1,7 @@
 # TailFusion UI Library
 
+![TailFusion Logo](https://github.com/s21sd/Tailfusion.in/blob/master/finaloutput.png)
+
 Welcome to **TailFusion**, a comprehensive UI library built with Next.js, React, Framer Motion, Ascension UI, and Shadcn UI. TailFusion offers over 80 meticulously designed components styled with React and Tailwind CSS. Whether you’re developing a new web application or enhancing an existing project, TailFusion provides the tools you need to create a visually stunning and responsive interface.
 
 ## Features
@@ -13,7 +15,52 @@ Welcome to **TailFusion**, a comprehensive UI library built with Next.js, React,
 
 ## Getting Started
 
+
+## Getting Started
+
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/tailfusion.git
+   git clone https://github.com/s21sd/Tailfusion.in
+
+
+
+2. **Install Dependencies**
+   - Navigate to the project directory and install the required dependencies:
+
+   ```bash
+    cd tailfusion
+    npm install
+
+3. **Run the Development Server**
+   - Start the development server to view and test the components:
+
+    ```bash
+    npm run dev
+    
+ 4. **Deploy**
+   - To deploy your TailFusion-based project, follow the instructions provided by your preferred hosting service, such as Vercel.
+
+5. **Contributing**
+   - We welcome contributions from the community! If you’d like to contribute to TailFusion, please follow these steps:
+
+6. **Fork the Repository: Click the "Fork" button on the TailFusion GitHub page to create a personal copy of the repository.**
+
+7. **Create a New Branch: Create a new branch for your feature or fix**
+   ```bash
+   git checkout -b your-feature-branch
+   ```
+8. **Make Your Changes: Implement your changes or new features in the branch you created. Be sure to test your modifications thoroughly.**
+
+9. **Commit Your Changes: Commit your changes with a clear and concise message:**
+
+  ```bash
+   git add .
+   git commit -m "Add new feature or fix description"
+   ```
+
+### Submit a Pull Request: Push your branch to GitHub and submit a pull request to the main TailFusion repository. Provide a detailed description of your changes to assist the maintainers in their review.
+
+
+
+
