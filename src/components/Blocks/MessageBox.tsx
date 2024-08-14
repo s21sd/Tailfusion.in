@@ -21,17 +21,18 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 export function MessageBox() {
     const [name, setName] = useState('');
     const [message, setMessage] = useState('');
-    const [successMessage, setSuccessMessage] = useState('');
     const [loading, setLoading] = useState(false);
     const handleSubmit = async (event: any) => {
         event.preventDefault();
         setLoading(true);
+      
         try {
             await addDoc(collection(db, 'feedback'), {
                 name,
                 message,
                 timestamp: new Date(),
             });
+            console.log(name);
             toast("TailFusion", {
                 description: "Message sent successfully!",
             })
@@ -45,6 +46,7 @@ export function MessageBox() {
                 description: "Failed to send message. Please try again.",
             })
         }
+
     };
 
     return (
@@ -58,10 +60,10 @@ export function MessageBox() {
                 <DialogHeader>
                     <DialogTitle>Feedback</DialogTitle>
                     <DialogDescription>
-                        <h1 className="text-2xl">
+                        <p className="text-2xl">
                             Hi there 👋
                             <span> How can we help?</span>
-                        </h1>
+                        </p>
                     </DialogDescription>
                 </DialogHeader>
                 <form onSubmit={handleSubmit} className="grid gap-4 py-4">
@@ -91,7 +93,6 @@ export function MessageBox() {
                         <Button type="submit" className="dark:bg-white">Send Message {loading && <AiOutlineLoading3Quarters size={20} className='animate-spin ml-2' color='#ffffff dark:black' />}</Button>
                     </DialogFooter>
                 </form>
-                {/* {successMessage && <p>{successMessage}</p>} */}
             </DialogContent>
         </Dialog>
     );
