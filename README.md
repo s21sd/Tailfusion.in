@@ -2,7 +2,7 @@
 
 ![TailFusion Logo](https://github.com/s21sd/Tailfusion.in/blob/master/finaloutput.png)
 
-Welcome to **TailFusion**, a comprehensive UI library built with Next.js, React, Framer Motion, Ascension UI, and Shadcn UI. TailFusion offers over 80 meticulously designed components styled with React and Tailwind CSS. Whether you’re developing a new web application or enhancing an existing project, TailFusion provides the tools you need to create a visually stunning and responsive interface.
+Welcome to **TailFusion**, a comprehensive UI library built with Next.js, React, Framer Motion, Aceternity UI, and Shadcn UI. TailFusion offers over 80 meticulously designed components styled with React and Tailwind CSS. Whether you’re developing a new web application or enhancing an existing project, TailFusion provides the tools you need to create a visually stunning and responsive interface.
 
 ## Features
 
